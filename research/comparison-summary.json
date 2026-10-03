@@ -181,9 +181,74 @@
           "edge_evidence_mean": 0.5849085856122805,
           "edge_evidence_unsampled_locations_mean": 0.564378782257154
         }
+      },
+      "shared_seams": {
+        "evaluation": {
+          "observations": 114,
+          "truth": 114,
+          "iou50": {
+            "tp": 114,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou75": {
+            "tp": 114,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou90": {
+            "tp": 107,
+            "fp": 7,
+            "fn": 7
+          },
+          "mean_matched_iou": 0.9366534735863813,
+          "symmetric_boundary_distance_median_px": 0.7499816354330094,
+          "matched_corner_rmse_median_px": 1.511013032219475
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 54,
+              "width_cv": 0.029764708849783543,
+              "height_cv": 0.008561321445795179,
+              "width_orientation_std_deg": 0.03583726849093845,
+              "row_alignment_median_px": 0.8303264946101826
+            },
+            {
+              "count": 56,
+              "width_cv": 0.020664763936926105,
+              "height_cv": 0.019082301719581356,
+              "width_orientation_std_deg": 0.06859697905649328,
+              "row_alignment_median_px": 0.41697077769733504
+            }
+          ],
+          "edge_evidence_mean": 0.5261767572372574,
+          "edge_evidence_unsampled_locations_mean": 0.5084929316986079
+        }
       }
     },
-    "consistency": {},
+    "consistency": {
+      "shared_seams": {
+        "tables": [
+          {
+            "count": 54,
+            "width_cv": 0.029764708849783543,
+            "height_cv": 0.008561321445795179,
+            "width_orientation_std_deg": 0.03583726849093845,
+            "row_alignment_median_px": 0.8303264946101826
+          },
+          {
+            "count": 56,
+            "width_cv": 0.020664763936926105,
+            "height_cv": 0.019082301719581356,
+            "width_orientation_std_deg": 0.06859697905649328,
+            "row_alignment_median_px": 0.41697077769733504
+          }
+        ],
+        "edge_evidence_mean": 0.5261767572372574,
+        "edge_evidence_unsampled_locations_mean": 0.5084929316986079
+      }
+    },
     "attribution": {
       "author": "CIIRC / Czech Technical University in Prague",
       "url": "https://imr.ciirc.cvut.cz/Datasets/PVsegmentation",
@@ -432,9 +497,88 @@
           "edge_evidence_mean": 0.6624783307320549,
           "edge_evidence_unsampled_locations_mean": 0.6431602749940235
         }
+      },
+      "shared_seams": {
+        "evaluation": {
+          "observations": 198,
+          "truth": 198,
+          "iou50": {
+            "tp": 197,
+            "fp": 1,
+            "fn": 1
+          },
+          "iou75": {
+            "tp": 192,
+            "fp": 6,
+            "fn": 6
+          },
+          "iou90": {
+            "tp": 42,
+            "fp": 156,
+            "fn": 156
+          },
+          "mean_matched_iou": 0.8676820559195854,
+          "symmetric_boundary_distance_median_px": 0.7105854627896907,
+          "matched_corner_rmse_median_px": 1.6093233983151074
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 65,
+              "width_cv": 0.04126868324686104,
+              "height_cv": 0.0211647972991782,
+              "width_orientation_std_deg": 0.6615966360932154,
+              "row_alignment_median_px": 0.37183465565504153
+            },
+            {
+              "count": 61,
+              "width_cv": 0.033920444257926965,
+              "height_cv": 0.010128432183837152,
+              "width_orientation_std_deg": 0.0013317272565211938,
+              "row_alignment_median_px": 0.24056666303532948
+            },
+            {
+              "count": 63,
+              "width_cv": 0.035132063917366924,
+              "height_cv": 0.010002622123378707,
+              "width_orientation_std_deg": 0.0012966984736546181,
+              "row_alignment_median_px": 0.25300691913466794
+            }
+          ],
+          "edge_evidence_mean": 0.5786149707522379,
+          "edge_evidence_unsampled_locations_mean": 0.5627746294656447
+        }
       }
     },
-    "consistency": {},
+    "consistency": {
+      "shared_seams": {
+        "tables": [
+          {
+            "count": 65,
+            "width_cv": 0.04126868324686104,
+            "height_cv": 0.0211647972991782,
+            "width_orientation_std_deg": 0.6615966360932154,
+            "row_alignment_median_px": 0.37183465565504153
+          },
+          {
+            "count": 61,
+            "width_cv": 0.033920444257926965,
+            "height_cv": 0.010128432183837152,
+            "width_orientation_std_deg": 0.0013317272565211938,
+            "row_alignment_median_px": 0.24056666303532948
+          },
+          {
+            "count": 63,
+            "width_cv": 0.035132063917366924,
+            "height_cv": 0.010002622123378707,
+            "width_orientation_std_deg": 0.0012966984736546181,
+            "row_alignment_median_px": 0.25300691913466794
+          }
+        ],
+        "edge_evidence_mean": 0.5786149707522379,
+        "edge_evidence_unsampled_locations_mean": 0.5627746294656447
+      }
+    },
     "attribution": {
       "author": "CIIRC / Czech Technical University in Prague",
       "url": "https://imr.ciirc.cvut.cz/Datasets/PVsegmentation",
@@ -655,9 +799,88 @@
           "edge_evidence_mean": 0.639360088620654,
           "edge_evidence_unsampled_locations_mean": 0.6250913249366804
         }
+      },
+      "shared_seams": {
+        "evaluation": {
+          "observations": 171,
+          "truth": 171,
+          "iou50": {
+            "tp": 171,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou75": {
+            "tp": 171,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou90": {
+            "tp": 164,
+            "fp": 7,
+            "fn": 7
+          },
+          "mean_matched_iou": 0.9388126311172598,
+          "symmetric_boundary_distance_median_px": 0.6582587862675853,
+          "matched_corner_rmse_median_px": 1.761812727492461
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 56,
+              "width_cv": 0.0077238634585682624,
+              "height_cv": 0.008535839672078969,
+              "width_orientation_std_deg": 0.11575141983956491,
+              "row_alignment_median_px": 0.33974870278775415
+            },
+            {
+              "count": 56,
+              "width_cv": 0.013110617585899034,
+              "height_cv": 0.009155233260050077,
+              "width_orientation_std_deg": 0.03941980517608339,
+              "row_alignment_median_px": 0.29529870679936854
+            },
+            {
+              "count": 54,
+              "width_cv": 0.012980916635257292,
+              "height_cv": 0.006364627711765659,
+              "width_orientation_std_deg": 0.10257552961491105,
+              "row_alignment_median_px": 0.3828137550129761
+            }
+          ],
+          "edge_evidence_mean": 0.5034223284730834,
+          "edge_evidence_unsampled_locations_mean": 0.4939308365880028
+        }
       }
     },
-    "consistency": {},
+    "consistency": {
+      "shared_seams": {
+        "tables": [
+          {
+            "count": 56,
+            "width_cv": 0.0077238634585682624,
+            "height_cv": 0.008535839672078969,
+            "width_orientation_std_deg": 0.11575141983956491,
+            "row_alignment_median_px": 0.33974870278775415
+          },
+          {
+            "count": 56,
+            "width_cv": 0.013110617585899034,
+            "height_cv": 0.009155233260050077,
+            "width_orientation_std_deg": 0.03941980517608339,
+            "row_alignment_median_px": 0.29529870679936854
+          },
+          {
+            "count": 54,
+            "width_cv": 0.012980916635257292,
+            "height_cv": 0.006364627711765659,
+            "width_orientation_std_deg": 0.10257552961491105,
+            "row_alignment_median_px": 0.3828137550129761
+          }
+        ],
+        "edge_evidence_mean": 0.5034223284730834,
+        "edge_evidence_unsampled_locations_mean": 0.4939308365880028
+      }
+    },
     "attribution": {
       "author": "CIIRC / Czech Technical University in Prague",
       "url": "https://imr.ciirc.cvut.cz/Datasets/PVsegmentation",
@@ -822,9 +1045,60 @@
           "edge_evidence_mean": 0.48253987689391487,
           "edge_evidence_unsampled_locations_mean": 0.47849996739305367
         }
+      },
+      "shared_seams": {
+        "evaluation": {
+          "observations": 16,
+          "truth": 16,
+          "iou50": {
+            "tp": 16,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou75": {
+            "tp": 16,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou90": {
+            "tp": 14,
+            "fp": 2,
+            "fn": 2
+          },
+          "mean_matched_iou": 0.9316107051105632,
+          "symmetric_boundary_distance_median_px": 1.508279597204759,
+          "matched_corner_rmse_median_px": 3.1955156574456254
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 12,
+              "width_cv": 0.028823605945728026,
+              "height_cv": 0.02468058673903779,
+              "width_orientation_std_deg": 0.44805341243566793,
+              "row_alignment_median_px": 0.35356673541214695
+            }
+          ],
+          "edge_evidence_mean": 0.3608773948059678,
+          "edge_evidence_unsampled_locations_mean": 0.35908430449172124
+        }
       }
     },
-    "consistency": {},
+    "consistency": {
+      "shared_seams": {
+        "tables": [
+          {
+            "count": 12,
+            "width_cv": 0.028823605945728026,
+            "height_cv": 0.02468058673903779,
+            "width_orientation_std_deg": 0.44805341243566793,
+            "row_alignment_median_px": 0.35356673541214695
+          }
+        ],
+        "edge_evidence_mean": 0.3608773948059678,
+        "edge_evidence_unsampled_locations_mean": 0.35908430449172124
+      }
+    },
     "attribution": {
       "author": "CIIRC / Czech Technical University in Prague",
       "url": "https://imr.ciirc.cvut.cz/Datasets/PVsegmentation",
@@ -989,9 +1263,60 @@
           "edge_evidence_mean": 0.41969331455498077,
           "edge_evidence_unsampled_locations_mean": 0.40689091170929614
         }
+      },
+      "shared_seams": {
+        "evaluation": {
+          "observations": 17,
+          "truth": 18,
+          "iou50": {
+            "tp": 17,
+            "fp": 0,
+            "fn": 1
+          },
+          "iou75": {
+            "tp": 17,
+            "fp": 0,
+            "fn": 1
+          },
+          "iou90": {
+            "tp": 11,
+            "fp": 6,
+            "fn": 7
+          },
+          "mean_matched_iou": 0.9126823731427979,
+          "symmetric_boundary_distance_median_px": 1.8565320982046791,
+          "matched_corner_rmse_median_px": 4.0405953119719085
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 13,
+              "width_cv": 0.03860389349059766,
+              "height_cv": 0.026022908102736213,
+              "width_orientation_std_deg": 0.6363957028604507,
+              "row_alignment_median_px": 0.37773869515695785
+            }
+          ],
+          "edge_evidence_mean": 0.36137830305971397,
+          "edge_evidence_unsampled_locations_mean": 0.3520283276484878
+        }
       }
     },
-    "consistency": {},
+    "consistency": {
+      "shared_seams": {
+        "tables": [
+          {
+            "count": 13,
+            "width_cv": 0.03860389349059766,
+            "height_cv": 0.026022908102736213,
+            "width_orientation_std_deg": 0.6363957028604507,
+            "row_alignment_median_px": 0.37773869515695785
+          }
+        ],
+        "edge_evidence_mean": 0.36137830305971397,
+        "edge_evidence_unsampled_locations_mean": 0.3520283276484878
+      }
+    },
     "attribution": {
       "author": "CIIRC / Czech Technical University in Prague",
       "url": "https://imr.ciirc.cvut.cz/Datasets/PVsegmentation",
@@ -1124,9 +1449,44 @@
           "edge_evidence_mean": 0.3021830264501003,
           "edge_evidence_unsampled_locations_mean": 0.28991343864931735
         }
+      },
+      "shared_seams": {
+        "evaluation": {
+          "observations": 6,
+          "truth": 6,
+          "iou50": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou75": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou90": {
+            "tp": 3,
+            "fp": 3,
+            "fn": 3
+          },
+          "mean_matched_iou": 0.9113761195024076,
+          "symmetric_boundary_distance_median_px": 2.0522869860740665,
+          "matched_corner_rmse_median_px": 5.894157681811065
+        },
+        "consistency": {
+          "tables": [],
+          "edge_evidence_mean": 0.3021830264501003,
+          "edge_evidence_unsampled_locations_mean": 0.28991343864931735
+        }
       }
     },
-    "consistency": {},
+    "consistency": {
+      "shared_seams": {
+        "tables": [],
+        "edge_evidence_mean": 0.3021830264501003,
+        "edge_evidence_unsampled_locations_mean": 0.28991343864931735
+      }
+    },
     "attribution": {
       "author": "CIIRC / Czech Technical University in Prague",
       "url": "https://imr.ciirc.cvut.cz/Datasets/PVsegmentation",
@@ -1308,6 +1668,33 @@
         ],
         "edge_evidence_mean": 0.516326976924338,
         "edge_evidence_unsampled_locations_mean": 0.5083283382787243
+      },
+      "shared_seams": {
+        "tables": [
+          {
+            "count": 8,
+            "width_cv": 0.06610362157813718,
+            "height_cv": 0.026207816896104,
+            "width_orientation_std_deg": 2.107836799444947,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.04789694271124238,
+            "height_cv": 0.012917155080601839,
+            "width_orientation_std_deg": 0.3662036358181181,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.06715629096599561,
+            "height_cv": 0.0010127691246624528,
+            "width_orientation_std_deg": 1.92895886465245,
+            "row_alignment_median_px": null
+          }
+        ],
+        "edge_evidence_mean": 0.5140143136789839,
+        "edge_evidence_unsampled_locations_mean": 0.5061013116786598
       }
     },
     "attribution": {
@@ -2698,6 +3085,334 @@
         ],
         "edge_evidence_mean": 0.5709613561477227,
         "edge_evidence_unsampled_locations_mean": 0.560537372511893
+      },
+      "shared_seams": {
+        "tables": [
+          {
+            "count": 35,
+            "width_cv": 0.06239536304065168,
+            "height_cv": 0.01965035992346872,
+            "width_orientation_std_deg": 2.075061234414636,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.04017553578930166,
+            "height_cv": 0.03037343407873758,
+            "width_orientation_std_deg": 2.14452975050659,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.02896371137087831,
+            "height_cv": 0.013315897038777398,
+            "width_orientation_std_deg": 1.2995200377244938,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.0489463540178529,
+            "height_cv": 0.015003392511365418,
+            "width_orientation_std_deg": 1.895779973431075,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.059470831419885295,
+            "height_cv": 0.04745883412370551,
+            "width_orientation_std_deg": 1.2744517974797194,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.045099272812551904,
+            "height_cv": 0.0295206606582409,
+            "width_orientation_std_deg": 0.0003658587618939002,
+            "row_alignment_median_px": 0.6203131969620164
+          },
+          {
+            "count": 11,
+            "width_cv": 0.05576458902385294,
+            "height_cv": 0.04085070235085727,
+            "width_orientation_std_deg": 1.558886454988058,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 27,
+            "width_cv": 0.05220580813272994,
+            "height_cv": 0.02911262519189921,
+            "width_orientation_std_deg": 1.7741701489971773,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.0756556927932487,
+            "height_cv": 0.022122953815115105,
+            "width_orientation_std_deg": 1.4334290659447457,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.060331805141123185,
+            "height_cv": 0.04106799922815641,
+            "width_orientation_std_deg": 0.8303113259956818,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.050500010629608925,
+            "height_cv": 0.00680964418960247,
+            "width_orientation_std_deg": 0.0911569219009428,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 19,
+            "width_cv": 0.06918201828092388,
+            "height_cv": 0.041299892924504505,
+            "width_orientation_std_deg": 1.8770726193462222,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 18,
+            "width_cv": 0.03497812789207437,
+            "height_cv": 0.013840040158744028,
+            "width_orientation_std_deg": 0.36994376375096477,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 19,
+            "width_cv": 0.047266157656111286,
+            "height_cv": 0.0223475754373416,
+            "width_orientation_std_deg": 2.0005651112552623,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.050038227576716,
+            "height_cv": 0.014828451355943736,
+            "width_orientation_std_deg": 1.3932774245350925,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.02409244459488181,
+            "height_cv": 0.0045693579325829636,
+            "width_orientation_std_deg": 0.12088927888695188,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.04087871964312704,
+            "height_cv": 0.022179022179037493,
+            "width_orientation_std_deg": 1.1511971578392983,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.052038176172067865,
+            "height_cv": 0.009736695575455777,
+            "width_orientation_std_deg": 0.2766821776811572,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 24,
+            "width_cv": 0.06008073550428853,
+            "height_cv": 0.040166154816240876,
+            "width_orientation_std_deg": 2.0184952253510606,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 23,
+            "width_cv": 0.040140815801497545,
+            "height_cv": 0.020487558693421514,
+            "width_orientation_std_deg": 1.6924458513408638,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.061417014691824603,
+            "height_cv": 0.060515517977707024,
+            "width_orientation_std_deg": 1.0758412310077639,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.06239690188976975,
+            "height_cv": 0.03870891871360467,
+            "width_orientation_std_deg": 3.0439618080419244,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 14,
+            "width_cv": 0.06359753292195125,
+            "height_cv": 0.02577524986803389,
+            "width_orientation_std_deg": 2.104354902792403,
+            "row_alignment_median_px": 0.4658397004118706
+          },
+          {
+            "count": 39,
+            "width_cv": 0.04576153734416381,
+            "height_cv": 0.026307310185051284,
+            "width_orientation_std_deg": 2.0042028311352427,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.06161688861098937,
+            "height_cv": 0.021449180680489115,
+            "width_orientation_std_deg": 1.7244275491886611,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 27,
+            "width_cv": 0.05024699323167855,
+            "height_cv": 0.01890218439436618,
+            "width_orientation_std_deg": 1.9543835791908954,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 25,
+            "width_cv": 0.04200909491541948,
+            "height_cv": 0.024872883080518507,
+            "width_orientation_std_deg": 1.8348090654730613,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 21,
+            "width_cv": 0.053979256650891504,
+            "height_cv": 0.018721349151022002,
+            "width_orientation_std_deg": 0.8164741764126522,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.04303641415268597,
+            "height_cv": 0.01306816041942951,
+            "width_orientation_std_deg": 1.6417713094008695,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 19,
+            "width_cv": 0.05214200557790772,
+            "height_cv": 0.036770212121699154,
+            "width_orientation_std_deg": 0.8005427835432942,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 21,
+            "width_cv": 0.046786904041486964,
+            "height_cv": 0.014806135782325307,
+            "width_orientation_std_deg": 1.4147680208097029,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.058166913057259254,
+            "height_cv": 0.017388796244195016,
+            "width_orientation_std_deg": 2.351413483079168,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 14,
+            "width_cv": 0.06376172738349162,
+            "height_cv": 0.018462896322691734,
+            "width_orientation_std_deg": 1.3028004566915081,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.056585527470021706,
+            "height_cv": 0.008536853721235632,
+            "width_orientation_std_deg": 1.5320916300287375,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.05088356198265901,
+            "height_cv": 0.017970603368894993,
+            "width_orientation_std_deg": 0.978013586164127,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 23,
+            "width_cv": 0.052679350189375924,
+            "height_cv": 0.02624862572124923,
+            "width_orientation_std_deg": 1.3212939283659968,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 34,
+            "width_cv": 0.05031259956716972,
+            "height_cv": 0.0160444028718949,
+            "width_orientation_std_deg": 1.3649754052118328,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.04749966178645266,
+            "height_cv": 0.01882897804003688,
+            "width_orientation_std_deg": 2.302323081084709,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.02367330444896508,
+            "height_cv": 0.02305219270906199,
+            "width_orientation_std_deg": 1.108245630860704,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 15,
+            "width_cv": 0.054380078467860825,
+            "height_cv": 0.018983715626274954,
+            "width_orientation_std_deg": 2.5444437451708134e-14,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 26,
+            "width_cv": 0.06369018367558389,
+            "height_cv": 0.028809051734394357,
+            "width_orientation_std_deg": 2.398351981492597,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.0559781845825729,
+            "height_cv": 0.02306116926905234,
+            "width_orientation_std_deg": 1.9536821160812436,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.03784715498218165,
+            "height_cv": 0.024104871378018772,
+            "width_orientation_std_deg": 1.2424645941049088,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.04300948050016959,
+            "height_cv": 0.014676512487215935,
+            "width_orientation_std_deg": 1.9635719134327545,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.024817616935522056,
+            "height_cv": 0.023205318138624677,
+            "width_orientation_std_deg": 0.23422080680527727,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 15,
+            "width_cv": 0.06792949854220605,
+            "height_cv": 0.04508360250887492,
+            "width_orientation_std_deg": 2.010278553881688,
+            "row_alignment_median_px": null
+          }
+        ],
+        "edge_evidence_mean": 0.5558653120476004,
+        "edge_evidence_unsampled_locations_mean": 0.5470509308915191
       }
     },
     "attribution": {
@@ -4156,6 +4871,327 @@
         ],
         "edge_evidence_mean": 0.5319884460656267,
         "edge_evidence_unsampled_locations_mean": 0.5227306441481667
+      },
+      "shared_seams": {
+        "tables": [
+          {
+            "count": 23,
+            "width_cv": 0.06578638508215445,
+            "height_cv": 0.026835586659172104,
+            "width_orientation_std_deg": 1.2186712108373574,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.06856524506170421,
+            "height_cv": 0.026592439610856822,
+            "width_orientation_std_deg": 1.999046905895361,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.052575253326048024,
+            "height_cv": 0.03609897468020738,
+            "width_orientation_std_deg": 2.8307435579103633,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 33,
+            "width_cv": 0.06025516995317891,
+            "height_cv": 0.03807931307610232,
+            "width_orientation_std_deg": 1.998871339034321,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.056282620273943616,
+            "height_cv": 0.02598591684476357,
+            "width_orientation_std_deg": 0.3759844841440401,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.039178293163365345,
+            "height_cv": 0.036774951701913576,
+            "width_orientation_std_deg": 2.8720106808119716,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.04869684077592271,
+            "height_cv": 0.020324878643643574,
+            "width_orientation_std_deg": 1.4713153553306597,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.036252465542584184,
+            "height_cv": 0.0324734316935711,
+            "width_orientation_std_deg": 1.000515865045422,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 35,
+            "width_cv": 0.05080296263440624,
+            "height_cv": 0.01735829985860483,
+            "width_orientation_std_deg": 1.4305371064914325,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 21,
+            "width_cv": 0.030234923860935993,
+            "height_cv": 0.021446791392639074,
+            "width_orientation_std_deg": 1.4057507580200281,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 15,
+            "width_cv": 0.05967689811451216,
+            "height_cv": 0.031064094439777885,
+            "width_orientation_std_deg": 1.2816846291687731,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 9,
+            "width_cv": 0.0961316803022,
+            "height_cv": 0.029004883391825397,
+            "width_orientation_std_deg": 1.7693507711625553,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.04830943671871501,
+            "height_cv": 0.0183416696766345,
+            "width_orientation_std_deg": 1.9242533195884313,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 40,
+            "width_cv": 0.04144385649721208,
+            "height_cv": 0.018241514429030055,
+            "width_orientation_std_deg": 1.2666994619119494,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 23,
+            "width_cv": 0.060970144129803665,
+            "height_cv": 0.022915700298324352,
+            "width_orientation_std_deg": 2.022265346825207,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.04757088319100672,
+            "height_cv": 0.023222838643092557,
+            "width_orientation_std_deg": 0.22242165534196742,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.038991519332043284,
+            "height_cv": 0.019466759008649213,
+            "width_orientation_std_deg": 1.5036101440140426,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 28,
+            "width_cv": 0.05865742949022132,
+            "height_cv": 0.031700698747334,
+            "width_orientation_std_deg": 2.090210806936903,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 14,
+            "width_cv": 0.08165780732995473,
+            "height_cv": 0.02824312969755778,
+            "width_orientation_std_deg": 2.773101170851138,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.07212715348260808,
+            "height_cv": 0.027730612555235484,
+            "width_orientation_std_deg": 2.246398492715014,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.05172579661188924,
+            "height_cv": 0.02438622341342998,
+            "width_orientation_std_deg": 0.8646522500120563,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.04661967645798762,
+            "height_cv": 0.035316649941039974,
+            "width_orientation_std_deg": 0.13439063046678545,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.05355974144640113,
+            "height_cv": 0.032525604762839055,
+            "width_orientation_std_deg": 1.5113346881793124,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 18,
+            "width_cv": 0.05095790789273026,
+            "height_cv": 0.017673093599500728,
+            "width_orientation_std_deg": 1.131036903627085,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.045032964591658765,
+            "height_cv": 0.022170453149199583,
+            "width_orientation_std_deg": 0.9556207044774089,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.03877395376223693,
+            "height_cv": 0.039987190723663954,
+            "width_orientation_std_deg": 1.7149152411503767,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.06911058066954963,
+            "height_cv": 0.027010311215454053,
+            "width_orientation_std_deg": 1.06744846307449,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.06687040916678182,
+            "height_cv": 0.034979987712245635,
+            "width_orientation_std_deg": 1.2993808633519357,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.05006231406766529,
+            "height_cv": 0.02253105412670254,
+            "width_orientation_std_deg": 2.3722018608337394,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.05637636018137257,
+            "height_cv": 0.04404399616907668,
+            "width_orientation_std_deg": 2.117662524513553,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.0418244294298393,
+            "height_cv": 0.017202547462317867,
+            "width_orientation_std_deg": 1.291536707631808,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 9,
+            "width_cv": 0.08852550413601742,
+            "height_cv": 0.031557972142223945,
+            "width_orientation_std_deg": 1.4398406393088108,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.03335702456365638,
+            "height_cv": 0.018434761318487813,
+            "width_orientation_std_deg": 1.0587381437699652,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 21,
+            "width_cv": 0.06173659462328993,
+            "height_cv": 0.014414721564225675,
+            "width_orientation_std_deg": 1.2818425020059891,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 14,
+            "width_cv": 0.0620322156732502,
+            "height_cv": 0.027520776645264127,
+            "width_orientation_std_deg": 2.2674097140733704,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.04115691432753326,
+            "height_cv": 0.03584731152321096,
+            "width_orientation_std_deg": 1.6329842974588202,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 19,
+            "width_cv": 0.03353914221642547,
+            "height_cv": 0.0131661779291778,
+            "width_orientation_std_deg": 0.13106075307357823,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.04913826985100308,
+            "height_cv": 0.03671930227327519,
+            "width_orientation_std_deg": 1.796954644734599,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.061133242183496646,
+            "height_cv": 0.007784295218488082,
+            "width_orientation_std_deg": 0.2009697312705747,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.0447810750137196,
+            "height_cv": 0.016890295244993574,
+            "width_orientation_std_deg": 1.4533641526360912,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.07744732468605785,
+            "height_cv": 0.04038445907224842,
+            "width_orientation_std_deg": 2.693353081372677,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.0547695727851843,
+            "height_cv": 0.036086404649806385,
+            "width_orientation_std_deg": 0.2352858577101716,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.04031989969510818,
+            "height_cv": 0.014748130939770576,
+            "width_orientation_std_deg": 1.4794286791008326,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.030879841682116313,
+            "height_cv": 0.004165821326333125,
+            "width_orientation_std_deg": 0.41799880752250007,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.03644361947466409,
+            "height_cv": 0.0314817284542552,
+            "width_orientation_std_deg": 1.2722218725854067e-14,
+            "row_alignment_median_px": null
+          }
+        ],
+        "edge_evidence_mean": 0.5131356379942803,
+        "edge_evidence_unsampled_locations_mean": 0.5052470941689065
       }
     },
     "attribution": {
