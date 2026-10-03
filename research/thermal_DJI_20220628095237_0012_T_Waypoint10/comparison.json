@@ -1,0 +1,778 @@
+{
+  "key": "thermal_DJI_20220628095237_0012_T_Waypoint10",
+  "title": "Thermal \u00b7 Waypoint 10",
+  "width": 640,
+  "height": 512,
+  "source": "thermal_DJI_20220628095237_0012_T_Waypoint10/source.jpg",
+  "source_basename": "DJI_20220628095237_0012_T_Waypoint10.JPG",
+  "instances": {
+    "independent": [
+      {
+        "polygon": [
+          [
+            364.0,
+            217.0
+          ],
+          [
+            464.0,
+            217.0
+          ],
+          [
+            459.97452229299364,
+            375.0
+          ],
+          [
+            370.0769230769231,
+            375.0
+          ]
+        ],
+        "score": 0.9865235686302185,
+        "id": 1,
+        "observed_fit_support": 0.9944831924602842,
+        "review_flags": []
+      },
+      {
+        "polygon": [
+          [
+            370.0,
+            62.0
+          ],
+          [
+            466.0,
+            62.0
+          ],
+          [
+            466.0,
+            222.0
+          ],
+          [
+            370.0,
+            222.0
+          ]
+        ],
+        "score": 0.9861660003662109,
+        "id": 2,
+        "observed_fit_support": 0.9917643229166667,
+        "review_flags": []
+      },
+      {
+        "polygon": [
+          [
+            467.0,
+            70.0
+          ],
+          [
+            557.0,
+            70.0
+          ],
+          [
+            557.0,
+            226.0
+          ],
+          [
+            469.0,
+            224.0
+          ]
+        ],
+        "score": 0.9831125140190125,
+        "id": 3,
+        "observed_fit_support": 0.9961287127529782,
+        "review_flags": []
+      },
+      {
+        "polygon": [
+          [
+            469.0,
+            221.0
+          ],
+          [
+            558.0,
+            229.0
+          ],
+          [
+            553.0,
+            379.0
+          ],
+          [
+            460.9490445859873,
+            379.0
+          ]
+        ],
+        "score": 0.9811603426933289,
+        "id": 4,
+        "observed_fit_support": 0.9907874384594063,
+        "review_flags": []
+      },
+      {
+        "polygon": [
+          [
+            551.0,
+            227.0
+          ],
+          [
+            639.0,
+            227.0
+          ],
+          [
+            639.0,
+            382.0
+          ],
+          [
+            551.0,
+            382.0
+          ]
+        ],
+        "score": 0.9778780937194824,
+        "id": 5,
+        "observed_fit_support": 0.9673387096774193,
+        "review_flags": [
+          "image_edge_partial",
+          "minor_disconnected_mask_parts_ignored_for_fit"
+        ]
+      },
+      {
+        "polygon": [
+          [
+            559.0,
+            75.0
+          ],
+          [
+            639.0,
+            75.0
+          ],
+          [
+            639.0,
+            230.0
+          ],
+          [
+            561.0,
+            228.0
+          ]
+        ],
+        "score": 0.9600143432617188,
+        "id": 6,
+        "observed_fit_support": 0.9900520557953457,
+        "review_flags": [
+          "image_edge_partial"
+        ]
+      }
+    ],
+    "shared_shape_centers": [
+      {
+        "polygon": [
+          [
+            364.0,
+            217.0
+          ],
+          [
+            464.0,
+            217.0
+          ],
+          [
+            459.97452229299364,
+            375.0
+          ],
+          [
+            370.0769230769231,
+            375.0
+          ]
+        ],
+        "score": 0.9865235686302185,
+        "id": 1,
+        "observed_fit_support": 0.9944831924602842,
+        "review_flags": []
+      },
+      {
+        "polygon": [
+          [
+            370.0,
+            62.0
+          ],
+          [
+            466.0,
+            62.0
+          ],
+          [
+            466.0,
+            222.0
+          ],
+          [
+            370.0,
+            222.0
+          ]
+        ],
+        "score": 0.9861660003662109,
+        "id": 2,
+        "observed_fit_support": 0.9917643229166667,
+        "review_flags": []
+      },
+      {
+        "polygon": [
+          [
+            467.0,
+            70.0
+          ],
+          [
+            557.0,
+            70.0
+          ],
+          [
+            557.0,
+            226.0
+          ],
+          [
+            469.0,
+            224.0
+          ]
+        ],
+        "score": 0.9831125140190125,
+        "id": 3,
+        "observed_fit_support": 0.9961287127529782,
+        "review_flags": []
+      },
+      {
+        "polygon": [
+          [
+            469.0,
+            221.0
+          ],
+          [
+            558.0,
+            229.0
+          ],
+          [
+            553.0,
+            379.0
+          ],
+          [
+            460.9490445859873,
+            379.0
+          ]
+        ],
+        "score": 0.9811603426933289,
+        "id": 4,
+        "observed_fit_support": 0.9907874384594063,
+        "review_flags": []
+      },
+      {
+        "polygon": [
+          [
+            551.0,
+            227.0
+          ],
+          [
+            639.0,
+            227.0
+          ],
+          [
+            639.0,
+            382.0
+          ],
+          [
+            551.0,
+            382.0
+          ]
+        ],
+        "score": 0.9778780937194824,
+        "id": 5,
+        "observed_fit_support": 0.9673387096774193,
+        "review_flags": [
+          "image_edge_partial",
+          "minor_disconnected_mask_parts_ignored_for_fit"
+        ]
+      },
+      {
+        "polygon": [
+          [
+            559.0,
+            75.0
+          ],
+          [
+            639.0,
+            75.0
+          ],
+          [
+            639.0,
+            230.0
+          ],
+          [
+            561.0,
+            228.0
+          ]
+        ],
+        "score": 0.9600143432617188,
+        "id": 6,
+        "observed_fit_support": 0.9900520557953457,
+        "review_flags": [
+          "image_edge_partial"
+        ]
+      }
+    ],
+    "shared_geometry": [
+      {
+        "polygon": [
+          [
+            364.0,
+            217.0
+          ],
+          [
+            464.0,
+            217.0
+          ],
+          [
+            459.97452229299364,
+            375.0
+          ],
+          [
+            370.0769230769231,
+            375.0
+          ]
+        ],
+        "score": 0.9865235686302185,
+        "id": 1,
+        "observed_fit_support": 0.9944831924602842,
+        "review_flags": []
+      },
+      {
+        "polygon": [
+          [
+            370.0,
+            62.0
+          ],
+          [
+            466.0,
+            62.0
+          ],
+          [
+            466.0,
+            222.0
+          ],
+          [
+            370.0,
+            222.0
+          ]
+        ],
+        "score": 0.9861660003662109,
+        "id": 2,
+        "observed_fit_support": 0.9917643229166667,
+        "review_flags": []
+      },
+      {
+        "polygon": [
+          [
+            467.0,
+            70.0
+          ],
+          [
+            557.0,
+            70.0
+          ],
+          [
+            557.0,
+            226.0
+          ],
+          [
+            469.0,
+            224.0
+          ]
+        ],
+        "score": 0.9831125140190125,
+        "id": 3,
+        "observed_fit_support": 0.9961287127529782,
+        "review_flags": []
+      },
+      {
+        "polygon": [
+          [
+            469.0,
+            221.0
+          ],
+          [
+            558.0,
+            229.0
+          ],
+          [
+            553.0,
+            379.0
+          ],
+          [
+            460.9490445859873,
+            379.0
+          ]
+        ],
+        "score": 0.9811603426933289,
+        "id": 4,
+        "observed_fit_support": 0.9907874384594063,
+        "review_flags": []
+      },
+      {
+        "polygon": [
+          [
+            551.0,
+            227.0
+          ],
+          [
+            639.0,
+            227.0
+          ],
+          [
+            639.0,
+            382.0
+          ],
+          [
+            551.0,
+            382.0
+          ]
+        ],
+        "score": 0.9778780937194824,
+        "id": 5,
+        "observed_fit_support": 0.9673387096774193,
+        "review_flags": [
+          "image_edge_partial",
+          "minor_disconnected_mask_parts_ignored_for_fit"
+        ]
+      },
+      {
+        "polygon": [
+          [
+            559.0,
+            75.0
+          ],
+          [
+            639.0,
+            75.0
+          ],
+          [
+            639.0,
+            230.0
+          ],
+          [
+            561.0,
+            228.0
+          ]
+        ],
+        "score": 0.9600143432617188,
+        "id": 6,
+        "observed_fit_support": 0.9900520557953457,
+        "review_flags": [
+          "image_edge_partial"
+        ]
+      }
+    ],
+    "shared_plus_image": [
+      {
+        "polygon": [
+          [
+            364.0,
+            217.0
+          ],
+          [
+            464.0,
+            217.0
+          ],
+          [
+            459.97452229299364,
+            375.0
+          ],
+          [
+            370.0769230769231,
+            375.0
+          ]
+        ],
+        "score": 0.9865235686302185,
+        "id": 1,
+        "observed_fit_support": 0.9944831924602842,
+        "review_flags": []
+      },
+      {
+        "polygon": [
+          [
+            370.0,
+            62.0
+          ],
+          [
+            466.0,
+            62.0
+          ],
+          [
+            466.0,
+            222.0
+          ],
+          [
+            370.0,
+            222.0
+          ]
+        ],
+        "score": 0.9861660003662109,
+        "id": 2,
+        "observed_fit_support": 0.9917643229166667,
+        "review_flags": []
+      },
+      {
+        "polygon": [
+          [
+            467.0,
+            70.0
+          ],
+          [
+            557.0,
+            70.0
+          ],
+          [
+            557.0,
+            226.0
+          ],
+          [
+            469.0,
+            224.0
+          ]
+        ],
+        "score": 0.9831125140190125,
+        "id": 3,
+        "observed_fit_support": 0.9961287127529782,
+        "review_flags": []
+      },
+      {
+        "polygon": [
+          [
+            469.0,
+            221.0
+          ],
+          [
+            558.0,
+            229.0
+          ],
+          [
+            553.0,
+            379.0
+          ],
+          [
+            460.9490445859873,
+            379.0
+          ]
+        ],
+        "score": 0.9811603426933289,
+        "id": 4,
+        "observed_fit_support": 0.9907874384594063,
+        "review_flags": []
+      },
+      {
+        "polygon": [
+          [
+            551.0,
+            227.0
+          ],
+          [
+            639.0,
+            227.0
+          ],
+          [
+            639.0,
+            382.0
+          ],
+          [
+            551.0,
+            382.0
+          ]
+        ],
+        "score": 0.9778780937194824,
+        "id": 5,
+        "observed_fit_support": 0.9673387096774193,
+        "review_flags": [
+          "image_edge_partial",
+          "minor_disconnected_mask_parts_ignored_for_fit"
+        ]
+      },
+      {
+        "polygon": [
+          [
+            559.0,
+            75.0
+          ],
+          [
+            639.0,
+            75.0
+          ],
+          [
+            639.0,
+            230.0
+          ],
+          [
+            561.0,
+            228.0
+          ]
+        ],
+        "score": 0.9600143432617188,
+        "id": 6,
+        "observed_fit_support": 0.9900520557953457,
+        "review_flags": [
+          "image_edge_partial"
+        ]
+      }
+    ]
+  },
+  "audit": [
+    {
+      "table": 0,
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "support_count": 6,
+      "adopted": false,
+      "fallbacks": [],
+      "reason": "Fewer than eight observed modules; retain independent fit",
+      "applied_by_method": {
+        "shared": 0,
+        "shared_plus_image": 0
+      }
+    }
+  ],
+  "shape_audit": [
+    {
+      "table": 0,
+      "adopted": false,
+      "fallbacks": [],
+      "reason": "Fewer than eight observations",
+      "accepted_proposals": 0
+    }
+  ],
+  "comparisons": {
+    "independent": {
+      "evaluation": {
+        "observations": 6,
+        "truth": 6,
+        "iou50": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0
+        },
+        "iou75": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0
+        },
+        "iou90": {
+          "tp": 3,
+          "fp": 3,
+          "fn": 3
+        },
+        "mean_matched_iou": 0.9113761195024076,
+        "symmetric_boundary_distance_median_px": 2.0522869860740665,
+        "matched_corner_rmse_median_px": 5.894157681811065
+      },
+      "consistency": {
+        "tables": [],
+        "edge_evidence_mean": 0.3021830264501003,
+        "edge_evidence_unsampled_locations_mean": 0.28991343864931735
+      }
+    },
+    "shared_shape_centers": {
+      "evaluation": {
+        "observations": 6,
+        "truth": 6,
+        "iou50": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0
+        },
+        "iou75": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0
+        },
+        "iou90": {
+          "tp": 3,
+          "fp": 3,
+          "fn": 3
+        },
+        "mean_matched_iou": 0.9113761195024076,
+        "symmetric_boundary_distance_median_px": 2.0522869860740665,
+        "matched_corner_rmse_median_px": 5.894157681811065
+      },
+      "consistency": {
+        "tables": [],
+        "edge_evidence_mean": 0.3021830264501003,
+        "edge_evidence_unsampled_locations_mean": 0.28991343864931735
+      }
+    },
+    "shared_geometry": {
+      "evaluation": {
+        "observations": 6,
+        "truth": 6,
+        "iou50": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0
+        },
+        "iou75": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0
+        },
+        "iou90": {
+          "tp": 3,
+          "fp": 3,
+          "fn": 3
+        },
+        "mean_matched_iou": 0.9113761195024076,
+        "symmetric_boundary_distance_median_px": 2.0522869860740665,
+        "matched_corner_rmse_median_px": 5.894157681811065
+      },
+      "consistency": {
+        "tables": [],
+        "edge_evidence_mean": 0.3021830264501003,
+        "edge_evidence_unsampled_locations_mean": 0.28991343864931735
+      }
+    },
+    "shared_plus_image": {
+      "evaluation": {
+        "observations": 6,
+        "truth": 6,
+        "iou50": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0
+        },
+        "iou75": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0
+        },
+        "iou90": {
+          "tp": 3,
+          "fp": 3,
+          "fn": 3
+        },
+        "mean_matched_iou": 0.9113761195024076,
+        "symmetric_boundary_distance_median_px": 2.0522869860740665,
+        "matched_corner_rmse_median_px": 5.894157681811065
+      },
+      "consistency": {
+        "tables": [],
+        "edge_evidence_mean": 0.3021830264501003,
+        "edge_evidence_unsampled_locations_mean": 0.28991343864931735
+      }
+    }
+  },
+  "consistency": {},
+  "labeled": true,
+  "attribution": {
+    "author": "CIIRC / Czech Technical University in Prague",
+    "url": "https://imr.ciirc.cvut.cz/Datasets/PVsegmentation",
+    "note": "Author-provided development images; training overlap unknown. Public data license not verified."
+  },
+  "experiment_sha256": "86512f6bf2a63d3c3ec90b04d329f00c70ff84d7312b96df7487b56b05dd056f"
+}

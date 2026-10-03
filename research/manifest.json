@@ -1,0 +1,92 @@
+{
+  "cases": 7,
+  "methods": [
+    "independent",
+    "shared_shape_centers",
+    "shared_geometry",
+    "shared_plus_image"
+  ],
+  "precomputed_only": true,
+  "files": [
+    {
+      "path": "comparison-summary.json",
+      "bytes": 42065,
+      "sha256": "03e6eda02eee0f67fca52029ec6414dd3b20baeecac45e52d568449045f2cfc1"
+    },
+    {
+      "path": "external/comparison.json",
+      "bytes": 1080975,
+      "sha256": "fa301dc0ca7353fdfb91deccdd6c9c36d278b773dbabd7359306c75f5ea09e82"
+    },
+    {
+      "path": "external/source.jpg",
+      "bytes": 1221374,
+      "sha256": "5878bfceacdbfca52cadbbf88b2e96fdc2c2710f2b3c9b8e07c5cc8e2caaa8de"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1157304,
+      "sha256": "6822ffd92c725f67642e883a0d6732c6528a4525cf28e216111d89b47e5f37b4"
+    },
+    {
+      "path": "rgb/comparison.json",
+      "bytes": 286497,
+      "sha256": "f6a75ba654e27b7803772e557646a702187008b346a73f306a3949c9424eb04b"
+    },
+    {
+      "path": "rgb/source.jpg",
+      "bytes": 750240,
+      "sha256": "f0c559d1581c726724dae95e6f29e3ee1d172c7e9acec0176baec307d1524749"
+    },
+    {
+      "path": "rgb_C_DJI_20220610095551_0001_W/comparison.json",
+      "bytes": 492486,
+      "sha256": "467518002ae222d79bcbbb3ea5b7919ce1d0c79139cc76a8b696fbd94af7b4cd"
+    },
+    {
+      "path": "rgb_C_DJI_20220610095551_0001_W/source.jpg",
+      "bytes": 284057,
+      "sha256": "3581aed333ba1471144e8bb7cb40f13e1d1db72c0b1a1caf624d257d184a416d"
+    },
+    {
+      "path": "rgb_C_DJI_20220610100017_0029_Z/comparison.json",
+      "bytes": 425711,
+      "sha256": "a158c1924a447fea2a9b238f1bd1fcaf3aaa652501932900e45c361fa3249619"
+    },
+    {
+      "path": "rgb_C_DJI_20220610100017_0029_Z/source.jpg",
+      "bytes": 1562981,
+      "sha256": "221aa6a79f23b68f44aa2e3d29fbe87e84fd67f9ad064525c311c2a161dbd55b"
+    },
+    {
+      "path": "thermal/comparison.json",
+      "bytes": 45216,
+      "sha256": "d1d5956deb66a73a55b0a03e5c602eea7b1423466683b48f15510f7c5408975f"
+    },
+    {
+      "path": "thermal/source.jpg",
+      "bytes": 61075,
+      "sha256": "d48ff54c4491e88a095c00843091c9b333123f39f91e7d2007f480a730b88fac"
+    },
+    {
+      "path": "thermal_DJI_20220610101051_0047_T/comparison.json",
+      "bytes": 47813,
+      "sha256": "1bda31a1c74eda15e3a97ea4730a376bf0d7ee8a1ab583e24a919f641bcd64f3"
+    },
+    {
+      "path": "thermal_DJI_20220610101051_0047_T/source.jpg",
+      "bytes": 61952,
+      "sha256": "462cbe4fc5ec706d7f4d73b778c9cf99c087dddaa2a1f03ac0ac613eb8075a56"
+    },
+    {
+      "path": "thermal_DJI_20220628095237_0012_T_Waypoint10/comparison.json",
+      "bytes": 16106,
+      "sha256": "3e94a568bd060b7c11a64d6afdecd039270878f079614878b17ad6ad92b41e98"
+    },
+    {
+      "path": "thermal_DJI_20220628095237_0012_T_Waypoint10/source.jpg",
+      "bytes": 157284,
+      "sha256": "545c7eefaf44a7d3f7b68210da319650975d515c1774e35c318eb6abdde34233"
+    }
+  ]
+}

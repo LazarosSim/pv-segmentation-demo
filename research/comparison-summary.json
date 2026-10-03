@@ -1,0 +1,1305 @@
+[
+  {
+    "key": "rgb",
+    "title": "RGB \u00b7 0031",
+    "width": 1704,
+    "height": 869,
+    "labeled": true,
+    "comparisons": {
+      "independent": {
+        "evaluation": {
+          "observations": 114,
+          "truth": 114,
+          "iou50": {
+            "tp": 114,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou75": {
+            "tp": 114,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou90": {
+            "tp": 99,
+            "fp": 15,
+            "fn": 15
+          },
+          "mean_matched_iou": 0.9250555175378664,
+          "symmetric_boundary_distance_median_px": 0.8546010707256422,
+          "matched_corner_rmse_median_px": 1.8901228464056947
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 54,
+              "width_cv": 0.03706871249365595,
+              "height_cv": 0.013111687572433358,
+              "width_orientation_std_deg": 0.6578083207439711,
+              "row_alignment_median_px": 0.8288493087611146
+            },
+            {
+              "count": 56,
+              "width_cv": 0.04818189083592086,
+              "height_cv": 0.022616121555721926,
+              "width_orientation_std_deg": 0.6148945913399406,
+              "row_alignment_median_px": 0.4557721726342048
+            }
+          ],
+          "edge_evidence_mean": 0.5593942385280455,
+          "edge_evidence_unsampled_locations_mean": 0.539812223456011
+        }
+      },
+      "shared_shape_centers": {
+        "evaluation": {
+          "observations": 114,
+          "truth": 114,
+          "iou50": {
+            "tp": 114,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou75": {
+            "tp": 114,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou90": {
+            "tp": 104,
+            "fp": 10,
+            "fn": 10
+          },
+          "mean_matched_iou": 0.929524235603588,
+          "symmetric_boundary_distance_median_px": 0.8461660576400499,
+          "matched_corner_rmse_median_px": 1.646775053375434
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 54,
+              "width_cv": 0.03011082486123767,
+              "height_cv": 0.008563960072991388,
+              "width_orientation_std_deg": 0.03583726849093785,
+              "row_alignment_median_px": 0.8288493087611142
+            },
+            {
+              "count": 56,
+              "width_cv": 0.018986743177719066,
+              "height_cv": 0.018624461959520038,
+              "width_orientation_std_deg": 0.07267028739643475,
+              "row_alignment_median_px": 0.4557721726342051
+            }
+          ],
+          "edge_evidence_mean": 0.5468384070439989,
+          "edge_evidence_unsampled_locations_mean": 0.5282339542296884
+        }
+      },
+      "shared_geometry": {
+        "evaluation": {
+          "observations": 114,
+          "truth": 114,
+          "iou50": {
+            "tp": 114,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou75": {
+            "tp": 113,
+            "fp": 1,
+            "fn": 1
+          },
+          "iou90": {
+            "tp": 79,
+            "fp": 35,
+            "fn": 35
+          },
+          "mean_matched_iou": 0.911202105707045,
+          "symmetric_boundary_distance_median_px": 0.860341426842418,
+          "matched_corner_rmse_median_px": 1.5480444859294407
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 54,
+              "width_cv": 0.009875111807046135,
+              "height_cv": 0.015214031619449541,
+              "width_orientation_std_deg": 0.02405622417475819,
+              "row_alignment_median_px": 2.605075739926466e-06
+            },
+            {
+              "count": 56,
+              "width_cv": 0.02672895175419187,
+              "height_cv": 0.021717009988405943,
+              "width_orientation_std_deg": 0.07143378243796324,
+              "row_alignment_median_px": 4.842539099081691e-05
+            }
+          ],
+          "edge_evidence_mean": 0.49714793096332294,
+          "edge_evidence_unsampled_locations_mean": 0.480582076711649
+        }
+      },
+      "shared_plus_image": {
+        "evaluation": {
+          "observations": 114,
+          "truth": 114,
+          "iou50": {
+            "tp": 114,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou75": {
+            "tp": 109,
+            "fp": 5,
+            "fn": 5
+          },
+          "iou90": {
+            "tp": 57,
+            "fp": 57,
+            "fn": 57
+          },
+          "mean_matched_iou": 0.8843620246328976,
+          "symmetric_boundary_distance_median_px": 1.4171181297176476,
+          "matched_corner_rmse_median_px": 2.2397108179256127
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 54,
+              "width_cv": 0.009875111807046135,
+              "height_cv": 0.015214031619449685,
+              "width_orientation_std_deg": 0.02405622417475819,
+              "row_alignment_median_px": 2.605075754142603e-06
+            },
+            {
+              "count": 56,
+              "width_cv": 0.025305681651668414,
+              "height_cv": 0.021152027168903062,
+              "width_orientation_std_deg": 0.0681452363470965,
+              "row_alignment_median_px": 0.09756665447894043
+            }
+          ],
+          "edge_evidence_mean": 0.5849085856122805,
+          "edge_evidence_unsampled_locations_mean": 0.564378782257154
+        }
+      }
+    },
+    "consistency": {},
+    "attribution": {
+      "author": "CIIRC / Czech Technical University in Prague",
+      "url": "https://imr.ciirc.cvut.cz/Datasets/PVsegmentation",
+      "note": "Author-provided development images; training overlap unknown. Public data license not verified."
+    },
+    "experiment_sha256": "c18da134b634dc2658fa66db5ba3795984b5e32c1deddddbcd517efca38e59a8"
+  },
+  {
+    "key": "rgb_C_DJI_20220610095551_0001_W",
+    "title": "RGB \u00b7 0001",
+    "width": 975,
+    "height": 637,
+    "labeled": true,
+    "comparisons": {
+      "independent": {
+        "evaluation": {
+          "observations": 198,
+          "truth": 198,
+          "iou50": {
+            "tp": 197,
+            "fp": 1,
+            "fn": 1
+          },
+          "iou75": {
+            "tp": 186,
+            "fp": 12,
+            "fn": 12
+          },
+          "iou90": {
+            "tp": 28,
+            "fp": 170,
+            "fn": 170
+          },
+          "mean_matched_iou": 0.8419400353603385,
+          "symmetric_boundary_distance_median_px": 0.8977827546256791,
+          "matched_corner_rmse_median_px": 1.980463060558298
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 44,
+              "width_cv": 0.04885734252939018,
+              "height_cv": 0.03442505543132508,
+              "width_orientation_std_deg": 1.242107116547276,
+              "row_alignment_median_px": 0.31528588917299916
+            },
+            {
+              "count": 61,
+              "width_cv": 0.052501120787742536,
+              "height_cv": 0.016646117405512546,
+              "width_orientation_std_deg": 0.0,
+              "row_alignment_median_px": 0.2964016810924956
+            },
+            {
+              "count": 21,
+              "width_cv": 0.07047046911850796,
+              "height_cv": 0.019701143524711515,
+              "width_orientation_std_deg": 0.0,
+              "row_alignment_median_px": 0.2516445058379829
+            },
+            {
+              "count": 63,
+              "width_cv": 0.05004000211584233,
+              "height_cv": 0.016812992046665517,
+              "width_orientation_std_deg": 0.0,
+              "row_alignment_median_px": 0.1805230071237628
+            }
+          ],
+          "edge_evidence_mean": 0.6259244880420061,
+          "edge_evidence_unsampled_locations_mean": 0.6091152927371495
+        }
+      },
+      "shared_shape_centers": {
+        "evaluation": {
+          "observations": 198,
+          "truth": 198,
+          "iou50": {
+            "tp": 197,
+            "fp": 1,
+            "fn": 1
+          },
+          "iou75": {
+            "tp": 187,
+            "fp": 11,
+            "fn": 11
+          },
+          "iou90": {
+            "tp": 25,
+            "fp": 173,
+            "fn": 173
+          },
+          "mean_matched_iou": 0.847612748995851,
+          "symmetric_boundary_distance_median_px": 0.8714936716659709,
+          "matched_corner_rmse_median_px": 1.8099356143503764
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 44,
+              "width_cv": 0.025320893827060195,
+              "height_cv": 0.02363049512755577,
+              "width_orientation_std_deg": 0.7545214905694799,
+              "row_alignment_median_px": 0.3152858891729994
+            },
+            {
+              "count": 61,
+              "width_cv": 0.031492289610551415,
+              "height_cv": 0.010528669513510787,
+              "width_orientation_std_deg": 0.0,
+              "row_alignment_median_px": 0.2964016810924956
+            },
+            {
+              "count": 21,
+              "width_cv": 0.04871366381533116,
+              "height_cv": 0.007327609363843351,
+              "width_orientation_std_deg": 0.0,
+              "row_alignment_median_px": 0.25164450583798326
+            },
+            {
+              "count": 63,
+              "width_cv": 0.02905199414519732,
+              "height_cv": 0.005380721606883026,
+              "width_orientation_std_deg": 0.0,
+              "row_alignment_median_px": 0.1805230071237628
+            }
+          ],
+          "edge_evidence_mean": 0.6105830415554735,
+          "edge_evidence_unsampled_locations_mean": 0.5937686668166412
+        }
+      },
+      "shared_geometry": {
+        "evaluation": {
+          "observations": 198,
+          "truth": 198,
+          "iou50": {
+            "tp": 197,
+            "fp": 1,
+            "fn": 1
+          },
+          "iou75": {
+            "tp": 179,
+            "fp": 19,
+            "fn": 19
+          },
+          "iou90": {
+            "tp": 40,
+            "fp": 158,
+            "fn": 158
+          },
+          "mean_matched_iou": 0.8457204083122998,
+          "symmetric_boundary_distance_median_px": 0.8760943363633702,
+          "matched_corner_rmse_median_px": 1.7441120474471772
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 44,
+              "width_cv": 1.369020202982665e-15,
+              "height_cv": 7.708531423411954e-16,
+              "width_orientation_std_deg": 6.211336508318958e-14,
+              "row_alignment_median_px": 8.927065874098488e-14
+            },
+            {
+              "count": 61,
+              "width_cv": 0.014095499603307604,
+              "height_cv": 0.008289032640207365,
+              "width_orientation_std_deg": 0.054595070678663746,
+              "row_alignment_median_px": 0.00019399761124406023
+            },
+            {
+              "count": 21,
+              "width_cv": 0.03626276909603946,
+              "height_cv": 0.017656969023397858,
+              "width_orientation_std_deg": 0.27219376344097923,
+              "row_alignment_median_px": 7.466206708736844e-06
+            },
+            {
+              "count": 63,
+              "width_cv": 0.017118532659768117,
+              "height_cv": 0.010482384597899757,
+              "width_orientation_std_deg": 0.04995561163206998,
+              "row_alignment_median_px": 0.0010748482797368632
+            }
+          ],
+          "edge_evidence_mean": 0.602666187392425,
+          "edge_evidence_unsampled_locations_mean": 0.5860147668833513
+        }
+      },
+      "shared_plus_image": {
+        "evaluation": {
+          "observations": 198,
+          "truth": 198,
+          "iou50": {
+            "tp": 197,
+            "fp": 1,
+            "fn": 1
+          },
+          "iou75": {
+            "tp": 168,
+            "fp": 30,
+            "fn": 30
+          },
+          "iou90": {
+            "tp": 25,
+            "fp": 173,
+            "fn": 173
+          },
+          "mean_matched_iou": 0.8225637598746606,
+          "symmetric_boundary_distance_median_px": 1.0522124166134714,
+          "matched_corner_rmse_median_px": 2.02250795380688
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 44,
+              "width_cv": 0.01974581842213611,
+              "height_cv": 0.015008948208222385,
+              "width_orientation_std_deg": 1.0077614229470335,
+              "row_alignment_median_px": 0.002165165187760688
+            },
+            {
+              "count": 61,
+              "width_cv": 0.016847713449160234,
+              "height_cv": 0.009732931819926446,
+              "width_orientation_std_deg": 0.07870464196069187,
+              "row_alignment_median_px": 0.030853791409323334
+            },
+            {
+              "count": 21,
+              "width_cv": 0.03626276909603946,
+              "height_cv": 0.017656969023397858,
+              "width_orientation_std_deg": 0.27219376344097923,
+              "row_alignment_median_px": 7.466206708736844e-06
+            },
+            {
+              "count": 63,
+              "width_cv": 0.021918540139773176,
+              "height_cv": 0.00971969114574956,
+              "width_orientation_std_deg": 0.06236930938370259,
+              "row_alignment_median_px": 4.729507929377342e-06
+            }
+          ],
+          "edge_evidence_mean": 0.6624783307320549,
+          "edge_evidence_unsampled_locations_mean": 0.6431602749940235
+        }
+      }
+    },
+    "consistency": {},
+    "attribution": {
+      "author": "CIIRC / Czech Technical University in Prague",
+      "url": "https://imr.ciirc.cvut.cz/Datasets/PVsegmentation",
+      "note": "Author-provided development images; training overlap unknown. Public data license not verified."
+    },
+    "experiment_sha256": "1dad3e4db66b95cb266ec1bfa9858fe686cc5c963c334506d1419bc4ee60b7cd"
+  },
+  {
+    "key": "rgb_C_DJI_20220610100017_0029_Z",
+    "title": "RGB \u00b7 0029",
+    "width": 2087,
+    "height": 1339,
+    "labeled": true,
+    "comparisons": {
+      "independent": {
+        "evaluation": {
+          "observations": 171,
+          "truth": 171,
+          "iou50": {
+            "tp": 171,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou75": {
+            "tp": 171,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou90": {
+            "tp": 133,
+            "fp": 38,
+            "fn": 38
+          },
+          "mean_matched_iou": 0.9192368180588434,
+          "symmetric_boundary_distance_median_px": 0.9547607957612801,
+          "matched_corner_rmse_median_px": 2.1591055411778775
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 56,
+              "width_cv": 0.02076446902080207,
+              "height_cv": 0.021759085760725667,
+              "width_orientation_std_deg": 0.5416341670041631,
+              "row_alignment_median_px": 0.3905713551146499
+            },
+            {
+              "count": 56,
+              "width_cv": 0.026263338178782833,
+              "height_cv": 0.023384476042242544,
+              "width_orientation_std_deg": 0.5898312204737417,
+              "row_alignment_median_px": 0.3517904295171517
+            },
+            {
+              "count": 54,
+              "width_cv": 0.021215258142446243,
+              "height_cv": 0.02054268082970451,
+              "width_orientation_std_deg": 0.48291498089499163,
+              "row_alignment_median_px": 0.4986021983069613
+            }
+          ],
+          "edge_evidence_mean": 0.6072620175787556,
+          "edge_evidence_unsampled_locations_mean": 0.5917441139541468
+        }
+      },
+      "shared_shape_centers": {
+        "evaluation": {
+          "observations": 171,
+          "truth": 171,
+          "iou50": {
+            "tp": 171,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou75": {
+            "tp": 171,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou90": {
+            "tp": 155,
+            "fp": 16,
+            "fn": 16
+          },
+          "mean_matched_iou": 0.925631323436321,
+          "symmetric_boundary_distance_median_px": 0.8727643865112682,
+          "matched_corner_rmse_median_px": 2.0211383498361233
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 56,
+              "width_cv": 0.005469070423807408,
+              "height_cv": 0.008671542920237916,
+              "width_orientation_std_deg": 0.19221684223819147,
+              "row_alignment_median_px": 0.39057135511465246
+            },
+            {
+              "count": 56,
+              "width_cv": 0.016429494988388218,
+              "height_cv": 0.0036741899340819425,
+              "width_orientation_std_deg": 0.047546739466152683,
+              "row_alignment_median_px": 0.3517904295171517
+            },
+            {
+              "count": 54,
+              "width_cv": 0.009576653623301708,
+              "height_cv": 0.012491062009157354,
+              "width_orientation_std_deg": 0.1517071619242965,
+              "row_alignment_median_px": 0.4986021983069613
+            }
+          ],
+          "edge_evidence_mean": 0.5891028104476446,
+          "edge_evidence_unsampled_locations_mean": 0.5746585567405825
+        }
+      },
+      "shared_geometry": {
+        "evaluation": {
+          "observations": 171,
+          "truth": 171,
+          "iou50": {
+            "tp": 171,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou75": {
+            "tp": 169,
+            "fp": 2,
+            "fn": 2
+          },
+          "iou90": {
+            "tp": 101,
+            "fp": 70,
+            "fn": 70
+          },
+          "mean_matched_iou": 0.8989271189966918,
+          "symmetric_boundary_distance_median_px": 1.1190653568571274,
+          "matched_corner_rmse_median_px": 2.0825598178066995
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 56,
+              "width_cv": 0.0035370618760573575,
+              "height_cv": 0.01069593505967534,
+              "width_orientation_std_deg": 0.27268218392386384,
+              "row_alignment_median_px": 0.0018658027857490086
+            },
+            {
+              "count": 56,
+              "width_cv": 0.0030533093698026665,
+              "height_cv": 0.008807908658157945,
+              "width_orientation_std_deg": 0.2698926502034269,
+              "row_alignment_median_px": 0.00022249556097526363
+            },
+            {
+              "count": 54,
+              "width_cv": 0.007115475019422039,
+              "height_cv": 0.0059784145049462285,
+              "width_orientation_std_deg": 0.19154523497970508,
+              "row_alignment_median_px": 0.0015675285155767353
+            }
+          ],
+          "edge_evidence_mean": 0.5714659089791992,
+          "edge_evidence_unsampled_locations_mean": 0.5610192209005205
+        }
+      },
+      "shared_plus_image": {
+        "evaluation": {
+          "observations": 171,
+          "truth": 171,
+          "iou50": {
+            "tp": 171,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou75": {
+            "tp": 166,
+            "fp": 5,
+            "fn": 5
+          },
+          "iou90": {
+            "tp": 93,
+            "fp": 78,
+            "fn": 78
+          },
+          "mean_matched_iou": 0.8863364588014325,
+          "symmetric_boundary_distance_median_px": 1.279876492191803,
+          "matched_corner_rmse_median_px": 2.3747079351474323
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 56,
+              "width_cv": 1.1976376340334171e-15,
+              "height_cv": 6.99612190707702e-16,
+              "width_orientation_std_deg": 5.634562335700716e-14,
+              "row_alignment_median_px": 2.033784990190108e-13
+            },
+            {
+              "count": 56,
+              "width_cv": 0.008385487282390799,
+              "height_cv": 0.009753704741741073,
+              "width_orientation_std_deg": 0.31379911745958766,
+              "row_alignment_median_px": 0.0003337253559390983
+            },
+            {
+              "count": 54,
+              "width_cv": 0.007115475019422059,
+              "height_cv": 0.0059784145049462285,
+              "width_orientation_std_deg": 0.19154523497970508,
+              "row_alignment_median_px": 0.0015252203991384097
+            }
+          ],
+          "edge_evidence_mean": 0.639360088620654,
+          "edge_evidence_unsampled_locations_mean": 0.6250913249366804
+        }
+      }
+    },
+    "consistency": {},
+    "attribution": {
+      "author": "CIIRC / Czech Technical University in Prague",
+      "url": "https://imr.ciirc.cvut.cz/Datasets/PVsegmentation",
+      "note": "Author-provided development images; training overlap unknown. Public data license not verified."
+    },
+    "experiment_sha256": "6baeafb504d5fb713ba31e54fe483ae47832a28920117980f577142538e7f4a3"
+  },
+  {
+    "key": "thermal",
+    "title": "Thermal \u00b7 0068",
+    "width": 640,
+    "height": 512,
+    "labeled": true,
+    "comparisons": {
+      "independent": {
+        "evaluation": {
+          "observations": 16,
+          "truth": 16,
+          "iou50": {
+            "tp": 16,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou75": {
+            "tp": 16,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou90": {
+            "tp": 13,
+            "fp": 3,
+            "fn": 3
+          },
+          "mean_matched_iou": 0.923803408195046,
+          "symmetric_boundary_distance_median_px": 1.630096724677085,
+          "matched_corner_rmse_median_px": 3.5175925925238007
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 12,
+              "width_cv": 0.05105804390999882,
+              "height_cv": 0.025095095646034418,
+              "width_orientation_std_deg": 0.9302554587025772,
+              "row_alignment_median_px": 0.35356673541214695
+            }
+          ],
+          "edge_evidence_mean": 0.44782283554928887,
+          "edge_evidence_unsampled_locations_mean": 0.4425900365041471
+        }
+      },
+      "shared_shape_centers": {
+        "evaluation": {
+          "observations": 16,
+          "truth": 16,
+          "iou50": {
+            "tp": 16,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou75": {
+            "tp": 16,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou90": {
+            "tp": 14,
+            "fp": 2,
+            "fn": 2
+          },
+          "mean_matched_iou": 0.9316107051105632,
+          "symmetric_boundary_distance_median_px": 1.508279597204759,
+          "matched_corner_rmse_median_px": 3.1955156574456254
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 12,
+              "width_cv": 0.028823605945728026,
+              "height_cv": 0.02468058673903779,
+              "width_orientation_std_deg": 0.44805341243566793,
+              "row_alignment_median_px": 0.35356673541214695
+            }
+          ],
+          "edge_evidence_mean": 0.3608773948059678,
+          "edge_evidence_unsampled_locations_mean": 0.35908430449172124
+        }
+      },
+      "shared_geometry": {
+        "evaluation": {
+          "observations": 16,
+          "truth": 16,
+          "iou50": {
+            "tp": 16,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou75": {
+            "tp": 16,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou90": {
+            "tp": 15,
+            "fp": 1,
+            "fn": 1
+          },
+          "mean_matched_iou": 0.9336435160983021,
+          "symmetric_boundary_distance_median_px": 1.583604782379675,
+          "matched_corner_rmse_median_px": 2.990630921014737
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 12,
+              "width_cv": 0.019248760628066137,
+              "height_cv": 0.02804452102032025,
+              "width_orientation_std_deg": 0.18140642448587357,
+              "row_alignment_median_px": 3.874439581252458e-05
+            }
+          ],
+          "edge_evidence_mean": 0.42831052947349635,
+          "edge_evidence_unsampled_locations_mean": 0.4235250367148339
+        }
+      },
+      "shared_plus_image": {
+        "evaluation": {
+          "observations": 16,
+          "truth": 16,
+          "iou50": {
+            "tp": 16,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou75": {
+            "tp": 16,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou90": {
+            "tp": 12,
+            "fp": 4,
+            "fn": 4
+          },
+          "mean_matched_iou": 0.921834080855089,
+          "symmetric_boundary_distance_median_px": 1.7705592281996196,
+          "matched_corner_rmse_median_px": 3.3694164352109572
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 12,
+              "width_cv": 0.019248760628066283,
+              "height_cv": 0.02804452102032022,
+              "width_orientation_std_deg": 0.18140642448587357,
+              "row_alignment_median_px": 3.8744395813419916e-05
+            }
+          ],
+          "edge_evidence_mean": 0.48253987689391487,
+          "edge_evidence_unsampled_locations_mean": 0.47849996739305367
+        }
+      }
+    },
+    "consistency": {},
+    "attribution": {
+      "author": "CIIRC / Czech Technical University in Prague",
+      "url": "https://imr.ciirc.cvut.cz/Datasets/PVsegmentation",
+      "note": "Author-provided development images; training overlap unknown. Public data license not verified."
+    },
+    "experiment_sha256": "6392dbd592956c63b1b7381897586682f69b9323398b39125f5cc4f1ee111107"
+  },
+  {
+    "key": "thermal_DJI_20220610101051_0047_T",
+    "title": "Thermal \u00b7 0047",
+    "width": 640,
+    "height": 512,
+    "labeled": true,
+    "comparisons": {
+      "independent": {
+        "evaluation": {
+          "observations": 17,
+          "truth": 18,
+          "iou50": {
+            "tp": 17,
+            "fp": 0,
+            "fn": 1
+          },
+          "iou75": {
+            "tp": 17,
+            "fp": 0,
+            "fn": 1
+          },
+          "iou90": {
+            "tp": 10,
+            "fp": 7,
+            "fn": 8
+          },
+          "mean_matched_iou": 0.9091928013391266,
+          "symmetric_boundary_distance_median_px": 1.9590566422647269,
+          "matched_corner_rmse_median_px": 4.068631542914572
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 13,
+              "width_cv": 0.046786904112441435,
+              "height_cv": 0.027683397580493357,
+              "width_orientation_std_deg": 0.6737745481179583,
+              "row_alignment_median_px": 0.37773869515695785
+            }
+          ],
+          "edge_evidence_mean": 0.404367765457784,
+          "edge_evidence_unsampled_locations_mean": 0.397349063638816
+        }
+      },
+      "shared_shape_centers": {
+        "evaluation": {
+          "observations": 17,
+          "truth": 18,
+          "iou50": {
+            "tp": 17,
+            "fp": 0,
+            "fn": 1
+          },
+          "iou75": {
+            "tp": 17,
+            "fp": 0,
+            "fn": 1
+          },
+          "iou90": {
+            "tp": 11,
+            "fp": 6,
+            "fn": 7
+          },
+          "mean_matched_iou": 0.9126823731427979,
+          "symmetric_boundary_distance_median_px": 1.8565320982046791,
+          "matched_corner_rmse_median_px": 4.0405953119719085
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 13,
+              "width_cv": 0.03860389349059766,
+              "height_cv": 0.026022908102736213,
+              "width_orientation_std_deg": 0.6363957028604507,
+              "row_alignment_median_px": 0.37773869515695785
+            }
+          ],
+          "edge_evidence_mean": 0.36137830305971397,
+          "edge_evidence_unsampled_locations_mean": 0.3520283276484878
+        }
+      },
+      "shared_geometry": {
+        "evaluation": {
+          "observations": 17,
+          "truth": 18,
+          "iou50": {
+            "tp": 17,
+            "fp": 0,
+            "fn": 1
+          },
+          "iou75": {
+            "tp": 17,
+            "fp": 0,
+            "fn": 1
+          },
+          "iou90": {
+            "tp": 13,
+            "fp": 4,
+            "fn": 5
+          },
+          "mean_matched_iou": 0.9194833461981915,
+          "symmetric_boundary_distance_median_px": 1.5523817251487044,
+          "matched_corner_rmse_median_px": 3.306654415271149
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 13,
+              "width_cv": 0.028973709882397322,
+              "height_cv": 0.028383967647570747,
+              "width_orientation_std_deg": 0.04153994596907161,
+              "row_alignment_median_px": 0.009020996509436451
+            }
+          ],
+          "edge_evidence_mean": 0.3318880687965822,
+          "edge_evidence_unsampled_locations_mean": 0.3230204059166406
+        }
+      },
+      "shared_plus_image": {
+        "evaluation": {
+          "observations": 17,
+          "truth": 18,
+          "iou50": {
+            "tp": 17,
+            "fp": 0,
+            "fn": 1
+          },
+          "iou75": {
+            "tp": 17,
+            "fp": 0,
+            "fn": 1
+          },
+          "iou90": {
+            "tp": 10,
+            "fp": 7,
+            "fn": 8
+          },
+          "mean_matched_iou": 0.9036207959265871,
+          "symmetric_boundary_distance_median_px": 2.0563766948317563,
+          "matched_corner_rmse_median_px": 4.0517907065841285
+        },
+        "consistency": {
+          "tables": [
+            {
+              "count": 13,
+              "width_cv": 0.0289737098823973,
+              "height_cv": 0.028383967647570826,
+              "width_orientation_std_deg": 0.041539945969071616,
+              "row_alignment_median_px": 0.029736474382044343
+            }
+          ],
+          "edge_evidence_mean": 0.41969331455498077,
+          "edge_evidence_unsampled_locations_mean": 0.40689091170929614
+        }
+      }
+    },
+    "consistency": {},
+    "attribution": {
+      "author": "CIIRC / Czech Technical University in Prague",
+      "url": "https://imr.ciirc.cvut.cz/Datasets/PVsegmentation",
+      "note": "Author-provided development images; training overlap unknown. Public data license not verified."
+    },
+    "experiment_sha256": "4561b9795ec9326feb60f62be09344821043e62cfca30afc7f014b3ebd39b7a7"
+  },
+  {
+    "key": "thermal_DJI_20220628095237_0012_T_Waypoint10",
+    "title": "Thermal \u00b7 Waypoint 10",
+    "width": 640,
+    "height": 512,
+    "labeled": true,
+    "comparisons": {
+      "independent": {
+        "evaluation": {
+          "observations": 6,
+          "truth": 6,
+          "iou50": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou75": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou90": {
+            "tp": 3,
+            "fp": 3,
+            "fn": 3
+          },
+          "mean_matched_iou": 0.9113761195024076,
+          "symmetric_boundary_distance_median_px": 2.0522869860740665,
+          "matched_corner_rmse_median_px": 5.894157681811065
+        },
+        "consistency": {
+          "tables": [],
+          "edge_evidence_mean": 0.3021830264501003,
+          "edge_evidence_unsampled_locations_mean": 0.28991343864931735
+        }
+      },
+      "shared_shape_centers": {
+        "evaluation": {
+          "observations": 6,
+          "truth": 6,
+          "iou50": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou75": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou90": {
+            "tp": 3,
+            "fp": 3,
+            "fn": 3
+          },
+          "mean_matched_iou": 0.9113761195024076,
+          "symmetric_boundary_distance_median_px": 2.0522869860740665,
+          "matched_corner_rmse_median_px": 5.894157681811065
+        },
+        "consistency": {
+          "tables": [],
+          "edge_evidence_mean": 0.3021830264501003,
+          "edge_evidence_unsampled_locations_mean": 0.28991343864931735
+        }
+      },
+      "shared_geometry": {
+        "evaluation": {
+          "observations": 6,
+          "truth": 6,
+          "iou50": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou75": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou90": {
+            "tp": 3,
+            "fp": 3,
+            "fn": 3
+          },
+          "mean_matched_iou": 0.9113761195024076,
+          "symmetric_boundary_distance_median_px": 2.0522869860740665,
+          "matched_corner_rmse_median_px": 5.894157681811065
+        },
+        "consistency": {
+          "tables": [],
+          "edge_evidence_mean": 0.3021830264501003,
+          "edge_evidence_unsampled_locations_mean": 0.28991343864931735
+        }
+      },
+      "shared_plus_image": {
+        "evaluation": {
+          "observations": 6,
+          "truth": 6,
+          "iou50": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou75": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0
+          },
+          "iou90": {
+            "tp": 3,
+            "fp": 3,
+            "fn": 3
+          },
+          "mean_matched_iou": 0.9113761195024076,
+          "symmetric_boundary_distance_median_px": 2.0522869860740665,
+          "matched_corner_rmse_median_px": 5.894157681811065
+        },
+        "consistency": {
+          "tables": [],
+          "edge_evidence_mean": 0.3021830264501003,
+          "edge_evidence_unsampled_locations_mean": 0.28991343864931735
+        }
+      }
+    },
+    "consistency": {},
+    "attribution": {
+      "author": "CIIRC / Czech Technical University in Prague",
+      "url": "https://imr.ciirc.cvut.cz/Datasets/PVsegmentation",
+      "note": "Author-provided development images; training overlap unknown. Public data license not verified."
+    },
+    "experiment_sha256": "86512f6bf2a63d3c3ec90b04d329f00c70ff84d7312b96df7487b56b05dd056f"
+  },
+  {
+    "key": "external",
+    "title": "External PV orthomosaic",
+    "width": 1600,
+    "height": 2000,
+    "labeled": false,
+    "comparisons": {},
+    "consistency": {
+      "independent": {
+        "tables": [
+          {
+            "count": 8,
+            "width_cv": 0.10062648498576385,
+            "height_cv": 0.029806304697112727,
+            "width_orientation_std_deg": 2.2814387138907963,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.08044891925422423,
+            "height_cv": 0.019581297245351383,
+            "width_orientation_std_deg": 0.374285077372063,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.07243465008155132,
+            "height_cv": 0.014938876932870035,
+            "width_orientation_std_deg": 0.47362129460302516,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.08178335532206868,
+            "height_cv": 0.03818184929890191,
+            "width_orientation_std_deg": 3.8914933649889534,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.05023844657601076,
+            "height_cv": 0.038161628828699744,
+            "width_orientation_std_deg": 2.4623132468164384,
+            "row_alignment_median_px": null
+          }
+        ],
+        "edge_evidence_mean": 0.516326976924338,
+        "edge_evidence_unsampled_locations_mean": 0.5083283382787243
+      },
+      "shared_shape_centers": {
+        "tables": [
+          {
+            "count": 8,
+            "width_cv": 0.07491103635756978,
+            "height_cv": 0.02655554573072382,
+            "width_orientation_std_deg": 2.1360706776899403,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.05051169288774998,
+            "height_cv": 0.012931813342845249,
+            "width_orientation_std_deg": 0.36630247311808356,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.03866108565474164,
+            "height_cv": 0.012493797722574333,
+            "width_orientation_std_deg": 0.4364080277029027,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.05543788866038314,
+            "height_cv": 0.0005336541773734377,
+            "width_orientation_std_deg": 1.7665277378789503,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.0,
+            "height_cv": 0.0,
+            "width_orientation_std_deg": 0.0,
+            "row_alignment_median_px": null
+          }
+        ],
+        "edge_evidence_mean": 0.5140545702456114,
+        "edge_evidence_unsampled_locations_mean": 0.5061246251253794
+      },
+      "shared_geometry": {
+        "tables": [
+          {
+            "count": 8,
+            "width_cv": 0.10062648498576385,
+            "height_cv": 0.029806304697112727,
+            "width_orientation_std_deg": 2.2814387138907963,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.08044891925422423,
+            "height_cv": 0.019581297245351383,
+            "width_orientation_std_deg": 0.374285077372063,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.07243465008155132,
+            "height_cv": 0.014938876932870035,
+            "width_orientation_std_deg": 0.47362129460302516,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.08178335532206868,
+            "height_cv": 0.03818184929890191,
+            "width_orientation_std_deg": 3.8914933649889534,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.05023844657601076,
+            "height_cv": 0.038161628828699744,
+            "width_orientation_std_deg": 2.4623132468164384,
+            "row_alignment_median_px": null
+          }
+        ],
+        "edge_evidence_mean": 0.516326976924338,
+        "edge_evidence_unsampled_locations_mean": 0.5083283382787243
+      },
+      "shared_plus_image": {
+        "tables": [
+          {
+            "count": 8,
+            "width_cv": 0.10062648498576385,
+            "height_cv": 0.029806304697112727,
+            "width_orientation_std_deg": 2.2814387138907963,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.08044891925422423,
+            "height_cv": 0.019581297245351383,
+            "width_orientation_std_deg": 0.374285077372063,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.07243465008155132,
+            "height_cv": 0.014938876932870035,
+            "width_orientation_std_deg": 0.47362129460302516,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.08178335532206868,
+            "height_cv": 0.03818184929890191,
+            "width_orientation_std_deg": 3.8914933649889534,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.05023844657601076,
+            "height_cv": 0.038161628828699744,
+            "width_orientation_std_deg": 2.4623132468164384,
+            "row_alignment_median_px": null
+          }
+        ],
+        "edge_evidence_mean": 0.516326976924338,
+        "edge_evidence_unsampled_locations_mean": 0.5083283382787243
+      }
+    },
+    "attribution": {
+      "author": "lakshmi",
+      "title": "solar-panels-",
+      "license": "CC BY 4.0",
+      "url": "https://api.openaerialmap.org/meta/604218465d60ec00051bba5d",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "note": "Native-resolution crop and JPEG preview derived from the original OpenAerialMap GeoTIFF; camera unknown. No reference labels."
+    },
+    "experiment_sha256": "f98fb479757b481b53f61828bb35691f648e5a55faa01b6b94f973e4d84319be"
+  }
+]
