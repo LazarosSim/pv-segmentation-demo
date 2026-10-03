@@ -19099,5 +19099,10 @@
     "url": "https://imr.ciirc.cvut.cz/Datasets/PVsegmentation",
     "note": "Author-provided development images; training overlap unknown. Public data license not verified."
   },
+  "input_orientation_degrees": 0,
+  "coordinate_space": "original_source_pixels",
+  "audit_parameter_coordinate_space": "original_source_pixels",
+  "cell_coordinate_space": "canonical_row_column_units",
+  "orientation_probe": {},
   "experiment_sha256": "6baeafb504d5fb713ba31e54fe483ae47832a28920117980f577142538e7f4a3"
 }

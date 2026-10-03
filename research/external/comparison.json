@@ -55427,5 +55427,10 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "note": "Native-resolution crop and JPEG preview derived from the original OpenAerialMap GeoTIFF; camera unknown. No reference labels."
   },
+  "input_orientation_degrees": 0,
+  "coordinate_space": "original_source_pixels",
+  "audit_parameter_coordinate_space": "original_source_pixels",
+  "cell_coordinate_space": "canonical_row_column_units",
+  "orientation_probe": {},
   "experiment_sha256": "f98fb479757b481b53f61828bb35691f648e5a55faa01b6b94f973e4d84319be"
 }

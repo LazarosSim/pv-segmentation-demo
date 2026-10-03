@@ -189,6 +189,9 @@
       "url": "https://imr.ciirc.cvut.cz/Datasets/PVsegmentation",
       "note": "Author-provided development images; training overlap unknown. Public data license not verified."
     },
+    "input_orientation_degrees": 0,
+    "coordinate_space": "original_source_pixels",
+    "orientation_probe": {},
     "experiment_sha256": "c18da134b634dc2658fa66db5ba3795984b5e32c1deddddbcd517efca38e59a8"
   },
   {
@@ -437,6 +440,9 @@
       "url": "https://imr.ciirc.cvut.cz/Datasets/PVsegmentation",
       "note": "Author-provided development images; training overlap unknown. Public data license not verified."
     },
+    "input_orientation_degrees": 0,
+    "coordinate_space": "original_source_pixels",
+    "orientation_probe": {},
     "experiment_sha256": "1dad3e4db66b95cb266ec1bfa9858fe686cc5c963c334506d1419bc4ee60b7cd"
   },
   {
@@ -657,6 +663,9 @@
       "url": "https://imr.ciirc.cvut.cz/Datasets/PVsegmentation",
       "note": "Author-provided development images; training overlap unknown. Public data license not verified."
     },
+    "input_orientation_degrees": 0,
+    "coordinate_space": "original_source_pixels",
+    "orientation_probe": {},
     "experiment_sha256": "6baeafb504d5fb713ba31e54fe483ae47832a28920117980f577142538e7f4a3"
   },
   {
@@ -821,6 +830,9 @@
       "url": "https://imr.ciirc.cvut.cz/Datasets/PVsegmentation",
       "note": "Author-provided development images; training overlap unknown. Public data license not verified."
     },
+    "input_orientation_degrees": 0,
+    "coordinate_space": "original_source_pixels",
+    "orientation_probe": {},
     "experiment_sha256": "6392dbd592956c63b1b7381897586682f69b9323398b39125f5cc4f1ee111107"
   },
   {
@@ -985,6 +997,9 @@
       "url": "https://imr.ciirc.cvut.cz/Datasets/PVsegmentation",
       "note": "Author-provided development images; training overlap unknown. Public data license not verified."
     },
+    "input_orientation_degrees": 0,
+    "coordinate_space": "original_source_pixels",
+    "orientation_probe": {},
     "experiment_sha256": "4561b9795ec9326feb60f62be09344821043e62cfca30afc7f014b3ebd39b7a7"
   },
   {
@@ -1117,6 +1132,9 @@
       "url": "https://imr.ciirc.cvut.cz/Datasets/PVsegmentation",
       "note": "Author-provided development images; training overlap unknown. Public data license not verified."
     },
+    "input_orientation_degrees": 0,
+    "coordinate_space": "original_source_pixels",
+    "orientation_probe": {},
     "experiment_sha256": "86512f6bf2a63d3c3ec90b04d329f00c70ff84d7312b96df7487b56b05dd056f"
   },
   {
@@ -1300,6 +1318,2869 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "note": "Native-resolution crop and JPEG preview derived from the original OpenAerialMap GeoTIFF; camera unknown. No reference labels."
     },
+    "input_orientation_degrees": 0,
+    "coordinate_space": "original_source_pixels",
+    "orientation_probe": {},
     "experiment_sha256": "f98fb479757b481b53f61828bb35691f648e5a55faa01b6b94f973e4d84319be"
+  },
+  {
+    "key": "external_rot90",
+    "title": "External ortho \u00b7 90\u00b0 input",
+    "width": 1600,
+    "height": 2000,
+    "labeled": false,
+    "comparisons": {},
+    "consistency": {
+      "independent": {
+        "tables": [
+          {
+            "count": 12,
+            "width_cv": 0.08888426077366035,
+            "height_cv": 0.02991204643994375,
+            "width_orientation_std_deg": 2.620811783566711,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.07675342380103432,
+            "height_cv": 0.03268345202588528,
+            "width_orientation_std_deg": 2.286875406818803,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.05540259393698449,
+            "height_cv": 0.029431608498342803,
+            "width_orientation_std_deg": 1.5752282539185762,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.08046261660215329,
+            "height_cv": 0.031470447886314284,
+            "width_orientation_std_deg": 3.0958253525532826,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.045634173379197646,
+            "height_cv": 0.021430400775701006,
+            "width_orientation_std_deg": 1.2722218725854067e-14,
+            "row_alignment_median_px": 0.5628875279203334
+          },
+          {
+            "count": 13,
+            "width_cv": 0.06781502820093303,
+            "height_cv": 0.05154488796361449,
+            "width_orientation_std_deg": 1.4942196598269617,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 40,
+            "width_cv": 0.07625613554726228,
+            "height_cv": 0.04159377508787669,
+            "width_orientation_std_deg": 1.8198415038099527,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 14,
+            "width_cv": 0.0771011450779288,
+            "height_cv": 0.03765973993291332,
+            "width_orientation_std_deg": 2.2174577208405872,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.05022352308642419,
+            "height_cv": 0.05873733129157837,
+            "width_orientation_std_deg": 1.8635816141929236,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.05351906107349376,
+            "height_cv": 0.03635647865188354,
+            "width_orientation_std_deg": 1.5239904229004957,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 18,
+            "width_cv": 0.06905463278289928,
+            "height_cv": 0.03723363388975568,
+            "width_orientation_std_deg": 1.3044697480095884,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 19,
+            "width_cv": 0.07954069859800574,
+            "height_cv": 0.033832898886067095,
+            "width_orientation_std_deg": 1.9791100956267633,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.07944614132414893,
+            "height_cv": 0.03899055944710539,
+            "width_orientation_std_deg": 2.12142546918309,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.05388817514577474,
+            "height_cv": 0.04407909842143033,
+            "width_orientation_std_deg": 1.571325765544727,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.06057743006904533,
+            "height_cv": 0.041439739705093036,
+            "width_orientation_std_deg": 1.1721201788273146,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 40,
+            "width_cv": 0.06489926169730606,
+            "height_cv": 0.029894857911905034,
+            "width_orientation_std_deg": 2.3280961768399995,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 15,
+            "width_cv": 0.10529490651176329,
+            "height_cv": 0.0516929852135383,
+            "width_orientation_std_deg": 2.117596544228737,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.07908183471182141,
+            "height_cv": 0.04647812774150268,
+            "width_orientation_std_deg": 1.6324622321837916,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 15,
+            "width_cv": 0.09781212947525095,
+            "height_cv": 0.04741843692368214,
+            "width_orientation_std_deg": 3.37738919797844,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.12258039165728875,
+            "height_cv": 0.034963012318248436,
+            "width_orientation_std_deg": 2.600971367904755,
+            "row_alignment_median_px": 0.43042397640682417
+          },
+          {
+            "count": 39,
+            "width_cv": 0.07668725927651034,
+            "height_cv": 0.03565308976583416,
+            "width_orientation_std_deg": 2.2446242665284726,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.07399091304048862,
+            "height_cv": 0.030757606012424697,
+            "width_orientation_std_deg": 2.009903780440724,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.06866891619409092,
+            "height_cv": 0.019863300791360904,
+            "width_orientation_std_deg": 2.0659684928289956,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 14,
+            "width_cv": 0.0649180856897323,
+            "height_cv": 0.059886063933110995,
+            "width_orientation_std_deg": 0.7371820581358564,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 25,
+            "width_cv": 0.06767227760588816,
+            "height_cv": 0.03483088074707317,
+            "width_orientation_std_deg": 2.181162339008014,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.06736753862153953,
+            "height_cv": 0.04072113863620717,
+            "width_orientation_std_deg": 1.194183152975687,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 18,
+            "width_cv": 0.06530797866164564,
+            "height_cv": 0.03669642620686477,
+            "width_orientation_std_deg": 1.9139511054120426,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.07610959959443621,
+            "height_cv": 0.06630578743821358,
+            "width_orientation_std_deg": 1.6637993978311525,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.05937289329764085,
+            "height_cv": 0.053300934287823905,
+            "width_orientation_std_deg": 2.8336755757852776,
+            "row_alignment_median_px": 0.2619352585590253
+          },
+          {
+            "count": 12,
+            "width_cv": 0.07400017302147652,
+            "height_cv": 0.02661052195774301,
+            "width_orientation_std_deg": 1.316601010319413,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 21,
+            "width_cv": 0.07814614357549989,
+            "height_cv": 0.03722598607537475,
+            "width_orientation_std_deg": 2.0458162035332452,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 14,
+            "width_cv": 0.0810862052811373,
+            "height_cv": 0.035016438579217275,
+            "width_orientation_std_deg": 2.2177570370915403,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 9,
+            "width_cv": 0.06877595111503802,
+            "height_cv": 0.030241925359896168,
+            "width_orientation_std_deg": 2.156945304162719,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.0590729453212207,
+            "height_cv": 0.036326270396813305,
+            "width_orientation_std_deg": 2.265213485510099,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.06094108902744468,
+            "height_cv": 0.043712659391291146,
+            "width_orientation_std_deg": 1.9963330221144326,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 34,
+            "width_cv": 0.07448457635015007,
+            "height_cv": 0.028830387858428695,
+            "width_orientation_std_deg": 2.1457845620624942,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.03742624950058184,
+            "height_cv": 0.04734278663482998,
+            "width_orientation_std_deg": 1.40565902443393,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.07052397519593225,
+            "height_cv": 0.023188821266854405,
+            "width_orientation_std_deg": 2.6606119818294767,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.06817117514172474,
+            "height_cv": 0.033748562310504555,
+            "width_orientation_std_deg": 1.5191546807593843,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.07757159512725081,
+            "height_cv": 0.03927032824392764,
+            "width_orientation_std_deg": 2.596139031104538,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 15,
+            "width_cv": 0.08838240376512616,
+            "height_cv": 0.031078082483863248,
+            "width_orientation_std_deg": 2.5444437451708134e-14,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.0679140541343996,
+            "height_cv": 0.03763233587479494,
+            "width_orientation_std_deg": 2.5937615048177323,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.06800203083589909,
+            "height_cv": 0.02409078800983409,
+            "width_orientation_std_deg": 2.2579118890781302,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.05207106046781824,
+            "height_cv": 0.03856210637226333,
+            "width_orientation_std_deg": 1.2030787974673012,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.059727027178175726,
+            "height_cv": 0.02834955235485662,
+            "width_orientation_std_deg": 2.804689431668296,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.05354785403836878,
+            "height_cv": 0.05407997914016692,
+            "width_orientation_std_deg": 1.5276124203978498,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.048493120299934675,
+            "height_cv": 0.12453767147609361,
+            "width_orientation_std_deg": 1.1727041796259166,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.09157162771377621,
+            "height_cv": 0.054239084000688255,
+            "width_orientation_std_deg": 2.745140994751061,
+            "row_alignment_median_px": null
+          }
+        ],
+        "edge_evidence_mean": 0.5701684651509744,
+        "edge_evidence_unsampled_locations_mean": 0.5598439643379388
+      },
+      "shared_shape_centers": {
+        "tables": [
+          {
+            "count": 12,
+            "width_cv": 0.07747280392813471,
+            "height_cv": 0.02655592581510532,
+            "width_orientation_std_deg": 2.2938493380645624,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.03271791512081599,
+            "height_cv": 0.030277219195321652,
+            "width_orientation_std_deg": 2.1464117603394253,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.01380472856338896,
+            "height_cv": 0.013315682630469925,
+            "width_orientation_std_deg": 1.2995200377244942,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.025780304371312193,
+            "height_cv": 0.015707094564414187,
+            "width_orientation_std_deg": 1.942505870055649,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.02197024070805419,
+            "height_cv": 0.0064235050452255945,
+            "width_orientation_std_deg": 1.2722218725854067e-14,
+            "row_alignment_median_px": 0.5628875279203334
+          },
+          {
+            "count": 13,
+            "width_cv": 0.0418168321871155,
+            "height_cv": 0.03779730464669569,
+            "width_orientation_std_deg": 1.4444920538228911,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 40,
+            "width_cv": 0.03887879398687771,
+            "height_cv": 0.02454446120694178,
+            "width_orientation_std_deg": 1.4829674194802582,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 14,
+            "width_cv": 0.056632317950912905,
+            "height_cv": 0.02277244152741599,
+            "width_orientation_std_deg": 1.385373494374284,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.03400224074269856,
+            "height_cv": 0.042512793893513,
+            "width_orientation_std_deg": 1.030081698781075,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.01968287188352768,
+            "height_cv": 0.02631927758645908,
+            "width_orientation_std_deg": 1.0939520472195263,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 18,
+            "width_cv": 0.03330675280765061,
+            "height_cv": 0.013994974612328471,
+            "width_orientation_std_deg": 0.3310806698615248,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 19,
+            "width_cv": 0.03813555716930559,
+            "height_cv": 0.023714257466727298,
+            "width_orientation_std_deg": 1.938331207377825,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.029759154732232056,
+            "height_cv": 0.014215601598224235,
+            "width_orientation_std_deg": 1.295572718039103,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.02113571578122359,
+            "height_cv": 0.004566371146877252,
+            "width_orientation_std_deg": 0.12088927888694588,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.03349007896021385,
+            "height_cv": 0.022132683944738104,
+            "width_orientation_std_deg": 1.151197157839294,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 40,
+            "width_cv": 0.030245565082863152,
+            "height_cv": 0.01730346578960762,
+            "width_orientation_std_deg": 1.345400796976506,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 15,
+            "width_cv": 0.04561860679549632,
+            "height_cv": 0.03868385163194642,
+            "width_orientation_std_deg": 2.0240420189793276,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 1.7173071462432343e-16,
+            "height_cv": 0.0,
+            "width_orientation_std_deg": 1.2722218725854067e-14,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 15,
+            "width_cv": 0.046498953130573985,
+            "height_cv": 0.03639091001432912,
+            "width_orientation_std_deg": 2.8446553220283524,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.06665410204133446,
+            "height_cv": 0.02506178460949677,
+            "width_orientation_std_deg": 2.472691245535872,
+            "row_alignment_median_px": 0.43042397640682417
+          },
+          {
+            "count": 39,
+            "width_cv": 0.033386885503453125,
+            "height_cv": 0.0265023019981668,
+            "width_orientation_std_deg": 2.017407127277112,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.03198361330739076,
+            "height_cv": 0.022795798772567183,
+            "width_orientation_std_deg": 1.893314241075692,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.04107619012231005,
+            "height_cv": 0.014396504430354284,
+            "width_orientation_std_deg": 1.4607116834468354,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 14,
+            "width_cv": 0.029842578064056862,
+            "height_cv": 0.0447111589093053,
+            "width_orientation_std_deg": 0.1648451908202288,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 25,
+            "width_cv": 0.021155735527286407,
+            "height_cv": 0.02501259658364118,
+            "width_orientation_std_deg": 1.8419707290643077,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.02897049642848972,
+            "height_cv": 0.016135262080585105,
+            "width_orientation_std_deg": 0.9597091487443081,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 18,
+            "width_cv": 0.02488515261340952,
+            "height_cv": 0.015343351991376658,
+            "width_orientation_std_deg": 1.6297824331028772,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.03975857433274292,
+            "height_cv": 0.03283916526219933,
+            "width_orientation_std_deg": 0.2726145498446382,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.04095445474724416,
+            "height_cv": 0.04455800373243972,
+            "width_orientation_std_deg": 2.076334831888317,
+            "row_alignment_median_px": 0.2619352585590279
+          },
+          {
+            "count": 12,
+            "width_cv": 0.026398900775395084,
+            "height_cv": 0.01104069013359429,
+            "width_orientation_std_deg": 0.08269027089010673,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 21,
+            "width_cv": 0.034373829351408855,
+            "height_cv": 0.01448171058705703,
+            "width_orientation_std_deg": 1.4305735194055942,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 14,
+            "width_cv": 0.06570691105005991,
+            "height_cv": 0.018456180008548033,
+            "width_orientation_std_deg": 1.3028004566914955,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 9,
+            "width_cv": 0.05120557182685606,
+            "height_cv": 0.00876084599352579,
+            "width_orientation_std_deg": 1.6670226143010984,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.029517584210047278,
+            "height_cv": 0.018198531272766112,
+            "width_orientation_std_deg": 0.9544028887881041,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.02790050631418201,
+            "height_cv": 0.02548898590220098,
+            "width_orientation_std_deg": 1.3454047479844828,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 34,
+            "width_cv": 0.044507103627329694,
+            "height_cv": 0.016022360616815265,
+            "width_orientation_std_deg": 1.4087159957783832,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 8.677331354049456e-16,
+            "height_cv": 8.519950863181688e-17,
+            "width_orientation_std_deg": 1.2722218725854067e-14,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.030216579414388645,
+            "height_cv": 0.018315702512861874,
+            "width_orientation_std_deg": 2.257118898687826,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.016506221417801392,
+            "height_cv": 0.022992233629884475,
+            "width_orientation_std_deg": 1.1082456308607083,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.0347542645734368,
+            "height_cv": 0.006009215225988932,
+            "width_orientation_std_deg": 1.4832319150603681,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 15,
+            "width_cv": 0.045002618056227704,
+            "height_cv": 0.01899356789698611,
+            "width_orientation_std_deg": 2.5444437451708134e-14,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.04685414624193355,
+            "height_cv": 0.027076084952860863,
+            "width_orientation_std_deg": 2.0827982965441647,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.05341605500640623,
+            "height_cv": 0.023079365318678265,
+            "width_orientation_std_deg": 1.9242919898597113,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.02265023407912833,
+            "height_cv": 0.024473276850590368,
+            "width_orientation_std_deg": 1.1802422995938044,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.027686676921430287,
+            "height_cv": 0.0157765965978164,
+            "width_orientation_std_deg": 1.856492119232543,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.024817616935522056,
+            "height_cv": 0.023205318138624677,
+            "width_orientation_std_deg": 0.23422080680527727,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.033790116544655364,
+            "height_cv": 0.09534485470952181,
+            "width_orientation_std_deg": 0.00011047731186368972,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.05672467344828198,
+            "height_cv": 0.044839512955792894,
+            "width_orientation_std_deg": 1.8696847859992831,
+            "row_alignment_median_px": null
+          }
+        ],
+        "edge_evidence_mean": 0.5739700591553586,
+        "edge_evidence_unsampled_locations_mean": 0.5639132785329253
+      },
+      "shared_geometry": {
+        "tables": [
+          {
+            "count": 12,
+            "width_cv": 0.08888426077366035,
+            "height_cv": 0.02991204643994375,
+            "width_orientation_std_deg": 2.620811783566711,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.07675342380103432,
+            "height_cv": 0.03268345202588528,
+            "width_orientation_std_deg": 2.286875406818803,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.05540259393698449,
+            "height_cv": 0.029431608498342803,
+            "width_orientation_std_deg": 1.5752282539185762,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.08046261660215329,
+            "height_cv": 0.031470447886314284,
+            "width_orientation_std_deg": 3.0958253525532826,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.022915675834380804,
+            "height_cv": 0.005387752325864248,
+            "width_orientation_std_deg": 0.9948693337188529,
+            "row_alignment_median_px": 0.10696823592743337
+          },
+          {
+            "count": 13,
+            "width_cv": 0.06781502820093303,
+            "height_cv": 0.05154488796361449,
+            "width_orientation_std_deg": 1.4942196598269617,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 40,
+            "width_cv": 0.07625613554726228,
+            "height_cv": 0.04159377508787669,
+            "width_orientation_std_deg": 1.8198415038099527,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 14,
+            "width_cv": 0.0771011450779288,
+            "height_cv": 0.03765973993291332,
+            "width_orientation_std_deg": 2.2174577208405872,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.05022352308642419,
+            "height_cv": 0.05873733129157837,
+            "width_orientation_std_deg": 1.8635816141929236,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.05351906107349376,
+            "height_cv": 0.03635647865188354,
+            "width_orientation_std_deg": 1.5239904229004957,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 18,
+            "width_cv": 0.06905463278289928,
+            "height_cv": 0.03723363388975568,
+            "width_orientation_std_deg": 1.3044697480095884,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 19,
+            "width_cv": 0.07954069859800574,
+            "height_cv": 0.033832898886067095,
+            "width_orientation_std_deg": 1.9791100956267633,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.07944614132414893,
+            "height_cv": 0.03899055944710539,
+            "width_orientation_std_deg": 2.12142546918309,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.05388817514577474,
+            "height_cv": 0.04407909842143033,
+            "width_orientation_std_deg": 1.571325765544727,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.06057743006904533,
+            "height_cv": 0.041439739705093036,
+            "width_orientation_std_deg": 1.1721201788273146,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 40,
+            "width_cv": 0.06489926169730606,
+            "height_cv": 0.029894857911905034,
+            "width_orientation_std_deg": 2.3280961768399995,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 15,
+            "width_cv": 0.10529490651176329,
+            "height_cv": 0.0516929852135383,
+            "width_orientation_std_deg": 2.117596544228737,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.07908183471182141,
+            "height_cv": 0.04647812774150268,
+            "width_orientation_std_deg": 1.6324622321837916,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 15,
+            "width_cv": 0.09781212947525095,
+            "height_cv": 0.04741843692368214,
+            "width_orientation_std_deg": 3.37738919797844,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.12267013717434151,
+            "height_cv": 0.04499142875258254,
+            "width_orientation_std_deg": 1.1154757309943972,
+            "row_alignment_median_px": 0.02179207864327825
+          },
+          {
+            "count": 39,
+            "width_cv": 0.07668725927651034,
+            "height_cv": 0.03565308976583416,
+            "width_orientation_std_deg": 2.2446242665284726,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.07399091304048862,
+            "height_cv": 0.030757606012424697,
+            "width_orientation_std_deg": 2.009903780440724,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.06866891619409092,
+            "height_cv": 0.019863300791360904,
+            "width_orientation_std_deg": 2.0659684928289956,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 14,
+            "width_cv": 0.0649180856897323,
+            "height_cv": 0.059886063933110995,
+            "width_orientation_std_deg": 0.7371820581358564,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 25,
+            "width_cv": 0.06767227760588816,
+            "height_cv": 0.03483088074707317,
+            "width_orientation_std_deg": 2.181162339008014,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.06736753862153953,
+            "height_cv": 0.04072113863620717,
+            "width_orientation_std_deg": 1.194183152975687,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 18,
+            "width_cv": 0.06530797866164564,
+            "height_cv": 0.03669642620686477,
+            "width_orientation_std_deg": 1.9139511054120426,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.07610959959443621,
+            "height_cv": 0.06630578743821358,
+            "width_orientation_std_deg": 1.6637993978311525,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.059847579017365836,
+            "height_cv": 0.04904246160937375,
+            "width_orientation_std_deg": 1.1436048690187037,
+            "row_alignment_median_px": 0.027640936376970085
+          },
+          {
+            "count": 12,
+            "width_cv": 0.07400017302147652,
+            "height_cv": 0.02661052195774301,
+            "width_orientation_std_deg": 1.316601010319413,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 21,
+            "width_cv": 0.07814614357549989,
+            "height_cv": 0.03722598607537475,
+            "width_orientation_std_deg": 2.0458162035332452,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 14,
+            "width_cv": 0.0810862052811373,
+            "height_cv": 0.035016438579217275,
+            "width_orientation_std_deg": 2.2177570370915403,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 9,
+            "width_cv": 0.06877595111503802,
+            "height_cv": 0.030241925359896168,
+            "width_orientation_std_deg": 2.156945304162719,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.0590729453212207,
+            "height_cv": 0.036326270396813305,
+            "width_orientation_std_deg": 2.265213485510099,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.06094108902744468,
+            "height_cv": 0.043712659391291146,
+            "width_orientation_std_deg": 1.9963330221144326,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 34,
+            "width_cv": 0.07448457635015007,
+            "height_cv": 0.028830387858428695,
+            "width_orientation_std_deg": 2.1457845620624942,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.03742624950058184,
+            "height_cv": 0.04734278663482998,
+            "width_orientation_std_deg": 1.40565902443393,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.07052397519593225,
+            "height_cv": 0.023188821266854405,
+            "width_orientation_std_deg": 2.6606119818294767,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.06817117514172474,
+            "height_cv": 0.033748562310504555,
+            "width_orientation_std_deg": 1.5191546807593843,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.07757159512725081,
+            "height_cv": 0.03927032824392764,
+            "width_orientation_std_deg": 2.596139031104538,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 15,
+            "width_cv": 0.08838240376512616,
+            "height_cv": 0.031078082483863248,
+            "width_orientation_std_deg": 2.5444437451708134e-14,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.0679140541343996,
+            "height_cv": 0.03763233587479494,
+            "width_orientation_std_deg": 2.5937615048177323,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.06800203083589909,
+            "height_cv": 0.02409078800983409,
+            "width_orientation_std_deg": 2.2579118890781302,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.05207106046781824,
+            "height_cv": 0.03856210637226333,
+            "width_orientation_std_deg": 1.2030787974673012,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.059727027178175726,
+            "height_cv": 0.02834955235485662,
+            "width_orientation_std_deg": 2.804689431668296,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.05354785403836878,
+            "height_cv": 0.05407997914016692,
+            "width_orientation_std_deg": 1.5276124203978498,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.048493120299934675,
+            "height_cv": 0.12453767147609361,
+            "width_orientation_std_deg": 1.1727041796259166,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.09157162771377621,
+            "height_cv": 0.054239084000688255,
+            "width_orientation_std_deg": 2.745140994751061,
+            "row_alignment_median_px": null
+          }
+        ],
+        "edge_evidence_mean": 0.5706579227096538,
+        "edge_evidence_unsampled_locations_mean": 0.5602587366801663
+      },
+      "shared_plus_image": {
+        "tables": [
+          {
+            "count": 12,
+            "width_cv": 0.08888426077366035,
+            "height_cv": 0.02991204643994375,
+            "width_orientation_std_deg": 2.620811783566711,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.07675342380103432,
+            "height_cv": 0.03268345202588528,
+            "width_orientation_std_deg": 2.286875406818803,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.05540259393698449,
+            "height_cv": 0.029431608498342803,
+            "width_orientation_std_deg": 1.5752282539185762,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.08046261660215329,
+            "height_cv": 0.031470447886314284,
+            "width_orientation_std_deg": 3.0958253525532826,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.022915675834380804,
+            "height_cv": 0.005387752325864248,
+            "width_orientation_std_deg": 0.9948693337188529,
+            "row_alignment_median_px": 0.10696823592743337
+          },
+          {
+            "count": 13,
+            "width_cv": 0.06781502820093303,
+            "height_cv": 0.05154488796361449,
+            "width_orientation_std_deg": 1.4942196598269617,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 40,
+            "width_cv": 0.07625613554726228,
+            "height_cv": 0.04159377508787669,
+            "width_orientation_std_deg": 1.8198415038099527,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 14,
+            "width_cv": 0.0771011450779288,
+            "height_cv": 0.03765973993291332,
+            "width_orientation_std_deg": 2.2174577208405872,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.05022352308642419,
+            "height_cv": 0.05873733129157837,
+            "width_orientation_std_deg": 1.8635816141929236,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.05351906107349376,
+            "height_cv": 0.03635647865188354,
+            "width_orientation_std_deg": 1.5239904229004957,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 18,
+            "width_cv": 0.06905463278289928,
+            "height_cv": 0.03723363388975568,
+            "width_orientation_std_deg": 1.3044697480095884,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 19,
+            "width_cv": 0.07954069859800574,
+            "height_cv": 0.033832898886067095,
+            "width_orientation_std_deg": 1.9791100956267633,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.07944614132414893,
+            "height_cv": 0.03899055944710539,
+            "width_orientation_std_deg": 2.12142546918309,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.05388817514577474,
+            "height_cv": 0.04407909842143033,
+            "width_orientation_std_deg": 1.571325765544727,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.06057743006904533,
+            "height_cv": 0.041439739705093036,
+            "width_orientation_std_deg": 1.1721201788273146,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 40,
+            "width_cv": 0.06489926169730606,
+            "height_cv": 0.029894857911905034,
+            "width_orientation_std_deg": 2.3280961768399995,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 15,
+            "width_cv": 0.10529490651176329,
+            "height_cv": 0.0516929852135383,
+            "width_orientation_std_deg": 2.117596544228737,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.07908183471182141,
+            "height_cv": 0.04647812774150268,
+            "width_orientation_std_deg": 1.6324622321837916,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 15,
+            "width_cv": 0.09781212947525095,
+            "height_cv": 0.04741843692368214,
+            "width_orientation_std_deg": 3.37738919797844,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.1168578117603833,
+            "height_cv": 0.040164083156046394,
+            "width_orientation_std_deg": 1.2779502516558057,
+            "row_alignment_median_px": 0.06845194197353227
+          },
+          {
+            "count": 39,
+            "width_cv": 0.07668725927651034,
+            "height_cv": 0.03565308976583416,
+            "width_orientation_std_deg": 2.2446242665284726,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.07399091304048862,
+            "height_cv": 0.030757606012424697,
+            "width_orientation_std_deg": 2.009903780440724,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.06866891619409092,
+            "height_cv": 0.019863300791360904,
+            "width_orientation_std_deg": 2.0659684928289956,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 14,
+            "width_cv": 0.0649180856897323,
+            "height_cv": 0.059886063933110995,
+            "width_orientation_std_deg": 0.7371820581358564,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 25,
+            "width_cv": 0.06767227760588816,
+            "height_cv": 0.03483088074707317,
+            "width_orientation_std_deg": 2.181162339008014,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.06736753862153953,
+            "height_cv": 0.04072113863620717,
+            "width_orientation_std_deg": 1.194183152975687,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 18,
+            "width_cv": 0.06530797866164564,
+            "height_cv": 0.03669642620686477,
+            "width_orientation_std_deg": 1.9139511054120426,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.07610959959443621,
+            "height_cv": 0.06630578743821358,
+            "width_orientation_std_deg": 1.6637993978311525,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.059847579017365836,
+            "height_cv": 0.04904246160937375,
+            "width_orientation_std_deg": 1.1436048690187037,
+            "row_alignment_median_px": 0.027640936376970085
+          },
+          {
+            "count": 12,
+            "width_cv": 0.07400017302147652,
+            "height_cv": 0.02661052195774301,
+            "width_orientation_std_deg": 1.316601010319413,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 21,
+            "width_cv": 0.07814614357549989,
+            "height_cv": 0.03722598607537475,
+            "width_orientation_std_deg": 2.0458162035332452,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 14,
+            "width_cv": 0.0810862052811373,
+            "height_cv": 0.035016438579217275,
+            "width_orientation_std_deg": 2.2177570370915403,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 9,
+            "width_cv": 0.06877595111503802,
+            "height_cv": 0.030241925359896168,
+            "width_orientation_std_deg": 2.156945304162719,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.0590729453212207,
+            "height_cv": 0.036326270396813305,
+            "width_orientation_std_deg": 2.265213485510099,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.06094108902744468,
+            "height_cv": 0.043712659391291146,
+            "width_orientation_std_deg": 1.9963330221144326,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 34,
+            "width_cv": 0.07448457635015007,
+            "height_cv": 0.028830387858428695,
+            "width_orientation_std_deg": 2.1457845620624942,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.03742624950058184,
+            "height_cv": 0.04734278663482998,
+            "width_orientation_std_deg": 1.40565902443393,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.07052397519593225,
+            "height_cv": 0.023188821266854405,
+            "width_orientation_std_deg": 2.6606119818294767,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.06817117514172474,
+            "height_cv": 0.033748562310504555,
+            "width_orientation_std_deg": 1.5191546807593843,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.07757159512725081,
+            "height_cv": 0.03927032824392764,
+            "width_orientation_std_deg": 2.596139031104538,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 15,
+            "width_cv": 0.08838240376512616,
+            "height_cv": 0.031078082483863248,
+            "width_orientation_std_deg": 2.5444437451708134e-14,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.0679140541343996,
+            "height_cv": 0.03763233587479494,
+            "width_orientation_std_deg": 2.5937615048177323,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.06800203083589909,
+            "height_cv": 0.02409078800983409,
+            "width_orientation_std_deg": 2.2579118890781302,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.05207106046781824,
+            "height_cv": 0.03856210637226333,
+            "width_orientation_std_deg": 1.2030787974673012,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.059727027178175726,
+            "height_cv": 0.02834955235485662,
+            "width_orientation_std_deg": 2.804689431668296,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.05354785403836878,
+            "height_cv": 0.05407997914016692,
+            "width_orientation_std_deg": 1.5276124203978498,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.048493120299934675,
+            "height_cv": 0.12453767147609361,
+            "width_orientation_std_deg": 1.1727041796259166,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.09157162771377621,
+            "height_cv": 0.054239084000688255,
+            "width_orientation_std_deg": 2.745140994751061,
+            "row_alignment_median_px": null
+          }
+        ],
+        "edge_evidence_mean": 0.5709613561477227,
+        "edge_evidence_unsampled_locations_mean": 0.560537372511893
+      }
+    },
+    "attribution": {
+      "author": "lakshmi",
+      "title": "solar-panels-",
+      "license": "CC BY 4.0",
+      "url": "https://api.openaerialmap.org/meta/604218465d60ec00051bba5d",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "note": "Native-resolution crop and JPEG preview derived from the original OpenAerialMap GeoTIFF; camera unknown. No reference labels."
+    },
+    "input_orientation_degrees": 90,
+    "coordinate_space": "original_source_pixels",
+    "orientation_probe": {
+      "degrees_clockwise": 90,
+      "raw_candidates": 2716,
+      "deduplicated_raw": 1125,
+      "accepted_clean": 1068,
+      "recovered_candidates": 2,
+      "tiles": 10,
+      "pipeline_seconds": 23.01280179998139,
+      "wall_seconds": 27.33962210000027,
+      "baseline_reused": false,
+      "nms_operator_warmup_seconds": 0.0007610000029671937,
+      "possible_max_det_truncation": false
+    },
+    "experiment_sha256": "6dcfb9ade64d835ad2c6cf28294ca4fd89f5808202eceb7a723de4f8c54450f5"
+  },
+  {
+    "key": "external_rot270",
+    "title": "External ortho \u00b7 270\u00b0 input",
+    "width": 1600,
+    "height": 2000,
+    "labeled": false,
+    "comparisons": {},
+    "consistency": {
+      "independent": {
+        "tables": [
+          {
+            "count": 13,
+            "width_cv": 0.06892450214881767,
+            "height_cv": 0.037315760266449005,
+            "width_orientation_std_deg": 1.8713222530802764,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.07922753483713245,
+            "height_cv": 0.03491769801965793,
+            "width_orientation_std_deg": 2.405300236150162,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.08701908340128071,
+            "height_cv": 0.05043996569560228,
+            "width_orientation_std_deg": 2.2315821465035683,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.10896261050724122,
+            "height_cv": 0.04190426019909058,
+            "width_orientation_std_deg": 2.5954443441515145,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 9,
+            "width_cv": 0.05594170561874797,
+            "height_cv": 0.037817573092080115,
+            "width_orientation_std_deg": 0.5736784129582027,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.06218311497983185,
+            "height_cv": 0.04242242266190219,
+            "width_orientation_std_deg": 3.1184942160316984,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.06438496187882405,
+            "height_cv": 0.03942903065469003,
+            "width_orientation_std_deg": 2.070717429615961,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.08965225217180679,
+            "height_cv": 0.030343933288519098,
+            "width_orientation_std_deg": 1.2722218725854067e-14,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 35,
+            "width_cv": 0.08844461896821529,
+            "height_cv": 0.03699197635785705,
+            "width_orientation_std_deg": 1.880966685455564,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.0852987848519687,
+            "height_cv": 0.03897971608866604,
+            "width_orientation_std_deg": 1.730978381381671,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.08402793314637402,
+            "height_cv": 0.04493086529114482,
+            "width_orientation_std_deg": 1.6763187203882557,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.08560101863162704,
+            "height_cv": 0.0276007576238945,
+            "width_orientation_std_deg": 1.6103682398651253,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.08978965654102875,
+            "height_cv": 0.039756707477299855,
+            "width_orientation_std_deg": 2.4610132933433015,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.059647573205308405,
+            "height_cv": 0.04200573450253793,
+            "width_orientation_std_deg": 0.8412294002033858,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.08347607849854778,
+            "height_cv": 0.04055795012766798,
+            "width_orientation_std_deg": 2.74267937418612,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 23,
+            "width_cv": 0.08666466185938464,
+            "height_cv": 0.03704596739891585,
+            "width_orientation_std_deg": 2.35581375167781,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.06397129956993391,
+            "height_cv": 0.026746833137302473,
+            "width_orientation_std_deg": 1.6317599466859976,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 23,
+            "width_cv": 0.07997529017440118,
+            "height_cv": 0.04179727521931448,
+            "width_orientation_std_deg": 2.4965409672174164,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.07466148039396826,
+            "height_cv": 0.026377995794983396,
+            "width_orientation_std_deg": 1.346333380198677,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 14,
+            "width_cv": 0.08851734413794729,
+            "height_cv": 0.03308223541722208,
+            "width_orientation_std_deg": 2.979861081249271,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 9,
+            "width_cv": 0.07328852009347898,
+            "height_cv": 0.025776546154265563,
+            "width_orientation_std_deg": 2.2760254702679803,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.07991686717726965,
+            "height_cv": 0.035198379214343,
+            "width_orientation_std_deg": 2.565531091216914,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.09109270821145644,
+            "height_cv": 0.03851949621472201,
+            "width_orientation_std_deg": 2.217987387983662,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.06794562267885987,
+            "height_cv": 0.046760327083248066,
+            "width_orientation_std_deg": 1.6270058461519767,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.06664672390639045,
+            "height_cv": 0.04658773693260744,
+            "width_orientation_std_deg": 0.6781123817169367,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 24,
+            "width_cv": 0.09084469676822651,
+            "height_cv": 0.039612052744786866,
+            "width_orientation_std_deg": 1.7173101320121698,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 15,
+            "width_cv": 0.07765590351630057,
+            "height_cv": 0.03139372907316776,
+            "width_orientation_std_deg": 1.1676423405358851,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.07324222499475518,
+            "height_cv": 0.026335804803328283,
+            "width_orientation_std_deg": 1.3026143065380356,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.07228489179596163,
+            "height_cv": 0.05342647668674847,
+            "width_orientation_std_deg": 1.5757216812959687,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.08442252372497674,
+            "height_cv": 0.06652805720891442,
+            "width_orientation_std_deg": 2.534388894005858,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.08734347574343085,
+            "height_cv": 0.029487559595989872,
+            "width_orientation_std_deg": 1.301983690303905,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.08574909540379218,
+            "height_cv": 0.05549069347996764,
+            "width_orientation_std_deg": 2.331197909936993,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.07588732220641121,
+            "height_cv": 0.03104834440266357,
+            "width_orientation_std_deg": 1.5541636208836889,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.058970523487691544,
+            "height_cv": 0.02765407429429375,
+            "width_orientation_std_deg": 1.471231531080248,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.08220312047968062,
+            "height_cv": 0.02923290262637211,
+            "width_orientation_std_deg": 2.9832851045280773,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.09697529859799325,
+            "height_cv": 0.025908648230402728,
+            "width_orientation_std_deg": 2.731012077679609,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.06223301399583304,
+            "height_cv": 0.050096849722209603,
+            "width_orientation_std_deg": 2.372901907300087,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 19,
+            "width_cv": 0.05409633991676629,
+            "height_cv": 0.06020650680697748,
+            "width_orientation_std_deg": 1.6535281828930282,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.07291547415246913,
+            "height_cv": 0.04586529100001734,
+            "width_orientation_std_deg": 2.5148760052365566,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 23,
+            "width_cv": 0.08152178216473589,
+            "height_cv": 0.04455060279145615,
+            "width_orientation_std_deg": 2.1603325042852735,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.08318163034031296,
+            "height_cv": 0.03946031267647296,
+            "width_orientation_std_deg": 1.2693645288293924,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.06023854631081729,
+            "height_cv": 0.04468091292984777,
+            "width_orientation_std_deg": 1.585878867333154,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.09072286609979868,
+            "height_cv": 0.02554296524821274,
+            "width_orientation_std_deg": 1.4320541429320306,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.06443190578184566,
+            "height_cv": 0.04603254179155592,
+            "width_orientation_std_deg": 1.3444807647765245,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.06527234893292629,
+            "height_cv": 0.026780536190116135,
+            "width_orientation_std_deg": 1.883323516895831,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.07320147640719675,
+            "height_cv": 0.04402154270814812,
+            "width_orientation_std_deg": 2.0963697083462884,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.05295099675920541,
+            "height_cv": 0.027126463148946026,
+            "width_orientation_std_deg": 1.2899670540882624,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.06950423161487287,
+            "height_cv": 0.05407783939067568,
+            "width_orientation_std_deg": 2.439162235494962,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 7,
+            "width_cv": 0.09315847735228548,
+            "height_cv": 0.03377028616886769,
+            "width_orientation_std_deg": 1.622074302463511,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 9,
+            "width_cv": 0.07101138340259305,
+            "height_cv": 0.04209861736923426,
+            "width_orientation_std_deg": 0.0,
+            "row_alignment_median_px": null
+          }
+        ],
+        "edge_evidence_mean": 0.5319884460656267,
+        "edge_evidence_unsampled_locations_mean": 0.5227306441481667
+      },
+      "shared_shape_centers": {
+        "tables": [
+          {
+            "count": 13,
+            "width_cv": 0.01894722133590929,
+            "height_cv": 0.018072232999363814,
+            "width_orientation_std_deg": 0.1667844345305382,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.06774348336006494,
+            "height_cv": 0.026888221040797126,
+            "width_orientation_std_deg": 1.995232678055288,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.06550004712699124,
+            "height_cv": 0.03213049297561103,
+            "width_orientation_std_deg": 2.073386673600643,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.04558561973247989,
+            "height_cv": 0.02861244717543179,
+            "width_orientation_std_deg": 2.468363917464904,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 9,
+            "width_cv": 0.0311429032178966,
+            "height_cv": 0.012084573540997673,
+            "width_orientation_std_deg": 0.3644342616623595,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.053382351530717145,
+            "height_cv": 0.03811159846706497,
+            "width_orientation_std_deg": 2.873542698184503,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.030427383845227692,
+            "height_cv": 0.02349130603766573,
+            "width_orientation_std_deg": 1.6875798881979314,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.03455501125251561,
+            "height_cv": 0.017913963211457436,
+            "width_orientation_std_deg": 1.2722218725854067e-14,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 35,
+            "width_cv": 0.0345775770706101,
+            "height_cv": 0.017798245647593317,
+            "width_orientation_std_deg": 1.4038837644310915,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.03956469941435483,
+            "height_cv": 0.024458830701626102,
+            "width_orientation_std_deg": 1.6705031882587038,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.04881194452332541,
+            "height_cv": 0.029632625744214665,
+            "width_orientation_std_deg": 1.0980908420455797,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.08116147831815948,
+            "height_cv": 0.027092413263472424,
+            "width_orientation_std_deg": 1.5470344794191304,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.039444397094367215,
+            "height_cv": 0.02090285944049564,
+            "width_orientation_std_deg": 2.1595081816347763,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.030048931993089844,
+            "height_cv": 0.01903405403751967,
+            "width_orientation_std_deg": 0.10101026137509606,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.06502557720428623,
+            "height_cv": 0.021268152875360307,
+            "width_orientation_std_deg": 2.2337174643744753,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 23,
+            "width_cv": 0.036985703504433726,
+            "height_cv": 0.027521580242625396,
+            "width_orientation_std_deg": 1.6513879302904124,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.03151655582821699,
+            "height_cv": 0.019466766659282275,
+            "width_orientation_std_deg": 1.5036101440140475,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 23,
+            "width_cv": 0.02828407019402457,
+            "height_cv": 0.025976881379562815,
+            "width_orientation_std_deg": 2.0390312710799208,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.03592008830930039,
+            "height_cv": 0.009032385600395558,
+            "width_orientation_std_deg": 0.26523947327604624,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 14,
+            "width_cv": 0.07798818554437374,
+            "height_cv": 0.02820849091000534,
+            "width_orientation_std_deg": 2.707540092551422,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 9,
+            "width_cv": 0.04159312970140574,
+            "height_cv": 0.010306054196968655,
+            "width_orientation_std_deg": 1.2643534861355858,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.03239806955966687,
+            "height_cv": 0.029183617644648892,
+            "width_orientation_std_deg": 2.4518284964543158,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.07056694937633692,
+            "height_cv": 0.03248546880415919,
+            "width_orientation_std_deg": 1.6962671481963039,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.0419681562973911,
+            "height_cv": 0.03531756218806185,
+            "width_orientation_std_deg": 0.13439063046678038,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.03122144353911334,
+            "height_cv": 0.03259475362734965,
+            "width_orientation_std_deg": 0.6664404019875075,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 24,
+            "width_cv": 0.058035254020547294,
+            "height_cv": 0.014608028674466545,
+            "width_orientation_std_deg": 1.1973806360204124,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 15,
+            "width_cv": 0.024421323845392393,
+            "height_cv": 0.006928024566466233,
+            "width_orientation_std_deg": 0.8458608039235915,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.03939714801439993,
+            "height_cv": 0.020420530016885288,
+            "width_orientation_std_deg": 0.7943027388913376,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.06296423270555834,
+            "height_cv": 0.05241127662091555,
+            "width_orientation_std_deg": 1.2738884721567576,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.036785094778127754,
+            "height_cv": 0.04129598821247138,
+            "width_orientation_std_deg": 1.611800177568362,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.05500595303162211,
+            "height_cv": 0.027163689875536887,
+            "width_orientation_std_deg": 1.06620028206031,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.05758722892848838,
+            "height_cv": 0.04365896825257628,
+            "width_orientation_std_deg": 2.0643749182111564,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.037010358983137474,
+            "height_cv": 0.01712138100116436,
+            "width_orientation_std_deg": 1.2917661014086639,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.029706279833442737,
+            "height_cv": 0.018316793463896478,
+            "width_orientation_std_deg": 1.0696875457756472,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.021665450564810163,
+            "height_cv": 0.021761721266834917,
+            "width_orientation_std_deg": 2.165018092650222,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.06611992164313898,
+            "height_cv": 0.02586206001376286,
+            "width_orientation_std_deg": 2.6115117988628618,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.0417357044404472,
+            "height_cv": 0.0356972016173661,
+            "width_orientation_std_deg": 1.5972600686471272,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 19,
+            "width_cv": 0.02410694122901158,
+            "height_cv": 0.013158506646141505,
+            "width_orientation_std_deg": 0.13106075307358028,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.04146068569138053,
+            "height_cv": 0.03756281919322688,
+            "width_orientation_std_deg": 1.7931386872115946,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 23,
+            "width_cv": 0.03916812649659733,
+            "height_cv": 0.0140588340970722,
+            "width_orientation_std_deg": 1.6212199963159895,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.042339769899366685,
+            "height_cv": 0.010719912822003788,
+            "width_orientation_std_deg": 0.07489447370067717,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.047640777450120284,
+            "height_cv": 0.016902961150478166,
+            "width_orientation_std_deg": 1.437215791085491,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.062232509232326524,
+            "height_cv": 0.014905370266843614,
+            "width_orientation_std_deg": 1.3852140972035427,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.0577686935585485,
+            "height_cv": 0.03606402592263004,
+            "width_orientation_std_deg": 0.23528585771015678,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.02455689317030968,
+            "height_cv": 0.015582638508500283,
+            "width_orientation_std_deg": 1.4568532649733528,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.028422638132769254,
+            "height_cv": 0.024158313519804183,
+            "width_orientation_std_deg": 1.7115277152904662,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.017039102302644674,
+            "height_cv": 0.009561696417233973,
+            "width_orientation_std_deg": 0.12119080274464031,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.029020610083533484,
+            "height_cv": 0.004165434732365729,
+            "width_orientation_std_deg": 0.4179988075225091,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 7,
+            "width_cv": 0.09315847735228548,
+            "height_cv": 0.03377028616886769,
+            "width_orientation_std_deg": 1.622074302463511,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 9,
+            "width_cv": 0.029923963220095478,
+            "height_cv": 0.026155542770010646,
+            "width_orientation_std_deg": 0.0,
+            "row_alignment_median_px": null
+          }
+        ],
+        "edge_evidence_mean": 0.5364180336987804,
+        "edge_evidence_unsampled_locations_mean": 0.5268542877107888
+      },
+      "shared_geometry": {
+        "tables": [
+          {
+            "count": 13,
+            "width_cv": 0.06892450214881767,
+            "height_cv": 0.037315760266449005,
+            "width_orientation_std_deg": 1.8713222530802764,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.07922753483713245,
+            "height_cv": 0.03491769801965793,
+            "width_orientation_std_deg": 2.405300236150162,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.08701908340128071,
+            "height_cv": 0.05043996569560228,
+            "width_orientation_std_deg": 2.2315821465035683,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.10896261050724122,
+            "height_cv": 0.04190426019909058,
+            "width_orientation_std_deg": 2.5954443441515145,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 9,
+            "width_cv": 0.05594170561874797,
+            "height_cv": 0.037817573092080115,
+            "width_orientation_std_deg": 0.5736784129582027,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.06218311497983185,
+            "height_cv": 0.04242242266190219,
+            "width_orientation_std_deg": 3.1184942160316984,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.06438496187882405,
+            "height_cv": 0.03942903065469003,
+            "width_orientation_std_deg": 2.070717429615961,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.08965225217180679,
+            "height_cv": 0.030343933288519098,
+            "width_orientation_std_deg": 1.2722218725854067e-14,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 35,
+            "width_cv": 0.08844461896821529,
+            "height_cv": 0.03699197635785705,
+            "width_orientation_std_deg": 1.880966685455564,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.0852987848519687,
+            "height_cv": 0.03897971608866604,
+            "width_orientation_std_deg": 1.730978381381671,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.08402793314637402,
+            "height_cv": 0.04493086529114482,
+            "width_orientation_std_deg": 1.6763187203882557,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.08560101863162704,
+            "height_cv": 0.0276007576238945,
+            "width_orientation_std_deg": 1.6103682398651253,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.08978965654102875,
+            "height_cv": 0.039756707477299855,
+            "width_orientation_std_deg": 2.4610132933433015,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.059647573205308405,
+            "height_cv": 0.04200573450253793,
+            "width_orientation_std_deg": 0.8412294002033858,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.08347607849854778,
+            "height_cv": 0.04055795012766798,
+            "width_orientation_std_deg": 2.74267937418612,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 23,
+            "width_cv": 0.08666466185938464,
+            "height_cv": 0.03704596739891585,
+            "width_orientation_std_deg": 2.35581375167781,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.06397129956993391,
+            "height_cv": 0.026746833137302473,
+            "width_orientation_std_deg": 1.6317599466859976,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 23,
+            "width_cv": 0.07997529017440118,
+            "height_cv": 0.04179727521931448,
+            "width_orientation_std_deg": 2.4965409672174164,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.07466148039396826,
+            "height_cv": 0.026377995794983396,
+            "width_orientation_std_deg": 1.346333380198677,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 14,
+            "width_cv": 0.08851734413794729,
+            "height_cv": 0.03308223541722208,
+            "width_orientation_std_deg": 2.979861081249271,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 9,
+            "width_cv": 0.07328852009347898,
+            "height_cv": 0.025776546154265563,
+            "width_orientation_std_deg": 2.2760254702679803,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.07991686717726965,
+            "height_cv": 0.035198379214343,
+            "width_orientation_std_deg": 2.565531091216914,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.09109270821145644,
+            "height_cv": 0.03851949621472201,
+            "width_orientation_std_deg": 2.217987387983662,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.06794562267885987,
+            "height_cv": 0.046760327083248066,
+            "width_orientation_std_deg": 1.6270058461519767,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.06664672390639045,
+            "height_cv": 0.04658773693260744,
+            "width_orientation_std_deg": 0.6781123817169367,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 24,
+            "width_cv": 0.09084469676822651,
+            "height_cv": 0.039612052744786866,
+            "width_orientation_std_deg": 1.7173101320121698,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 15,
+            "width_cv": 0.07765590351630057,
+            "height_cv": 0.03139372907316776,
+            "width_orientation_std_deg": 1.1676423405358851,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.07324222499475518,
+            "height_cv": 0.026335804803328283,
+            "width_orientation_std_deg": 1.3026143065380356,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.07228489179596163,
+            "height_cv": 0.05342647668674847,
+            "width_orientation_std_deg": 1.5757216812959687,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.08442252372497674,
+            "height_cv": 0.06652805720891442,
+            "width_orientation_std_deg": 2.534388894005858,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.08734347574343085,
+            "height_cv": 0.029487559595989872,
+            "width_orientation_std_deg": 1.301983690303905,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.08574909540379218,
+            "height_cv": 0.05549069347996764,
+            "width_orientation_std_deg": 2.331197909936993,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.07588732220641121,
+            "height_cv": 0.03104834440266357,
+            "width_orientation_std_deg": 1.5541636208836889,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.058970523487691544,
+            "height_cv": 0.02765407429429375,
+            "width_orientation_std_deg": 1.471231531080248,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.08220312047968062,
+            "height_cv": 0.02923290262637211,
+            "width_orientation_std_deg": 2.9832851045280773,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.09697529859799325,
+            "height_cv": 0.025908648230402728,
+            "width_orientation_std_deg": 2.731012077679609,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.06223301399583304,
+            "height_cv": 0.050096849722209603,
+            "width_orientation_std_deg": 2.372901907300087,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 19,
+            "width_cv": 0.05409633991676629,
+            "height_cv": 0.06020650680697748,
+            "width_orientation_std_deg": 1.6535281828930282,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.07291547415246913,
+            "height_cv": 0.04586529100001734,
+            "width_orientation_std_deg": 2.5148760052365566,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 23,
+            "width_cv": 0.08152178216473589,
+            "height_cv": 0.04455060279145615,
+            "width_orientation_std_deg": 2.1603325042852735,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.08318163034031296,
+            "height_cv": 0.03946031267647296,
+            "width_orientation_std_deg": 1.2693645288293924,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.06023854631081729,
+            "height_cv": 0.04468091292984777,
+            "width_orientation_std_deg": 1.585878867333154,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.09072286609979868,
+            "height_cv": 0.02554296524821274,
+            "width_orientation_std_deg": 1.4320541429320306,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.06443190578184566,
+            "height_cv": 0.04603254179155592,
+            "width_orientation_std_deg": 1.3444807647765245,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.06527234893292629,
+            "height_cv": 0.026780536190116135,
+            "width_orientation_std_deg": 1.883323516895831,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.07320147640719675,
+            "height_cv": 0.04402154270814812,
+            "width_orientation_std_deg": 2.0963697083462884,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.05295099675920541,
+            "height_cv": 0.027126463148946026,
+            "width_orientation_std_deg": 1.2899670540882624,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.06950423161487287,
+            "height_cv": 0.05407783939067568,
+            "width_orientation_std_deg": 2.439162235494962,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 7,
+            "width_cv": 0.09315847735228548,
+            "height_cv": 0.03377028616886769,
+            "width_orientation_std_deg": 1.622074302463511,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 9,
+            "width_cv": 0.07101138340259305,
+            "height_cv": 0.04209861736923426,
+            "width_orientation_std_deg": 0.0,
+            "row_alignment_median_px": null
+          }
+        ],
+        "edge_evidence_mean": 0.5319884460656267,
+        "edge_evidence_unsampled_locations_mean": 0.5227306441481667
+      },
+      "shared_plus_image": {
+        "tables": [
+          {
+            "count": 13,
+            "width_cv": 0.06892450214881767,
+            "height_cv": 0.037315760266449005,
+            "width_orientation_std_deg": 1.8713222530802764,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.07922753483713245,
+            "height_cv": 0.03491769801965793,
+            "width_orientation_std_deg": 2.405300236150162,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.08701908340128071,
+            "height_cv": 0.05043996569560228,
+            "width_orientation_std_deg": 2.2315821465035683,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.10896261050724122,
+            "height_cv": 0.04190426019909058,
+            "width_orientation_std_deg": 2.5954443441515145,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 9,
+            "width_cv": 0.05594170561874797,
+            "height_cv": 0.037817573092080115,
+            "width_orientation_std_deg": 0.5736784129582027,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.06218311497983185,
+            "height_cv": 0.04242242266190219,
+            "width_orientation_std_deg": 3.1184942160316984,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.06438496187882405,
+            "height_cv": 0.03942903065469003,
+            "width_orientation_std_deg": 2.070717429615961,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.08965225217180679,
+            "height_cv": 0.030343933288519098,
+            "width_orientation_std_deg": 1.2722218725854067e-14,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 35,
+            "width_cv": 0.08844461896821529,
+            "height_cv": 0.03699197635785705,
+            "width_orientation_std_deg": 1.880966685455564,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.0852987848519687,
+            "height_cv": 0.03897971608866604,
+            "width_orientation_std_deg": 1.730978381381671,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.08402793314637402,
+            "height_cv": 0.04493086529114482,
+            "width_orientation_std_deg": 1.6763187203882557,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.08560101863162704,
+            "height_cv": 0.0276007576238945,
+            "width_orientation_std_deg": 1.6103682398651253,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.08978965654102875,
+            "height_cv": 0.039756707477299855,
+            "width_orientation_std_deg": 2.4610132933433015,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 17,
+            "width_cv": 0.059647573205308405,
+            "height_cv": 0.04200573450253793,
+            "width_orientation_std_deg": 0.8412294002033858,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.08347607849854778,
+            "height_cv": 0.04055795012766798,
+            "width_orientation_std_deg": 2.74267937418612,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 23,
+            "width_cv": 0.08666466185938464,
+            "height_cv": 0.03704596739891585,
+            "width_orientation_std_deg": 2.35581375167781,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.06397129956993391,
+            "height_cv": 0.026746833137302473,
+            "width_orientation_std_deg": 1.6317599466859976,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 23,
+            "width_cv": 0.07997529017440118,
+            "height_cv": 0.04179727521931448,
+            "width_orientation_std_deg": 2.4965409672174164,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.07466148039396826,
+            "height_cv": 0.026377995794983396,
+            "width_orientation_std_deg": 1.346333380198677,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 14,
+            "width_cv": 0.08851734413794729,
+            "height_cv": 0.03308223541722208,
+            "width_orientation_std_deg": 2.979861081249271,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 9,
+            "width_cv": 0.07328852009347898,
+            "height_cv": 0.025776546154265563,
+            "width_orientation_std_deg": 2.2760254702679803,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.07991686717726965,
+            "height_cv": 0.035198379214343,
+            "width_orientation_std_deg": 2.565531091216914,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.09109270821145644,
+            "height_cv": 0.03851949621472201,
+            "width_orientation_std_deg": 2.217987387983662,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.06794562267885987,
+            "height_cv": 0.046760327083248066,
+            "width_orientation_std_deg": 1.6270058461519767,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.06664672390639045,
+            "height_cv": 0.04658773693260744,
+            "width_orientation_std_deg": 0.6781123817169367,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 24,
+            "width_cv": 0.09084469676822651,
+            "height_cv": 0.039612052744786866,
+            "width_orientation_std_deg": 1.7173101320121698,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 15,
+            "width_cv": 0.07765590351630057,
+            "height_cv": 0.03139372907316776,
+            "width_orientation_std_deg": 1.1676423405358851,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.07324222499475518,
+            "height_cv": 0.026335804803328283,
+            "width_orientation_std_deg": 1.3026143065380356,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.07228489179596163,
+            "height_cv": 0.05342647668674847,
+            "width_orientation_std_deg": 1.5757216812959687,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.08442252372497674,
+            "height_cv": 0.06652805720891442,
+            "width_orientation_std_deg": 2.534388894005858,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.08734347574343085,
+            "height_cv": 0.029487559595989872,
+            "width_orientation_std_deg": 1.301983690303905,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.08574909540379218,
+            "height_cv": 0.05549069347996764,
+            "width_orientation_std_deg": 2.331197909936993,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 22,
+            "width_cv": 0.07588732220641121,
+            "height_cv": 0.03104834440266357,
+            "width_orientation_std_deg": 1.5541636208836889,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.058970523487691544,
+            "height_cv": 0.02765407429429375,
+            "width_orientation_std_deg": 1.471231531080248,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.08220312047968062,
+            "height_cv": 0.02923290262637211,
+            "width_orientation_std_deg": 2.9832851045280773,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.09697529859799325,
+            "height_cv": 0.025908648230402728,
+            "width_orientation_std_deg": 2.731012077679609,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.06223301399583304,
+            "height_cv": 0.050096849722209603,
+            "width_orientation_std_deg": 2.372901907300087,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 19,
+            "width_cv": 0.05409633991676629,
+            "height_cv": 0.06020650680697748,
+            "width_orientation_std_deg": 1.6535281828930282,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 20,
+            "width_cv": 0.07291547415246913,
+            "height_cv": 0.04586529100001734,
+            "width_orientation_std_deg": 2.5148760052365566,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 23,
+            "width_cv": 0.08152178216473589,
+            "height_cv": 0.04455060279145615,
+            "width_orientation_std_deg": 2.1603325042852735,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 13,
+            "width_cv": 0.08318163034031296,
+            "height_cv": 0.03946031267647296,
+            "width_orientation_std_deg": 1.2693645288293924,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.06023854631081729,
+            "height_cv": 0.04468091292984777,
+            "width_orientation_std_deg": 1.585878867333154,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 16,
+            "width_cv": 0.09072286609979868,
+            "height_cv": 0.02554296524821274,
+            "width_orientation_std_deg": 1.4320541429320306,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 12,
+            "width_cv": 0.06443190578184566,
+            "height_cv": 0.04603254179155592,
+            "width_orientation_std_deg": 1.3444807647765245,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 11,
+            "width_cv": 0.06527234893292629,
+            "height_cv": 0.026780536190116135,
+            "width_orientation_std_deg": 1.883323516895831,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 10,
+            "width_cv": 0.07320147640719675,
+            "height_cv": 0.04402154270814812,
+            "width_orientation_std_deg": 2.0963697083462884,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.05295099675920541,
+            "height_cv": 0.027126463148946026,
+            "width_orientation_std_deg": 1.2899670540882624,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 8,
+            "width_cv": 0.06950423161487287,
+            "height_cv": 0.05407783939067568,
+            "width_orientation_std_deg": 2.439162235494962,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 7,
+            "width_cv": 0.09315847735228548,
+            "height_cv": 0.03377028616886769,
+            "width_orientation_std_deg": 1.622074302463511,
+            "row_alignment_median_px": null
+          },
+          {
+            "count": 9,
+            "width_cv": 0.07101138340259305,
+            "height_cv": 0.04209861736923426,
+            "width_orientation_std_deg": 0.0,
+            "row_alignment_median_px": null
+          }
+        ],
+        "edge_evidence_mean": 0.5319884460656267,
+        "edge_evidence_unsampled_locations_mean": 0.5227306441481667
+      }
+    },
+    "attribution": {
+      "author": "lakshmi",
+      "title": "solar-panels-",
+      "license": "CC BY 4.0",
+      "url": "https://api.openaerialmap.org/meta/604218465d60ec00051bba5d",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "note": "Native-resolution crop and JPEG preview derived from the original OpenAerialMap GeoTIFF; camera unknown. No reference labels."
+    },
+    "input_orientation_degrees": 270,
+    "coordinate_space": "original_source_pixels",
+    "orientation_probe": {
+      "degrees_clockwise": 270,
+      "raw_candidates": 2695,
+      "deduplicated_raw": 1128,
+      "accepted_clean": 1058,
+      "recovered_candidates": 3,
+      "tiles": 10,
+      "pipeline_seconds": 19.183096199994907,
+      "wall_seconds": 20.136800999986008,
+      "baseline_reused": false,
+      "nms_operator_warmup_seconds": 0.19790199998533353,
+      "possible_max_det_truncation": false
+    },
+    "experiment_sha256": "b01ba9783079baf1c52ac673658c39ecbb4b2bfe9889c899ac8683a6acb80bbd"
   }
 ]
