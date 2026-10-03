@@ -5,6 +5,7 @@
   "height": 512,
   "source": "thermal_DJI_20220628095237_0012_T_Waypoint10/source.jpg",
   "source_basename": "DJI_20220628095237_0012_T_Waypoint10.JPG",
+  "original_source_sha256": "c368da773e45168f4ecd11cba65c7b0993d046dc0cd74d36d861a41cdfec2839",
   "instances": {
     "independent": [
       {
@@ -760,6 +761,163 @@
           "image_edge_partial"
         ]
       }
+    ],
+    "v6_composed": [
+      {
+        "polygon": [
+          [
+            364.0,
+            217.0
+          ],
+          [
+            464.0,
+            217.0
+          ],
+          [
+            459.97452229299364,
+            375.0
+          ],
+          [
+            370.0769230769231,
+            375.0
+          ]
+        ],
+        "score": 0.9865235686302185,
+        "id": 1,
+        "observed_fit_support": 0.9944831924602842,
+        "review_flags": [],
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            370.0,
+            62.0
+          ],
+          [
+            466.0,
+            62.0
+          ],
+          [
+            466.0,
+            222.0
+          ],
+          [
+            370.0,
+            222.0
+          ]
+        ],
+        "score": 0.9861660003662109,
+        "id": 2,
+        "observed_fit_support": 0.9917643229166667,
+        "review_flags": [],
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            467.0,
+            70.0
+          ],
+          [
+            557.0,
+            70.0
+          ],
+          [
+            557.0,
+            226.0
+          ],
+          [
+            469.0,
+            224.0
+          ]
+        ],
+        "score": 0.9831125140190125,
+        "id": 3,
+        "observed_fit_support": 0.9961287127529782,
+        "review_flags": [],
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            469.0,
+            221.0
+          ],
+          [
+            558.0,
+            229.0
+          ],
+          [
+            553.0,
+            379.0
+          ],
+          [
+            460.9490445859873,
+            379.0
+          ]
+        ],
+        "score": 0.9811603426933289,
+        "id": 4,
+        "observed_fit_support": 0.9907874384594063,
+        "review_flags": [],
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            551.0,
+            227.0
+          ],
+          [
+            639.0,
+            227.0
+          ],
+          [
+            639.0,
+            382.0
+          ],
+          [
+            551.0,
+            382.0
+          ]
+        ],
+        "score": 0.9778780937194824,
+        "id": 5,
+        "observed_fit_support": 0.9673387096774193,
+        "review_flags": [
+          "image_edge_partial",
+          "minor_disconnected_mask_parts_ignored_for_fit"
+        ],
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            559.0,
+            75.0
+          ],
+          [
+            639.0,
+            75.0
+          ],
+          [
+            639.0,
+            230.0
+          ],
+          [
+            561.0,
+            228.0
+          ]
+        ],
+        "score": 0.9600143432617188,
+        "id": 6,
+        "observed_fit_support": 0.9900520557953457,
+        "review_flags": [
+          "image_edge_partial"
+        ],
+        "v6_changed": false
+      }
     ]
   },
   "audit": [
@@ -808,21 +966,27 @@
         "iou50": {
           "tp": 6,
           "fp": 0,
-          "fn": 0
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
         },
         "iou75": {
           "tp": 6,
           "fp": 0,
-          "fn": 0
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
         },
         "iou90": {
           "tp": 3,
           "fp": 3,
-          "fn": 3
+          "fn": 3,
+          "precision": 0.5,
+          "recall": 0.5
         },
-        "mean_matched_iou": 0.9113761195024076,
-        "symmetric_boundary_distance_median_px": 2.0522869860740665,
-        "matched_corner_rmse_median_px": 5.894157681811065
+        "matched_corner_rmse_median_px": 6.483524387989084,
+        "corner_measured_modules": 4,
+        "eligible_full_references": 4
       },
       "consistency": {
         "tables": [],
@@ -837,21 +1001,27 @@
         "iou50": {
           "tp": 6,
           "fp": 0,
-          "fn": 0
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
         },
         "iou75": {
           "tp": 6,
           "fp": 0,
-          "fn": 0
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
         },
         "iou90": {
           "tp": 3,
           "fp": 3,
-          "fn": 3
+          "fn": 3,
+          "precision": 0.5,
+          "recall": 0.5
         },
-        "mean_matched_iou": 0.9113761195024076,
-        "symmetric_boundary_distance_median_px": 2.0522869860740665,
-        "matched_corner_rmse_median_px": 5.894157681811065
+        "matched_corner_rmse_median_px": 6.483524387989084,
+        "corner_measured_modules": 4,
+        "eligible_full_references": 4
       },
       "consistency": {
         "tables": [],
@@ -866,21 +1036,27 @@
         "iou50": {
           "tp": 6,
           "fp": 0,
-          "fn": 0
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
         },
         "iou75": {
           "tp": 6,
           "fp": 0,
-          "fn": 0
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
         },
         "iou90": {
           "tp": 3,
           "fp": 3,
-          "fn": 3
+          "fn": 3,
+          "precision": 0.5,
+          "recall": 0.5
         },
-        "mean_matched_iou": 0.9113761195024076,
-        "symmetric_boundary_distance_median_px": 2.0522869860740665,
-        "matched_corner_rmse_median_px": 5.894157681811065
+        "matched_corner_rmse_median_px": 6.483524387989084,
+        "corner_measured_modules": 4,
+        "eligible_full_references": 4
       },
       "consistency": {
         "tables": [],
@@ -895,21 +1071,27 @@
         "iou50": {
           "tp": 6,
           "fp": 0,
-          "fn": 0
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
         },
         "iou75": {
           "tp": 6,
           "fp": 0,
-          "fn": 0
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
         },
         "iou90": {
           "tp": 3,
           "fp": 3,
-          "fn": 3
+          "fn": 3,
+          "precision": 0.5,
+          "recall": 0.5
         },
-        "mean_matched_iou": 0.9113761195024076,
-        "symmetric_boundary_distance_median_px": 2.0522869860740665,
-        "matched_corner_rmse_median_px": 5.894157681811065
+        "matched_corner_rmse_median_px": 6.483524387989084,
+        "corner_measured_modules": 4,
+        "eligible_full_references": 4
       },
       "consistency": {
         "tables": [],
@@ -924,31 +1106,77 @@
         "iou50": {
           "tp": 6,
           "fp": 0,
-          "fn": 0
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
         },
         "iou75": {
           "tp": 6,
           "fp": 0,
-          "fn": 0
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
         },
         "iou90": {
           "tp": 3,
           "fp": 3,
-          "fn": 3
+          "fn": 3,
+          "precision": 0.5,
+          "recall": 0.5
         },
-        "mean_matched_iou": 0.9113761195024076,
-        "symmetric_boundary_distance_median_px": 2.0522869860740665,
-        "matched_corner_rmse_median_px": 5.894157681811065
+        "matched_corner_rmse_median_px": 6.483524387989084,
+        "corner_measured_modules": 4,
+        "eligible_full_references": 4
       },
       "consistency": {
         "tables": [],
         "edge_evidence_mean": 0.3021830264501003,
         "edge_evidence_unsampled_locations_mean": 0.28991343864931735
       }
+    },
+    "v6_composed": {
+      "consistency": {
+        "tables": [],
+        "edge_evidence_mean": 0.3021830264501003,
+        "edge_evidence_unsampled_locations_mean": 0.28991343864931735
+      },
+      "evaluation": {
+        "observations": 6,
+        "truth": 6,
+        "iou50": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "iou75": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "iou90": {
+          "tp": 3,
+          "fp": 3,
+          "fn": 3,
+          "precision": 0.5,
+          "recall": 0.5
+        },
+        "matched_corner_rmse_median_px": 6.483524387989084,
+        "corner_measured_modules": 4,
+        "eligible_full_references": 4
+      }
     }
   },
   "consistency": {
     "shared_seams": {
+      "tables": [],
+      "edge_evidence_mean": 0.3021830264501003,
+      "edge_evidence_unsampled_locations_mean": 0.28991343864931735
+    },
+    "v6_composed": {
       "tables": [],
       "edge_evidence_mean": 0.3021830264501003,
       "edge_evidence_unsampled_locations_mean": 0.28991343864931735
@@ -973,5 +1201,12 @@
     "supported_edges": 0,
     "total_edges": 24,
     "limitation": "Observed shared separator centers; individual gap widths remain prior-based. Outer unobserved edges and partials retain their input geometry."
-  }
+  },
+  "v6_candidate_sha256": "b5364a7b079700d9d630c8b42e21fd4d15ee9b46dc72beb8aca7fbdc6015422a",
+  "v6_evidence": {
+    "inventory_changes": false,
+    "reserve13_evaluated": false,
+    "limitation": "Whole-mask approximation followed by shared geometry. Better mask fit is not independent proof of a physical frame; development results only."
+  },
+  "display_metrics_sha256": "5dfbc2b5d23b1f1b46ea243e7601b8eccd243542bb219a860332e60703bac53a"
 }

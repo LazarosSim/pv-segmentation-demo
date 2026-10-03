@@ -5,6 +5,7 @@
   "height": 512,
   "source": "thermal_DJI_20220610101051_0047_T/source.jpg",
   "source_basename": "DJI_20220610101051_0047_T.JPG",
+  "original_source_sha256": "cf30f16749deb2960a44893bbcf56db34a3dfff8c363ebf3a6a67f6037b7daea",
   "instances": {
     "independent": [
       {
@@ -2186,6 +2187,458 @@
           "image_edge_partial"
         ]
       }
+    ],
+    "v6_composed": [
+      {
+        "polygon": [
+          [
+            14.0,
+            226.0
+          ],
+          [
+            93.0,
+            226.0
+          ],
+          [
+            86.0,
+            363.0
+          ],
+          [
+            3.0,
+            361.0
+          ]
+        ],
+        "score": 0.989701509475708,
+        "id": 1,
+        "observed_fit_support": 0.9979918766041214,
+        "review_flags": [
+          "image_edge_partial",
+          "minor_disconnected_mask_parts_ignored_for_fit"
+        ],
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            87.0,
+            229.0
+          ],
+          [
+            178.0,
+            225.0
+          ],
+          [
+            174.0,
+            364.0
+          ],
+          [
+            87.0,
+            363.0
+          ]
+        ],
+        "score": 0.9842962622642517,
+        "id": 2,
+        "observed_fit_support": 0.9965069998838172,
+        "review_flags": [],
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            353.4304634488215,
+            228.0627553266328
+          ],
+          [
+            443.5441231431076,
+            226.24934710602525
+          ],
+          [
+            445.5695365511785,
+            365.4027619147465
+          ],
+          [
+            355.4558768568924,
+            367.21617013535405
+          ]
+        ],
+        "score": 0.9798356294631958,
+        "id": 3,
+        "observed_fit_support": 0.9970927377342377,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 0,
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            442.0,
+            228.0
+          ],
+          [
+            525.0,
+            223.0
+          ],
+          [
+            533.113475177305,
+            366.0
+          ],
+          [
+            442.0,
+            366.0
+          ]
+        ],
+        "score": 0.9795097708702087,
+        "id": 4,
+        "observed_fit_support": 0.9951639372158992,
+        "review_flags": [],
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            176.039326858903,
+            226.77878342698708
+          ],
+          [
+            266.9972493606614,
+            225.05637108051357
+          ],
+          [
+            265.960673141097,
+            363.6886078773607
+          ],
+          [
+            175.00275063933861,
+            365.41102022383416
+          ]
+        ],
+        "score": 0.9776806831359863,
+        "id": 5,
+        "observed_fit_support": 0.9939055647391141,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 0,
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            26.0,
+            94.0
+          ],
+          [
+            103.0,
+            94.0
+          ],
+          [
+            93.0,
+            226.0
+          ],
+          [
+            13.0,
+            226.0
+          ]
+        ],
+        "score": 0.9749440550804138,
+        "id": 6,
+        "observed_fit_support": 1.0,
+        "review_flags": [],
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            97.0,
+            94.0
+          ],
+          [
+            185.0,
+            94.0
+          ],
+          [
+            179.9236641221374,
+            227.0
+          ],
+          [
+            97.0,
+            227.0
+          ]
+        ],
+        "score": 0.9672924876213074,
+        "id": 7,
+        "observed_fit_support": 0.9826340295992158,
+        "review_flags": [],
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            263.4921322850814,
+            227.43854813096664
+          ],
+          [
+            354.0348154985132,
+            225.6709428387373
+          ],
+          [
+            354.5078677149186,
+            364.56145186903336
+          ],
+          [
+            263.9651845014868,
+            366.3290571612627
+          ]
+        ],
+        "score": 0.9653356075286865,
+        "id": 8,
+        "observed_fit_support": 0.9985718944533658,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 0,
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            182.9062498988326,
+            92.79477518899246
+          ],
+          [
+            268.9385203673926,
+            92.733402738099
+          ],
+          [
+            267.59375010116736,
+            224.70522481100755
+          ],
+          [
+            181.56147963260742,
+            224.76659726190098
+          ]
+        ],
+        "score": 0.9573578834533691,
+        "id": 9,
+        "observed_fit_support": 0.9921854700508592,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 0,
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            435.59395826599865,
+            93.75464767462037
+          ],
+          [
+            520.3918777281292,
+            93.57444802810218
+          ],
+          [
+            523.4060417340013,
+            226.24535232537963
+          ],
+          [
+            438.6081222718708,
+            226.42555197189782
+          ]
+        ],
+        "score": 0.9557197093963623,
+        "id": 10,
+        "observed_fit_support": 0.991842763498361,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 0,
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            528.0,
+            227.0
+          ],
+          [
+            611.0,
+            223.0
+          ],
+          [
+            620.0,
+            364.0
+          ],
+          [
+            528.0,
+            365.0
+          ]
+        ],
+        "score": 0.9505676031112671,
+        "id": 11,
+        "observed_fit_support": 0.9949192308175226,
+        "review_flags": [],
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            268.6199576626989,
+            93.440373777737
+          ],
+          [
+            354.24520816152585,
+            93.33472008341704
+          ],
+          [
+            354.3800423373011,
+            225.559626222263
+          ],
+          [
+            268.75479183847415,
+            225.66527991658296
+          ]
+        ],
+        "score": 0.9396221041679382,
+        "id": 12,
+        "observed_fit_support": 0.9989017487539072,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 0,
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            354.099699503623,
+            93.34999582338361
+          ],
+          [
+            439.29223816934706,
+            93.20929995169476
+          ],
+          [
+            440.900300496377,
+            225.6500041766164
+          ],
+          [
+            355.70776183065294,
+            225.79070004830524
+          ]
+        ],
+        "score": 0.9392363429069519,
+        "id": 13,
+        "observed_fit_support": 0.9970009292895159,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 0,
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            522.0,
+            95.0
+          ],
+          [
+            601.9302325581396,
+            95.0
+          ],
+          [
+            611.0,
+            225.0
+          ],
+          [
+            526.0944881889764,
+            225.0
+          ]
+        ],
+        "score": 0.9372057318687439,
+        "id": 14,
+        "observed_fit_support": 0.9874719879185109,
+        "review_flags": [
+          "minor_disconnected_mask_parts_ignored_for_fit"
+        ],
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            1.0,
+            98.0
+          ],
+          [
+            23.0,
+            98.0
+          ],
+          [
+            11.0,
+            224.0
+          ],
+          [
+            1.0,
+            227.0
+          ]
+        ],
+        "score": 0.6745927333831787,
+        "id": 15,
+        "observed_fit_support": 0.9761525305138768,
+        "review_flags": [
+          "image_edge_partial"
+        ],
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            604.0,
+            96.0
+          ],
+          [
+            639.0,
+            96.0
+          ],
+          [
+            639.0,
+            226.0
+          ],
+          [
+            614.0,
+            228.0
+          ]
+        ],
+        "score": 0.5302340984344482,
+        "id": 16,
+        "observed_fit_support": 0.9945576802811376,
+        "review_flags": [
+          "image_edge_partial"
+        ],
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            614.0,
+            228.0
+          ],
+          [
+            639.0,
+            228.0
+          ],
+          [
+            639.0,
+            366.0
+          ],
+          [
+            622.0,
+            363.0
+          ]
+        ],
+        "score": 0.46382027864456177,
+        "id": 17,
+        "observed_fit_support": 0.9976296470413678,
+        "review_flags": [
+          "image_edge_partial"
+        ],
+        "v6_changed": false
+      }
     ]
   },
   "audit": [
@@ -2461,21 +2914,27 @@
         "iou50": {
           "tp": 17,
           "fp": 0,
-          "fn": 1
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9444444444444444
         },
         "iou75": {
           "tp": 17,
           "fp": 0,
-          "fn": 1
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9444444444444444
         },
         "iou90": {
           "tp": 10,
           "fp": 7,
-          "fn": 8
+          "fn": 8,
+          "precision": 0.5882352941176471,
+          "recall": 0.5555555555555556
         },
-        "mean_matched_iou": 0.9091928013391266,
-        "symmetric_boundary_distance_median_px": 1.9590566422647269,
-        "matched_corner_rmse_median_px": 4.068631542914572
+        "matched_corner_rmse_median_px": 4.564232204448539,
+        "corner_measured_modules": 13,
+        "eligible_full_references": 13
       },
       "consistency": {
         "tables": [
@@ -2498,21 +2957,27 @@
         "iou50": {
           "tp": 17,
           "fp": 0,
-          "fn": 1
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9444444444444444
         },
         "iou75": {
           "tp": 17,
           "fp": 0,
-          "fn": 1
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9444444444444444
         },
         "iou90": {
           "tp": 11,
           "fp": 6,
-          "fn": 7
+          "fn": 7,
+          "precision": 0.6470588235294118,
+          "recall": 0.6111111111111112
         },
-        "mean_matched_iou": 0.9126823731427979,
-        "symmetric_boundary_distance_median_px": 1.8565320982046791,
-        "matched_corner_rmse_median_px": 4.0405953119719085
+        "matched_corner_rmse_median_px": 4.291627191335747,
+        "corner_measured_modules": 13,
+        "eligible_full_references": 13
       },
       "consistency": {
         "tables": [
@@ -2535,21 +3000,27 @@
         "iou50": {
           "tp": 17,
           "fp": 0,
-          "fn": 1
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9444444444444444
         },
         "iou75": {
           "tp": 17,
           "fp": 0,
-          "fn": 1
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9444444444444444
         },
         "iou90": {
           "tp": 13,
           "fp": 4,
-          "fn": 5
+          "fn": 5,
+          "precision": 0.7647058823529411,
+          "recall": 0.7222222222222222
         },
-        "mean_matched_iou": 0.9194833461981915,
-        "symmetric_boundary_distance_median_px": 1.5523817251487044,
-        "matched_corner_rmse_median_px": 3.306654415271149
+        "matched_corner_rmse_median_px": 3.630273311897859,
+        "corner_measured_modules": 13,
+        "eligible_full_references": 13
       },
       "consistency": {
         "tables": [
@@ -2572,21 +3043,27 @@
         "iou50": {
           "tp": 17,
           "fp": 0,
-          "fn": 1
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9444444444444444
         },
         "iou75": {
           "tp": 17,
           "fp": 0,
-          "fn": 1
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9444444444444444
         },
         "iou90": {
           "tp": 10,
           "fp": 7,
-          "fn": 8
+          "fn": 8,
+          "precision": 0.5882352941176471,
+          "recall": 0.5555555555555556
         },
-        "mean_matched_iou": 0.9036207959265871,
-        "symmetric_boundary_distance_median_px": 2.0563766948317563,
-        "matched_corner_rmse_median_px": 4.0517907065841285
+        "matched_corner_rmse_median_px": 4.34607570810143,
+        "corner_measured_modules": 13,
+        "eligible_full_references": 13
       },
       "consistency": {
         "tables": [
@@ -2609,21 +3086,27 @@
         "iou50": {
           "tp": 17,
           "fp": 0,
-          "fn": 1
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9444444444444444
         },
         "iou75": {
           "tp": 17,
           "fp": 0,
-          "fn": 1
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9444444444444444
         },
         "iou90": {
           "tp": 11,
           "fp": 6,
-          "fn": 7
+          "fn": 7,
+          "precision": 0.6470588235294118,
+          "recall": 0.6111111111111112
         },
-        "mean_matched_iou": 0.9126823731427979,
-        "symmetric_boundary_distance_median_px": 1.8565320982046791,
-        "matched_corner_rmse_median_px": 4.0405953119719085
+        "matched_corner_rmse_median_px": 4.291627191335747,
+        "corner_measured_modules": 13,
+        "eligible_full_references": 13
       },
       "consistency": {
         "tables": [
@@ -2638,10 +3121,66 @@
         "edge_evidence_mean": 0.36137830305971397,
         "edge_evidence_unsampled_locations_mean": 0.3520283276484878
       }
+    },
+    "v6_composed": {
+      "consistency": {
+        "tables": [
+          {
+            "count": 13,
+            "width_cv": 0.03860389349059766,
+            "height_cv": 0.026022908102736213,
+            "width_orientation_std_deg": 0.6363957028604507,
+            "row_alignment_median_px": 0.37773869515695785
+          }
+        ],
+        "edge_evidence_mean": 0.36137830305971397,
+        "edge_evidence_unsampled_locations_mean": 0.3520283276484878
+      },
+      "evaluation": {
+        "observations": 17,
+        "truth": 18,
+        "iou50": {
+          "tp": 17,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9444444444444444
+        },
+        "iou75": {
+          "tp": 17,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9444444444444444
+        },
+        "iou90": {
+          "tp": 11,
+          "fp": 6,
+          "fn": 7,
+          "precision": 0.6470588235294118,
+          "recall": 0.6111111111111112
+        },
+        "matched_corner_rmse_median_px": 4.291627191335747,
+        "corner_measured_modules": 13,
+        "eligible_full_references": 13
+      }
     }
   },
   "consistency": {
     "shared_seams": {
+      "tables": [
+        {
+          "count": 13,
+          "width_cv": 0.03860389349059766,
+          "height_cv": 0.026022908102736213,
+          "width_orientation_std_deg": 0.6363957028604507,
+          "row_alignment_median_px": 0.37773869515695785
+        }
+      ],
+      "edge_evidence_mean": 0.36137830305971397,
+      "edge_evidence_unsampled_locations_mean": 0.3520283276484878
+    },
+    "v6_composed": {
       "tables": [
         {
           "count": 13,
@@ -2674,5 +3213,12 @@
     "supported_edges": 0,
     "total_edges": 68,
     "limitation": "Observed shared separator centers; individual gap widths remain prior-based. Outer unobserved edges and partials retain their input geometry."
-  }
+  },
+  "v6_candidate_sha256": "30cc096537612b6f308f8e78fae89f51a8f08c23e8109cd7f6691d89caaae659",
+  "v6_evidence": {
+    "inventory_changes": false,
+    "reserve13_evaluated": false,
+    "limitation": "Whole-mask approximation followed by shared geometry. Better mask fit is not independent proof of a physical frame; development results only."
+  },
+  "display_metrics_sha256": "5dfbc2b5d23b1f1b46ea243e7601b8eccd243542bb219a860332e60703bac53a"
 }

@@ -5,6 +5,7 @@
   "height": 2000,
   "source": "external/source.jpg",
   "source_basename": "solar-panels-crop.tif",
+  "original_source_sha256": "b7cf6f07cab6bc716390953b11c0aca0d4c2d1aa2075329a31ffbd455b1875f6",
   "instances": {
     "independent": [
       {

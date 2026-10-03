@@ -4,6 +4,7 @@
     "independent",
     "shared_shape_centers",
     "shared_seams",
+    "v6_composed",
     "shared_geometry",
     "shared_plus_image"
   ],
@@ -11,13 +12,13 @@
   "files": [
     {
       "path": "comparison-summary.json",
-      "bytes": 177044,
-      "sha256": "49d4f9c67b8fe4651ea4c171de3c7132a14ea07a151b8d49d748a8f32810c5f0"
+      "bytes": 194460,
+      "sha256": "72570b5ea8d82054a383a80ccb8fd73741ec0c2c5f01be0c85f4fa1c9d420d33"
     },
     {
       "path": "external/comparison.json",
-      "bytes": 1258859,
-      "sha256": "e27d663349d2d3bb174c5088dd8377adf669d1aeb84aaa33a82d0f01b540787d"
+      "bytes": 1258955,
+      "sha256": "6bb787edbba33567184ef193a0a1732eb5e33236e86c2fbb1c15e717b56071d6"
     },
     {
       "path": "external/source.jpg",
@@ -26,8 +27,8 @@
     },
     {
       "path": "external_rot270/comparison.json",
-      "bytes": 2785150,
-      "sha256": "f98b0010849bf3b712edf8d4712002a593b92c80ea5609914f915052613ee715"
+      "bytes": 2785246,
+      "sha256": "e0a484b0aae0b3c231200a451169035f9c03711d9be4bd5a449ebd38ca997e76"
     },
     {
       "path": "external_rot270/source.jpg",
@@ -36,8 +37,8 @@
     },
     {
       "path": "external_rot90/comparison.json",
-      "bytes": 2863365,
-      "sha256": "cea25760930d88e31a37a8f91d643de7477028ae57cff9450d9f34f5966b5177"
+      "bytes": 2863461,
+      "sha256": "ee6d98ee0853739004cc5a045e88955415f280db6110f927e86cd75c5179fceb"
     },
     {
       "path": "external_rot90/source.jpg",
@@ -46,13 +47,13 @@
     },
     {
       "path": "index.html",
-      "bytes": 4303424,
-      "sha256": "bcd9fc1f35aaad93470f95e09673109d299ad42ba655b696a3058ec8b3157cc7"
+      "bytes": 4579596,
+      "sha256": "f40518fd8ad07c37ceab4b67f3c7d0cca2cac8375d4b8219fcdc340c2065cc8a"
     },
     {
       "path": "rgb/comparison.json",
-      "bytes": 363788,
-      "sha256": "45161e16354777ab535b95b025ee10a92ee8dc4b2d1e0471a45c49267bec3ea9"
+      "bytes": 458526,
+      "sha256": "feefed6b67702ca5cb4ebb8d1ae54fb834cbab541a5423f9d77469306fb40549"
     },
     {
       "path": "rgb/source.jpg",
@@ -61,8 +62,8 @@
     },
     {
       "path": "rgb_C_DJI_20220610095551_0001_W/comparison.json",
-      "bytes": 632178,
-      "sha256": "e63d6ba1c0ca94ca5e0c1d8e659f7ed818277e57d4422d9900aa229832ce0592"
+      "bytes": 803913,
+      "sha256": "b8ae62c6fa21c97dee02f95512b0aacd9b6e5fc1cb7d49424268575df3b9f72e"
     },
     {
       "path": "rgb_C_DJI_20220610095551_0001_W/source.jpg",
@@ -71,8 +72,8 @@
     },
     {
       "path": "rgb_C_DJI_20220610100017_0029_Z/comparison.json",
-      "bytes": 547667,
-      "sha256": "2a25dc12dc68d9ae1ed43ba7130ae1fd0558f6939a50efcd56ec2d0baa618f2e"
+      "bytes": 694513,
+      "sha256": "43ef69d9dce4104c2562cd82f432f0796454e62e54302d70c97c2853f0e7c0d3"
     },
     {
       "path": "rgb_C_DJI_20220610100017_0029_Z/source.jpg",
@@ -81,8 +82,8 @@
     },
     {
       "path": "thermal/comparison.json",
-      "bytes": 54305,
-      "sha256": "96822c570ec8cdf8d44c00c2665a52959247ce4fd3cd98c5889187c1180961f1"
+      "bytes": 66507,
+      "sha256": "a5279a81509490d23384b10b0ce5b249f5915363142123a54ad536c4d556bffd"
     },
     {
       "path": "thermal/source.jpg",
@@ -91,8 +92,8 @@
     },
     {
       "path": "thermal_DJI_20220610101051_0047_T/comparison.json",
-      "bytes": 56612,
-      "sha256": "b1aa50d421e062a00716d0041b928c676f6eb50021da44ca21c82ef520b2ffae"
+      "bytes": 69019,
+      "sha256": "e7f3ae0d28188b7c849d4de4de7a529459d05f5ed86908ac254612a380451d30"
     },
     {
       "path": "thermal_DJI_20220610101051_0047_T/source.jpg",
@@ -101,8 +102,8 @@
     },
     {
       "path": "thermal_DJI_20220628095237_0012_T_Waypoint10/comparison.json",
-      "bytes": 19658,
-      "sha256": "1f607582de49f4923a8c9539afe66680312d660f9fdcfbe6fbc4d686296eb1a4"
+      "bytes": 24731,
+      "sha256": "3920a56b2f3afb3ee05911a2b8f1be9326749f18f8b0e74cd5b6b16f9d80b8c8"
     },
     {
       "path": "thermal_DJI_20220628095237_0012_T_Waypoint10/source.jpg",

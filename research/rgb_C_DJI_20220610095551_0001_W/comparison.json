@@ -5,6 +5,7 @@
   "height": 637,
   "source": "rgb_C_DJI_20220610095551_0001_W/source.jpg",
   "source_basename": "C_DJI_20220610095551_0001_W.JPG",
+  "original_source_sha256": "2706448a6d6a684b02b25b9c0bbd0779ef0047fca3583909fe42a3b602f6f379",
   "instances": {
     "independent": [
       {
@@ -26451,6 +26452,6316 @@
           "image_edge_partial"
         ]
       }
+    ],
+    "v6_composed": [
+      {
+        "polygon": [
+          [
+            413.4392772589024,
+            466.5032064212457
+          ],
+          [
+            432.26664804673965,
+            466.498783817947
+          ],
+          [
+            432.4730499103688,
+            497.41352893377893
+          ],
+          [
+            413.6904050638054,
+            497.4193790097661
+          ]
+        ],
+        "score": 0.9599279761314392,
+        "id": 1,
+        "observed_fit_support": 0.9625644321711424,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9549536362626705,
+        "quad_fit_v6_raw_iou": 0.9207571106908359,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            315.7533401093699,
+            498.84124074556763
+          ],
+          [
+            333.67851418197154,
+            498.8427010298019
+          ],
+          [
+            335.27935824730565,
+            529.7265427404545
+          ],
+          [
+            317.41440941904375,
+            529.7253086540226
+          ]
+        ],
+        "score": 0.9580085277557373,
+        "id": 2,
+        "observed_fit_support": 0.993821256724629,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0,
+          1,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.8489231496372968,
+        "quad_fit_v6_raw_iou": 0.8444661510927495,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            474.75063445722367,
+            498.0720297037337
+          ],
+          [
+            492.7422262688104,
+            498.06148139939563
+          ],
+          [
+            493.71114989762276,
+            529.0731060244016
+          ],
+          [
+            475.819115037215,
+            529.0835959594172
+          ]
+        ],
+        "score": 0.9565874338150024,
+        "id": 3,
+        "observed_fit_support": 0.9818249348470546,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9173838692096927,
+        "quad_fit_v6_raw_iou": 0.9020648563127103,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            528.4235980039655,
+            68.57260803167131
+          ],
+          [
+            547.9350814093433,
+            68.5722709795131
+          ],
+          [
+            547.8972785290223,
+            102.42739752075055
+          ],
+          [
+            528.4206325537374,
+            102.4277339711077
+          ]
+        ],
+        "score": 0.9543612003326416,
+        "id": 4,
+        "observed_fit_support": 0.9222271340250506,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9961472072234658,
+        "quad_fit_v6_raw_iou": 0.9189493404796011,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            170.41298506028645,
+            498.3853767934745
+          ],
+          [
+            190.00949901637384,
+            498.3990830293484
+          ],
+          [
+            192.16212618606727,
+            529.748170532977
+          ],
+          [
+            172.60369060514313,
+            529.7354130428325
+          ]
+        ],
+        "score": 0.952528715133667,
+        "id": 5,
+        "observed_fit_support": 0.9687670957776315,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0,
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9097909290205284,
+        "quad_fit_v6_raw_iou": 0.8838658002515498,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            335.710752695432,
+            499.59298955967614
+          ],
+          [
+            354.3526798833134,
+            499.5928866217683
+          ],
+          [
+            355.9170722618163,
+            530.8581312077879
+          ],
+          [
+            337.3313799932386,
+            530.8584938153808
+          ]
+        ],
+        "score": 0.9464377164840698,
+        "id": 6,
+        "observed_fit_support": 0.9163834725012567,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3,
+          0,
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.951482514725354,
+        "quad_fit_v6_raw_iou": 0.875474531664939,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            571.8868360713456,
+            299.8174377477559
+          ],
+          [
+            590.4357562274341,
+            299.81663938021876
+          ],
+          [
+            590.7274768252989,
+            332.4740045686832
+          ],
+          [
+            572.2080667104701,
+            332.4748016660731
+          ]
+        ],
+        "score": 0.9455075263977051,
+        "id": 7,
+        "observed_fit_support": 0.9756410398330149,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9752820941742861,
+        "quad_fit_v6_raw_iou": 0.9520984973604417,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            85.10321571460986,
+            465.88263372439445
+          ],
+          [
+            105.96007506854336,
+            465.90460650870347
+          ],
+          [
+            107.34194195544933,
+            496.78862155946365
+          ],
+          [
+            86.51431969735191,
+            496.7676031917548
+          ]
+        ],
+        "score": 0.9454850554466248,
+        "id": 8,
+        "observed_fit_support": 0.9477652915338427,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9546948152812498,
+        "quad_fit_v6_raw_iou": 0.9069729642767795,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            255.40915726219123,
+            498.94930528340166
+          ],
+          [
+            274.1477451278808,
+            498.95549349919986
+          ],
+          [
+            275.9872752038834,
+            529.7863742709092
+          ],
+          [
+            257.2924913298123,
+            529.7805439547615
+          ]
+        ],
+        "score": 0.9450176358222961,
+        "id": 9,
+        "observed_fit_support": 0.9830638371581332,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.8891397517222921,
+        "quad_fit_v6_raw_iou": 0.8757253517955226,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            353.23482854900857,
+            465.84009090094594
+          ],
+          [
+            372.71976871242845,
+            465.8402214599493
+          ],
+          [
+            373.10291231256446,
+            496.4727381776463
+          ],
+          [
+            353.63965644759384,
+            496.4750487343389
+          ]
+        ],
+        "score": 0.9448005557060242,
+        "id": 10,
+        "observed_fit_support": 0.9908170834077413,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9549056972500893,
+        "quad_fit_v6_raw_iou": 0.9465288328379854,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            8.298939608599348,
+            497.9930806901734
+          ],
+          [
+            27.695120335472286,
+            498.01813767163054
+          ],
+          [
+            30.421444205319023,
+            529.0070310574124
+          ],
+          [
+            11.048160818954418,
+            528.9820036559145
+          ]
+        ],
+        "score": 0.9409870505332947,
+        "id": 11,
+        "observed_fit_support": 0.9345683780007673,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9813672520667377,
+        "quad_fit_v6_raw_iou": 0.9182743343517159,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            290.8433316578412,
+            104.63369015544811
+          ],
+          [
+            309.46222527751485,
+            104.63319404239958
+          ],
+          [
+            310.5176287821196,
+            138.12618982216844
+          ],
+          [
+            291.9355347264667,
+            138.1266849546676
+          ]
+        ],
+        "score": 0.9407598376274109,
+        "id": 12,
+        "observed_fit_support": 0.9791515899928765,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9159136648232427,
+        "quad_fit_v6_raw_iou": 0.8983932642460152,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            608.9396099852644,
+            67.26563852818003
+          ],
+          [
+            627.9780455434816,
+            67.2653001878137
+          ],
+          [
+            627.7704127204531,
+            101.36109505357719
+          ],
+          [
+            608.7319627430752,
+            101.36380119271927
+          ]
+        ],
+        "score": 0.9405956268310547,
+        "id": 13,
+        "observed_fit_support": 0.9893700809785942,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.8995134708799183,
+        "quad_fit_v6_raw_iou": 0.8909033461111829,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            82.93114979749167,
+            71.05963632934514
+          ],
+          [
+            103.06698724564853,
+            71.05963632934514
+          ],
+          [
+            103.83028035242192,
+            104.65319965887464
+          ],
+          [
+            83.71469798802018,
+            104.6539659299038
+          ]
+        ],
+        "score": 0.9403859972953796,
+        "id": 14,
+        "observed_fit_support": 0.9792979691876751,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 1,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            47.33211577586755,
+            301.3729022444719
+          ],
+          [
+            66.66649661633346,
+            301.37260783399324
+          ],
+          [
+            68.69413511002286,
+            333.9177670596949
+          ],
+          [
+            49.35977948427598,
+            333.9184661858308
+          ]
+        ],
+        "score": 0.939291775226593,
+        "id": 15,
+        "observed_fit_support": 0.9566317697630314,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9162188277546177,
+        "quad_fit_v6_raw_iou": 0.8796803053206667,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            332.87621445170026,
+            465.85812511214317
+          ],
+          [
+            352.42425233939156,
+            465.8598202737842
+          ],
+          [
+            352.90572856905527,
+            496.5931010725543
+          ],
+          [
+            333.4039443320934,
+            496.5932087584629
+          ]
+        ],
+        "score": 0.9391849040985107,
+        "id": 16,
+        "observed_fit_support": 0.9880572617084914,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9656598605313281,
+        "quad_fit_v6_raw_iou": 0.954518700260134,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            408.2714038693151,
+            69.01689827758943
+          ],
+          [
+            427.63483125270704,
+            69.01658763002577
+          ],
+          [
+            427.8206612768052,
+            102.87782384667534
+          ],
+          [
+            408.45860420489805,
+            102.87813447225508
+          ]
+        ],
+        "score": 0.9381044507026672,
+        "id": 17,
+        "observed_fit_support": 0.9672052669282221,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9593717033417392,
+        "quad_fit_v6_raw_iou": 0.9291473549086872,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            267.9019527769303,
+            70.0688100655351
+          ],
+          [
+            287.63884296520075,
+            70.06851755072645
+          ],
+          [
+            288.0980472230697,
+            103.9311899344649
+          ],
+          [
+            268.36115703479925,
+            103.93148244927355
+          ]
+        ],
+        "score": 0.9372755885124207,
+        "id": 18,
+        "observed_fit_support": 0.988882314857845,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 1,
+        "quad_fit_v6_raw_coverage": 0.9849680219073385,
+        "quad_fit_v6_raw_iou": 0.9741802633491473,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            89.96873023749673,
+            498.7803235193642
+          ],
+          [
+            109.11990619442926,
+            498.7996500873867
+          ],
+          [
+            111.59968860562299,
+            529.8898884296373
+          ],
+          [
+            92.44857130466713,
+            529.8712972601267
+          ]
+        ],
+        "score": 0.9368904829025269,
+        "id": 19,
+        "observed_fit_support": 0.9295731874173085,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9224057763471715,
+        "quad_fit_v6_raw_iou": 0.862155108570986,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            554.0163922158625,
+            497.9378285483259
+          ],
+          [
+            572.2976918179903,
+            497.9197664077378
+          ],
+          [
+            572.9527478701071,
+            528.7722731991914
+          ],
+          [
+            554.7102421577453,
+            528.7890686479361
+          ]
+        ],
+        "score": 0.9358164072036743,
+        "id": 20,
+        "observed_fit_support": 0.9799053527336059,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0,
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9357691941840608,
+        "quad_fit_v6_raw_iou": 0.9181502946536041,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            107.67650469653412,
+            301.43310078117224
+          ],
+          [
+            126.93418191015176,
+            301.43238998941996
+          ],
+          [
+            128.74893375377653,
+            333.7290465790958
+          ],
+          [
+            109.49125654015889,
+            333.72975737084806
+          ]
+        ],
+        "score": 0.9343194961547852,
+        "id": 21,
+        "observed_fit_support": 0.9780298008296147,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 2,
+        "quad_fit_v6_raw_coverage": 0.9401781997016313,
+        "quad_fit_v6_raw_iou": 0.9207324131247108,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            548.6692388573458,
+            68.07083023797239
+          ],
+          [
+            568.0459154852173,
+            68.07049428537653
+          ],
+          [
+            567.9526896416488,
+            102.0024865391407
+          ],
+          [
+            548.586151432455,
+            102.0041072451396
+          ]
+        ],
+        "score": 0.9335666298866272,
+        "id": 22,
+        "observed_fit_support": 0.9993191809633555,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9660030411663404,
+        "quad_fit_v6_raw_iou": 0.965367712092015,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            217.0,
+            466.0
+          ],
+          [
+            233.0,
+            466.0
+          ],
+          [
+            233.0,
+            497.63925841119544
+          ],
+          [
+            217.0,
+            497.63548537004715
+          ]
+        ],
+        "score": 0.9328194260597229,
+        "id": 23,
+        "observed_fit_support": 0.9949782508247549,
+        "review_flags": [
+          "minor_disconnected_mask_parts_ignored_for_fit"
+        ],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.8624245738197985,
+        "quad_fit_v6_raw_iou": 0.8586869343541274,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            633.0611787622163,
+            497.082418061776
+          ],
+          [
+            651.1896731482439,
+            497.05967211395756
+          ],
+          [
+            651.5271407738757,
+            528.078715598451
+          ],
+          [
+            633.4400458032793,
+            528.1014096021355
+          ]
+        ],
+        "score": 0.9327138066291809,
+        "id": 24,
+        "observed_fit_support": 0.9853280635753361,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9600225448592068,
+        "quad_fit_v6_raw_iou": 0.9464923170412269,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            529.3659149265089,
+            102.75452194423154
+          ],
+          [
+            547.8889653822467,
+            102.75398268547985
+          ],
+          [
+            548.4797658201745,
+            136.24547805576847
+          ],
+          [
+            529.9567153644367,
+            136.24601731452015
+          ]
+        ],
+        "score": 0.9320015907287598,
+        "id": 25,
+        "observed_fit_support": 0.9753381733809412,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 1,
+        "quad_fit_v6_raw_coverage": 0.9366341233260279,
+        "quad_fit_v6_raw_iou": 0.9149648472488708,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            433.9510580758989,
+            465.7009869268402
+          ],
+          [
+            453.11464670640976,
+            465.69492038601305
+          ],
+          [
+            453.2153996875558,
+            496.1214081459591
+          ],
+          [
+            434.0518201396773,
+            496.1302175594909
+          ]
+        ],
+        "score": 0.9310858845710754,
+        "id": 26,
+        "observed_fit_support": 0.9762895802899537,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.957580928766812,
+        "quad_fit_v6_raw_iou": 0.9358175039373828,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            531.8929372474959,
+            300.3020346314727
+          ],
+          [
+            550.5191243791027,
+            300.301238042808
+          ],
+          [
+            550.974391859409,
+            332.92471517653144
+          ],
+          [
+            532.3877888893908,
+            332.9255100722949
+          ]
+        ],
+        "score": 0.9293429255485535,
+        "id": 27,
+        "observed_fit_support": 0.9885387260338339,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9748961941876632,
+        "quad_fit_v6_raw_iou": 0.9640000054376225,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            310.7611615055522,
+            104.50811772280257
+          ],
+          [
+            329.73066349718965,
+            104.50639480195099
+          ],
+          [
+            330.75238036608135,
+            138.1045199549585
+          ],
+          [
+            311.78284149761464,
+            138.10503021860376
+          ]
+        ],
+        "score": 0.9287065863609314,
+        "id": 28,
+        "observed_fit_support": 0.966529373200639,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9662715722372063,
+        "quad_fit_v6_raw_iou": 0.9349853729063233,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            109.42389349907462,
+            498.6073048380142
+          ],
+          [
+            128.54703043819305,
+            498.626644056114
+          ],
+          [
+            130.96108959785792,
+            529.8362638399035
+          ],
+          [
+            111.83812600482773,
+            529.8191656876376
+          ]
+        ],
+        "score": 0.9285548329353333,
+        "id": 29,
+        "observed_fit_support": 0.9499316689986926,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9270969169359873,
+        "quad_fit_v6_raw_iou": 0.8839050951664007,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            66.09866430290597,
+            465.5637287516951
+          ],
+          [
+            85.56849325996241,
+            465.58568307311083
+          ],
+          [
+            87.02684875311789,
+            496.1702429602509
+          ],
+          [
+            68.34720075264815,
+            496.14950231311826
+          ]
+        ],
+        "score": 0.9277805089950562,
+        "id": 30,
+        "observed_fit_support": 0.9702327080089971,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.8998399190298119,
+        "quad_fit_v6_raw_iou": 0.875664911423633,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            187.47528708131847,
+            70.04627475795118
+          ],
+          [
+            207.5330249336645,
+            70.04627475795118
+          ],
+          [
+            208.1012963681383,
+            103.95372524204882
+          ],
+          [
+            188.06795393165456,
+            103.95372524204882
+          ]
+        ],
+        "score": 0.9274068474769592,
+        "id": 31,
+        "observed_fit_support": 0.9939684118890687,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 1,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            388.0448203376939,
+            69.0689091436895
+          ],
+          [
+            407.63323749989684,
+            69.06859899778055
+          ],
+          [
+            407.8581702135831,
+            103.01375140754416
+          ],
+          [
+            388.3092027061346,
+            103.0150215512287
+          ]
+        ],
+        "score": 0.927215039730072,
+        "id": 32,
+        "observed_fit_support": 0.9983746173913248,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.977438664923958,
+        "quad_fit_v6_raw_iou": 0.9758857396293457,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            352.721235072046,
+            301.2533031371147
+          ],
+          [
+            371.24738226158473,
+            301.2527534612224
+          ],
+          [
+            372.2554270706647,
+            333.52928769307704
+          ],
+          [
+            353.79507511974583,
+            333.5300344962091
+          ]
+        ],
+        "score": 0.9263849258422852,
+        "id": 33,
+        "observed_fit_support": 0.9660827728273927,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0,
+          1,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.955518294090185,
+        "quad_fit_v6_raw_iou": 0.9245045594878059,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            288.27866460410934,
+            69.94908849207518
+          ],
+          [
+            307.9728925582213,
+            69.94879294906721
+          ],
+          [
+            308.3932189654018,
+            103.81090606753797
+          ],
+          [
+            288.6989910112898,
+            103.81120161054594
+          ]
+        ],
+        "score": 0.926319420337677,
+        "id": 34,
+        "observed_fit_support": 0.9597417252220238,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 1,
+        "quad_fit_v6_raw_coverage": 0.9610218117128503,
+        "quad_fit_v6_raw_iou": 0.9237823257998198,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            432.4218251364584,
+            300.90676214220406
+          ],
+          [
+            451.48031441965134,
+            300.90596870743343
+          ],
+          [
+            452.25845297443357,
+            333.450328253211
+          ],
+          [
+            433.2405700056914,
+            333.4511199974772
+          ]
+        ],
+        "score": 0.9258468747138977,
+        "id": 35,
+        "observed_fit_support": 0.9698845176191272,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9676764156281109,
+        "quad_fit_v6_raw_iou": 0.9394488710071847,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            454.18637018199433,
+            499.01047789342533
+          ],
+          [
+            472.75102238436506,
+            499.0029085250344
+          ],
+          [
+            473.8362081273924,
+            530.4993252122612
+          ],
+          [
+            455.3807903195679,
+            530.50864219994
+          ]
+        ],
+        "score": 0.92577064037323,
+        "id": 36,
+        "review_flags": [],
+        "quad_fit_v6_method": "bounded_whole_mask_optimization",
+        "observed_fit_support": 0.8664594306875403,
+        "quad_fit_v6_raw_coverage": 0.9346309088809852,
+        "quad_fit_v6_raw_iou": 0.8169512806709524,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          0,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            534.0368425756711,
+            497.85600531454264
+          ],
+          [
+            552.01030800303,
+            497.8414074947924
+          ],
+          [
+            552.7671023715845,
+            528.5003418087008
+          ],
+          [
+            534.8711197911431,
+            528.5152483270804
+          ]
+        ],
+        "score": 0.9255961179733276,
+        "id": 37,
+        "review_flags": [],
+        "quad_fit_v6_method": "bounded_whole_mask_optimization",
+        "observed_fit_support": 0.9713885517538549,
+        "quad_fit_v6_raw_coverage": 0.9265244352720033,
+        "quad_fit_v6_raw_iou": 0.9019112653721896,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            2.0,
+            70.0
+          ],
+          [
+            22.0,
+            70.0
+          ],
+          [
+            24.0,
+            105.0
+          ],
+          [
+            2.0,
+            105.0
+          ]
+        ],
+        "score": 0.9254121780395508,
+        "id": 38,
+        "observed_fit_support": 0.9590599876314162,
+        "review_flags": [
+          "internal_tile_edge_observation"
+        ],
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            434.5022263544435,
+            499.42777646187216
+          ],
+          [
+            453.4863965195923,
+            499.4190495220472
+          ],
+          [
+            454.68398118612663,
+            531.0006659154994
+          ],
+          [
+            435.75504419346896,
+            531.0087258495414
+          ]
+        ],
+        "score": 0.9245426058769226,
+        "id": 39,
+        "review_flags": [
+          "minor_disconnected_mask_parts_ignored_for_fit"
+        ],
+        "quad_fit_v6_method": "bounded_whole_mask_optimization",
+        "observed_fit_support": 0.858952178223576,
+        "quad_fit_v6_raw_coverage": 0.962094842182525,
+        "quad_fit_v6_raw_iou": 0.8308354723065842,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0,
+          1,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            69.64766190745563,
+            499.1620506547651
+          ],
+          [
+            88.81834073778975,
+            499.183336510093
+          ],
+          [
+            91.42139663344649,
+            530.5713144248178
+          ],
+          [
+            72.25081494656271,
+            530.5511999375266
+          ]
+        ],
+        "score": 0.9245175123214722,
+        "id": 40,
+        "observed_fit_support": 0.8833192371186407,
+        "review_flags": [
+          "minor_disconnected_mask_parts_ignored_for_fit"
+        ],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.8784787387934259,
+        "quad_fit_v6_raw_iou": 0.7871381535377744,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            389.9773451009374,
+            104.33966427134844
+          ],
+          [
+            408.77892131892395,
+            104.33844268748298
+          ],
+          [
+            409.64610301611873,
+            137.7437682874895
+          ],
+          [
+            390.8445086553077,
+            137.74429097865763
+          ]
+        ],
+        "score": 0.9241513013839722,
+        "id": 41,
+        "observed_fit_support": 0.9944442779858615,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9406293635680163,
+        "quad_fit_v6_raw_iou": 0.9357121299123852,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            171.3883989562251,
+            105.67101952374702
+          ],
+          [
+            190.2429001471076,
+            105.67053887425018
+          ],
+          [
+            191.53241311606638,
+            139.16324561705102
+          ],
+          [
+            172.70702023294226,
+            139.16372552450255
+          ]
+        ],
+        "score": 0.922939658164978,
+        "id": 42,
+        "observed_fit_support": 0.9541904912329452,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9452049834625187,
+        "quad_fit_v6_raw_iou": 0.9041752073221531,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            83.71935453154174,
+            267.7958168565529
+          ],
+          [
+            103.82718100834128,
+            267.7955706573065
+          ],
+          [
+            105.22003675119598,
+            300.3421367286234
+          ],
+          [
+            85.11221027439643,
+            300.34238292786983
+          ]
+        ],
+        "score": 0.9227845668792725,
+        "id": 43,
+        "observed_fit_support": 0.9782636500855547,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 2,
+        "quad_fit_v6_raw_coverage": 0.9722336922183101,
+        "quad_fit_v6_raw_iou": 0.9516752528373775,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            168.17137727823848,
+            466.9995774510831
+          ],
+          [
+            187.3015912435861,
+            467.0135776469446
+          ],
+          [
+            188.38114967246085,
+            497.64704414864553
+          ],
+          [
+            169.33874469390244,
+            497.6337254688627
+          ]
+        ],
+        "score": 0.9227805733680725,
+        "id": 44,
+        "review_flags": [],
+        "quad_fit_v6_method": "bounded_whole_mask_optimization",
+        "observed_fit_support": 0.9999223788297417,
+        "quad_fit_v6_raw_coverage": 0.8333935808210458,
+        "quad_fit_v6_raw_iou": 0.8333396687389718,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2,
+          1,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            410.1615412108623,
+            104.20417222199089
+          ],
+          [
+            428.91957603299755,
+            104.20364612667909
+          ],
+          [
+            429.75161668329486,
+            137.6904435611838
+          ],
+          [
+            410.9935818611596,
+            137.6909696564956
+          ]
+        ],
+        "score": 0.9227215051651001,
+        "id": 45,
+        "observed_fit_support": 0.9839298721275723,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 1,
+        "quad_fit_v6_raw_coverage": 0.9479333562580944,
+        "quad_fit_v6_raw_iou": 0.9334810060167898,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            633.2074405918321,
+            465.08648794609826
+          ],
+          [
+            651.3981848369716,
+            465.0659446221212
+          ],
+          [
+            650.703450466452,
+            496.0742785320938
+          ],
+          [
+            632.5784497384434,
+            496.09474761005026
+          ]
+        ],
+        "score": 0.9220209121704102,
+        "id": 46,
+        "observed_fit_support": 0.9972794217582859,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9078405118234489,
+        "quad_fit_v6_raw_iou": 0.9055977185682398,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            412.96434194009294,
+            301.07919579171136
+          ],
+          [
+            431.41024668447375,
+            301.07730610407987
+          ],
+          [
+            432.22537195792,
+            333.4777883455893
+          ],
+          [
+            413.85072781729747,
+            333.4785480331425
+          ]
+        ],
+        "score": 0.9218112826347351,
+        "id": 47,
+        "observed_fit_support": 0.9811643010501372,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          0,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9508645690455818,
+        "quad_fit_v6_raw_iou": 0.933818619586346,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            146.75728489105148,
+            466.5000896677214
+          ],
+          [
+            165.70355512954978,
+            466.51559431230777
+          ],
+          [
+            166.8750663777742,
+            497.25848511176434
+          ],
+          [
+            147.9876282422536,
+            497.2420791243523
+          ]
+        ],
+        "score": 0.921551525592804,
+        "id": 48,
+        "observed_fit_support": 0.9709532484863307,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          2,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9188600599433525,
+        "quad_fit_v6_raw_iou": 0.8942778403337326,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            46.003284262733516,
+            464.9965695914726
+          ],
+          [
+            64.40886144467397,
+            465.00365694613885
+          ],
+          [
+            66.76072785691503,
+            496.99497891904707
+          ],
+          [
+            45.99966224202464,
+            497.0031506658824
+          ]
+        ],
+        "score": 0.9210287928581238,
+        "id": 49,
+        "review_flags": [],
+        "quad_fit_v6_method": "bounded_whole_mask_optimization",
+        "observed_fit_support": 0.9641220647779435,
+        "quad_fit_v6_raw_coverage": 0.9986175374603432,
+        "quad_fit_v6_raw_iou": 0.962836958757993,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            308.20177272818125,
+            69.92901499933588
+          ],
+          [
+            327.85239955420104,
+            69.92871590639744
+          ],
+          [
+            328.2352892986927,
+            103.68249904191508
+          ],
+          [
+            308.58467932576184,
+            103.68428382496755
+          ]
+        ],
+        "score": 0.9210203289985657,
+        "id": 50,
+        "observed_fit_support": 0.9473857638247905,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9697512437946996,
+        "quad_fit_v6_raw_iou": 0.9201930240098809,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            354.93740059085394,
+            499.63847267035385
+          ],
+          [
+            374.4750788269894,
+            499.63615327870025
+          ],
+          [
+            375.9626012184066,
+            531.004122328152
+          ],
+          [
+            356.5069137138173,
+            531.0060581589619
+          ]
+        ],
+        "score": 0.920690655708313,
+        "id": 51,
+        "review_flags": [],
+        "quad_fit_v6_method": "bounded_whole_mask_optimization",
+        "observed_fit_support": 0.8037379048963605,
+        "quad_fit_v6_raw_coverage": 0.9880254874115207,
+        "quad_fit_v6_raw_iou": 0.7959842119031109,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3,
+          0,
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            275.35627673764344,
+            499.14548493800726
+          ],
+          [
+            294.7940679879513,
+            499.1499451239872
+          ],
+          [
+            296.54278322542496,
+            530.1522271835323
+          ],
+          [
+            277.14249677512447,
+            530.1477756033854
+          ]
+        ],
+        "score": 0.920648455619812,
+        "id": 52,
+        "observed_fit_support": 0.8971819503126105,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9312543339497168,
+        "quad_fit_v6_raw_iou": 0.8414522122939317,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            468.80136084273823,
+            68.97216198090875
+          ],
+          [
+            488.21940879217124,
+            68.97183737309041
+          ],
+          [
+            488.2923371277916,
+            102.82810541555205
+          ],
+          [
+            468.8788003738129,
+            102.82842994795759
+          ]
+        ],
+        "score": 0.9198960065841675,
+        "id": 53,
+        "observed_fit_support": 0.9955605870447689,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9309076275018192,
+        "quad_fit_v6_raw_iou": 0.9270593006241242,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            62.81236016330028,
+            71.56456726784452
+          ],
+          [
+            83.0211217851965,
+            71.56456726784452
+          ],
+          [
+            83.85071510353583,
+            105.0383871933419
+          ],
+          [
+            64.21905741838302,
+            105.03956565186911
+          ]
+        ],
+        "score": 0.9193251132965088,
+        "id": 54,
+        "observed_fit_support": 0.9421424611973392,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 1,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            216.3207946706198,
+            498.63553069990587
+          ],
+          [
+            234.9183690721542,
+            498.63991628824806
+          ],
+          [
+            236.94575375405026,
+            530.0041277012303
+          ],
+          [
+            218.39615450967685,
+            529.9954198581391
+          ]
+        ],
+        "score": 0.9189866781234741,
+        "id": 55,
+        "observed_fit_support": 0.8454836928423729,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.904477079431192,
+        "quad_fit_v6_raw_iou": 0.7761768746252352,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            449.8679820088751,
+            103.75627017688223
+          ],
+          [
+            468.54706360986404,
+            103.75573948445623
+          ],
+          [
+            469.2993924685442,
+            137.24372982311777
+          ],
+          [
+            450.6203108675553,
+            137.24426051554377
+          ]
+        ],
+        "score": 0.9187228083610535,
+        "id": 56,
+        "observed_fit_support": 0.9767033804109393,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 1,
+        "quad_fit_v6_raw_coverage": 0.9538683503615039,
+        "quad_fit_v6_raw_iou": 0.9326487706174698,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            235.07214281147057,
+            498.7896787937887
+          ],
+          [
+            254.21408092952876,
+            498.79746535063884
+          ],
+          [
+            256.10209620797633,
+            529.705338077922
+          ],
+          [
+            236.98901383897348,
+            529.6978187262118
+          ]
+        ],
+        "score": 0.9182863235473633,
+        "id": 57,
+        "observed_fit_support": 0.9355480676730037,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9511195909422787,
+        "quad_fit_v6_raw_iou": 0.892630270700506,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            313.6337501707194,
+            466.22522399085096
+          ],
+          [
+            332.7740585361576,
+            466.2283443100712
+          ],
+          [
+            333.30826925525946,
+            497.34087317450263
+          ],
+          [
+            314.20647298838855,
+            497.33931703608954
+          ]
+        ],
+        "score": 0.9177751541137695,
+        "id": 58,
+        "observed_fit_support": 0.9519519119230164,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2,
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9849274472877609,
+        "quad_fit_v6_raw_iou": 0.9382830780434032,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            6.688517687657766,
+            301.8916797444672
+          ],
+          [
+            26.335502315772562,
+            301.89097823805434
+          ],
+          [
+            28.444885132743075,
+            334.1083120207465
+          ],
+          [
+            8.829766659729946,
+            334.1090123893607
+          ]
+        ],
+        "score": 0.9166096448898315,
+        "id": 59,
+        "observed_fit_support": 0.9456406561113184,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9717001140853853,
+        "quad_fit_v6_raw_iou": 0.9202948812336013,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            414.72282537961473,
+            498.41604865436545
+          ],
+          [
+            433.6609760902696,
+            498.4101501442451
+          ],
+          [
+            434.8943662717579,
+            529.5013684231383
+          ],
+          [
+            415.96915536370517,
+            529.5078001260644
+          ]
+        ],
+        "score": 0.9161399602890015,
+        "id": 60,
+        "observed_fit_support": 0.9177413745250961,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0,
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9502242717881382,
+        "quad_fit_v6_raw_iou": 0.8756454446718108,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            494.472768131192,
+            498.1692903961718
+          ],
+          [
+            513.3415943328525,
+            498.15694554133495
+          ],
+          [
+            514.2609738051249,
+            528.9999621415725
+          ],
+          [
+            495.43643290470067,
+            529.0125987145194
+          ]
+        ],
+        "score": 0.9158530831336975,
+        "id": 61,
+        "observed_fit_support": 0.9456027675652826,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3,
+          0,
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9396270153049492,
+        "quad_fit_v6_raw_iou": 0.8914415099682114,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            571.0396715853635,
+            266.18363440937765
+          ],
+          [
+            590.5209711250884,
+            266.1832899845293
+          ],
+          [
+            590.3471947421531,
+            299.10785241074643
+          ],
+          [
+            570.8658952024282,
+            299.10819683559475
+          ]
+        ],
+        "score": 0.9155256152153015,
+        "id": 62,
+        "observed_fit_support": 0.993990689251255,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 2,
+        "quad_fit_v6_raw_coverage": 0.9645366894576518,
+        "quad_fit_v6_raw_iou": 0.9589448495500654,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            273.26365289196696,
+            301.4505447634756
+          ],
+          [
+            292.2947056009861,
+            301.4497928877072
+          ],
+          [
+            293.58549381404447,
+            333.8703881030216
+          ],
+          [
+            274.5544411050253,
+            333.87113997879
+          ]
+        ],
+        "score": 0.915448009967804,
+        "id": 63,
+        "observed_fit_support": 0.980114349289441,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 2,
+        "quad_fit_v6_raw_coverage": 0.9232512973661969,
+        "quad_fit_v6_raw_iou": 0.9062749995435426,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            168.4223355541648,
+            70.0473589769991
+          ],
+          [
+            187.475306032336,
+            70.0473589769991
+          ],
+          [
+            188.0650302682593,
+            103.78645762492006
+          ],
+          [
+            169.05410374740066,
+            103.78762547810207
+          ]
+        ],
+        "score": 0.9149234294891357,
+        "id": 64,
+        "observed_fit_support": 0.9544117647058824,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 1,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          2,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            513.0060671608312,
+            465.004830113721
+          ],
+          [
+            532.0629114547928,
+            464.9927253455899
+          ],
+          [
+            531.8518553873292,
+            495.25617182775767
+          ],
+          [
+            512.794993704658,
+            495.2707699725963
+          ]
+        ],
+        "score": 0.9144321084022522,
+        "id": 65,
+        "observed_fit_support": 0.9994263705008869,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9304538359610871,
+        "quad_fit_v6_raw_iou": 0.9299571996558075,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            508.94463838455044,
+            68.90032332214243
+          ],
+          [
+            527.8715882218133,
+            68.89999863501302
+          ],
+          [
+            527.8686360315205,
+            102.60374224053798
+          ],
+          [
+            508.94849106912477,
+            102.60546752158474
+          ]
+        ],
+        "score": 0.9135518074035645,
+        "id": 66,
+        "observed_fit_support": 0.9849255373826634,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9292796372412869,
+        "quad_fit_v6_raw_iou": 0.9162480319701032,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            230.54997566863247,
+            104.85015214973848
+          ],
+          [
+            249.69334387358487,
+            104.84842587172308
+          ],
+          [
+            250.85688709597005,
+            138.27706260725742
+          ],
+          [
+            231.71347608621437,
+            138.2775591018046
+          ]
+        ],
+        "score": 0.9131397008895874,
+        "id": 67,
+        "observed_fit_support": 0.9829993055035138,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9163113425925811,
+        "quad_fit_v6_raw_iou": 0.9020167715537433,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            292.9923737172279,
+            466.6160494064624
+          ],
+          [
+            312.35145291565675,
+            466.6207667761694
+          ],
+          [
+            313.01201364647125,
+            497.61305339149595
+          ],
+          [
+            293.6529344480424,
+            497.608336021789
+          ]
+        ],
+        "score": 0.9130926728248596,
+        "id": 68,
+        "observed_fit_support": 0.9619304200346558,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 0,
+        "quad_fit_v6_raw_coverage": 0.9732513759318743,
+        "quad_fit_v6_raw_iou": 0.9371544175174847,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            395.3444358576195,
+            498.5432589007383
+          ],
+          [
+            413.68698885296806,
+            498.53852043219604
+          ],
+          [
+            415.00540318532404,
+            529.5464257602389
+          ],
+          [
+            396.71775212786747,
+            529.5511500458532
+          ]
+        ],
+        "score": 0.9128754734992981,
+        "id": 69,
+        "observed_fit_support": 0.9838822165207737,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.8904630902369308,
+        "quad_fit_v6_raw_iou": 0.8776603013637685,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            511.87942070727075,
+            300.3581712819123
+          ],
+          [
+            530.7227337584792,
+            300.35737069673996
+          ],
+          [
+            531.2173520905252,
+            332.96546500616444
+          ],
+          [
+            512.3986263706884,
+            332.96626454670877
+          ]
+        ],
+        "score": 0.9127829074859619,
+        "id": 70,
+        "observed_fit_support": 0.9899691776526806,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9565455310692854,
+        "quad_fit_v6_raw_iou": 0.9473635334414036,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            350.1181192780079,
+            104.26766831238577
+          ],
+          [
+            369.0029885596194,
+            104.2663337511757
+          ],
+          [
+            369.95498795607546,
+            137.98592556824332
+          ],
+          [
+            351.0700955870759,
+            137.98644237966914
+          ]
+        ],
+        "score": 0.9118198752403259,
+        "id": 71,
+        "observed_fit_support": 0.9366174574773123,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9801522875246561,
+        "quad_fit_v6_raw_iou": 0.9191840756518759,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            64.03717383988456,
+            267.6645904532987
+          ],
+          [
+            84.17507613630167,
+            267.664350898569
+          ],
+          [
+            85.6214138393181,
+            300.0430411551824
+          ],
+          [
+            65.48353666605816,
+            300.0438431338344
+          ]
+        ],
+        "score": 0.9117125868797302,
+        "id": 72,
+        "observed_fit_support": 0.9231922195713921,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9600682425313904,
+        "quad_fit_v6_raw_iou": 0.8890543233034578,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            252.89983042690142,
+            301.4464420065282
+          ],
+          [
+            271.6405138461988,
+            301.44570777543527
+          ],
+          [
+            272.99671907846533,
+            333.8508377463881
+          ],
+          [
+            254.2974140597713,
+            333.85157035633904
+          ]
+        ],
+        "score": 0.9114344716072083,
+        "id": 73,
+        "observed_fit_support": 0.9525491920553294,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.949613807058243,
+        "quad_fit_v6_raw_iou": 0.9067217144013185,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            372.8772101572022,
+            466.50091778135436
+          ],
+          [
+            392.54679995552397,
+            466.4994845345785
+          ],
+          [
+            392.8780807683024,
+            497.2525241871906
+          ],
+          [
+            373.2618828840836,
+            497.25568892421694
+          ]
+        ],
+        "score": 0.9114177823066711,
+        "id": 74,
+        "review_flags": [],
+        "quad_fit_v6_method": "bounded_whole_mask_optimization",
+        "observed_fit_support": 0.9324993651622318,
+        "quad_fit_v6_raw_coverage": 0.9961443380816458,
+        "quad_fit_v6_raw_iou": 0.9291457820059338,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3,
+          1,
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            232.20200128490123,
+            466.20195677334056
+          ],
+          [
+            251.9055725763837,
+            466.2114878463425
+          ],
+          [
+            252.74844191075834,
+            497.29212319043967
+          ],
+          [
+            233.07945135092987,
+            497.28412223921754
+          ]
+        ],
+        "score": 0.9109941124916077,
+        "id": 75,
+        "observed_fit_support": 0.91450545255199,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2,
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9597909465113564,
+        "quad_fit_v6_raw_iou": 0.8807618089825657,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            311.0139604657468,
+            267.64109295092766
+          ],
+          [
+            330.81505073034,
+            267.64079279370753
+          ],
+          [
+            331.48261758025916,
+            300.1920490015146
+          ],
+          [
+            311.68153667561904,
+            300.192805559816
+          ]
+        ],
+        "score": 0.9105530977249146,
+        "id": 76,
+        "observed_fit_support": 0.961272486146425,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9765060134729424,
+        "quad_fit_v6_raw_iou": 0.9395432195675207,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            66.75673537814988,
+            105.55025143887666
+          ],
+          [
+            86.2468263249406,
+            105.54978045677798
+          ],
+          [
+            87.72169591685078,
+            139.05314617411997
+          ],
+          [
+            68.23160497006006,
+            139.05361715621868
+          ]
+        ],
+        "score": 0.910171389579773,
+        "id": 77,
+        "observed_fit_support": 0.9547707096121262,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 1,
+        "quad_fit_v6_raw_coverage": 0.9680905608418552,
+        "quad_fit_v6_raw_iou": 0.9256404342379781,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            593.2781444478715,
+            465.09660056776795
+          ],
+          [
+            612.2139669835885,
+            465.0783218276959
+          ],
+          [
+            611.7000046031342,
+            496.0846994145644
+          ],
+          [
+            592.7641820674171,
+            496.10297815463645
+          ]
+        ],
+        "score": 0.9098847508430481,
+        "id": 78,
+        "observed_fit_support": 0.96223818080654,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 0,
+        "quad_fit_v6_raw_coverage": 0.9894064431149053,
+        "quad_fit_v6_raw_iou": 0.9524256566221013,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            533.3696237644541,
+            465.3132043203762
+          ],
+          [
+            552.3912570456647,
+            465.29951805558085
+          ],
+          [
+            552.1055714175799,
+            496.6573534962808
+          ],
+          [
+            533.0839220756784,
+            496.67280263765906
+          ]
+        ],
+        "score": 0.9097530245780945,
+        "id": 79,
+        "observed_fit_support": 0.9577174683202941,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9756942628594296,
+        "quad_fit_v6_raw_iou": 0.9354007582169374,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            328.2133298069337,
+            69.95870419487558
+          ],
+          [
+            347.8191911502815,
+            69.95840123341243
+          ],
+          [
+            348.1678237058698,
+            103.8168203508282
+          ],
+          [
+            328.561962362522,
+            103.81712331229134
+          ]
+        ],
+        "score": 0.9095901846885681,
+        "id": 80,
+        "observed_fit_support": 0.9936779209093496,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 1,
+        "quad_fit_v6_raw_coverage": 0.9736189387344981,
+        "quad_fit_v6_raw_iou": 0.9676250263552053,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            348.5614970502324,
+            69.81274675250704
+          ],
+          [
+            368.1252700913577,
+            69.81244092748018
+          ],
+          [
+            368.4324861277314,
+            103.43998447611887
+          ],
+          [
+            348.8687229232845,
+            103.44136701359403
+          ]
+        ],
+        "score": 0.9095825552940369,
+        "id": 81,
+        "observed_fit_support": 0.9690289569380797,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9785366795941834,
+        "quad_fit_v6_raw_iou": 0.9488611252450944,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            6.100655454078792,
+            106.24954044994773
+          ],
+          [
+            26.240426090958888,
+            106.24906387233929
+          ],
+          [
+            27.82300196076322,
+            139.75044736280066
+          ],
+          [
+            7.697571416304159,
+            139.75092360107226
+          ]
+        ],
+        "score": 0.90940260887146,
+        "id": 82,
+        "observed_fit_support": 0.9224587935318629,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9774885359010178,
+        "quad_fit_v6_raw_iou": 0.9032696123198979,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            149.77701966917337,
+            498.7511781368533
+          ],
+          [
+            168.8373726328901,
+            498.7677343213685
+          ],
+          [
+            171.1066306369649,
+            530.0050620160504
+          ],
+          [
+            152.04646425733728,
+            529.9910742430267
+          ]
+        ],
+        "score": 0.9093172550201416,
+        "id": 83,
+        "observed_fit_support": 0.9346075039884766,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9455359753329216,
+        "quad_fit_v6_raw_iou": 0.8868636167665994,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            593.0243140182188,
+            497.50005037980486
+          ],
+          [
+            611.6270528625174,
+            497.47988150611326
+          ],
+          [
+            612.1305672021936,
+            528.497096802944
+          ],
+          [
+            593.5978692166133,
+            528.5171897391491
+          ]
+        ],
+        "score": 0.9091237187385559,
+        "id": 84,
+        "review_flags": [],
+        "quad_fit_v6_method": "bounded_whole_mask_optimization",
+        "observed_fit_support": 0.9405590977206615,
+        "quad_fit_v6_raw_coverage": 0.9520128525800026,
+        "quad_fit_v6_raw_iou": 0.8979857636410692,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            229.95351708457898,
+            267.2218185771957
+          ],
+          [
+            249.7907986672859,
+            267.2215453224686
+          ],
+          [
+            250.71247604410485,
+            299.8821946641342
+          ],
+          [
+            230.9190376189177,
+            299.8824673149302
+          ]
+        ],
+        "score": 0.9090117812156677,
+        "id": 85,
+        "observed_fit_support": 0.9713592342604691,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9612338929008456,
+        "quad_fit_v6_raw_iou": 0.9347412529464291,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            193.57438046215063,
+            301.3206792962271
+          ],
+          [
+            211.50212385351102,
+            301.3199956599037
+          ],
+          [
+            213.02361731830916,
+            333.68073830029175
+          ],
+          [
+            195.16592607256223,
+            333.6814192653257
+          ]
+        ],
+        "score": 0.908882737159729,
+        "id": 86,
+        "review_flags": [],
+        "quad_fit_v6_method": "bounded_whole_mask_optimization",
+        "observed_fit_support": 0.9658665480455855,
+        "quad_fit_v6_raw_coverage": 0.9056819697295129,
+        "quad_fit_v6_raw_iou": 0.8775932413712627,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            568.4072402601616,
+            67.73959780709804
+          ],
+          [
+            587.6944214253393,
+            67.73926116170433
+          ],
+          [
+            587.5614469947465,
+            101.80120391551672
+          ],
+          [
+            568.3136503257505,
+            101.8041104777719
+          ]
+        ],
+        "score": 0.9087768197059631,
+        "id": 87,
+        "observed_fit_support": 0.9446047733864333,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3,
+          1,
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9770781547038432,
+        "quad_fit_v6_raw_iou": 0.9241261080245595,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            130.2039136625745,
+            498.99466142876327
+          ],
+          [
+            149.29326609323275,
+            499.01015480641854
+          ],
+          [
+            151.6183911556488,
+            530.0053385712367
+          ],
+          [
+            132.52903872499056,
+            529.9898451935815
+          ]
+        ],
+        "score": 0.9086031913757324,
+        "id": 88,
+        "observed_fit_support": 0.9346048082124042,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 0,
+        "quad_fit_v6_raw_coverage": 0.9269931649484247,
+        "quad_fit_v6_raw_iou": 0.8705284295223792,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            46.31336482760388,
+            105.69227842280195
+          ],
+          [
+            65.37925478290346,
+            105.69182163494183
+          ],
+          [
+            66.89437488438445,
+            139.19555729930235
+          ],
+          [
+            47.85472691322864,
+            139.196013458447
+          ]
+        ],
+        "score": 0.9080461263656616,
+        "id": 89,
+        "observed_fit_support": 0.9531767479699251,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9289320449035086,
+        "quad_fit_v6_raw_iou": 0.8883926702106384,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            22.631838728591738,
+            70.5603734115943
+          ],
+          [
+            42.90073512154773,
+            70.5601231144882
+          ],
+          [
+            43.817710166903396,
+            104.71145572203177
+          ],
+          [
+            23.548850164828174,
+            104.71306134181476
+          ]
+        ],
+        "score": 0.9064847230911255,
+        "id": 90,
+        "observed_fit_support": 0.985340475044445,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9620255506171398,
+        "quad_fit_v6_raw_iou": 0.9484507035951982,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            127.16887166985421,
+            465.9995726865226
+          ],
+          [
+            146.737953013399,
+            466.0170534661689
+          ],
+          [
+            147.97798122513373,
+            497.0010338110284
+          ],
+          [
+            128.47891417563605,
+            496.9836155741466
+          ]
+        ],
+        "score": 0.9054358005523682,
+        "id": 91,
+        "observed_fit_support": 0.9655122524277825,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.954818625362607,
+        "quad_fit_v6_raw_iou": 0.9233278145833071,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            473.18607572214734,
+            466.07692843349173
+          ],
+          [
+            492.2406365184106,
+            466.0678477427762
+          ],
+          [
+            492.1679685106168,
+            497.0687337468443
+          ],
+          [
+            473.1539743254916,
+            497.0777951050308
+          ]
+        ],
+        "score": 0.9050118327140808,
+        "id": 92,
+        "observed_fit_support": 0.9863160829525556,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9864478271736412,
+        "quad_fit_v6_raw_iou": 0.9731298207547415,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            292.58840241022654,
+            301.47769304391727
+          ],
+          [
+            312.1669433005124,
+            301.4769131443044
+          ],
+          [
+            313.3804188323382,
+            333.9117732255572
+          ],
+          [
+            293.81841335652365,
+            333.9125524664916
+          ]
+        ],
+        "score": 0.9049355983734131,
+        "id": 93,
+        "observed_fit_support": 0.9609188027700682,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9674113195233978,
+        "quad_fit_v6_raw_iou": 0.9307891843752522,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            573.4207645552323,
+            497.69861990551885
+          ],
+          [
+            592.4043744645845,
+            497.6795664669127
+          ],
+          [
+            592.9779152017022,
+            528.6959237787114
+          ],
+          [
+            574.0792976471946,
+            528.7148919123296
+          ]
+        ],
+        "score": 0.904393196105957,
+        "id": 94,
+        "observed_fit_support": 0.9797044929759968,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3,
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9246132382036835,
+        "quad_fit_v6_raw_iou": 0.9072358259359503,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            393.6436992767537,
+            466.50399506786914
+          ],
+          [
+            412.6805774145945,
+            466.5010537936161
+          ],
+          [
+            412.93236273978,
+            497.49817325515716
+          ],
+          [
+            393.9776092525324,
+            497.50110184082126
+          ]
+        ],
+        "score": 0.9041478633880615,
+        "id": 95,
+        "review_flags": [],
+        "quad_fit_v6_method": "bounded_whole_mask_optimization",
+        "observed_fit_support": 0.8987343875939152,
+        "quad_fit_v6_raw_coverage": 0.9994135347625228,
+        "quad_fit_v6_raw_iou": 0.8982606577057667,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            290.182529584617,
+            267.3424922127758
+          ],
+          [
+            310.0193329821963,
+            267.34220126590407
+          ],
+          [
+            310.75185219932223,
+            300.04708396465094
+          ],
+          [
+            290.9150488017429,
+            300.0473749115227
+          ]
+        ],
+        "score": 0.9032585024833679,
+        "id": 96,
+        "observed_fit_support": 0.9741618581908569,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 2,
+        "quad_fit_v6_raw_coverage": 0.960482939957859,
+        "quad_fit_v6_raw_iou": 0.9366221811940257,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            488.219221483177,
+            68.88488100061514
+          ],
+          [
+            507.2314643046334,
+            68.88455954753044
+          ],
+          [
+            507.27263790902714,
+            102.59053274719135
+          ],
+          [
+            488.29183010318263,
+            102.59272418928907
+          ]
+        ],
+        "score": 0.9015501737594604,
+        "id": 97,
+        "observed_fit_support": 0.988181890587725,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3,
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9522150532559238,
+        "quad_fit_v6_raw_iou": 0.9414933589789032,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            530.8114959817827,
+            266.6683012245288
+          ],
+          [
+            550.3359713567554,
+            266.66796011396355
+          ],
+          [
+            550.2967225336405,
+            299.5585193110991
+          ],
+          [
+            530.7722471586678,
+            299.55886042166435
+          ]
+        ],
+        "score": 0.9015098810195923,
+        "id": 98,
+        "observed_fit_support": 0.9568424406655723,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 2,
+        "quad_fit_v6_raw_coverage": 0.9776553238148367,
+        "quad_fit_v6_raw_iou": 0.9363650820527426,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            509.7202745776172,
+            102.93379545248247
+          ],
+          [
+            528.2802946578065,
+            102.93210301032964
+          ],
+          [
+            528.9153079124721,
+            136.57147567569623
+          ],
+          [
+            510.3552660327839,
+            136.57201330499907
+          ]
+        ],
+        "score": 0.900215744972229,
+        "id": 99,
+        "observed_fit_support": 0.9812671276644725,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.963273820858998,
+        "quad_fit_v6_raw_iou": 0.9458796881123553,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            48.94613221043245,
+            498.09450562114336
+          ],
+          [
+            68.17076282500933,
+            498.1162920306057
+          ],
+          [
+            70.77100179753462,
+            529.1072249134857
+          ],
+          [
+            51.54637118295774,
+            529.0854385040233
+          ]
+        ],
+        "score": 0.8996947407722473,
+        "id": 100,
+        "observed_fit_support": 0.9086792329987226,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 0,
+        "quad_fit_v6_raw_coverage": 0.8852491094235023,
+        "quad_fit_v6_raw_iou": 0.8129262492035377,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            469.884211541905,
+            103.65674841715483
+          ],
+          [
+            488.5210335262266,
+            103.65621464025953
+          ],
+          [
+            489.2355054330823,
+            137.14346328050172
+          ],
+          [
+            470.59868344876077,
+            137.14399705739703
+          ]
+        ],
+        "score": 0.8996098041534424,
+        "id": 101,
+        "observed_fit_support": 0.9774085128956698,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 1,
+        "quad_fit_v6_raw_coverage": 0.9814915689745424,
+        "quad_fit_v6_raw_iou": 0.9597195052285299,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            273.03940413992876,
+            466.1488981442177
+          ],
+          [
+            292.4355945131973,
+            466.1551739622079
+          ],
+          [
+            293.15569308861046,
+            497.14633458994365
+          ],
+          [
+            273.7595027153419,
+            497.1400587719534
+          ]
+        ],
+        "score": 0.8991647362709045,
+        "id": 102,
+        "observed_fit_support": 0.9775975119683873,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 0,
+        "quad_fit_v6_raw_coverage": 0.9633437110890178,
+        "quad_fit_v6_raw_iou": 0.9425364185670343,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            492.4756261844651,
+            301.0337553334436
+          ],
+          [
+            511.2286465459031,
+            301.0319858131033
+          ],
+          [
+            511.80411214616424,
+            333.1598243229224
+          ],
+          [
+            493.05107431008486,
+            333.1606182463547
+          ]
+        ],
+        "score": 0.8990731835365295,
+        "id": 103,
+        "observed_fit_support": 0.9849790297829006,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9229175083471581,
+        "quad_fit_v6_raw_iou": 0.9101081641480602,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            106.05380554649176,
+            105.75139377714558
+          ],
+          [
+            125.45320806558392,
+            105.75091433063677
+          ],
+          [
+            126.86105971872618,
+            139.24860622285445
+          ],
+          [
+            107.46165719963402,
+            139.24908566936324
+          ]
+        ],
+        "score": 0.899056613445282,
+        "id": 104,
+        "observed_fit_support": 0.9593949083743136,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 1,
+        "quad_fit_v6_raw_coverage": 0.9818098234289374,
+        "quad_fit_v6_raw_iou": 0.9426395921879609,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            2.0,
+            268.0
+          ],
+          [
+            22.0,
+            268.0
+          ],
+          [
+            25.0,
+            300.0
+          ],
+          [
+            2.0,
+            300.0
+          ]
+        ],
+        "score": 0.8979265093803406,
+        "id": 105,
+        "observed_fit_support": 0.9741045175086874,
+        "review_flags": [
+          "internal_tile_edge_observation"
+        ],
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            452.28128043271437,
+            301.1231524680849
+          ],
+          [
+            471.340401504546,
+            301.12086495340805
+          ],
+          [
+            472.02957787747124,
+            333.520682688471
+          ],
+          [
+            452.9945939739583,
+            333.52148200869186
+          ]
+        ],
+        "score": 0.897899866104126,
+        "id": 106,
+        "observed_fit_support": 0.9401105212053258,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0,
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9629040093808258,
+        "quad_fit_v6_raw_iou": 0.9072517947378924,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            247.86104493242607,
+            70.01362069319207
+          ],
+          [
+            267.64326198896293,
+            70.01333220722323
+          ],
+          [
+            268.1375174270965,
+            103.87839409092318
+          ],
+          [
+            248.35530037055966,
+            103.87868257689202
+          ]
+        ],
+        "score": 0.8976222276687622,
+        "id": 107,
+        "observed_fit_support": 0.9731563015961231,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 1,
+        "quad_fit_v6_raw_coverage": 0.9803651908998936,
+        "quad_fit_v6_raw_iou": 0.9545516797966719,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            128.05079587872748,
+            301.44549252907836
+          ],
+          [
+            147.28033962533326,
+            301.4447765425298
+          ],
+          [
+            149.0307731687865,
+            333.7566012900762
+          ],
+          [
+            129.80122942218074,
+            333.7573172766248
+          ]
+        ],
+        "score": 0.8976101875305176,
+        "id": 108,
+        "observed_fit_support": 0.9400465552041861,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 2,
+        "quad_fit_v6_raw_coverage": 0.9694460639003194,
+        "quad_fit_v6_raw_iou": 0.9129968730252157,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            42.91036912953754,
+            71.00765012515376
+          ],
+          [
+            63.1257786684579,
+            71.00739337360424
+          ],
+          [
+            64.00719945372714,
+            104.88031554633852
+          ],
+          [
+            43.791789914806785,
+            104.88057229788804
+          ]
+        ],
+        "score": 0.8975602388381958,
+        "id": 109,
+        "observed_fit_support": 0.9596516197990257,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 1,
+        "quad_fit_v6_raw_coverage": 0.9778667504975663,
+        "quad_fit_v6_raw_iou": 0.9392501997804835,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            67.8718105653834,
+            301.645389405083
+          ],
+          [
+            87.17494801353301,
+            301.6446206694304
+          ],
+          [
+            89.13039055361152,
+            334.0624957751122
+          ],
+          [
+            69.8272493193553,
+            334.06320174362713
+          ]
+        ],
+        "score": 0.8974325656890869,
+        "id": 110,
+        "observed_fit_support": 0.9160081390690108,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9545515594157236,
+        "quad_fit_v6_raw_iou": 0.8777275461587685,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            374.67637801595,
+            498.9968289832432
+          ],
+          [
+            393.4666131697721,
+            498.9937975011345
+          ],
+          [
+            394.85061797411174,
+            530.2430233692091
+          ],
+          [
+            376.15828106154845,
+            530.2463006798237
+          ]
+        ],
+        "score": 0.8967353105545044,
+        "id": 111,
+        "review_flags": [],
+        "quad_fit_v6_method": "bounded_whole_mask_optimization",
+        "observed_fit_support": 0.9274239278073452,
+        "quad_fit_v6_raw_coverage": 0.9470841895306823,
+        "quad_fit_v6_raw_iou": 0.8817347723552093,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3,
+          1,
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            4.84874246565418,
+            465.4975866019778
+          ],
+          [
+            24.654722038098797,
+            465.52450825370425
+          ],
+          [
+            26.35838997339039,
+            496.5024133980222
+          ],
+          [
+            6.552410400945774,
+            496.47549174629575
+          ]
+        ],
+        "score": 0.8964390754699707,
+        "id": 112,
+        "observed_fit_support": 0.9578498931190134,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 0,
+        "quad_fit_v6_raw_coverage": 0.9625597389946956,
+        "quad_fit_v6_raw_iou": 0.9234450418980433,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            493.85905139448295,
+            465.5045430668442
+          ],
+          [
+            513.029373564007,
+            465.4938238652421
+          ],
+          [
+            512.9001269960453,
+            496.66402087321586
+          ],
+          [
+            493.78598232429863,
+            496.67652622669067
+          ]
+        ],
+        "score": 0.8963519930839539,
+        "id": 113,
+        "observed_fit_support": 0.9771231656447178,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9733437179832853,
+        "quad_fit_v6_raw_iou": 0.9516570262304397,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            103.19931426887631,
+            70.56402337786042
+          ],
+          [
+            123.29023929697276,
+            70.56375820982676
+          ],
+          [
+            124.05498442026042,
+            104.43597662213958
+          ],
+          [
+            103.96405939216397,
+            104.43624179017324
+          ]
+        ],
+        "score": 0.8961046934127808,
+        "id": 114,
+        "observed_fit_support": 0.9193050186478474,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 1,
+        "quad_fit_v6_raw_coverage": 0.9914572098217501,
+        "quad_fit_v6_raw_iou": 0.9120803407356859,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            631.9474381729106,
+            299.2667874610222
+          ],
+          [
+            650.7268156139377,
+            299.26458385082077
+          ],
+          [
+            650.856281638355,
+            332.3515225809485
+          ],
+          [
+            632.1161062980875,
+            332.3523452397043
+          ]
+        ],
+        "score": 0.8956968784332275,
+        "id": 115,
+        "review_flags": [],
+        "quad_fit_v6_method": "dominant_min_area",
+        "observed_fit_support": 1.0000000000000002,
+        "quad_fit_v6_raw_coverage": 0.8729829035395366,
+        "quad_fit_v6_raw_iou": 0.8729829035395367,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            86.40940900789097,
+            105.60630164556147
+          ],
+          [
+            105.85501357932984,
+            105.60582670094605
+          ],
+          [
+            107.29554656057128,
+            139.1068286798642
+          ],
+          [
+            87.84994198913242,
+            139.10730362447964
+          ]
+        ],
+        "score": 0.8954843282699585,
+        "id": 116,
+        "observed_fit_support": 0.9310299303860305,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 1,
+        "quad_fit_v6_raw_coverage": 0.9417973803003352,
+        "quad_fit_v6_raw_iou": 0.8803755871999656,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            144.88946452688984,
+            267.30391425350547
+          ],
+          [
+            164.92568324193977,
+            267.30365967280045
+          ],
+          [
+            166.11760562523702,
+            299.89997877504857
+          ],
+          [
+            146.0813869101871,
+            299.9002333557536
+          ]
+        ],
+        "score": 0.8954566121101379,
+        "id": 117,
+        "observed_fit_support": 0.9997441946555049,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 2,
+        "quad_fit_v6_raw_coverage": 0.9347748231142565,
+        "quad_fit_v6_raw_iou": 0.9345512956591638,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            106.68802224950424,
+            465.99933060903896
+          ],
+          [
+            125.61047056190041,
+            466.01777908625667
+          ],
+          [
+            126.91131583139205,
+            496.78429654061733
+          ],
+          [
+            108.06460450540584,
+            496.76523687159136
+          ]
+        ],
+        "score": 0.894859790802002,
+        "id": 118,
+        "review_flags": [],
+        "quad_fit_v6_method": "bounded_whole_mask_optimization",
+        "observed_fit_support": 0.9617049070443232,
+        "quad_fit_v6_raw_coverage": 0.9462034246315469,
+        "quad_fit_v6_raw_iou": 0.9118470134631174,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3,
+          2,
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            510.92294474909056,
+            266.72439286437566
+          ],
+          [
+            530.4732258244612,
+            266.7240558949375
+          ],
+          [
+            530.4977708967732,
+            299.59926556006064
+          ],
+          [
+            510.9474898214026,
+            299.5996025294988
+          ]
+        ],
+        "score": 0.8945243954658508,
+        "id": 119,
+        "observed_fit_support": 0.9944860927885749,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 2,
+        "quad_fit_v6_raw_coverage": 0.9448273487235908,
+        "quad_fit_v6_raw_iou": 0.939903592930216,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            591.3209063039789,
+            299.7512195848373
+          ],
+          [
+            610.3700222178672,
+            299.7503945690487
+          ],
+          [
+            610.6023638237372,
+            332.4229582602069
+          ],
+          [
+            591.6127626434853,
+            332.4237806984168
+          ]
+        ],
+        "score": 0.8940202593803406,
+        "id": 120,
+        "observed_fit_support": 0.94272116847407,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3,
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9820916618349388,
+        "quad_fit_v6_raw_iou": 0.9267892704045401,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            350.35633316415806,
+            267.41353402386676
+          ],
+          [
+            370.10920964489964,
+            267.41322726490824
+          ],
+          [
+            370.6557021894226,
+            300.36902441249305
+          ],
+          [
+            350.9028303404343,
+            300.36961048564405
+          ]
+        ],
+        "score": 0.8936097621917725,
+        "id": 121,
+        "observed_fit_support": 0.924991142057947,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9871243386999226,
+        "quad_fit_v6_raw_iou": 0.9139639654309812,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            553.1798141796664,
+            465.27838376051045
+          ],
+          [
+            572.1724898507326,
+            465.263176911832
+          ],
+          [
+            571.8128103471613,
+            496.42952890038214
+          ],
+          [
+            552.820093612432,
+            496.44829392952545
+          ]
+        ],
+        "score": 0.8932239413261414,
+        "id": 122,
+        "observed_fit_support": 0.9811207591913766,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.986052573317899,
+        "quad_fit_v6_raw_iou": 0.9676914587807012,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            430.7856361150842,
+            267.27322203613295
+          ],
+          [
+            450.68154456281684,
+            267.27289315932575
+          ],
+          [
+            450.9671213990058,
+            300.0838712376116
+          ],
+          [
+            431.1166944831742,
+            300.08419936261487
+          ]
+        ],
+        "score": 0.8915305733680725,
+        "id": 123,
+        "observed_fit_support": 0.993949508775632,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9819892284431859,
+        "quad_fit_v6_raw_iou": 0.9761540866643917,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            232.61991042248962,
+            301.8068468123505
+          ],
+          [
+            251.68027801424202,
+            301.8061009019629
+          ],
+          [
+            253.0770808777298,
+            334.1931259115202
+          ],
+          [
+            234.08778474315315,
+            334.1938690405901
+          ]
+        ],
+        "score": 0.8904093503952026,
+        "id": 124,
+        "review_flags": [],
+        "quad_fit_v6_method": "dominant_min_area",
+        "observed_fit_support": 0.9399464126974156,
+        "quad_fit_v6_raw_coverage": 0.9783043957752756,
+        "quad_fit_v6_raw_iou": 0.9207533558349439,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            549.4581929320198,
+            102.82987146735114
+          ],
+          [
+            567.9368461958388,
+            102.8283250647947
+          ],
+          [
+            568.4902890036126,
+            136.2445678666816
+          ],
+          [
+            550.0116191208054,
+            136.24511083378428
+          ]
+        ],
+        "score": 0.890126645565033,
+        "id": 125,
+        "observed_fit_support": 0.9755269677840835,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9508558351480371,
+        "quad_fit_v6_raw_iou": 0.928702466367907,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            43.952341044613526,
+            268.03610730475384
+          ],
+          [
+            63.93190327265365,
+            268.03586978609223
+          ],
+          [
+            65.44091511594857,
+            300.2547578265363
+          ],
+          [
+            45.49707560111676,
+            300.25506151742695
+          ]
+        ],
+        "score": 0.8894054293632507,
+        "id": 126,
+        "observed_fit_support": 0.9261327815741328,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9417194558788748,
+        "quad_fit_v6_raw_iou": 0.8759281488085785,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            453.34975044398266,
+            465.7297563429956
+          ],
+          [
+            472.4839884605616,
+            465.7221974360284
+          ],
+          [
+            472.5144110474162,
+            496.23559109621004
+          ],
+          [
+            453.3801732728137,
+            496.24339270181076
+          ]
+        ],
+        "score": 0.8892967104911804,
+        "id": 127,
+        "observed_fit_support": 0.9591208694216898,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9372145309085811,
+        "quad_fit_v6_raw_iou": 0.9012150882343088,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            312.7275188253755,
+            301.610528491622
+          ],
+          [
+            331.47316012073634,
+            301.6098122594827
+          ],
+          [
+            332.62706668329133,
+            334.22358348565746
+          ],
+          [
+            313.94768932579876,
+            334.2243376855794
+          ]
+        ],
+        "score": 0.8887851238250732,
+        "id": 128,
+        "review_flags": [],
+        "quad_fit_v6_method": "bounded_whole_mask_optimization",
+        "observed_fit_support": 0.9245214876841047,
+        "quad_fit_v6_raw_coverage": 0.9744787427039644,
+        "quad_fit_v6_raw_iou": 0.9026653470765139,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0,
+          3,
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            370.89997307154886,
+            267.2752603369046
+          ],
+          [
+            390.6281460799942,
+            267.27495039587143
+          ],
+          [
+            391.10413225976606,
+            300.0408515612738
+          ],
+          [
+            371.3759592513207,
+            300.041161502307
+          ]
+        ],
+        "score": 0.8887261748313904,
+        "id": 129,
+        "observed_fit_support": 0.9871265989147139,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 2,
+        "quad_fit_v6_raw_coverage": 0.9771669215988822,
+        "quad_fit_v6_raw_iou": 0.9648710734913881,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            127.15266185147921,
+            105.59685556962165
+          ],
+          [
+            146.51219770014114,
+            105.59409328487018
+          ],
+          [
+            147.86783827830013,
+            138.90138693254514
+          ],
+          [
+            128.50820958772218,
+            138.90186814589055
+          ]
+        ],
+        "score": 0.8886685371398926,
+        "id": 130,
+        "observed_fit_support": 0.9999999999999998,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.903074803486433,
+        "quad_fit_v6_raw_iou": 0.903074803486433,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            573.3218980498493,
+            465.20304670387435
+          ],
+          [
+            592.2857626819998,
+            465.1862959352392
+          ],
+          [
+            591.8500342782766,
+            496.19173889666075
+          ],
+          [
+            572.8861696461261,
+            496.20848966529593
+          ]
+        ],
+        "score": 0.888582706451416,
+        "id": 131,
+        "observed_fit_support": 0.9890806390611149,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 0,
+        "quad_fit_v6_raw_coverage": 0.9684519654231748,
+        "quad_fit_v6_raw_iou": 0.9582071762623778,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            190.18505412113245,
+            267.7599819602492
+          ],
+          [
+            209.82341851793106,
+            267.7597144983745
+          ],
+          [
+            210.87972109485946,
+            300.3860988451776
+          ],
+          [
+            191.27762140407944,
+            300.38636581315046
+          ]
+        ],
+        "score": 0.8877515196800232,
+        "id": 132,
+        "observed_fit_support": 0.9235134502737855,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9620432939070489,
+        "quad_fit_v6_raw_iou": 0.8910467886464288,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            213.2785518072581,
+            301.3120991184059
+          ],
+          [
+            232.47787918086598,
+            301.3113608313832
+          ],
+          [
+            233.94527719322252,
+            333.6878738440122
+          ],
+          [
+            214.80078664286532,
+            333.6886100223509
+          ]
+        ],
+        "score": 0.8872278332710266,
+        "id": 133,
+        "observed_fit_support": 0.9664992208257627,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3,
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9229631025362455,
+        "quad_fit_v6_raw_iou": 0.8943512576813003,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            29.54283694399699,
+            498.31445581729685
+          ],
+          [
+            48.721237705020975,
+            498.32698999882507
+          ],
+          [
+            51.38609004386704,
+            529.1890626179526
+          ],
+          [
+            32.25707119931025,
+            529.1659320091801
+          ]
+        ],
+        "score": 0.8866473436355591,
+        "id": 134,
+        "observed_fit_support": 0.9531030150763322,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3,
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9084820238273855,
+        "quad_fit_v6_raw_iou": 0.8696092468920306,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            28.135242449077253,
+            301.38168919423
+          ],
+          [
+            47.278728644053295,
+            301.3810067790131
+          ],
+          [
+            49.34524487215014,
+            333.6183028063471
+          ],
+          [
+            30.245932161725094,
+            333.6189836468948
+          ]
+        ],
+        "score": 0.8856519460678101,
+        "id": 135,
+        "observed_fit_support": 0.9314625316126652,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9313471348253338,
+        "quad_fit_v6_raw_iou": 0.8716161699804851,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            330.13741953685076,
+            104.64332954849512
+          ],
+          [
+            349.06360296314557,
+            104.64281553405236
+          ],
+          [
+            350.0477546213498,
+            138.13213924967854
+          ],
+          [
+            331.12157119505497,
+            138.1326532641213
+          ]
+        ],
+        "score": 0.8842596411705017,
+        "id": 136,
+        "observed_fit_support": 0.9491854545845746,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 1,
+        "quad_fit_v6_raw_coverage": 0.9664546668884634,
+        "quad_fit_v6_raw_iou": 0.918911079747049,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            194.43520075537762,
+            498.850562320663
+          ],
+          [
+            213.3138337992607,
+            498.86024205809775
+          ],
+          [
+            215.3695047295952,
+            529.9226204022709
+          ],
+          [
+            196.56808483069238,
+            529.9121276736921
+          ]
+        ],
+        "score": 0.8836652636528015,
+        "id": 137,
+        "observed_fit_support": 0.9851038907255307,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3,
+          1,
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.8527666202819468,
+        "quad_fit_v6_raw_iou": 0.8419101967637992,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            294.75724523137546,
+            498.4971290101285
+          ],
+          [
+            313.7812113242926,
+            498.5000700684168
+          ],
+          [
+            315.4486765997408,
+            529.5030574224154
+          ],
+          [
+            296.5060009605714,
+            529.500128931431
+          ]
+        ],
+        "score": 0.8829788565635681,
+        "id": 138,
+        "review_flags": [],
+        "quad_fit_v6_method": "dominant_dp_0.015",
+        "observed_fit_support": 0.8913908523657197,
+        "quad_fit_v6_raw_coverage": 0.9418572785229783,
+        "quad_fit_v6_raw_iou": 0.8448983529761742,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            253.03634300275178,
+            466.28318759281524
+          ],
+          [
+            272.2504469113557,
+            466.2909250421186
+          ],
+          [
+            273.0550219016798,
+            497.450615015589
+          ],
+          [
+            253.881394320566,
+            497.4442831326341
+          ]
+        ],
+        "score": 0.8829607963562012,
+        "id": 139,
+        "observed_fit_support": 0.9234001285266659,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9688939352644627,
+        "quad_fit_v6_raw_iou": 0.8968136406526862,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            250.131459501113,
+            267.8132605254936
+          ],
+          [
+            270.0115345473673,
+            267.81297303873947
+          ],
+          [
+            270.8778149771683,
+            300.48409589367435
+          ],
+          [
+            250.99773993091404,
+            300.4843833804285
+          ]
+        ],
+        "score": 0.8819531202316284,
+        "id": 140,
+        "observed_fit_support": 0.9294141149990471,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 2,
+        "quad_fit_v6_raw_coverage": 0.9994350407311986,
+        "quad_fit_v6_raw_iou": 0.9289260777336699,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            190.72789378745156,
+            105.25255491360564
+          ],
+          [
+            209.9500423602887,
+            105.25206289177605
+          ],
+          [
+            211.19631490233232,
+            138.74744508639435
+          ],
+          [
+            191.97416632949518,
+            138.74793710822394
+          ]
+        ],
+        "score": 0.8818343281745911,
+        "id": 141,
+        "observed_fit_support": 0.9507880935901243,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 1,
+        "quad_fit_v6_raw_coverage": 0.9625291698168883,
+        "quad_fit_v6_raw_iou": 0.9168519594828057,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            373.05304164259337,
+            301.41050016398407
+          ],
+          [
+            392.1423962700957,
+            301.40971620755323
+          ],
+          [
+            393.1160610847811,
+            333.9055497198135
+          ],
+          [
+            374.0679354458329,
+            333.9063319830634
+          ]
+        ],
+        "score": 0.8817338943481445,
+        "id": 142,
+        "observed_fit_support": 0.9532750578856781,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9550557897877003,
+        "quad_fit_v6_raw_iou": 0.912346805837534,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            588.6240243710309,
+            67.56985443755224
+          ],
+          [
+            607.3537052903075,
+            67.56952420147235
+          ],
+          [
+            607.1894220607519,
+            101.61007012092308
+          ],
+          [
+            588.4911239796461,
+            101.61283174622129
+          ]
+        ],
+        "score": 0.8813826441764832,
+        "id": 143,
+        "review_flags": [],
+        "quad_fit_v6_method": "bounded_whole_mask_optimization",
+        "observed_fit_support": 0.9085015032018198,
+        "quad_fit_v6_raw_coverage": 0.9961569489559521,
+        "quad_fit_v6_raw_iou": 0.9053284292593683,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3,
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            448.488508399152,
+            69.07164147324534
+          ],
+          [
+            467.8460654206811,
+            69.07132173344539
+          ],
+          [
+            467.96189496147247,
+            102.92835852675466
+          ],
+          [
+            448.6043379399434,
+            102.92867826655461
+          ]
+        ],
+        "score": 0.8805661797523499,
+        "id": 144,
+        "observed_fit_support": 0.9505437912181967,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 1,
+        "quad_fit_v6_raw_coverage": 0.9666043049813761,
+        "quad_fit_v6_raw_iou": 0.9203197432686664,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            590.9286859761576,
+            266.11729694352636
+          ],
+          [
+            610.6380987794024,
+            266.1169439742481
+          ],
+          [
+            610.3756715438018,
+            299.0569383116888
+          ],
+          [
+            590.6909626210953,
+            299.0572908385535
+          ]
+        ],
+        "score": 0.8796747326850891,
+        "id": 145,
+        "observed_fit_support": 0.9673154239861546,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9938472558293313,
+        "quad_fit_v6_raw_iou": 0.9615571486335167,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            87.81843884746411,
+            301.42840156182945
+          ],
+          [
+            107.10335740082114,
+            301.42769573263723
+          ],
+          [
+            108.98090708842088,
+            333.70950972442347
+          ],
+          [
+            89.69598853506385,
+            333.7102155536157
+          ]
+        ],
+        "score": 0.8793020248413086,
+        "id": 146,
+        "observed_fit_support": 0.9145218050121869,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 2,
+        "quad_fit_v6_raw_coverage": 0.9379550760511651,
+        "quad_fit_v6_raw_iou": 0.862353852572057,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            613.4241874896102,
+            497.5436935344515
+          ],
+          [
+            631.4229434460806,
+            497.5246146763597
+          ],
+          [
+            631.8786892139775,
+            528.2619742829717
+          ],
+          [
+            613.9231900493772,
+            528.2829766299878
+          ]
+        ],
+        "score": 0.8790014386177063,
+        "id": 147,
+        "observed_fit_support": 0.9320172709691275,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3,
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9502385366984732,
+        "quad_fit_v6_raw_iou": 0.8886449425598585,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            411.34530767043117,
+            267.31592801241214
+          ],
+          [
+            430.62974880023984,
+            267.315613897291
+          ],
+          [
+            430.9619493829724,
+            300.23979536646317
+          ],
+          [
+            411.740351874947,
+            300.2417645198102
+          ]
+        ],
+        "score": 0.877951979637146,
+        "id": 148,
+        "observed_fit_support": 0.9864444443128901,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2,
+          1,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9561365409611902,
+        "quad_fit_v6_raw_iou": 0.9437367186124708,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            104.18039811211887,
+            267.79930974118236
+          ],
+          [
+            124.26879951755146,
+            267.79930974118236
+          ],
+          [
+            125.50981851958221,
+            300.3623775850578
+          ],
+          [
+            105.48417284405453,
+            300.3635036129664
+          ]
+        ],
+        "score": 0.8771549463272095,
+        "id": 149,
+        "observed_fit_support": 0.9756623212783853,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 3,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2,
+          3,
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            611.0491735456999,
+            299.7324269676151
+          ],
+          [
+            629.2600218850132,
+            299.7299182233411
+          ],
+          [
+            629.4279689214849,
+            332.67402887323675
+          ],
+          [
+            611.2834339935916,
+            332.6748238982165
+          ]
+        ],
+        "score": 0.877094566822052,
+        "id": 150,
+        "observed_fit_support": 0.980077431473004,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          3,
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9700865399672555,
+        "quad_fit_v6_raw_iou": 0.9513268704595286,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            332.90307096243,
+            301.42155682267645
+          ],
+          [
+            351.8452038196433,
+            301.4207910463494
+          ],
+          [
+            352.9253175655874,
+            333.8860928292139
+          ],
+          [
+            334.0517244353896,
+            333.88685583467554
+          ]
+        ],
+        "score": 0.876886248588562,
+        "id": 151,
+        "observed_fit_support": 0.963690351437309,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9572194417283925,
+        "quad_fit_v6_raw_iou": 0.9238982748488068,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            149.71845834953348,
+            105.4559776947451
+          ],
+          [
+            169.44842013757275,
+            105.45604117740372
+          ],
+          [
+            170.76257430889174,
+            138.83528363072784
+          ],
+          [
+            151.0354415350809,
+            138.83577905968406
+          ]
+        ],
+        "score": 0.8768125772476196,
+        "id": 152,
+        "observed_fit_support": 0.9952795969966789,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.8905179816142172,
+        "quad_fit_v6_raw_iou": 0.8867726613041558,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            228.11989838483046,
+            70.0960979093236
+          ],
+          [
+            247.8133457030618,
+            70.09581447084865
+          ],
+          [
+            248.3459547611339,
+            104.02995097756414
+          ],
+          [
+            228.67613557854253,
+            104.03172472897812
+          ]
+        ],
+        "score": 0.8761150240898132,
+        "id": 153,
+        "observed_fit_support": 0.9198840859680951,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.984592116218028,
+        "quad_fit_v6_raw_iou": 0.9068300249987228,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            206.9454020258755,
+            70.01344224724477
+          ],
+          [
+            226.9671471764136,
+            70.01315919421113
+          ],
+          [
+            227.52228809571645,
+            103.88190310911875
+          ],
+          [
+            207.51329065451264,
+            103.88218598193444
+          ]
+        ],
+        "score": 0.8744892477989197,
+        "id": 154,
+        "observed_fit_support": 0.9902914747755136,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9680090482008928,
+        "quad_fit_v6_raw_iou": 0.9589089306331621,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            451.07870861429495,
+            266.82719648820097
+          ],
+          [
+            470.6086579267469,
+            266.8268745206949
+          ],
+          [
+            470.8050320737659,
+            299.8150260524483
+          ],
+          [
+            451.29528641210635,
+            299.8173676520097
+          ]
+        ],
+        "score": 0.8744339346885681,
+        "id": 155,
+        "observed_fit_support": 0.9700253474748621,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2,
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9760026333835228,
+        "quad_fit_v6_raw_iou": 0.947428791170555,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            631.7862365622055,
+            265.81693998993507
+          ],
+          [
+            651.1934642296055,
+            265.816585580749
+          ],
+          [
+            650.8262671889721,
+            298.40625669788255
+          ],
+          [
+            631.4190178559759,
+            298.4085339838441
+          ]
+        ],
+        "score": 0.8736791014671326,
+        "id": 156,
+        "observed_fit_support": 0.9943776109792946,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.910843693088245,
+        "quad_fit_v6_raw_iou": 0.906176816067135,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            609.7693183290814,
+            101.68363323108625
+          ],
+          [
+            628.3898399454511,
+            101.6809864965857
+          ],
+          [
+            628.8084687768719,
+            134.94511226304087
+          ],
+          [
+            610.2109875857011,
+            134.94566519714462
+          ]
+        ],
+        "score": 0.8730780482292175,
+        "id": 157,
+        "observed_fit_support": 1.0,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.8742844201738517,
+        "quad_fit_v6_raw_iou": 0.8742844201738517,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            612.8458698370157,
+            464.50602235057244
+          ],
+          [
+            632.1602229236948,
+            464.4858555168298
+          ],
+          [
+            631.5255841068986,
+            495.772550892473
+          ],
+          [
+            612.2338855030877,
+            495.7930002824698
+          ]
+        ],
+        "score": 0.8721265196800232,
+        "id": 158,
+        "review_flags": [],
+        "quad_fit_v6_method": "bounded_whole_mask_optimization",
+        "observed_fit_support": 0.900784605851309,
+        "quad_fit_v6_raw_coverage": 1.0,
+        "quad_fit_v6_raw_iou": 0.900784605851309,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            513.5217185719813,
+            499.40688917321904
+          ],
+          [
+            532.5031630371506,
+            499.39234880029915
+          ],
+          [
+            533.3671782203536,
+            531.1444462771074
+          ],
+          [
+            514.4681896755656,
+            531.1587662162665
+          ]
+        ],
+        "score": 0.8704410791397095,
+        "id": 159,
+        "observed_fit_support": 0.8210214354945388,
+        "review_flags": [
+          "minor_disconnected_mask_parts_ignored_for_fit"
+        ],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          3,
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9653263073897518,
+        "quad_fit_v6_raw_iou": 0.7975027713767835,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            653.2075440488557,
+            497.05238274387926
+          ],
+          [
+            671.8290045975324,
+            497.0273878663575
+          ],
+          [
+            672.130349860888,
+            528.0473623150245
+          ],
+          [
+            653.5450212751567,
+            528.0723086939881
+          ]
+        ],
+        "score": 0.8690111637115479,
+        "id": 160,
+        "observed_fit_support": 0.9751413752563172,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9340063496076122,
+        "quad_fit_v6_raw_iou": 0.9122848499422745,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            370.2306671361839,
+            103.94893668501749
+          ],
+          [
+            389.0793103819813,
+            103.94677768247557
+          ],
+          [
+            389.9843280498393,
+            137.56757796821665
+          ],
+          [
+            371.13564062982874,
+            137.5680959283228
+          ]
+        ],
+        "score": 0.8690071702003479,
+        "id": 161,
+        "observed_fit_support": 0.9642841112530094,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9824116578749397,
+        "quad_fit_v6_raw_iou": 0.9479194195197345,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            25.42889473933715,
+            465.0450862593544
+          ],
+          [
+            45.27370439852909,
+            465.0450862593544
+          ],
+          [
+            46.677257551878824,
+            496.4593267909995
+          ],
+          [
+            26.97360205555306,
+            496.4464493254674
+          ]
+        ],
+        "score": 0.8675817251205444,
+        "id": 162,
+        "observed_fit_support": 0.9364013461738375,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9410313598965695,
+        "quad_fit_v6_raw_iou": 0.8845001963961858,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            23.197785831173036,
+            267.74932212819203
+          ],
+          [
+            43.59712350536126,
+            267.74908911959966
+          ],
+          [
+            45.1554088469701,
+            300.2506757904029
+          ],
+          [
+            24.781554938936548,
+            300.2509085079105
+          ]
+        ],
+        "score": 0.8675312399864197,
+        "id": 163,
+        "observed_fit_support": 0.9789285843907137,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.958810368943154,
+        "quad_fit_v6_raw_iou": 0.9394222241078961,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            250.7507300921183,
+            104.6983320515059
+          ],
+          [
+            270.06544716865966,
+            104.69782672710848
+          ],
+          [
+            271.1905748293398,
+            138.19370552472876
+          ],
+          [
+            251.8787684211538,
+            138.19421077297534
+          ]
+        ],
+        "score": 0.8673276305198669,
+        "id": 164,
+        "observed_fit_support": 0.9432529404466248,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9818257525323814,
+        "quad_fit_v6_raw_iou": 0.9270661439397918,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            123.49655704877293,
+            70.21512239528411
+          ],
+          [
+            143.54945823156473,
+            70.21485560589142
+          ],
+          [
+            144.27534559671673,
+            104.2813363475895
+          ],
+          [
+            124.22249969571754,
+            104.28419755618916
+          ]
+        ],
+        "score": 0.866101861000061,
+        "id": 165,
+        "observed_fit_support": 0.9916998709955918,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9057321912964094,
+        "quad_fit_v6_raw_iou": 0.8989178420228385,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            170.87980472477904,
+            301.551873255337
+          ],
+          [
+            191.65482508715985,
+            301.5499242623418
+          ],
+          [
+            193.23465722826552,
+            333.6724954149986
+          ],
+          [
+            172.48180842674284,
+            333.67328006660654
+          ]
+        ],
+        "score": 0.8660229444503784,
+        "id": 166,
+        "review_flags": [],
+        "quad_fit_v6_method": "bounded_whole_mask_optimization",
+        "observed_fit_support": 0.9516463513855323,
+        "quad_fit_v6_raw_coverage": 0.9403408665587432,
+        "quad_fit_v6_raw_iou": 0.8974608931620224,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            330.5591539704384,
+            267.28623985144156
+          ],
+          [
+            350.342167807208,
+            267.2859397117465
+          ],
+          [
+            350.9460288711972,
+            300.02152531737613
+          ],
+          [
+            331.1630150344276,
+            300.0218254570712
+          ]
+        ],
+        "score": 0.8652524948120117,
+        "id": 167,
+        "observed_fit_support": 0.940210392841791,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 2,
+        "quad_fit_v6_raw_coverage": 0.9900625252348731,
+        "quad_fit_v6_raw_iou": 0.9314204864544848,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            653.8557720728462,
+            465.05701222607087
+          ],
+          [
+            673.0578496956373,
+            465.03361855801035
+          ],
+          [
+            672.3142924876149,
+            496.0429450715207
+          ],
+          [
+            653.1610167953509,
+            496.0662792847563
+          ]
+        ],
+        "score": 0.8646165132522583,
+        "id": 168,
+        "observed_fit_support": 0.9981554283792365,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9145956154064488,
+        "quad_fit_v6_raw_iou": 0.9130524155493054,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            428.8023762404226,
+            69.23720035852509
+          ],
+          [
+            448.3003789855026,
+            69.23688158086851
+          ],
+          [
+            448.4545072120086,
+            103.09391896647378
+          ],
+          [
+            428.9881832185482,
+            103.09423722620663
+          ]
+        ],
+        "score": 0.8644104599952698,
+        "id": 169,
+        "observed_fit_support": 0.8900669097402704,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9672085581118486,
+        "quad_fit_v6_raw_iou": 0.8639949170328308,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            610.6401959853546,
+            265.853701662418
+          ],
+          [
+            629.8114354115821,
+            265.85335678856785
+          ],
+          [
+            629.5106298123125,
+            298.55080339316794
+          ],
+          [
+            610.3796828365698,
+            298.55343889112964
+          ]
+        ],
+        "score": 0.8636153936386108,
+        "id": 170,
+        "observed_fit_support": 0.9488251848458737,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3,
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9804736138587641,
+        "quad_fit_v6_raw_iou": 0.9312285966498585,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            270.3869963357612,
+            267.8174604437557
+          ],
+          [
+            290.2392992099397,
+            267.8171679032039
+          ],
+          [
+            291.04151607951155,
+            300.50343516448805
+          ],
+          [
+            271.18921320533303,
+            300.50372770503986
+          ]
+        ],
+        "score": 0.8630013465881348,
+        "id": 171,
+        "observed_fit_support": 0.8720239779663671,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 2,
+        "quad_fit_v6_raw_coverage": 0.9988606154842243,
+        "quad_fit_v6_raw_iou": 0.8711574342096501,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            429.7692386747661,
+            103.9217905597953
+          ],
+          [
+            448.4894768694178,
+            103.92126256612484
+          ],
+          [
+            449.28102704922725,
+            137.40930003141347
+          ],
+          [
+            430.56078885457555,
+            137.4098280250839
+          ]
+        ],
+        "score": 0.8597432971000671,
+        "id": 172,
+        "observed_fit_support": 0.9556950932812267,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 1,
+        "quad_fit_v6_raw_coverage": 0.971036487054187,
+        "quad_fit_v6_raw_iou": 0.9292071886563638,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            148.0075523281694,
+            301.8391404272714
+          ],
+          [
+            167.20026804294605,
+            301.83841415005753
+          ],
+          [
+            168.89334668899355,
+            334.1620581631267
+          ],
+          [
+            149.7006309742169,
+            334.16278444034054
+          ]
+        ],
+        "score": 0.8591545224189758,
+        "id": 173,
+        "review_flags": [],
+        "quad_fit_v6_method": "bounded_whole_mask_optimization",
+        "observed_fit_support": 0.9678487912587249,
+        "quad_fit_v6_raw_coverage": 0.9076852328520351,
+        "quad_fit_v6_raw_iou": 0.8811172390464092,
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 2,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            209.96181263669732,
+            267.6790921732931
+          ],
+          [
+            229.96702691761763,
+            267.67881549822175
+          ],
+          [
+            230.93199886716621,
+            300.32090726642934
+          ],
+          [
+            210.95327825299688,
+            300.3211835750894
+          ]
+        ],
+        "score": 0.8553885221481323,
+        "id": 174,
+        "observed_fit_support": 0.889925033055617,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.975226182403283,
+        "quad_fit_v6_raw_iou": 0.870251348155772,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            569.0511599121994,
+            102.62803135008451
+          ],
+          [
+            587.7388913138674,
+            102.62520936190263
+          ],
+          [
+            588.2250545546211,
+            135.9150509436643
+          ],
+          [
+            569.5613332062354,
+            135.91560206031173
+          ]
+        ],
+        "score": 0.8547129034996033,
+        "id": 175,
+        "observed_fit_support": 0.9349490651631162,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0,
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9719899453125548,
+        "quad_fit_v6_raw_iou": 0.9104199489189974,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            146.57517439706427,
+            70.15021330696585
+          ],
+          [
+            166.57837990520267,
+            70.14994265843806
+          ],
+          [
+            167.25981818489848,
+            104.14141988417835
+          ],
+          [
+            147.25660596069704,
+            104.14135552231556
+          ]
+        ],
+        "score": 0.8546130061149597,
+        "id": 176,
+        "observed_fit_support": 0.9915429356455858,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9455611239098108,
+        "quad_fit_v6_raw_iou": 0.9379962996378634,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            191.89226934301533,
+            466.4179199646863
+          ],
+          [
+            211.7394314166144,
+            466.430605965214
+          ],
+          [
+            212.7689051810421,
+            497.3530367349042
+          ],
+          [
+            192.9821007375687,
+            497.3428913461337
+          ]
+        ],
+        "score": 0.8540247082710266,
+        "id": 177,
+        "observed_fit_support": 0.9998093375844268,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3,
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.8398705023387832,
+        "quad_fit_v6_raw_iou": 0.8397360083087295,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            551.6444490190194,
+            300.08469475735546
+          ],
+          [
+            570.3260633309217,
+            300.0829158425639
+          ],
+          [
+            570.7179118816123,
+            332.8192502093212
+          ],
+          [
+            552.0362858909281,
+            332.82005343974276
+          ]
+        ],
+        "score": 0.8536779284477234,
+        "id": 178,
+        "observed_fit_support": 0.9702420975265964,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9703359579386823,
+        "quad_fit_v6_raw_iou": 0.9422925941901367,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            124.26848786554564,
+            267.7911323116731
+          ],
+          [
+            143.7655857482843,
+            267.7911323116731
+          ],
+          [
+            144.97152644546617,
+            300.41098470086246
+          ],
+          [
+            125.51166863704518,
+            300.41092277281643
+          ]
+        ],
+        "score": 0.8464865684509277,
+        "id": 179,
+        "observed_fit_support": 0.9535060975609756,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 3,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            472.2075166899482,
+            300.9943888251909
+          ],
+          [
+            490.751337953784,
+            300.99295573694604
+          ],
+          [
+            491.40293606254215,
+            333.4710717290949
+          ],
+          [
+            472.8983446957368,
+            333.47185374295145
+          ]
+        ],
+        "score": 0.8440911173820496,
+        "id": 180,
+        "observed_fit_support": 0.9349563405950413,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3,
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9706541425051619,
+        "quad_fit_v6_raw_iou": 0.9092547960265022,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            169.1778804501518,
+            267.39600694910655
+          ],
+          [
+            189.53420502014927,
+            267.39574046717155
+          ],
+          [
+            190.6337870986509,
+            300.2316010415423
+          ],
+          [
+            170.30193036416222,
+            300.23350845947334
+          ]
+        ],
+        "score": 0.8438118100166321,
+        "id": 181,
+        "observed_fit_support": 0.9927337591165565,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.8943756319628067,
+        "quad_fit_v6_raw_iou": 0.8885588450758364,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            470.83838579898026,
+            266.7622129656884
+          ],
+          [
+            490.57394266596225,
+            266.7618831362946
+          ],
+          [
+            490.72597272376004,
+            299.7023890727831
+          ],
+          [
+            471.03448341354283,
+            299.70391085415986
+          ]
+        ],
+        "score": 0.8423691987991333,
+        "id": 182,
+        "observed_fit_support": 0.921026453833935,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3,
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9968351193161582,
+        "quad_fit_v6_raw_iou": 0.9183410468618027,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            551.0073908714464,
+            266.5468424379206
+          ],
+          [
+            570.5072291914237,
+            266.5464980017702
+          ],
+          [
+            570.4025565636732,
+            299.3558801183968
+          ],
+          [
+            550.9027134186703,
+            299.35773694719245
+          ]
+        ],
+        "score": 0.8414111733436584,
+        "id": 183,
+        "observed_fit_support": 0.9040539236669712,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9921214237554555,
+        "quad_fit_v6_raw_iou": 0.8976097857230226,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            390.1266644464648,
+            267.2298294242444
+          ],
+          [
+            410.0321443747559,
+            267.2295121326621
+          ],
+          [
+            410.42544687379757,
+            300.0101823294738
+          ],
+          [
+            390.54110982040027,
+            300.0104992840406
+          ]
+        ],
+        "score": 0.8346273303031921,
+        "id": 184,
+        "observed_fit_support": 0.9881911470031051,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.976465448366948,
+        "quad_fit_v6_raw_iou": 0.9652027567784629,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            368.6036575637129,
+            69.89443241953069
+          ],
+          [
+            388.0495843627379,
+            69.89412354810598
+          ],
+          [
+            388.31225537903094,
+            103.62050211819651
+          ],
+          [
+            368.8773829089511,
+            103.62272826988912
+          ]
+        ],
+        "score": 0.832784116268158,
+        "id": 185,
+        "observed_fit_support": 0.9010751796156434,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9879780853603166,
+        "quad_fit_v6_raw_iou": 0.891302526286565,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            489.50651877337776,
+            103.42161430389399
+          ],
+          [
+            508.10167339399504,
+            103.41946738764754
+          ],
+          [
+            508.7822415894807,
+            137.05534300653588
+          ],
+          [
+            490.18705439202245,
+            137.05587987021335
+          ]
+        ],
+        "score": 0.8323014974594116,
+        "id": 186,
+        "observed_fit_support": 0.9065461272320715,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 1.0,
+        "quad_fit_v6_raw_iou": 0.9065461272320715,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            0.0,
+            498.0
+          ],
+          [
+            8.0,
+            504.0
+          ],
+          [
+            10.0,
+            529.0
+          ],
+          [
+            0.0,
+            529.0
+          ]
+        ],
+        "score": 0.8317991495132446,
+        "id": 187,
+        "observed_fit_support": 0.9884319888248645,
+        "review_flags": [
+          "image_edge_partial"
+        ],
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            588.9982649616045,
+            102.0269963318019
+          ],
+          [
+            606.9571420533398,
+            102.02434391450228
+          ],
+          [
+            607.3995223953872,
+            135.33992759572504
+          ],
+          [
+            589.484773143633,
+            135.34045763513637
+          ]
+        ],
+        "score": 0.8284355998039246,
+        "id": 188,
+        "observed_fit_support": 0.9941730016522567,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          0,
+          1,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9318825735277044,
+        "quad_fit_v6_raw_iou": 0.9268203689742038,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            490.9369816433259,
+            266.0680025442307
+          ],
+          [
+            510.53051557474663,
+            266.06767945545613
+          ],
+          [
+            510.60972241021545,
+            299.39696518495055
+          ],
+          [
+            491.0161921047095,
+            299.3988140151521
+          ]
+        ],
+        "score": 0.8264848589897156,
+        "id": 189,
+        "review_flags": [],
+        "quad_fit_v6_method": "bounded_whole_mask_optimization",
+        "observed_fit_support": 0.8881586049372897,
+        "quad_fit_v6_raw_coverage": 0.9957339971438866,
+        "quad_fit_v6_raw_iou": 0.8847918658919235,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          2
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            210.54842560503144,
+            105.20082043646792
+          ],
+          [
+            229.72781609618568,
+            105.2003250759436
+          ],
+          [
+            230.93746425371276,
+            138.69447488468487
+          ],
+          [
+            211.75807376255852,
+            138.6949702452092
+          ]
+        ],
+        "score": 0.821843683719635,
+        "id": 190,
+        "observed_fit_support": 0.9548879141092372,
+        "review_flags": [],
+        "layout_method": "shared_shape_observed_center",
+        "layout_table": 1,
+        "quad_fit_v6_raw_coverage": 0.9698309325267009,
+        "quad_fit_v6_raw_iou": 0.9273419388993046,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            26.692320122925985,
+            106.0192201690155
+          ],
+          [
+            46.24715077610003,
+            106.01767111184374
+          ],
+          [
+            47.77606366965865,
+            139.25080494594016
+          ],
+          [
+            28.2621728211685,
+            139.25126816799113
+          ]
+        ],
+        "score": 0.8067365288734436,
+        "id": 191,
+        "review_flags": [],
+        "quad_fit_v6_method": "bounded_whole_mask_optimization",
+        "observed_fit_support": 0.8942609706178661,
+        "quad_fit_v6_raw_coverage": 0.9966273364074394,
+        "quad_fit_v6_raw_iou": 0.8915628802932762,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          3,
+          1,
+          0
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            270.06732043293357,
+            104.7535951836756
+          ],
+          [
+            289.1784461793188,
+            104.75309021935338
+          ],
+          [
+            290.27066852836833,
+            138.24667626314837
+          ],
+          [
+            271.1923710508019,
+            138.24718036006465
+          ]
+        ],
+        "score": 0.8012836575508118,
+        "id": 192,
+        "review_flags": [],
+        "quad_fit_v6_method": "bounded_whole_mask_optimization",
+        "observed_fit_support": 0.9060977808668038,
+        "quad_fit_v6_raw_coverage": 0.9991304603839226,
+        "quad_fit_v6_raw_iou": 0.9053838190778949,
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1,
+          3
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            392.1112174328107,
+            301.36518898181316
+          ],
+          [
+            411.22464758499507,
+            301.36439892307635
+          ],
+          [
+            412.1140696232749,
+            333.8747295258175
+          ],
+          [
+            393.02449071415043,
+            333.87551859865675
+          ]
+        ],
+        "score": 0.7833350896835327,
+        "id": 193,
+        "observed_fit_support": 0.9056775314227302,
+        "review_flags": [],
+        "frame_geometry_method": "shared_source_seam_bands",
+        "source_supported_seam_edges": [
+          1
+        ],
+        "frame_gap_status": "unresolved; existing nonnegative gap prior retained",
+        "quad_fit_v6_raw_coverage": 0.9849789250151975,
+        "quad_fit_v6_raw_iou": 0.8933389862070813,
+        "v6_changed": true
+      },
+      {
+        "polygon": [
+          [
+            0.0,
+            302.0
+          ],
+          [
+            5.0,
+            302.0
+          ],
+          [
+            9.0,
+            334.0
+          ],
+          [
+            0.0,
+            334.0
+          ]
+        ],
+        "score": 0.7406954765319824,
+        "id": 194,
+        "observed_fit_support": 0.9805484693877551,
+        "review_flags": [
+          "image_edge_partial"
+        ],
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            0.0,
+            107.0
+          ],
+          [
+            5.0,
+            107.0
+          ],
+          [
+            8.0,
+            139.0
+          ],
+          [
+            0.0,
+            139.0
+          ]
+        ],
+        "score": 0.6929802298545837,
+        "id": 195,
+        "observed_fit_support": 0.9618976569407605,
+        "review_flags": [
+          "image_edge_partial"
+        ],
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            0.0,
+            466.0
+          ],
+          [
+            5.0,
+            466.0
+          ],
+          [
+            7.0,
+            494.0
+          ],
+          [
+            0.0,
+            497.0
+          ]
+        ],
+        "score": 0.5296178460121155,
+        "id": 200,
+        "observed_fit_support": 0.826115061409179,
+        "review_flags": [
+          "image_edge_partial"
+        ],
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            0.0,
+            82.0
+          ],
+          [
+            9.0,
+            82.0
+          ],
+          [
+            5.0,
+            115.0
+          ],
+          [
+            0.0,
+            115.0
+          ]
+        ],
+        "score": 0.33354634046554565,
+        "id": 204,
+        "observed_fit_support": 0.8267187922360336,
+        "review_flags": [
+          "image_edge_partial"
+        ],
+        "v6_changed": false
+      },
+      {
+        "polygon": [
+          [
+            0.0,
+            271.0
+          ],
+          [
+            5.0,
+            271.0
+          ],
+          [
+            6.0,
+            300.0
+          ],
+          [
+            0.0,
+            304.0
+          ]
+        ],
+        "score": 0.32593685388565063,
+        "id": 205,
+        "observed_fit_support": 0.7780091628488129,
+        "review_flags": [
+          "image_edge_partial"
+        ],
+        "v6_changed": false
+      }
     ]
   },
   "audit": [
@@ -28234,21 +34545,27 @@
         "iou50": {
           "tp": 197,
           "fp": 1,
-          "fn": 1
+          "fn": 1,
+          "precision": 0.9949494949494949,
+          "recall": 0.9949494949494949
         },
         "iou75": {
           "tp": 186,
           "fp": 12,
-          "fn": 12
+          "fn": 12,
+          "precision": 0.9393939393939394,
+          "recall": 0.9393939393939394
         },
         "iou90": {
           "tp": 28,
           "fp": 170,
-          "fn": 170
+          "fn": 170,
+          "precision": 0.1414141414141414,
+          "recall": 0.1414141414141414
         },
-        "mean_matched_iou": 0.8419400353603385,
-        "symmetric_boundary_distance_median_px": 0.8977827546256791,
-        "matched_corner_rmse_median_px": 1.980463060558298
+        "matched_corner_rmse_median_px": 1.964054804176945,
+        "corner_measured_modules": 192,
+        "eligible_full_references": 192
       },
       "consistency": {
         "tables": [
@@ -28292,21 +34609,27 @@
         "iou50": {
           "tp": 197,
           "fp": 1,
-          "fn": 1
+          "fn": 1,
+          "precision": 0.9949494949494949,
+          "recall": 0.9949494949494949
         },
         "iou75": {
           "tp": 187,
           "fp": 11,
-          "fn": 11
+          "fn": 11,
+          "precision": 0.9444444444444444,
+          "recall": 0.9444444444444444
         },
         "iou90": {
           "tp": 25,
           "fp": 173,
-          "fn": 173
+          "fn": 173,
+          "precision": 0.12626262626262627,
+          "recall": 0.12626262626262627
         },
-        "mean_matched_iou": 0.847612748995851,
-        "symmetric_boundary_distance_median_px": 0.8714936716659709,
-        "matched_corner_rmse_median_px": 1.8099356143503764
+        "matched_corner_rmse_median_px": 1.7950693220899456,
+        "corner_measured_modules": 192,
+        "eligible_full_references": 192
       },
       "consistency": {
         "tables": [
@@ -28350,21 +34673,27 @@
         "iou50": {
           "tp": 197,
           "fp": 1,
-          "fn": 1
+          "fn": 1,
+          "precision": 0.9949494949494949,
+          "recall": 0.9949494949494949
         },
         "iou75": {
           "tp": 179,
           "fp": 19,
-          "fn": 19
+          "fn": 19,
+          "precision": 0.9040404040404041,
+          "recall": 0.9040404040404041
         },
         "iou90": {
           "tp": 40,
           "fp": 158,
-          "fn": 158
+          "fn": 158,
+          "precision": 0.20202020202020202,
+          "recall": 0.20202020202020202
         },
-        "mean_matched_iou": 0.8457204083122998,
-        "symmetric_boundary_distance_median_px": 0.8760943363633702,
-        "matched_corner_rmse_median_px": 1.7441120474471772
+        "matched_corner_rmse_median_px": 1.7381607365454306,
+        "corner_measured_modules": 192,
+        "eligible_full_references": 192
       },
       "consistency": {
         "tables": [
@@ -28408,21 +34737,27 @@
         "iou50": {
           "tp": 197,
           "fp": 1,
-          "fn": 1
+          "fn": 1,
+          "precision": 0.9949494949494949,
+          "recall": 0.9949494949494949
         },
         "iou75": {
           "tp": 168,
           "fp": 30,
-          "fn": 30
+          "fn": 30,
+          "precision": 0.8484848484848485,
+          "recall": 0.8484848484848485
         },
         "iou90": {
           "tp": 25,
           "fp": 173,
-          "fn": 173
+          "fn": 173,
+          "precision": 0.12626262626262627,
+          "recall": 0.12626262626262627
         },
-        "mean_matched_iou": 0.8225637598746606,
-        "symmetric_boundary_distance_median_px": 1.0522124166134714,
-        "matched_corner_rmse_median_px": 2.02250795380688
+        "matched_corner_rmse_median_px": 2.0059994562627566,
+        "corner_measured_modules": 192,
+        "eligible_full_references": 192
       },
       "consistency": {
         "tables": [
@@ -28466,21 +34801,27 @@
         "iou50": {
           "tp": 197,
           "fp": 1,
-          "fn": 1
+          "fn": 1,
+          "precision": 0.9949494949494949,
+          "recall": 0.9949494949494949
         },
         "iou75": {
           "tp": 192,
           "fp": 6,
-          "fn": 6
+          "fn": 6,
+          "precision": 0.9696969696969697,
+          "recall": 0.9696969696969697
         },
         "iou90": {
           "tp": 42,
           "fp": 156,
-          "fn": 156
+          "fn": 156,
+          "precision": 0.21212121212121213,
+          "recall": 0.21212121212121213
         },
-        "mean_matched_iou": 0.8676820559195854,
-        "symmetric_boundary_distance_median_px": 0.7105854627896907,
-        "matched_corner_rmse_median_px": 1.6093233983151074
+        "matched_corner_rmse_median_px": 1.600364888401471,
+        "corner_measured_modules": 192,
+        "eligible_full_references": 192
       },
       "consistency": {
         "tables": [
@@ -28508,6 +34849,63 @@
         ],
         "edge_evidence_mean": 0.5786149707522379,
         "edge_evidence_unsampled_locations_mean": 0.5627746294656447
+      }
+    },
+    "v6_composed": {
+      "consistency": {
+        "tables": [
+          {
+            "count": 66,
+            "width_cv": 0.033158326904952316,
+            "height_cv": 0.009807247226160375,
+            "width_orientation_std_deg": 0.042520791438732386,
+            "row_alignment_median_px": 0.37150034943357024
+          },
+          {
+            "count": 61,
+            "width_cv": 0.027154225447928417,
+            "height_cv": 0.006757915765028764,
+            "width_orientation_std_deg": 0.001396391074802294,
+            "row_alignment_median_px": 0.2226519459540022
+          },
+          {
+            "count": 63,
+            "width_cv": 0.029239558140462484,
+            "height_cv": 0.007215211517859759,
+            "width_orientation_std_deg": 0.0012013915362651157,
+            "row_alignment_median_px": 0.24417247228717104
+          }
+        ],
+        "edge_evidence_mean": 0.5841397854070381,
+        "edge_evidence_unsampled_locations_mean": 0.5683917632907528
+      },
+      "evaluation": {
+        "observations": 198,
+        "truth": 198,
+        "iou50": {
+          "tp": 197,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.9949494949494949,
+          "recall": 0.9949494949494949
+        },
+        "iou75": {
+          "tp": 193,
+          "fp": 5,
+          "fn": 5,
+          "precision": 0.9747474747474747,
+          "recall": 0.9747474747474747
+        },
+        "iou90": {
+          "tp": 43,
+          "fp": 155,
+          "fn": 155,
+          "precision": 0.21717171717171718,
+          "recall": 0.21717171717171718
+        },
+        "matched_corner_rmse_median_px": 1.6084230834159152,
+        "corner_measured_modules": 192,
+        "eligible_full_references": 192
       }
     }
   },
@@ -28538,6 +34936,33 @@
       ],
       "edge_evidence_mean": 0.5786149707522379,
       "edge_evidence_unsampled_locations_mean": 0.5627746294656447
+    },
+    "v6_composed": {
+      "tables": [
+        {
+          "count": 66,
+          "width_cv": 0.033158326904952316,
+          "height_cv": 0.009807247226160375,
+          "width_orientation_std_deg": 0.042520791438732386,
+          "row_alignment_median_px": 0.37150034943357024
+        },
+        {
+          "count": 61,
+          "width_cv": 0.027154225447928417,
+          "height_cv": 0.006757915765028764,
+          "width_orientation_std_deg": 0.001396391074802294,
+          "row_alignment_median_px": 0.2226519459540022
+        },
+        {
+          "count": 63,
+          "width_cv": 0.029239558140462484,
+          "height_cv": 0.007215211517859759,
+          "width_orientation_std_deg": 0.0012013915362651157,
+          "row_alignment_median_px": 0.24417247228717104
+        }
+      ],
+      "edge_evidence_mean": 0.5841397854070381,
+      "edge_evidence_unsampled_locations_mean": 0.5683917632907528
     }
   },
   "labeled": true,
@@ -28559,5 +34984,12 @@
     "supported_edges": 410,
     "total_edges": 792,
     "limitation": "Observed shared separator centers; individual gap widths remain prior-based. Outer unobserved edges and partials retain their input geometry."
-  }
+  },
+  "v6_candidate_sha256": "a6aa8dcf03903d5a73bee4d79089f89000892a04a67eca73d169168e7b048829",
+  "v6_evidence": {
+    "inventory_changes": false,
+    "reserve13_evaluated": false,
+    "limitation": "Whole-mask approximation followed by shared geometry. Better mask fit is not independent proof of a physical frame; development results only."
+  },
+  "display_metrics_sha256": "5dfbc2b5d23b1f1b46ea243e7601b8eccd243542bb219a860332e60703bac53a"
 }
