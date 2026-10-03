@@ -1,0 +1,361 @@
+{
+  "note": "Development samples used to evaluate geometric cleanup, unknown training overlap. Not held-out validation.",
+  "cases": [
+    {
+      "modality": "rgb",
+      "sample": "C_DJI_20220610095551_0001_W",
+      "folder": "rgb_C_DJI_20220610095551_0001_W",
+      "evaluation": {
+        "ground_truth_instances": 198,
+        "predicted_instances": 198,
+        "true_positive_iou50": 197,
+        "false_positive_iou50": 1,
+        "false_negative_iou50": 1,
+        "precision_iou50": 0.9949494949494949,
+        "recall_iou50": 0.9949494949494949,
+        "mean_matched_polygon_iou": 0.8419400353603385,
+        "semantic_iou": 0.9346944462778402
+      },
+      "evaluation_raw": {
+        "ground_truth_instances": 198,
+        "predicted_instances": 206,
+        "true_positive_iou50": 197,
+        "false_positive_iou50": 9,
+        "false_negative_iou50": 1,
+        "precision_iou50": 0.9563106796116505,
+        "recall_iou50": 0.9949494949494949,
+        "mean_matched_polygon_iou": 0.838039713881747,
+        "semantic_iou": 0.8600504602980269
+      },
+      "evaluation_baseline": {
+        "ground_truth_instances": 198,
+        "predicted_instances": 206,
+        "true_positive_iou50": 197,
+        "false_positive_iou50": 9,
+        "false_negative_iou50": 1,
+        "precision_iou50": 0.9563106796116505,
+        "recall_iou50": 0.9949494949494949,
+        "mean_matched_polygon_iou": 0.838039713881747,
+        "semantic_iou": 0.8600504602980269
+      },
+      "elapsed_seconds": 0.9223990000027698,
+      "tiles": 1,
+      "recovery_tiles": 0,
+      "raw_candidates": 215,
+      "edge_instances": 8,
+      "geometry_audit": {
+        "input_count": 206,
+        "accepted_count": 198,
+        "policy": "Observed four-corner fits; local geometric consensus; no gap completion or labels",
+        "suppressed_duplicates": 6,
+        "rejected_for_review": 2
+      }
+    },
+    {
+      "modality": "rgb",
+      "sample": "C_DJI_20220610100017_0029_Z",
+      "folder": "rgb_C_DJI_20220610100017_0029_Z",
+      "evaluation": {
+        "ground_truth_instances": 171,
+        "predicted_instances": 171,
+        "true_positive_iou50": 171,
+        "false_positive_iou50": 0,
+        "false_negative_iou50": 0,
+        "precision_iou50": 1.0,
+        "recall_iou50": 1.0,
+        "mean_matched_polygon_iou": 0.9192368180588434,
+        "semantic_iou": 0.9659876203948139
+      },
+      "evaluation_raw": {
+        "ground_truth_instances": 171,
+        "predicted_instances": 183,
+        "true_positive_iou50": 171,
+        "false_positive_iou50": 12,
+        "false_negative_iou50": 0,
+        "precision_iou50": 0.9344262295081968,
+        "recall_iou50": 1.0,
+        "mean_matched_polygon_iou": 0.9276105059225466,
+        "semantic_iou": 0.9707982565693575
+      },
+      "evaluation_baseline": {
+        "ground_truth_instances": 171,
+        "predicted_instances": 184,
+        "true_positive_iou50": 170,
+        "false_positive_iou50": 14,
+        "false_negative_iou50": 1,
+        "precision_iou50": 0.9239130434782609,
+        "recall_iou50": 0.9941520467836257,
+        "mean_matched_polygon_iou": 0.9204855573707665,
+        "semantic_iou": 0.9620936484458504
+      },
+      "elapsed_seconds": 3.6317944999900647,
+      "tiles": 5,
+      "recovery_tiles": 1,
+      "raw_candidates": 501,
+      "edge_instances": 5,
+      "geometry_audit": {
+        "input_count": 183,
+        "accepted_count": 171,
+        "policy": "Observed four-corner fits; local geometric consensus; no gap completion or labels",
+        "suppressed_duplicates": 7,
+        "rejected_for_review": 5
+      }
+    },
+    {
+      "modality": "rgb",
+      "sample": "C_DJI_20220610100313_0031_W",
+      "folder": "rgb",
+      "evaluation": {
+        "ground_truth_instances": 114,
+        "predicted_instances": 114,
+        "true_positive_iou50": 114,
+        "false_positive_iou50": 0,
+        "false_negative_iou50": 0,
+        "precision_iou50": 1.0,
+        "recall_iou50": 1.0,
+        "mean_matched_polygon_iou": 0.9250555175378664,
+        "semantic_iou": 0.9697848624356904
+      },
+      "evaluation_raw": {
+        "ground_truth_instances": 114,
+        "predicted_instances": 122,
+        "true_positive_iou50": 114,
+        "false_positive_iou50": 8,
+        "false_negative_iou50": 0,
+        "precision_iou50": 0.9344262295081968,
+        "recall_iou50": 1.0,
+        "mean_matched_polygon_iou": 0.9178018280530927,
+        "semantic_iou": 0.9614810813928794
+      },
+      "evaluation_baseline": {
+        "ground_truth_instances": 114,
+        "predicted_instances": 122,
+        "true_positive_iou50": 114,
+        "false_positive_iou50": 8,
+        "false_negative_iou50": 0,
+        "precision_iou50": 0.9344262295081968,
+        "recall_iou50": 1.0,
+        "mean_matched_polygon_iou": 0.9178018280530927,
+        "semantic_iou": 0.9614810813928794
+      },
+      "elapsed_seconds": 1.2248484999872744,
+      "tiles": 2,
+      "recovery_tiles": 0,
+      "raw_candidates": 200,
+      "edge_instances": 4,
+      "geometry_audit": {
+        "input_count": 122,
+        "accepted_count": 114,
+        "policy": "Observed four-corner fits; local geometric consensus; no gap completion or labels",
+        "suppressed_duplicates": 6,
+        "rejected_for_review": 2
+      }
+    },
+    {
+      "modality": "thermal",
+      "sample": "DJI_20220610101051_0047_T",
+      "folder": "thermal_DJI_20220610101051_0047_T",
+      "evaluation": {
+        "ground_truth_instances": 18,
+        "predicted_instances": 17,
+        "true_positive_iou50": 17,
+        "false_positive_iou50": 0,
+        "false_negative_iou50": 1,
+        "precision_iou50": 1.0,
+        "recall_iou50": 0.9444444444444444,
+        "mean_matched_polygon_iou": 0.9091928013391265,
+        "semantic_iou": 0.9673061427420323
+      },
+      "evaluation_raw": {
+        "ground_truth_instances": 18,
+        "predicted_instances": 17,
+        "true_positive_iou50": 17,
+        "false_positive_iou50": 0,
+        "false_negative_iou50": 1,
+        "precision_iou50": 1.0,
+        "recall_iou50": 0.9444444444444444,
+        "mean_matched_polygon_iou": 0.9181388949332788,
+        "semantic_iou": 0.9757839233586024
+      },
+      "evaluation_baseline": {
+        "ground_truth_instances": 18,
+        "predicted_instances": 17,
+        "true_positive_iou50": 17,
+        "false_positive_iou50": 0,
+        "false_negative_iou50": 1,
+        "precision_iou50": 1.0,
+        "recall_iou50": 0.9444444444444444,
+        "mean_matched_polygon_iou": 0.9181388949332788,
+        "semantic_iou": 0.9757839233586024
+      },
+      "elapsed_seconds": 0.23124340001959354,
+      "tiles": 1,
+      "recovery_tiles": 0,
+      "raw_candidates": 17,
+      "edge_instances": 4,
+      "geometry_audit": {
+        "input_count": 17,
+        "accepted_count": 17,
+        "policy": "Observed four-corner fits; local geometric consensus; no gap completion or labels",
+        "suppressed_duplicates": 0,
+        "rejected_for_review": 0
+      }
+    },
+    {
+      "modality": "thermal",
+      "sample": "DJI_20220610101319_0068_T",
+      "folder": "thermal",
+      "evaluation": {
+        "ground_truth_instances": 16,
+        "predicted_instances": 16,
+        "true_positive_iou50": 16,
+        "false_positive_iou50": 0,
+        "false_negative_iou50": 0,
+        "precision_iou50": 1.0,
+        "recall_iou50": 1.0,
+        "mean_matched_polygon_iou": 0.9238034081950459,
+        "semantic_iou": 0.9701102711142492
+      },
+      "evaluation_raw": {
+        "ground_truth_instances": 16,
+        "predicted_instances": 16,
+        "true_positive_iou50": 16,
+        "false_positive_iou50": 0,
+        "false_negative_iou50": 0,
+        "precision_iou50": 1.0,
+        "recall_iou50": 1.0,
+        "mean_matched_polygon_iou": 0.927439862655378,
+        "semantic_iou": 0.9748171704763327
+      },
+      "evaluation_baseline": {
+        "ground_truth_instances": 16,
+        "predicted_instances": 16,
+        "true_positive_iou50": 16,
+        "false_positive_iou50": 0,
+        "false_negative_iou50": 0,
+        "precision_iou50": 1.0,
+        "recall_iou50": 1.0,
+        "mean_matched_polygon_iou": 0.927439862655378,
+        "semantic_iou": 0.9748171704763327
+      },
+      "elapsed_seconds": 0.20779329998185858,
+      "tiles": 1,
+      "recovery_tiles": 0,
+      "raw_candidates": 17,
+      "edge_instances": 4,
+      "geometry_audit": {
+        "input_count": 16,
+        "accepted_count": 16,
+        "policy": "Observed four-corner fits; local geometric consensus; no gap completion or labels",
+        "suppressed_duplicates": 0,
+        "rejected_for_review": 0
+      }
+    },
+    {
+      "modality": "thermal",
+      "sample": "DJI_20220628095237_0012_T_Waypoint10",
+      "folder": "thermal_DJI_20220628095237_0012_T_Waypoint10",
+      "evaluation": {
+        "ground_truth_instances": 6,
+        "predicted_instances": 6,
+        "true_positive_iou50": 6,
+        "false_positive_iou50": 0,
+        "false_negative_iou50": 0,
+        "precision_iou50": 1.0,
+        "recall_iou50": 1.0,
+        "mean_matched_polygon_iou": 0.9113761195024074,
+        "semantic_iou": 0.959164727725681
+      },
+      "evaluation_raw": {
+        "ground_truth_instances": 6,
+        "predicted_instances": 6,
+        "true_positive_iou50": 6,
+        "false_positive_iou50": 0,
+        "false_negative_iou50": 0,
+        "precision_iou50": 1.0,
+        "recall_iou50": 1.0,
+        "mean_matched_polygon_iou": 0.9250668074701133,
+        "semantic_iou": 0.9662775159997187
+      },
+      "evaluation_baseline": {
+        "ground_truth_instances": 6,
+        "predicted_instances": 6,
+        "true_positive_iou50": 6,
+        "false_positive_iou50": 0,
+        "false_negative_iou50": 0,
+        "precision_iou50": 1.0,
+        "recall_iou50": 1.0,
+        "mean_matched_polygon_iou": 0.9250668074701133,
+        "semantic_iou": 0.9662775159997187
+      },
+      "elapsed_seconds": 0.16888169999583624,
+      "tiles": 1,
+      "recovery_tiles": 0,
+      "raw_candidates": 6,
+      "edge_instances": 2,
+      "geometry_audit": {
+        "input_count": 6,
+        "accepted_count": 6,
+        "policy": "Observed four-corner fits; local geometric consensus; no gap completion or labels",
+        "suppressed_duplicates": 0,
+        "rejected_for_review": 0
+      }
+    }
+  ],
+  "tile_stress": {
+    "modality": "rgb",
+    "sample": "C_DJI_20220610100313_0031_W",
+    "folder": "rgb_tile_stress",
+    "evaluation": {
+      "ground_truth_instances": 114,
+      "predicted_instances": 114,
+      "true_positive_iou50": 114,
+      "false_positive_iou50": 0,
+      "false_negative_iou50": 0,
+      "precision_iou50": 1.0,
+      "recall_iou50": 1.0,
+      "mean_matched_polygon_iou": 0.8982336086187804,
+      "semantic_iou": 0.9690677159697968
+    },
+    "evaluation_raw": {
+      "ground_truth_instances": 114,
+      "predicted_instances": 130,
+      "true_positive_iou50": 114,
+      "false_positive_iou50": 16,
+      "false_negative_iou50": 0,
+      "precision_iou50": 0.8769230769230769,
+      "recall_iou50": 1.0,
+      "mean_matched_polygon_iou": 0.914277608021915,
+      "semantic_iou": 0.9685236146078958
+    },
+    "evaluation_baseline": {
+      "ground_truth_instances": 114,
+      "predicted_instances": 130,
+      "true_positive_iou50": 114,
+      "false_positive_iou50": 16,
+      "false_negative_iou50": 0,
+      "precision_iou50": 0.8769230769230769,
+      "recall_iou50": 1.0,
+      "mean_matched_polygon_iou": 0.8757945519750799,
+      "semantic_iou": 0.9285548880625817
+    },
+    "elapsed_seconds": 1.5154220999975223,
+    "tiles": 9,
+    "recovery_tiles": 1,
+    "raw_candidates": 257,
+    "edge_instances": 4,
+    "geometry_audit": {
+      "input_count": 130,
+      "accepted_count": 114,
+      "policy": "Observed four-corner fits; local geometric consensus; no gap completion or labels",
+      "suppressed_duplicates": 13,
+      "rejected_for_review": 3
+    },
+    "note": "Real RGB frame tiled at 640 pixels; not an orthomosaic or evidence of 120m acquisition."
+  },
+  "demo": {
+    "kind": "precomputed_development_samples",
+    "live_inference": false,
+    "source": "https://imr.ciirc.cvut.cz/Datasets/PVsegmentation"
+  }
+}
