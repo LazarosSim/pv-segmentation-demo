@@ -782,7 +782,10 @@
     "pvhawk025_aggregate": "5b75eb1bc0d1e841bb173cb98e619c477a75c2949a672e309b7a63884ec299a2",
     "pvhawk025_comparison": "5f741308c8de143361a1e1f77a5289845c505f15dfa57e5d9aa0443c19649973",
     "sam21_aggregate": "4666868d4b6aef1ada1ccd187a4910fb9bf8a9fcfb2081d5a00607a56e323427",
-    "sam21_comparison": "d5b931efabe8b487dcc9f1d759d11f82d7832e33d6a71ca5318ca410add48a50"
+    "sam21_comparison": "d5b931efabe8b487dcc9f1d759d11f82d7832e33d6a71ca5318ca410add48a50",
+    "greek_aggregate": "0ac656e6c37feaefb1db3f7a93ef6cbfcc0b817408559c5ca539351c4fd6c4d8",
+    "greek_comparison": "b61fa83d5aae82d9ee0c3ecf3fd3d2c40b2700d7f85cfad08240d76a71c88d43",
+    "assisted_band_comparison": "93a33bb7cc9bd01f74b97a5738a779710bc8c8dfe4e6ee27a0e12ad54f626e69"
   },
   "pvhawk_confidence_comparison": {
     "primary": 0.9,
@@ -825,6 +828,11 @@
       "title": "Meta SAM 2.1 official source",
       "url": "https://github.com/facebookresearch/sam2/tree/2b90b9f5ceec907a1c18123530e92e794ad901a4",
       "attribution": "Meta SAM 2.1 Hiera tiny, generic promptable segmentation; source and checkpoint Apache 2.0."
+    },
+    {
+      "title": "Greek Mavic 3T PV dataset",
+      "url": "https://zenodo.org/records/16420123",
+      "attribution": "Original author annotations and display JPEGs; CC BY 4.0."
     }
   ],
   "limitations": [
@@ -835,7 +843,7 @@
     "All selected cases and failed-case references remain denominators; FP counts cover completed outputs only.",
     "PV-Hawk uses different native tile sampling and has no centered edge recovery; this compares operational pipelines, not isolated architectures.",
     "The single PV-Hawk confidence 0.25 ablation followed the 0.9 pilot on the same development sources; both configurations remain separate and neither is the default.",
-    "No pooled benchmark, commercial reliability, thermal transfer or Matrice 4T validation is claimed.",
+    "No pooled benchmark, commercial reliability, general thermal reliability or Matrice 4T validation is claimed.",
     "SAM uses fixed CVUT V6 inventory; source-only box-mask refinement may change physical-reference association. No inventory recovery or default promotion is implied."
   ],
   "sam21_boundary_experiment": {
@@ -1256,5 +1264,3154 @@
         }
       ]
     }
+  },
+  "greek_thermal_aabb": {
+    "comparison_sha256": "b61fa83d5aae82d9ee0c3ecf3fd3d2c40b2700d7f85cfad08240d76a71c88d43",
+    "evaluation_freeze_sha256": "a4df35918ec22f3b16b52a603122b2f0a3ac7826a2487672ef62555a5923455e",
+    "prediction_freeze_sha256": "dd40b701f924c2290916ceb385aa2c52997289acb1de85b93e6290bf41e796a2",
+    "metric": "tight continuous-frame AABB IoU only",
+    "notes": [
+      "Tight continuous-frame AABB IoU only; no physical-corner, polygon-IoU or thermal anomaly claim.",
+      "All12 author-label denominators retained including partials, duplicates, zero-label cases and failed stages.",
+      "Raw observations are deduplicated inference masks; invalid contour shape is disclosed without AABB repair/drop. Accepted quads must remain valid/convex.",
+      "Observation/FP/precision claims apply to completed outputs only; failed cases retain all reference FN.",
+      "Observed numeric class IDs lack an official class-name dictionary; no fault categories invented.",
+      "Cross-split export alias evidence and unknown checkpoint-training membership prevent an independent-training-holdout claim.",
+      "Mavic3T display JPEG transfer is not Matrice4T/radiometric/complete installed-inventory validation.",
+      "No parameter tuning, model training or hosted-default selection follows from this diagnostic."
+    ],
+    "methods": {
+      "raw_deduplicated": {
+        "summary": {
+          "cases": 12,
+          "completed_cases": 12,
+          "completed_case_coverage": 1.0,
+          "all_cases_complete": true,
+          "failed_case_ids": [],
+          "observations_completed_only": 188,
+          "references_all_selected_cases": 739,
+          "iou": {
+            "50": {
+              "tp": 182,
+              "fp_completed_only": 6,
+              "fn_all_selected_cases": 557,
+              "precision_completed_only": 0.9680851063829787,
+              "recall_all_selected_cases": 0.2462787550744249
+            },
+            "75": {
+              "tp": 161,
+              "fp_completed_only": 27,
+              "fn_all_selected_cases": 578,
+              "precision_completed_only": 0.8563829787234043,
+              "recall_all_selected_cases": 0.2178619756427605
+            },
+            "90": {
+              "tp": 70,
+              "fp_completed_only": 118,
+              "fn_all_selected_cases": 669,
+              "precision_completed_only": 0.3723404255319149,
+              "recall_all_selected_cases": 0.09472259810554803
+            }
+          },
+          "strata": {
+            "50": {
+              "frame_full": {
+                "references": 612,
+                "matched": 145,
+                "recall": 0.2369281045751634
+              },
+              "frame_partial": {
+                "references": 127,
+                "matched": 37,
+                "recall": 0.29133858267716534
+              }
+            },
+            "75": {
+              "frame_full": {
+                "references": 612,
+                "matched": 128,
+                "recall": 0.20915032679738563
+              },
+              "frame_partial": {
+                "references": 127,
+                "matched": 33,
+                "recall": 0.25984251968503935
+              }
+            },
+            "90": {
+              "frame_full": {
+                "references": 612,
+                "matched": 63,
+                "recall": 0.10294117647058823
+              },
+              "frame_partial": {
+                "references": 127,
+                "matched": 7,
+                "recall": 0.05511811023622047
+              }
+            }
+          }
+        },
+        "cases": [
+          {
+            "id": "greek_01",
+            "complete": true,
+            "observations": 32,
+            "references": 54,
+            "iou": {
+              "50": {
+                "tp": 32,
+                "fp": 0,
+                "fn": 22,
+                "precision": 1.0,
+                "recall": 0.5925925925925926
+              },
+              "75": {
+                "tp": 32,
+                "fp": 0,
+                "fn": 22,
+                "precision": 1.0,
+                "recall": 0.5925925925925926
+              },
+              "90": {
+                "tp": 20,
+                "fp": 12,
+                "fn": 34,
+                "precision": 0.625,
+                "recall": 0.37037037037037035
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 44,
+                  "matched": 26,
+                  "recall": 0.5909090909090909
+                },
+                "frame_partial": {
+                  "references": 10,
+                  "matched": 6,
+                  "recall": 0.6
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 44,
+                  "matched": 26,
+                  "recall": 0.5909090909090909
+                },
+                "frame_partial": {
+                  "references": 10,
+                  "matched": 6,
+                  "recall": 0.6
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 44,
+                  "matched": 18,
+                  "recall": 0.4090909090909091
+                },
+                "frame_partial": {
+                  "references": 10,
+                  "matched": 2,
+                  "recall": 0.2
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 16,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 32,
+              "75": 32,
+              "90": 20
+            }
+          },
+          {
+            "id": "greek_02",
+            "complete": true,
+            "observations": 5,
+            "references": 87,
+            "iou": {
+              "50": {
+                "tp": 5,
+                "fp": 0,
+                "fn": 82,
+                "precision": 1.0,
+                "recall": 0.05747126436781609
+              },
+              "75": {
+                "tp": 5,
+                "fp": 0,
+                "fn": 82,
+                "precision": 1.0,
+                "recall": 0.05747126436781609
+              },
+              "90": {
+                "tp": 1,
+                "fp": 4,
+                "fn": 86,
+                "precision": 0.2,
+                "recall": 0.011494252873563218
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 77,
+                  "matched": 3,
+                  "recall": 0.03896103896103896
+                },
+                "frame_partial": {
+                  "references": 10,
+                  "matched": 2,
+                  "recall": 0.2
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 77,
+                  "matched": 3,
+                  "recall": 0.03896103896103896
+                },
+                "frame_partial": {
+                  "references": 10,
+                  "matched": 2,
+                  "recall": 0.2
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 77,
+                  "matched": 1,
+                  "recall": 0.012987012987012988
+                },
+                "frame_partial": {
+                  "references": 10,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 5,
+              "75": 5,
+              "90": 1
+            }
+          },
+          {
+            "id": "greek_03",
+            "complete": true,
+            "observations": 26,
+            "references": 44,
+            "iou": {
+              "50": {
+                "tp": 26,
+                "fp": 0,
+                "fn": 18,
+                "precision": 1.0,
+                "recall": 0.5909090909090909
+              },
+              "75": {
+                "tp": 23,
+                "fp": 3,
+                "fn": 21,
+                "precision": 0.8846153846153846,
+                "recall": 0.5227272727272727
+              },
+              "90": {
+                "tp": 5,
+                "fp": 21,
+                "fn": 39,
+                "precision": 0.19230769230769232,
+                "recall": 0.11363636363636363
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 32,
+                  "matched": 17,
+                  "recall": 0.53125
+                },
+                "frame_partial": {
+                  "references": 12,
+                  "matched": 9,
+                  "recall": 0.75
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 32,
+                  "matched": 16,
+                  "recall": 0.5
+                },
+                "frame_partial": {
+                  "references": 12,
+                  "matched": 7,
+                  "recall": 0.5833333333333334
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 32,
+                  "matched": 4,
+                  "recall": 0.125
+                },
+                "frame_partial": {
+                  "references": 12,
+                  "matched": 1,
+                  "recall": 0.08333333333333333
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 20,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 26,
+              "75": 23,
+              "90": 5
+            }
+          },
+          {
+            "id": "greek_04",
+            "complete": true,
+            "observations": 4,
+            "references": 76,
+            "iou": {
+              "50": {
+                "tp": 3,
+                "fp": 1,
+                "fn": 73,
+                "precision": 0.75,
+                "recall": 0.039473684210526314
+              },
+              "75": {
+                "tp": 3,
+                "fp": 1,
+                "fn": 73,
+                "precision": 0.75,
+                "recall": 0.039473684210526314
+              },
+              "90": {
+                "tp": 1,
+                "fp": 3,
+                "fn": 75,
+                "precision": 0.25,
+                "recall": 0.013157894736842105
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 60,
+                  "matched": 2,
+                  "recall": 0.03333333333333333
+                },
+                "frame_partial": {
+                  "references": 16,
+                  "matched": 1,
+                  "recall": 0.0625
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 60,
+                  "matched": 2,
+                  "recall": 0.03333333333333333
+                },
+                "frame_partial": {
+                  "references": 16,
+                  "matched": 1,
+                  "recall": 0.0625
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 60,
+                  "matched": 1,
+                  "recall": 0.016666666666666666
+                },
+                "frame_partial": {
+                  "references": 16,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 3,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 3,
+              "75": 3,
+              "90": 1
+            }
+          },
+          {
+            "id": "greek_05",
+            "complete": true,
+            "observations": 15,
+            "references": 114,
+            "iou": {
+              "50": {
+                "tp": 15,
+                "fp": 0,
+                "fn": 99,
+                "precision": 1.0,
+                "recall": 0.13157894736842105
+              },
+              "75": {
+                "tp": 15,
+                "fp": 0,
+                "fn": 99,
+                "precision": 1.0,
+                "recall": 0.13157894736842105
+              },
+              "90": {
+                "tp": 7,
+                "fp": 8,
+                "fn": 107,
+                "precision": 0.4666666666666667,
+                "recall": 0.06140350877192982
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 97,
+                  "matched": 11,
+                  "recall": 0.1134020618556701
+                },
+                "frame_partial": {
+                  "references": 17,
+                  "matched": 4,
+                  "recall": 0.23529411764705882
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 97,
+                  "matched": 11,
+                  "recall": 0.1134020618556701
+                },
+                "frame_partial": {
+                  "references": 17,
+                  "matched": 4,
+                  "recall": 0.23529411764705882
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 97,
+                  "matched": 5,
+                  "recall": 0.05154639175257732
+                },
+                "frame_partial": {
+                  "references": 17,
+                  "matched": 2,
+                  "recall": 0.11764705882352941
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 1,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 15,
+              "75": 15,
+              "90": 7
+            }
+          },
+          {
+            "id": "greek_06",
+            "complete": true,
+            "observations": 14,
+            "references": 12,
+            "iou": {
+              "50": {
+                "tp": 12,
+                "fp": 2,
+                "fn": 0,
+                "precision": 0.8571428571428571,
+                "recall": 1.0
+              },
+              "75": {
+                "tp": 8,
+                "fp": 6,
+                "fn": 4,
+                "precision": 0.5714285714285714,
+                "recall": 0.6666666666666666
+              },
+              "90": {
+                "tp": 6,
+                "fp": 8,
+                "fn": 6,
+                "precision": 0.42857142857142855,
+                "recall": 0.5
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 10,
+                  "matched": 10,
+                  "recall": 1.0
+                },
+                "frame_partial": {
+                  "references": 2,
+                  "matched": 2,
+                  "recall": 1.0
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 10,
+                  "matched": 6,
+                  "recall": 0.6
+                },
+                "frame_partial": {
+                  "references": 2,
+                  "matched": 2,
+                  "recall": 1.0
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 10,
+                  "matched": 4,
+                  "recall": 0.4
+                },
+                "frame_partial": {
+                  "references": 2,
+                  "matched": 2,
+                  "recall": 1.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 12,
+              "75": 8,
+              "90": 6
+            }
+          },
+          {
+            "id": "greek_07",
+            "complete": true,
+            "observations": 10,
+            "references": 67,
+            "iou": {
+              "50": {
+                "tp": 10,
+                "fp": 0,
+                "fn": 57,
+                "precision": 1.0,
+                "recall": 0.14925373134328357
+              },
+              "75": {
+                "tp": 6,
+                "fp": 4,
+                "fn": 61,
+                "precision": 0.6,
+                "recall": 0.08955223880597014
+              },
+              "90": {
+                "tp": 0,
+                "fp": 10,
+                "fn": 67,
+                "precision": 0.0,
+                "recall": 0.0
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 56,
+                  "matched": 8,
+                  "recall": 0.14285714285714285
+                },
+                "frame_partial": {
+                  "references": 11,
+                  "matched": 2,
+                  "recall": 0.18181818181818182
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 56,
+                  "matched": 5,
+                  "recall": 0.08928571428571429
+                },
+                "frame_partial": {
+                  "references": 11,
+                  "matched": 1,
+                  "recall": 0.09090909090909091
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 56,
+                  "matched": 0,
+                  "recall": 0.0
+                },
+                "frame_partial": {
+                  "references": 11,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 10,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 10,
+              "75": 6,
+              "90": 0
+            }
+          },
+          {
+            "id": "greek_08",
+            "complete": true,
+            "observations": 26,
+            "references": 80,
+            "iou": {
+              "50": {
+                "tp": 26,
+                "fp": 0,
+                "fn": 54,
+                "precision": 1.0,
+                "recall": 0.325
+              },
+              "75": {
+                "tp": 22,
+                "fp": 4,
+                "fn": 58,
+                "precision": 0.8461538461538461,
+                "recall": 0.275
+              },
+              "90": {
+                "tp": 11,
+                "fp": 15,
+                "fn": 69,
+                "precision": 0.4230769230769231,
+                "recall": 0.1375
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 73,
+                  "matched": 25,
+                  "recall": 0.3424657534246575
+                },
+                "frame_partial": {
+                  "references": 7,
+                  "matched": 1,
+                  "recall": 0.14285714285714285
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 73,
+                  "matched": 21,
+                  "recall": 0.2876712328767123
+                },
+                "frame_partial": {
+                  "references": 7,
+                  "matched": 1,
+                  "recall": 0.14285714285714285
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 73,
+                  "matched": 11,
+                  "recall": 0.1506849315068493
+                },
+                "frame_partial": {
+                  "references": 7,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 3,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 26,
+              "75": 22,
+              "90": 11
+            }
+          },
+          {
+            "id": "greek_09",
+            "complete": true,
+            "observations": 10,
+            "references": 65,
+            "iou": {
+              "50": {
+                "tp": 10,
+                "fp": 0,
+                "fn": 55,
+                "precision": 1.0,
+                "recall": 0.15384615384615385
+              },
+              "75": {
+                "tp": 6,
+                "fp": 4,
+                "fn": 59,
+                "precision": 0.6,
+                "recall": 0.09230769230769231
+              },
+              "90": {
+                "tp": 0,
+                "fp": 10,
+                "fn": 65,
+                "precision": 0.0,
+                "recall": 0.0
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 48,
+                  "matched": 10,
+                  "recall": 0.20833333333333334
+                },
+                "frame_partial": {
+                  "references": 17,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 48,
+                  "matched": 6,
+                  "recall": 0.125
+                },
+                "frame_partial": {
+                  "references": 17,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 48,
+                  "matched": 0,
+                  "recall": 0.0
+                },
+                "frame_partial": {
+                  "references": 17,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 6,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 10,
+              "75": 6,
+              "90": 0
+            }
+          },
+          {
+            "id": "greek_10",
+            "complete": true,
+            "observations": 38,
+            "references": 43,
+            "iou": {
+              "50": {
+                "tp": 38,
+                "fp": 0,
+                "fn": 5,
+                "precision": 1.0,
+                "recall": 0.8837209302325582
+              },
+              "75": {
+                "tp": 37,
+                "fp": 1,
+                "fn": 6,
+                "precision": 0.9736842105263158,
+                "recall": 0.8604651162790697
+              },
+              "90": {
+                "tp": 19,
+                "fp": 19,
+                "fn": 24,
+                "precision": 0.5,
+                "recall": 0.4418604651162791
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 31,
+                  "matched": 29,
+                  "recall": 0.9354838709677419
+                },
+                "frame_partial": {
+                  "references": 12,
+                  "matched": 9,
+                  "recall": 0.75
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 31,
+                  "matched": 29,
+                  "recall": 0.9354838709677419
+                },
+                "frame_partial": {
+                  "references": 12,
+                  "matched": 8,
+                  "recall": 0.6666666666666666
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 31,
+                  "matched": 19,
+                  "recall": 0.6129032258064516
+                },
+                "frame_partial": {
+                  "references": 12,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 17,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 38,
+              "75": 37,
+              "90": 19
+            }
+          },
+          {
+            "id": "greek_11",
+            "complete": true,
+            "observations": 1,
+            "references": 31,
+            "iou": {
+              "50": {
+                "tp": 0,
+                "fp": 1,
+                "fn": 31,
+                "precision": 0.0,
+                "recall": 0.0
+              },
+              "75": {
+                "tp": 0,
+                "fp": 1,
+                "fn": 31,
+                "precision": 0.0,
+                "recall": 0.0
+              },
+              "90": {
+                "tp": 0,
+                "fp": 1,
+                "fn": 31,
+                "precision": 0.0,
+                "recall": 0.0
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 26,
+                  "matched": 0,
+                  "recall": 0.0
+                },
+                "frame_partial": {
+                  "references": 5,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 26,
+                  "matched": 0,
+                  "recall": 0.0
+                },
+                "frame_partial": {
+                  "references": 5,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 26,
+                  "matched": 0,
+                  "recall": 0.0
+                },
+                "frame_partial": {
+                  "references": 5,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 1,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 0,
+              "75": 0,
+              "90": 0
+            }
+          },
+          {
+            "id": "greek_12",
+            "complete": true,
+            "observations": 7,
+            "references": 66,
+            "iou": {
+              "50": {
+                "tp": 5,
+                "fp": 2,
+                "fn": 61,
+                "precision": 0.7142857142857143,
+                "recall": 0.07575757575757576
+              },
+              "75": {
+                "tp": 4,
+                "fp": 3,
+                "fn": 62,
+                "precision": 0.5714285714285714,
+                "recall": 0.06060606060606061
+              },
+              "90": {
+                "tp": 0,
+                "fp": 7,
+                "fn": 66,
+                "precision": 0.0,
+                "recall": 0.0
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 58,
+                  "matched": 4,
+                  "recall": 0.06896551724137931
+                },
+                "frame_partial": {
+                  "references": 8,
+                  "matched": 1,
+                  "recall": 0.125
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 58,
+                  "matched": 3,
+                  "recall": 0.05172413793103448
+                },
+                "frame_partial": {
+                  "references": 8,
+                  "matched": 1,
+                  "recall": 0.125
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 58,
+                  "matched": 0,
+                  "recall": 0.0
+                },
+                "frame_partial": {
+                  "references": 8,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 2,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 5,
+              "75": 4,
+              "90": 0
+            }
+          }
+        ]
+      },
+      "v5": {
+        "summary": {
+          "cases": 12,
+          "completed_cases": 12,
+          "completed_case_coverage": 1.0,
+          "all_cases_complete": true,
+          "failed_case_ids": [],
+          "observations_completed_only": 160,
+          "references_all_selected_cases": 739,
+          "iou": {
+            "50": {
+              "tp": 155,
+              "fp_completed_only": 5,
+              "fn_all_selected_cases": 584,
+              "precision_completed_only": 0.96875,
+              "recall_all_selected_cases": 0.20974289580514208
+            },
+            "75": {
+              "tp": 139,
+              "fp_completed_only": 21,
+              "fn_all_selected_cases": 600,
+              "precision_completed_only": 0.86875,
+              "recall_all_selected_cases": 0.1880920162381597
+            },
+            "90": {
+              "tp": 56,
+              "fp_completed_only": 104,
+              "fn_all_selected_cases": 683,
+              "precision_completed_only": 0.35,
+              "recall_all_selected_cases": 0.07577807848443843
+            }
+          },
+          "strata": {
+            "50": {
+              "frame_full": {
+                "references": 612,
+                "matched": 132,
+                "recall": 0.21568627450980393
+              },
+              "frame_partial": {
+                "references": 127,
+                "matched": 23,
+                "recall": 0.18110236220472442
+              }
+            },
+            "75": {
+              "frame_full": {
+                "references": 612,
+                "matched": 118,
+                "recall": 0.19281045751633988
+              },
+              "frame_partial": {
+                "references": 127,
+                "matched": 21,
+                "recall": 0.16535433070866143
+              }
+            },
+            "90": {
+              "frame_full": {
+                "references": 612,
+                "matched": 52,
+                "recall": 0.08496732026143791
+              },
+              "frame_partial": {
+                "references": 127,
+                "matched": 4,
+                "recall": 0.031496062992125984
+              }
+            }
+          }
+        },
+        "cases": [
+          {
+            "id": "greek_01",
+            "complete": true,
+            "observations": 26,
+            "references": 54,
+            "iou": {
+              "50": {
+                "tp": 26,
+                "fp": 0,
+                "fn": 28,
+                "precision": 1.0,
+                "recall": 0.48148148148148145
+              },
+              "75": {
+                "tp": 26,
+                "fp": 0,
+                "fn": 28,
+                "precision": 1.0,
+                "recall": 0.48148148148148145
+              },
+              "90": {
+                "tp": 15,
+                "fp": 11,
+                "fn": 39,
+                "precision": 0.5769230769230769,
+                "recall": 0.2777777777777778
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 44,
+                  "matched": 25,
+                  "recall": 0.5681818181818182
+                },
+                "frame_partial": {
+                  "references": 10,
+                  "matched": 1,
+                  "recall": 0.1
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 44,
+                  "matched": 25,
+                  "recall": 0.5681818181818182
+                },
+                "frame_partial": {
+                  "references": 10,
+                  "matched": 1,
+                  "recall": 0.1
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 44,
+                  "matched": 14,
+                  "recall": 0.3181818181818182
+                },
+                "frame_partial": {
+                  "references": 10,
+                  "matched": 1,
+                  "recall": 0.1
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 26,
+              "75": 26,
+              "90": 15
+            }
+          },
+          {
+            "id": "greek_02",
+            "complete": true,
+            "observations": 5,
+            "references": 87,
+            "iou": {
+              "50": {
+                "tp": 5,
+                "fp": 0,
+                "fn": 82,
+                "precision": 1.0,
+                "recall": 0.05747126436781609
+              },
+              "75": {
+                "tp": 5,
+                "fp": 0,
+                "fn": 82,
+                "precision": 1.0,
+                "recall": 0.05747126436781609
+              },
+              "90": {
+                "tp": 1,
+                "fp": 4,
+                "fn": 86,
+                "precision": 0.2,
+                "recall": 0.011494252873563218
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 77,
+                  "matched": 3,
+                  "recall": 0.03896103896103896
+                },
+                "frame_partial": {
+                  "references": 10,
+                  "matched": 2,
+                  "recall": 0.2
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 77,
+                  "matched": 3,
+                  "recall": 0.03896103896103896
+                },
+                "frame_partial": {
+                  "references": 10,
+                  "matched": 2,
+                  "recall": 0.2
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 77,
+                  "matched": 1,
+                  "recall": 0.012987012987012988
+                },
+                "frame_partial": {
+                  "references": 10,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 5,
+              "75": 5,
+              "90": 1
+            }
+          },
+          {
+            "id": "greek_03",
+            "complete": true,
+            "observations": 22,
+            "references": 44,
+            "iou": {
+              "50": {
+                "tp": 22,
+                "fp": 0,
+                "fn": 22,
+                "precision": 1.0,
+                "recall": 0.5
+              },
+              "75": {
+                "tp": 19,
+                "fp": 3,
+                "fn": 25,
+                "precision": 0.8636363636363636,
+                "recall": 0.4318181818181818
+              },
+              "90": {
+                "tp": 2,
+                "fp": 20,
+                "fn": 42,
+                "precision": 0.09090909090909091,
+                "recall": 0.045454545454545456
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 32,
+                  "matched": 16,
+                  "recall": 0.5
+                },
+                "frame_partial": {
+                  "references": 12,
+                  "matched": 6,
+                  "recall": 0.5
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 32,
+                  "matched": 14,
+                  "recall": 0.4375
+                },
+                "frame_partial": {
+                  "references": 12,
+                  "matched": 5,
+                  "recall": 0.4166666666666667
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 32,
+                  "matched": 2,
+                  "recall": 0.0625
+                },
+                "frame_partial": {
+                  "references": 12,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 22,
+              "75": 19,
+              "90": 2
+            }
+          },
+          {
+            "id": "greek_04",
+            "complete": true,
+            "observations": 4,
+            "references": 76,
+            "iou": {
+              "50": {
+                "tp": 3,
+                "fp": 1,
+                "fn": 73,
+                "precision": 0.75,
+                "recall": 0.039473684210526314
+              },
+              "75": {
+                "tp": 3,
+                "fp": 1,
+                "fn": 73,
+                "precision": 0.75,
+                "recall": 0.039473684210526314
+              },
+              "90": {
+                "tp": 2,
+                "fp": 2,
+                "fn": 74,
+                "precision": 0.5,
+                "recall": 0.02631578947368421
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 60,
+                  "matched": 2,
+                  "recall": 0.03333333333333333
+                },
+                "frame_partial": {
+                  "references": 16,
+                  "matched": 1,
+                  "recall": 0.0625
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 60,
+                  "matched": 2,
+                  "recall": 0.03333333333333333
+                },
+                "frame_partial": {
+                  "references": 16,
+                  "matched": 1,
+                  "recall": 0.0625
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 60,
+                  "matched": 2,
+                  "recall": 0.03333333333333333
+                },
+                "frame_partial": {
+                  "references": 16,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 3,
+              "75": 3,
+              "90": 2
+            }
+          },
+          {
+            "id": "greek_05",
+            "complete": true,
+            "observations": 8,
+            "references": 114,
+            "iou": {
+              "50": {
+                "tp": 8,
+                "fp": 0,
+                "fn": 106,
+                "precision": 1.0,
+                "recall": 0.07017543859649122
+              },
+              "75": {
+                "tp": 8,
+                "fp": 0,
+                "fn": 106,
+                "precision": 1.0,
+                "recall": 0.07017543859649122
+              },
+              "90": {
+                "tp": 4,
+                "fp": 4,
+                "fn": 110,
+                "precision": 0.5,
+                "recall": 0.03508771929824561
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 97,
+                  "matched": 7,
+                  "recall": 0.07216494845360824
+                },
+                "frame_partial": {
+                  "references": 17,
+                  "matched": 1,
+                  "recall": 0.058823529411764705
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 97,
+                  "matched": 7,
+                  "recall": 0.07216494845360824
+                },
+                "frame_partial": {
+                  "references": 17,
+                  "matched": 1,
+                  "recall": 0.058823529411764705
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 97,
+                  "matched": 3,
+                  "recall": 0.030927835051546393
+                },
+                "frame_partial": {
+                  "references": 17,
+                  "matched": 1,
+                  "recall": 0.058823529411764705
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 8,
+              "75": 8,
+              "90": 4
+            }
+          },
+          {
+            "id": "greek_06",
+            "complete": true,
+            "observations": 13,
+            "references": 12,
+            "iou": {
+              "50": {
+                "tp": 12,
+                "fp": 1,
+                "fn": 0,
+                "precision": 0.9230769230769231,
+                "recall": 1.0
+              },
+              "75": {
+                "tp": 8,
+                "fp": 5,
+                "fn": 4,
+                "precision": 0.6153846153846154,
+                "recall": 0.6666666666666666
+              },
+              "90": {
+                "tp": 5,
+                "fp": 8,
+                "fn": 7,
+                "precision": 0.38461538461538464,
+                "recall": 0.4166666666666667
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 10,
+                  "matched": 10,
+                  "recall": 1.0
+                },
+                "frame_partial": {
+                  "references": 2,
+                  "matched": 2,
+                  "recall": 1.0
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 10,
+                  "matched": 6,
+                  "recall": 0.6
+                },
+                "frame_partial": {
+                  "references": 2,
+                  "matched": 2,
+                  "recall": 1.0
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 10,
+                  "matched": 3,
+                  "recall": 0.3
+                },
+                "frame_partial": {
+                  "references": 2,
+                  "matched": 2,
+                  "recall": 1.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 12,
+              "75": 8,
+              "90": 5
+            }
+          },
+          {
+            "id": "greek_07",
+            "complete": true,
+            "observations": 7,
+            "references": 67,
+            "iou": {
+              "50": {
+                "tp": 7,
+                "fp": 0,
+                "fn": 60,
+                "precision": 1.0,
+                "recall": 0.1044776119402985
+              },
+              "75": {
+                "tp": 5,
+                "fp": 2,
+                "fn": 62,
+                "precision": 0.7142857142857143,
+                "recall": 0.07462686567164178
+              },
+              "90": {
+                "tp": 0,
+                "fp": 7,
+                "fn": 67,
+                "precision": 0.0,
+                "recall": 0.0
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 56,
+                  "matched": 6,
+                  "recall": 0.10714285714285714
+                },
+                "frame_partial": {
+                  "references": 11,
+                  "matched": 1,
+                  "recall": 0.09090909090909091
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 56,
+                  "matched": 4,
+                  "recall": 0.07142857142857142
+                },
+                "frame_partial": {
+                  "references": 11,
+                  "matched": 1,
+                  "recall": 0.09090909090909091
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 56,
+                  "matched": 0,
+                  "recall": 0.0
+                },
+                "frame_partial": {
+                  "references": 11,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 7,
+              "75": 5,
+              "90": 0
+            }
+          },
+          {
+            "id": "greek_08",
+            "complete": true,
+            "observations": 25,
+            "references": 80,
+            "iou": {
+              "50": {
+                "tp": 25,
+                "fp": 0,
+                "fn": 55,
+                "precision": 1.0,
+                "recall": 0.3125
+              },
+              "75": {
+                "tp": 22,
+                "fp": 3,
+                "fn": 58,
+                "precision": 0.88,
+                "recall": 0.275
+              },
+              "90": {
+                "tp": 11,
+                "fp": 14,
+                "fn": 69,
+                "precision": 0.44,
+                "recall": 0.1375
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 73,
+                  "matched": 24,
+                  "recall": 0.3287671232876712
+                },
+                "frame_partial": {
+                  "references": 7,
+                  "matched": 1,
+                  "recall": 0.14285714285714285
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 73,
+                  "matched": 21,
+                  "recall": 0.2876712328767123
+                },
+                "frame_partial": {
+                  "references": 7,
+                  "matched": 1,
+                  "recall": 0.14285714285714285
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 73,
+                  "matched": 11,
+                  "recall": 0.1506849315068493
+                },
+                "frame_partial": {
+                  "references": 7,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 25,
+              "75": 22,
+              "90": 11
+            }
+          },
+          {
+            "id": "greek_09",
+            "complete": true,
+            "observations": 8,
+            "references": 65,
+            "iou": {
+              "50": {
+                "tp": 8,
+                "fp": 0,
+                "fn": 57,
+                "precision": 1.0,
+                "recall": 0.12307692307692308
+              },
+              "75": {
+                "tp": 6,
+                "fp": 2,
+                "fn": 59,
+                "precision": 0.75,
+                "recall": 0.09230769230769231
+              },
+              "90": {
+                "tp": 0,
+                "fp": 8,
+                "fn": 65,
+                "precision": 0.0,
+                "recall": 0.0
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 48,
+                  "matched": 8,
+                  "recall": 0.16666666666666666
+                },
+                "frame_partial": {
+                  "references": 17,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 48,
+                  "matched": 6,
+                  "recall": 0.125
+                },
+                "frame_partial": {
+                  "references": 17,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 48,
+                  "matched": 0,
+                  "recall": 0.0
+                },
+                "frame_partial": {
+                  "references": 17,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 8,
+              "75": 6,
+              "90": 0
+            }
+          },
+          {
+            "id": "greek_10",
+            "complete": true,
+            "observations": 36,
+            "references": 43,
+            "iou": {
+              "50": {
+                "tp": 36,
+                "fp": 0,
+                "fn": 7,
+                "precision": 1.0,
+                "recall": 0.8372093023255814
+              },
+              "75": {
+                "tp": 35,
+                "fp": 1,
+                "fn": 8,
+                "precision": 0.9722222222222222,
+                "recall": 0.813953488372093
+              },
+              "90": {
+                "tp": 16,
+                "fp": 20,
+                "fn": 27,
+                "precision": 0.4444444444444444,
+                "recall": 0.37209302325581395
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 31,
+                  "matched": 29,
+                  "recall": 0.9354838709677419
+                },
+                "frame_partial": {
+                  "references": 12,
+                  "matched": 7,
+                  "recall": 0.5833333333333334
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 31,
+                  "matched": 29,
+                  "recall": 0.9354838709677419
+                },
+                "frame_partial": {
+                  "references": 12,
+                  "matched": 6,
+                  "recall": 0.5
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 31,
+                  "matched": 16,
+                  "recall": 0.5161290322580645
+                },
+                "frame_partial": {
+                  "references": 12,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 36,
+              "75": 35,
+              "90": 16
+            }
+          },
+          {
+            "id": "greek_11",
+            "complete": true,
+            "observations": 1,
+            "references": 31,
+            "iou": {
+              "50": {
+                "tp": 0,
+                "fp": 1,
+                "fn": 31,
+                "precision": 0.0,
+                "recall": 0.0
+              },
+              "75": {
+                "tp": 0,
+                "fp": 1,
+                "fn": 31,
+                "precision": 0.0,
+                "recall": 0.0
+              },
+              "90": {
+                "tp": 0,
+                "fp": 1,
+                "fn": 31,
+                "precision": 0.0,
+                "recall": 0.0
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 26,
+                  "matched": 0,
+                  "recall": 0.0
+                },
+                "frame_partial": {
+                  "references": 5,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 26,
+                  "matched": 0,
+                  "recall": 0.0
+                },
+                "frame_partial": {
+                  "references": 5,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 26,
+                  "matched": 0,
+                  "recall": 0.0
+                },
+                "frame_partial": {
+                  "references": 5,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 0,
+              "75": 0,
+              "90": 0
+            }
+          },
+          {
+            "id": "greek_12",
+            "complete": true,
+            "observations": 5,
+            "references": 66,
+            "iou": {
+              "50": {
+                "tp": 3,
+                "fp": 2,
+                "fn": 63,
+                "precision": 0.6,
+                "recall": 0.045454545454545456
+              },
+              "75": {
+                "tp": 2,
+                "fp": 3,
+                "fn": 64,
+                "precision": 0.4,
+                "recall": 0.030303030303030304
+              },
+              "90": {
+                "tp": 0,
+                "fp": 5,
+                "fn": 66,
+                "precision": 0.0,
+                "recall": 0.0
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 58,
+                  "matched": 2,
+                  "recall": 0.034482758620689655
+                },
+                "frame_partial": {
+                  "references": 8,
+                  "matched": 1,
+                  "recall": 0.125
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 58,
+                  "matched": 1,
+                  "recall": 0.017241379310344827
+                },
+                "frame_partial": {
+                  "references": 8,
+                  "matched": 1,
+                  "recall": 0.125
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 58,
+                  "matched": 0,
+                  "recall": 0.0
+                },
+                "frame_partial": {
+                  "references": 8,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 3,
+              "75": 2,
+              "90": 0
+            }
+          }
+        ]
+      },
+      "v6": {
+        "summary": {
+          "cases": 12,
+          "completed_cases": 12,
+          "completed_case_coverage": 1.0,
+          "all_cases_complete": true,
+          "failed_case_ids": [],
+          "observations_completed_only": 160,
+          "references_all_selected_cases": 739,
+          "iou": {
+            "50": {
+              "tp": 155,
+              "fp_completed_only": 5,
+              "fn_all_selected_cases": 584,
+              "precision_completed_only": 0.96875,
+              "recall_all_selected_cases": 0.20974289580514208
+            },
+            "75": {
+              "tp": 138,
+              "fp_completed_only": 22,
+              "fn_all_selected_cases": 601,
+              "precision_completed_only": 0.8625,
+              "recall_all_selected_cases": 0.18673883626522328
+            },
+            "90": {
+              "tp": 52,
+              "fp_completed_only": 108,
+              "fn_all_selected_cases": 687,
+              "precision_completed_only": 0.325,
+              "recall_all_selected_cases": 0.07036535859269283
+            }
+          },
+          "strata": {
+            "50": {
+              "frame_full": {
+                "references": 612,
+                "matched": 132,
+                "recall": 0.21568627450980393
+              },
+              "frame_partial": {
+                "references": 127,
+                "matched": 23,
+                "recall": 0.18110236220472442
+              }
+            },
+            "75": {
+              "frame_full": {
+                "references": 612,
+                "matched": 117,
+                "recall": 0.19117647058823528
+              },
+              "frame_partial": {
+                "references": 127,
+                "matched": 21,
+                "recall": 0.16535433070866143
+              }
+            },
+            "90": {
+              "frame_full": {
+                "references": 612,
+                "matched": 48,
+                "recall": 0.0784313725490196
+              },
+              "frame_partial": {
+                "references": 127,
+                "matched": 4,
+                "recall": 0.031496062992125984
+              }
+            }
+          }
+        },
+        "cases": [
+          {
+            "id": "greek_01",
+            "complete": true,
+            "observations": 26,
+            "references": 54,
+            "iou": {
+              "50": {
+                "tp": 26,
+                "fp": 0,
+                "fn": 28,
+                "precision": 1.0,
+                "recall": 0.48148148148148145
+              },
+              "75": {
+                "tp": 26,
+                "fp": 0,
+                "fn": 28,
+                "precision": 1.0,
+                "recall": 0.48148148148148145
+              },
+              "90": {
+                "tp": 13,
+                "fp": 13,
+                "fn": 41,
+                "precision": 0.5,
+                "recall": 0.24074074074074073
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 44,
+                  "matched": 25,
+                  "recall": 0.5681818181818182
+                },
+                "frame_partial": {
+                  "references": 10,
+                  "matched": 1,
+                  "recall": 0.1
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 44,
+                  "matched": 25,
+                  "recall": 0.5681818181818182
+                },
+                "frame_partial": {
+                  "references": 10,
+                  "matched": 1,
+                  "recall": 0.1
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 44,
+                  "matched": 12,
+                  "recall": 0.2727272727272727
+                },
+                "frame_partial": {
+                  "references": 10,
+                  "matched": 1,
+                  "recall": 0.1
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 26,
+              "75": 26,
+              "90": 13
+            }
+          },
+          {
+            "id": "greek_02",
+            "complete": true,
+            "observations": 5,
+            "references": 87,
+            "iou": {
+              "50": {
+                "tp": 5,
+                "fp": 0,
+                "fn": 82,
+                "precision": 1.0,
+                "recall": 0.05747126436781609
+              },
+              "75": {
+                "tp": 5,
+                "fp": 0,
+                "fn": 82,
+                "precision": 1.0,
+                "recall": 0.05747126436781609
+              },
+              "90": {
+                "tp": 1,
+                "fp": 4,
+                "fn": 86,
+                "precision": 0.2,
+                "recall": 0.011494252873563218
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 77,
+                  "matched": 3,
+                  "recall": 0.03896103896103896
+                },
+                "frame_partial": {
+                  "references": 10,
+                  "matched": 2,
+                  "recall": 0.2
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 77,
+                  "matched": 3,
+                  "recall": 0.03896103896103896
+                },
+                "frame_partial": {
+                  "references": 10,
+                  "matched": 2,
+                  "recall": 0.2
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 77,
+                  "matched": 1,
+                  "recall": 0.012987012987012988
+                },
+                "frame_partial": {
+                  "references": 10,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 5,
+              "75": 5,
+              "90": 1
+            }
+          },
+          {
+            "id": "greek_03",
+            "complete": true,
+            "observations": 22,
+            "references": 44,
+            "iou": {
+              "50": {
+                "tp": 22,
+                "fp": 0,
+                "fn": 22,
+                "precision": 1.0,
+                "recall": 0.5
+              },
+              "75": {
+                "tp": 19,
+                "fp": 3,
+                "fn": 25,
+                "precision": 0.8636363636363636,
+                "recall": 0.4318181818181818
+              },
+              "90": {
+                "tp": 2,
+                "fp": 20,
+                "fn": 42,
+                "precision": 0.09090909090909091,
+                "recall": 0.045454545454545456
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 32,
+                  "matched": 16,
+                  "recall": 0.5
+                },
+                "frame_partial": {
+                  "references": 12,
+                  "matched": 6,
+                  "recall": 0.5
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 32,
+                  "matched": 14,
+                  "recall": 0.4375
+                },
+                "frame_partial": {
+                  "references": 12,
+                  "matched": 5,
+                  "recall": 0.4166666666666667
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 32,
+                  "matched": 2,
+                  "recall": 0.0625
+                },
+                "frame_partial": {
+                  "references": 12,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 22,
+              "75": 19,
+              "90": 2
+            }
+          },
+          {
+            "id": "greek_04",
+            "complete": true,
+            "observations": 4,
+            "references": 76,
+            "iou": {
+              "50": {
+                "tp": 3,
+                "fp": 1,
+                "fn": 73,
+                "precision": 0.75,
+                "recall": 0.039473684210526314
+              },
+              "75": {
+                "tp": 3,
+                "fp": 1,
+                "fn": 73,
+                "precision": 0.75,
+                "recall": 0.039473684210526314
+              },
+              "90": {
+                "tp": 2,
+                "fp": 2,
+                "fn": 74,
+                "precision": 0.5,
+                "recall": 0.02631578947368421
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 60,
+                  "matched": 2,
+                  "recall": 0.03333333333333333
+                },
+                "frame_partial": {
+                  "references": 16,
+                  "matched": 1,
+                  "recall": 0.0625
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 60,
+                  "matched": 2,
+                  "recall": 0.03333333333333333
+                },
+                "frame_partial": {
+                  "references": 16,
+                  "matched": 1,
+                  "recall": 0.0625
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 60,
+                  "matched": 2,
+                  "recall": 0.03333333333333333
+                },
+                "frame_partial": {
+                  "references": 16,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 3,
+              "75": 3,
+              "90": 2
+            }
+          },
+          {
+            "id": "greek_05",
+            "complete": true,
+            "observations": 8,
+            "references": 114,
+            "iou": {
+              "50": {
+                "tp": 8,
+                "fp": 0,
+                "fn": 106,
+                "precision": 1.0,
+                "recall": 0.07017543859649122
+              },
+              "75": {
+                "tp": 8,
+                "fp": 0,
+                "fn": 106,
+                "precision": 1.0,
+                "recall": 0.07017543859649122
+              },
+              "90": {
+                "tp": 4,
+                "fp": 4,
+                "fn": 110,
+                "precision": 0.5,
+                "recall": 0.03508771929824561
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 97,
+                  "matched": 7,
+                  "recall": 0.07216494845360824
+                },
+                "frame_partial": {
+                  "references": 17,
+                  "matched": 1,
+                  "recall": 0.058823529411764705
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 97,
+                  "matched": 7,
+                  "recall": 0.07216494845360824
+                },
+                "frame_partial": {
+                  "references": 17,
+                  "matched": 1,
+                  "recall": 0.058823529411764705
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 97,
+                  "matched": 3,
+                  "recall": 0.030927835051546393
+                },
+                "frame_partial": {
+                  "references": 17,
+                  "matched": 1,
+                  "recall": 0.058823529411764705
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 8,
+              "75": 8,
+              "90": 4
+            }
+          },
+          {
+            "id": "greek_06",
+            "complete": true,
+            "observations": 13,
+            "references": 12,
+            "iou": {
+              "50": {
+                "tp": 12,
+                "fp": 1,
+                "fn": 0,
+                "precision": 0.9230769230769231,
+                "recall": 1.0
+              },
+              "75": {
+                "tp": 8,
+                "fp": 5,
+                "fn": 4,
+                "precision": 0.6153846153846154,
+                "recall": 0.6666666666666666
+              },
+              "90": {
+                "tp": 5,
+                "fp": 8,
+                "fn": 7,
+                "precision": 0.38461538461538464,
+                "recall": 0.4166666666666667
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 10,
+                  "matched": 10,
+                  "recall": 1.0
+                },
+                "frame_partial": {
+                  "references": 2,
+                  "matched": 2,
+                  "recall": 1.0
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 10,
+                  "matched": 6,
+                  "recall": 0.6
+                },
+                "frame_partial": {
+                  "references": 2,
+                  "matched": 2,
+                  "recall": 1.0
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 10,
+                  "matched": 3,
+                  "recall": 0.3
+                },
+                "frame_partial": {
+                  "references": 2,
+                  "matched": 2,
+                  "recall": 1.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 12,
+              "75": 8,
+              "90": 5
+            }
+          },
+          {
+            "id": "greek_07",
+            "complete": true,
+            "observations": 7,
+            "references": 67,
+            "iou": {
+              "50": {
+                "tp": 7,
+                "fp": 0,
+                "fn": 60,
+                "precision": 1.0,
+                "recall": 0.1044776119402985
+              },
+              "75": {
+                "tp": 5,
+                "fp": 2,
+                "fn": 62,
+                "precision": 0.7142857142857143,
+                "recall": 0.07462686567164178
+              },
+              "90": {
+                "tp": 0,
+                "fp": 7,
+                "fn": 67,
+                "precision": 0.0,
+                "recall": 0.0
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 56,
+                  "matched": 6,
+                  "recall": 0.10714285714285714
+                },
+                "frame_partial": {
+                  "references": 11,
+                  "matched": 1,
+                  "recall": 0.09090909090909091
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 56,
+                  "matched": 4,
+                  "recall": 0.07142857142857142
+                },
+                "frame_partial": {
+                  "references": 11,
+                  "matched": 1,
+                  "recall": 0.09090909090909091
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 56,
+                  "matched": 0,
+                  "recall": 0.0
+                },
+                "frame_partial": {
+                  "references": 11,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 7,
+              "75": 5,
+              "90": 0
+            }
+          },
+          {
+            "id": "greek_08",
+            "complete": true,
+            "observations": 25,
+            "references": 80,
+            "iou": {
+              "50": {
+                "tp": 25,
+                "fp": 0,
+                "fn": 55,
+                "precision": 1.0,
+                "recall": 0.3125
+              },
+              "75": {
+                "tp": 22,
+                "fp": 3,
+                "fn": 58,
+                "precision": 0.88,
+                "recall": 0.275
+              },
+              "90": {
+                "tp": 11,
+                "fp": 14,
+                "fn": 69,
+                "precision": 0.44,
+                "recall": 0.1375
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 73,
+                  "matched": 24,
+                  "recall": 0.3287671232876712
+                },
+                "frame_partial": {
+                  "references": 7,
+                  "matched": 1,
+                  "recall": 0.14285714285714285
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 73,
+                  "matched": 21,
+                  "recall": 0.2876712328767123
+                },
+                "frame_partial": {
+                  "references": 7,
+                  "matched": 1,
+                  "recall": 0.14285714285714285
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 73,
+                  "matched": 11,
+                  "recall": 0.1506849315068493
+                },
+                "frame_partial": {
+                  "references": 7,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 25,
+              "75": 22,
+              "90": 11
+            }
+          },
+          {
+            "id": "greek_09",
+            "complete": true,
+            "observations": 8,
+            "references": 65,
+            "iou": {
+              "50": {
+                "tp": 8,
+                "fp": 0,
+                "fn": 57,
+                "precision": 1.0,
+                "recall": 0.12307692307692308
+              },
+              "75": {
+                "tp": 5,
+                "fp": 3,
+                "fn": 60,
+                "precision": 0.625,
+                "recall": 0.07692307692307693
+              },
+              "90": {
+                "tp": 0,
+                "fp": 8,
+                "fn": 65,
+                "precision": 0.0,
+                "recall": 0.0
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 48,
+                  "matched": 8,
+                  "recall": 0.16666666666666666
+                },
+                "frame_partial": {
+                  "references": 17,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 48,
+                  "matched": 5,
+                  "recall": 0.10416666666666667
+                },
+                "frame_partial": {
+                  "references": 17,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 48,
+                  "matched": 0,
+                  "recall": 0.0
+                },
+                "frame_partial": {
+                  "references": 17,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 8,
+              "75": 5,
+              "90": 0
+            }
+          },
+          {
+            "id": "greek_10",
+            "complete": true,
+            "observations": 36,
+            "references": 43,
+            "iou": {
+              "50": {
+                "tp": 36,
+                "fp": 0,
+                "fn": 7,
+                "precision": 1.0,
+                "recall": 0.8372093023255814
+              },
+              "75": {
+                "tp": 35,
+                "fp": 1,
+                "fn": 8,
+                "precision": 0.9722222222222222,
+                "recall": 0.813953488372093
+              },
+              "90": {
+                "tp": 14,
+                "fp": 22,
+                "fn": 29,
+                "precision": 0.3888888888888889,
+                "recall": 0.32558139534883723
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 31,
+                  "matched": 29,
+                  "recall": 0.9354838709677419
+                },
+                "frame_partial": {
+                  "references": 12,
+                  "matched": 7,
+                  "recall": 0.5833333333333334
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 31,
+                  "matched": 29,
+                  "recall": 0.9354838709677419
+                },
+                "frame_partial": {
+                  "references": 12,
+                  "matched": 6,
+                  "recall": 0.5
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 31,
+                  "matched": 14,
+                  "recall": 0.45161290322580644
+                },
+                "frame_partial": {
+                  "references": 12,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 36,
+              "75": 35,
+              "90": 14
+            }
+          },
+          {
+            "id": "greek_11",
+            "complete": true,
+            "observations": 1,
+            "references": 31,
+            "iou": {
+              "50": {
+                "tp": 0,
+                "fp": 1,
+                "fn": 31,
+                "precision": 0.0,
+                "recall": 0.0
+              },
+              "75": {
+                "tp": 0,
+                "fp": 1,
+                "fn": 31,
+                "precision": 0.0,
+                "recall": 0.0
+              },
+              "90": {
+                "tp": 0,
+                "fp": 1,
+                "fn": 31,
+                "precision": 0.0,
+                "recall": 0.0
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 26,
+                  "matched": 0,
+                  "recall": 0.0
+                },
+                "frame_partial": {
+                  "references": 5,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 26,
+                  "matched": 0,
+                  "recall": 0.0
+                },
+                "frame_partial": {
+                  "references": 5,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 26,
+                  "matched": 0,
+                  "recall": 0.0
+                },
+                "frame_partial": {
+                  "references": 5,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 0,
+              "75": 0,
+              "90": 0
+            }
+          },
+          {
+            "id": "greek_12",
+            "complete": true,
+            "observations": 5,
+            "references": 66,
+            "iou": {
+              "50": {
+                "tp": 3,
+                "fp": 2,
+                "fn": 63,
+                "precision": 0.6,
+                "recall": 0.045454545454545456
+              },
+              "75": {
+                "tp": 2,
+                "fp": 3,
+                "fn": 64,
+                "precision": 0.4,
+                "recall": 0.030303030303030304
+              },
+              "90": {
+                "tp": 0,
+                "fp": 5,
+                "fn": 66,
+                "precision": 0.0,
+                "recall": 0.0
+              }
+            },
+            "strata": {
+              "50": {
+                "frame_full": {
+                  "references": 58,
+                  "matched": 2,
+                  "recall": 0.034482758620689655
+                },
+                "frame_partial": {
+                  "references": 8,
+                  "matched": 1,
+                  "recall": 0.125
+                }
+              },
+              "75": {
+                "frame_full": {
+                  "references": 58,
+                  "matched": 1,
+                  "recall": 0.017241379310344827
+                },
+                "frame_partial": {
+                  "references": 8,
+                  "matched": 1,
+                  "recall": 0.125
+                }
+              },
+              "90": {
+                "frame_full": {
+                  "references": 58,
+                  "matched": 0,
+                  "recall": 0.0
+                },
+                "frame_partial": {
+                  "references": 8,
+                  "matched": 0,
+                  "recall": 0.0
+                }
+              }
+            },
+            "invalid_raw_polygon_shape_count": 0,
+            "empty_after_frame_clip_prediction_count": 0,
+            "match_counts": {
+              "50": 3,
+              "75": 2,
+              "90": 0
+            }
+          }
+        ]
+      }
+    }
+  },
+  "assisted_frame_band_experiment": {
+    "groups": {
+      "known_rgb3": {
+        "baseline_v6": {
+          "cases": 3,
+          "observations": 483,
+          "references": 483,
+          "iou": {
+            "50": {
+              "tp": 482,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.9979296066252588,
+              "recall": 0.9979296066252588
+            },
+            "75": {
+              "tp": 478,
+              "fp": 5,
+              "fn": 5,
+              "precision": 0.989648033126294,
+              "recall": 0.989648033126294
+            },
+            "90": {
+              "tp": 315,
+              "fp": 168,
+              "fn": 168,
+              "precision": 0.6521739130434783,
+              "recall": 0.6521739130434783
+            }
+          },
+          "conditional_full_reference_corner_p95_px": 2.914548353749861,
+          "corner_coverage": {
+            "eligible_frame_full_references": 468,
+            "measured_modules": 468,
+            "conditional_coverage": 1.0
+          },
+          "all_cases_complete": true
+        },
+        "band_faces": {
+          "cases": 3,
+          "observations": 27,
+          "references": 483,
+          "iou": {
+            "50": {
+              "tp": 27,
+              "fp": 0,
+              "fn": 456,
+              "precision": 1.0,
+              "recall": 0.055900621118012424
+            },
+            "75": {
+              "tp": 27,
+              "fp": 0,
+              "fn": 456,
+              "precision": 1.0,
+              "recall": 0.055900621118012424
+            },
+            "90": {
+              "tp": 18,
+              "fp": 9,
+              "fn": 465,
+              "precision": 0.6666666666666666,
+              "recall": 0.037267080745341616
+            }
+          },
+          "conditional_full_reference_corner_p95_px": 2.8429775658145346,
+          "corner_coverage": {
+            "eligible_frame_full_references": 468,
+            "measured_modules": 27,
+            "conditional_coverage": 0.057692307692307696
+          },
+          "all_cases_complete": true
+        },
+        "diagnostic_gate": {
+          "all_cases_complete": true,
+          "no_per_case_iou50_regression": false,
+          "strict90_increases": false,
+          "conditional_corner_p95_decreases": true,
+          "corner_coverage_not_lower": false
+        }
+      },
+      "external_provisional_roi": {
+        "baseline_v6": {
+          "cases": 1,
+          "observations": 6,
+          "references": 24,
+          "iou": {
+            "50": {
+              "tp": 3,
+              "fp": 3,
+              "fn": 21,
+              "precision": 0.5,
+              "recall": 0.125
+            },
+            "75": {
+              "tp": 2,
+              "fp": 4,
+              "fn": 22,
+              "precision": 0.3333333333333333,
+              "recall": 0.08333333333333333
+            },
+            "90": {
+              "tp": 0,
+              "fp": 6,
+              "fn": 24,
+              "precision": 0.0,
+              "recall": 0.0
+            }
+          },
+          "conditional_full_reference_corner_p95_px": 14.385171439569541,
+          "corner_coverage": {
+            "eligible_frame_full_references": 24,
+            "measured_modules": 3,
+            "conditional_coverage": 0.125
+          },
+          "all_cases_complete": true
+        },
+        "band_faces": {
+          "cases": 1,
+          "observations": 0,
+          "references": 24,
+          "iou": {
+            "50": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 24,
+              "precision": 0,
+              "recall": 0.0
+            },
+            "75": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 24,
+              "precision": 0,
+              "recall": 0.0
+            },
+            "90": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 24,
+              "precision": 0,
+              "recall": 0.0
+            }
+          },
+          "conditional_full_reference_corner_p95_px": null,
+          "corner_coverage": {
+            "eligible_frame_full_references": 24,
+            "measured_modules": 0,
+            "conditional_coverage": 0.0
+          },
+          "all_cases_complete": true
+        },
+        "diagnostic_gate": {
+          "all_cases_complete": true,
+          "no_per_case_iou50_regression": false,
+          "strict90_increases": false,
+          "conditional_corner_p95_decreases": false,
+          "corner_coverage_not_lower": false
+        }
+      },
+      "assisted_rgb_regions": {
+        "baseline_v6": {
+          "cases": 3,
+          "observations": 384,
+          "references": 384,
+          "iou": {
+            "50": {
+              "tp": 384,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "75": {
+              "tp": 382,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.9947916666666666,
+              "recall": 0.9947916666666666
+            },
+            "90": {
+              "tp": 268,
+              "fp": 116,
+              "fn": 116,
+              "precision": 0.6979166666666666,
+              "recall": 0.6979166666666666
+            }
+          },
+          "conditional_full_reference_corner_p95_px": 2.8337079576364728,
+          "corner_coverage": {
+            "eligible_frame_full_references": 384,
+            "measured_modules": 384,
+            "conditional_coverage": 1.0
+          },
+          "all_cases_complete": true
+        },
+        "band_faces": {
+          "cases": 3,
+          "observations": 27,
+          "references": 384,
+          "iou": {
+            "50": {
+              "tp": 27,
+              "fp": 0,
+              "fn": 357,
+              "precision": 1.0,
+              "recall": 0.0703125
+            },
+            "75": {
+              "tp": 27,
+              "fp": 0,
+              "fn": 357,
+              "precision": 1.0,
+              "recall": 0.0703125
+            },
+            "90": {
+              "tp": 18,
+              "fp": 9,
+              "fn": 366,
+              "precision": 0.6666666666666666,
+              "recall": 0.046875
+            }
+          },
+          "conditional_full_reference_corner_p95_px": 2.8429775658145346,
+          "corner_coverage": {
+            "eligible_frame_full_references": 384,
+            "measured_modules": 27,
+            "conditional_coverage": 0.0703125
+          },
+          "all_cases_complete": true
+        },
+        "diagnostic_gate": {
+          "all_cases_complete": true,
+          "no_per_case_iou50_regression": false,
+          "strict90_increases": false,
+          "conditional_corner_p95_decreases": false,
+          "corner_coverage_not_lower": false
+        }
+      }
+    },
+    "assisted": true,
+    "automatic_engine_goal_achieved": false,
+    "evaluation_freeze_sha256": "91916f0fad34bc87db5fcf11aa5616bbdcbfc8bf81c0a29c4bbf528ce2e3469c",
+    "prediction_receipt_sha256": "3d6d99ff79307158c9f2ec75932026214e4087b0312fa43d51474354f37c081e"
   }
 }

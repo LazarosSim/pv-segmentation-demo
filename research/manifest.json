@@ -112,13 +112,13 @@
     },
     {
       "path": "validation-summary.json",
-      "bytes": 35419,
-      "sha256": "8cd3cb10705dcffed42e540d69e656fc2df44085deec79bed706b27867ba457e"
+      "bytes": 126693,
+      "sha256": "4b17ce8982f8d10f3799fc335f82445a78fd6a61fc63dbdd0e7d1ae10bc6b9ce"
     },
     {
       "path": "validation.html",
-      "bytes": 12208,
-      "sha256": "b710eb046f4ed45d7327375529edb06d8dbbc31d218a096f90c27dbe13fdc077"
+      "bytes": 15258,
+      "sha256": "07daad64303e213e2bdd38b163a0a3b6e8d66f747e3e02b7cede0d6089f1aebe"
     }
   ]
 }
