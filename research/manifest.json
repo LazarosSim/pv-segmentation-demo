@@ -47,8 +47,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 4579596,
-      "sha256": "f40518fd8ad07c37ceab4b67f3c7d0cca2cac8375d4b8219fcdc340c2065cc8a"
+      "bytes": 4579689,
+      "sha256": "ac61da7ff417c73361ec6bc7f446ea6acbb90e492c484f53ac14b6a8fcd4479d"
     },
     {
       "path": "rgb/comparison.json",
@@ -109,6 +109,16 @@
       "path": "thermal_DJI_20220628095237_0012_T_Waypoint10/source.jpg",
       "bytes": 157284,
       "sha256": "545c7eefaf44a7d3f7b68210da319650975d515c1774e35c318eb6abdde34233"
+    },
+    {
+      "path": "validation-summary.json",
+      "bytes": 21172,
+      "sha256": "4ab132ba9d5dc3a46ecea71f3d5b9a75927bb3dc1a3fad8c833924036cd2f579"
+    },
+    {
+      "path": "validation.html",
+      "bytes": 10517,
+      "sha256": "3d4cd3c66878b65a5670e8b0df7a75030099593af0c6eccc1b984bc4c2400685"
     }
   ]
 }
