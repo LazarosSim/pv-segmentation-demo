@@ -1,0 +1,21 @@
+{
+  "public_only": true,
+  "candidate_promoted": false,
+  "cases": [
+    "rgb",
+    "rgb_C_DJI_20220610095551_0001_W",
+    "rgb_C_DJI_20220610100017_0029_Z"
+  ],
+  "native_pixels_unchanged": true,
+  "metadata_removed": true,
+  "comparison_sha256": "05bc8d6a76a8873bfac69d9f9b2e05760cc9b81a1b31adcc8b5fcbe89ab33b52",
+  "run_status_sha256": "1fe13fed3552ac4d79dc89f01f2406d33ae9e3414ddcef6868280ad8918fb906",
+  "interval_clarification_sha256": "9b93141e338f39936684baf1d8de8c705202936184d57b867bd51ac8835bd131",
+  "assets": {
+    "index.html": "2239058a7c961212ec7ace70e57180bc69476ba1a5f6d30ccdbe49c2b8e6cf10",
+    "metrics.json": "ef104e9d5967841b9cc8c869c4f37b1b0725cb9038f65152dc150ad48c2d1a43",
+    "sources/rgb.png": "604a90cf23a47fd4c247ea0dbce7814fd28faf9a294fa73c7d3a35adabaef1e8",
+    "sources/rgb_C_DJI_20220610095551_0001_W.png": "1ac8527bf16e745ca9065eae0fa3e417307668a32836a106144957eb28411b45",
+    "sources/rgb_C_DJI_20220610100017_0029_Z.png": "12f8642110e838fd54a27cb0471822b3c8dfaee621c3011523782f907b8e3007"
+  }
+}
