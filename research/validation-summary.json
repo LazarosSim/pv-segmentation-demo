@@ -291,6 +291,42 @@
         },
         "all_cases_complete": true,
         "failed_case_ids": []
+      },
+      "sam21_boundary": {
+        "cases": 3,
+        "observations": 483,
+        "references": 483,
+        "iou": {
+          "50": {
+            "tp": 482,
+            "fp": 1,
+            "fn": 1,
+            "precision": 0.9979296066252588,
+            "recall": 0.9979296066252588
+          },
+          "75": {
+            "tp": 275,
+            "fp": 208,
+            "fn": 208,
+            "precision": 0.5693581780538303,
+            "recall": 0.5693581780538303
+          },
+          "90": {
+            "tp": 6,
+            "fp": 477,
+            "fn": 477,
+            "precision": 0.012422360248447204,
+            "recall": 0.012422360248447204
+          }
+        },
+        "conditional_full_reference_corner_p95_px": 6.198773730898273,
+        "corner_coverage": {
+          "eligible_frame_full_references": 468,
+          "measured_modules": 468,
+          "conditional_coverage": 1.0
+        },
+        "all_cases_complete": true,
+        "failed_case_ids": []
       }
     },
     "duke12": {
@@ -691,6 +727,42 @@
         },
         "all_cases_complete": true,
         "failed_case_ids": []
+      },
+      "sam21_boundary": {
+        "cases": 1,
+        "observations": 6,
+        "references": 24,
+        "iou": {
+          "50": {
+            "tp": 3,
+            "fp": 3,
+            "fn": 21,
+            "precision": 0.5,
+            "recall": 0.125
+          },
+          "75": {
+            "tp": 2,
+            "fp": 4,
+            "fn": 22,
+            "precision": 0.3333333333333333,
+            "recall": 0.08333333333333333
+          },
+          "90": {
+            "tp": 0,
+            "fp": 6,
+            "fn": 24,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        },
+        "conditional_full_reference_corner_p95_px": 6.889563978699686,
+        "corner_coverage": {
+          "eligible_frame_full_references": 24,
+          "measured_modules": 3,
+          "conditional_coverage": 0.125
+        },
+        "all_cases_complete": true,
+        "failed_case_ids": []
       }
     }
   },
@@ -708,7 +780,9 @@
     "pvhawk_aggregate": "5fc0e5fa0570d1144e76732c4b74a3d17854d510d5d6d1416a3723bdda85655b",
     "pvhawk_comparison": "5d2aae85633a4548d98b8019d940f23aafe218834710bb452bb75d575266adb8",
     "pvhawk025_aggregate": "5b75eb1bc0d1e841bb173cb98e619c477a75c2949a672e309b7a63884ec299a2",
-    "pvhawk025_comparison": "5f741308c8de143361a1e1f77a5289845c505f15dfa57e5d9aa0443c19649973"
+    "pvhawk025_comparison": "5f741308c8de143361a1e1f77a5289845c505f15dfa57e5d9aa0443c19649973",
+    "sam21_aggregate": "4666868d4b6aef1ada1ccd187a4910fb9bf8a9fcfb2081d5a00607a56e323427",
+    "sam21_comparison": "d5b931efabe8b487dcc9f1d759d11f82d7832e33d6a71ca5318ca410add48a50"
   },
   "pvhawk_confidence_comparison": {
     "primary": 0.9,
@@ -746,6 +820,11 @@
       "title": "CC BY 4.0 license",
       "url": "https://creativecommons.org/licenses/by/4.0/",
       "attribution": "License link for attributed Duke and OpenAerialMap source material."
+    },
+    {
+      "title": "Meta SAM 2.1 official source",
+      "url": "https://github.com/facebookresearch/sam2/tree/2b90b9f5ceec907a1c18123530e92e794ad901a4",
+      "attribution": "Meta SAM 2.1 Hiera tiny, generic promptable segmentation; source and checkpoint Apache 2.0."
     }
   ],
   "limitations": [
@@ -756,6 +835,426 @@
     "All selected cases and failed-case references remain denominators; FP counts cover completed outputs only.",
     "PV-Hawk uses different native tile sampling and has no centered edge recovery; this compares operational pipelines, not isolated architectures.",
     "The single PV-Hawk confidence 0.25 ablation followed the 0.9 pilot on the same development sources; both configurations remain separate and neither is the default.",
-    "No pooled benchmark, commercial reliability, thermal transfer or Matrice 4T validation is claimed."
-  ]
+    "No pooled benchmark, commercial reliability, thermal transfer or Matrice 4T validation is claimed.",
+    "SAM uses fixed CVUT V6 inventory; source-only box-mask refinement may change physical-reference association. No inventory recovery or default promotion is implied."
+  ],
+  "sam21_boundary_experiment": {
+    "known_rgb3": {
+      "baseline_v6": {
+        "cases": 3,
+        "observations": 483,
+        "references": 483,
+        "iou": {
+          "50": {
+            "tp": 482,
+            "fp": 1,
+            "fn": 1,
+            "precision": 0.9979296066252588,
+            "recall": 0.9979296066252588
+          },
+          "75": {
+            "tp": 478,
+            "fp": 5,
+            "fn": 5,
+            "precision": 0.989648033126294,
+            "recall": 0.989648033126294
+          },
+          "90": {
+            "tp": 315,
+            "fp": 168,
+            "fn": 168,
+            "precision": 0.6521739130434783,
+            "recall": 0.6521739130434783
+          }
+        },
+        "conditional_full_reference_corner_p95_px": 2.914548353749861,
+        "corner_coverage": {
+          "eligible_frame_full_references": 468,
+          "measured_modules": 468,
+          "conditional_coverage": 1.0
+        },
+        "all_cases_complete": true,
+        "failed_case_ids": []
+      },
+      "sam21": {
+        "cases": 3,
+        "observations": 483,
+        "references": 483,
+        "iou": {
+          "50": {
+            "tp": 482,
+            "fp": 1,
+            "fn": 1,
+            "precision": 0.9979296066252588,
+            "recall": 0.9979296066252588
+          },
+          "75": {
+            "tp": 275,
+            "fp": 208,
+            "fn": 208,
+            "precision": 0.5693581780538303,
+            "recall": 0.5693581780538303
+          },
+          "90": {
+            "tp": 6,
+            "fp": 477,
+            "fn": 477,
+            "precision": 0.012422360248447204,
+            "recall": 0.012422360248447204
+          }
+        },
+        "conditional_full_reference_corner_p95_px": 6.198773730898273,
+        "corner_coverage": {
+          "eligible_frame_full_references": 468,
+          "measured_modules": 468,
+          "conditional_coverage": 1.0
+        },
+        "all_cases_complete": true,
+        "failed_case_ids": []
+      },
+      "engineering_gate": {
+        "passed": false,
+        "checks": {
+          "all_cases_complete": true,
+          "strict90_tp_increases": false,
+          "conditional_corner_p95_decreases": false,
+          "corner_coverage_not_lower": true,
+          "no_case_iou50_regression": true
+        }
+      },
+      "paired_common_matches": {
+        "common_full_modules": 468,
+        "eligible_full_references": 468,
+        "individual_corner_px": {
+          "baseline": {
+            "n": 1872,
+            "median": 1.4345847393157656,
+            "p95": 2.914548353749861,
+            "mean": 1.5365015019549642
+          },
+          "candidate": {
+            "n": 1872,
+            "median": 4.450150136561774,
+            "p95": 6.198773730898273,
+            "mean": 4.390593353236441
+          }
+        },
+        "module_corner_rmse_px": {
+          "baseline": {
+            "n": 468,
+            "median": 1.6311857352102375,
+            "p95": 2.442020495207237,
+            "mean": 1.664224015812452
+          },
+          "candidate": {
+            "n": 468,
+            "median": 4.576234325884956,
+            "p95": 5.674782474401309,
+            "mean": 4.463508849307848
+          }
+        },
+        "coverage": 1.0
+      },
+      "case_diagnostics": [
+        {
+          "id": "rgb0001",
+          "complete": true,
+          "regressions": [
+            {
+              "metric": "iou75_tp",
+              "baseline": 193,
+              "candidate": 14
+            },
+            {
+              "metric": "iou75_fp",
+              "baseline": 5,
+              "candidate": 184
+            },
+            {
+              "metric": "iou75_fn",
+              "baseline": 5,
+              "candidate": 184
+            },
+            {
+              "metric": "iou90_tp",
+              "baseline": 43,
+              "candidate": 0
+            },
+            {
+              "metric": "iou90_fp",
+              "baseline": 155,
+              "candidate": 198
+            },
+            {
+              "metric": "iou90_fn",
+              "baseline": 155,
+              "candidate": 198
+            },
+            {
+              "metric": "conditional_corner_p95_px",
+              "baseline": 2.8109191428375824,
+              "candidate": 4.9419651995573
+            },
+            {
+              "metric": "conditional_boundary_p95_px",
+              "baseline": 2.079247300049864,
+              "candidate": 3.9302761695897357
+            }
+          ],
+          "baseline_whole_image_observations": 198,
+          "candidate_whole_image_observations": 198,
+          "candidate_outside_roi_unverified": null,
+          "association_counts": {
+            "same_id_same_reference": 197,
+            "changed_reference_for_same_id": 0,
+            "baseline_only_matches": 0,
+            "candidate_only_matches": 0
+          }
+        },
+        {
+          "id": "rgb0029",
+          "complete": true,
+          "regressions": [
+            {
+              "metric": "iou75_tp",
+              "baseline": 171,
+              "candidate": 166
+            },
+            {
+              "metric": "iou75_fp",
+              "baseline": 0,
+              "candidate": 5
+            },
+            {
+              "metric": "iou75_fn",
+              "baseline": 0,
+              "candidate": 5
+            },
+            {
+              "metric": "iou90_tp",
+              "baseline": 164,
+              "candidate": 2
+            },
+            {
+              "metric": "iou90_fp",
+              "baseline": 7,
+              "candidate": 169
+            },
+            {
+              "metric": "iou90_fn",
+              "baseline": 7,
+              "candidate": 169
+            },
+            {
+              "metric": "conditional_corner_p95_px",
+              "baseline": 3.032001159985049,
+              "candidate": 6.103509974692364
+            },
+            {
+              "metric": "conditional_boundary_p95_px",
+              "baseline": 2.2443758922811785,
+              "candidate": 4.684051209169272
+            }
+          ],
+          "baseline_whole_image_observations": 171,
+          "candidate_whole_image_observations": 171,
+          "candidate_outside_roi_unverified": null,
+          "association_counts": {
+            "same_id_same_reference": 171,
+            "changed_reference_for_same_id": 0,
+            "baseline_only_matches": 0,
+            "candidate_only_matches": 0
+          }
+        },
+        {
+          "id": "rgb0031",
+          "complete": true,
+          "regressions": [
+            {
+              "metric": "iou75_tp",
+              "baseline": 114,
+              "candidate": 95
+            },
+            {
+              "metric": "iou75_fp",
+              "baseline": 0,
+              "candidate": 19
+            },
+            {
+              "metric": "iou75_fn",
+              "baseline": 0,
+              "candidate": 19
+            },
+            {
+              "metric": "iou90_tp",
+              "baseline": 108,
+              "candidate": 4
+            },
+            {
+              "metric": "iou90_fp",
+              "baseline": 6,
+              "candidate": 110
+            },
+            {
+              "metric": "iou90_fn",
+              "baseline": 6,
+              "candidate": 110
+            },
+            {
+              "metric": "conditional_corner_p95_px",
+              "baseline": 2.68775179597738,
+              "candidate": 6.702654788609843
+            },
+            {
+              "metric": "conditional_boundary_p95_px",
+              "baseline": 2.03516115846168,
+              "candidate": 5.283467673002206
+            }
+          ],
+          "baseline_whole_image_observations": 114,
+          "candidate_whole_image_observations": 114,
+          "candidate_outside_roi_unverified": null,
+          "association_counts": {
+            "same_id_same_reference": 114,
+            "changed_reference_for_same_id": 0,
+            "baseline_only_matches": 0,
+            "candidate_only_matches": 0
+          }
+        }
+      ]
+    },
+    "external_provisional_roi": {
+      "baseline_v6": {
+        "cases": 1,
+        "observations": 6,
+        "references": 24,
+        "iou": {
+          "50": {
+            "tp": 3,
+            "fp": 3,
+            "fn": 21,
+            "precision": 0.5,
+            "recall": 0.125
+          },
+          "75": {
+            "tp": 2,
+            "fp": 4,
+            "fn": 22,
+            "precision": 0.3333333333333333,
+            "recall": 0.08333333333333333
+          },
+          "90": {
+            "tp": 0,
+            "fp": 6,
+            "fn": 24,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        },
+        "conditional_full_reference_corner_p95_px": 14.385171439569541,
+        "corner_coverage": {
+          "eligible_frame_full_references": 24,
+          "measured_modules": 3,
+          "conditional_coverage": 0.125
+        },
+        "all_cases_complete": true,
+        "failed_case_ids": []
+      },
+      "sam21": {
+        "cases": 1,
+        "observations": 6,
+        "references": 24,
+        "iou": {
+          "50": {
+            "tp": 3,
+            "fp": 3,
+            "fn": 21,
+            "precision": 0.5,
+            "recall": 0.125
+          },
+          "75": {
+            "tp": 2,
+            "fp": 4,
+            "fn": 22,
+            "precision": 0.3333333333333333,
+            "recall": 0.08333333333333333
+          },
+          "90": {
+            "tp": 0,
+            "fp": 6,
+            "fn": 24,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        },
+        "conditional_full_reference_corner_p95_px": 6.889563978699686,
+        "corner_coverage": {
+          "eligible_frame_full_references": 24,
+          "measured_modules": 3,
+          "conditional_coverage": 0.125
+        },
+        "all_cases_complete": true,
+        "failed_case_ids": []
+      },
+      "engineering_gate": {
+        "passed": false,
+        "checks": {
+          "all_cases_complete": true,
+          "strict90_tp_increases": false,
+          "conditional_corner_p95_decreases": true,
+          "corner_coverage_not_lower": true,
+          "no_case_iou50_regression": true
+        }
+      },
+      "paired_common_matches": {
+        "common_full_modules": 3,
+        "eligible_full_references": 24,
+        "individual_corner_px": {
+          "baseline": {
+            "n": 12,
+            "median": 3.08113883008419,
+            "p95": 14.385171439569541,
+            "mean": 4.709947855291263
+          },
+          "candidate": {
+            "n": 12,
+            "median": 2.9546289992658625,
+            "p95": 6.889563978699686,
+            "mean": 3.3145296659643737
+          }
+        },
+        "module_corner_rmse_px": {
+          "baseline": {
+            "n": 3,
+            "median": 4.1137101020033136,
+            "p95": 9.850650643731697,
+            "mean": 5.921358747957737
+          },
+          "candidate": {
+            "n": 3,
+            "median": 2.846196129212322,
+            "p95": 5.417273270268987,
+            "mean": 3.513223563711538
+          }
+        },
+        "coverage": 0.125
+      },
+      "case_diagnostics": [
+        {
+          "id": "external0",
+          "complete": true,
+          "regressions": [],
+          "baseline_whole_image_observations": 505,
+          "candidate_whole_image_observations": 505,
+          "candidate_outside_roi_unverified": 499,
+          "association_counts": {
+            "same_id_same_reference": 3,
+            "changed_reference_for_same_id": 0,
+            "baseline_only_matches": 0,
+            "candidate_only_matches": 0
+          }
+        }
+      ]
+    }
+  }
 }
