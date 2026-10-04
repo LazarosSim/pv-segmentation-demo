@@ -1,0 +1,41 @@
+{
+  "schema": "local-joint-comparison-viewer-v1",
+  "private_local_only": false,
+  "public_only_explicit_private_false": true,
+  "cases": [
+    "rgb",
+    "rgb_C_DJI_20220610095551_0001_W",
+    "rgb_C_DJI_20220610100017_0029_Z"
+  ],
+  "assets": {
+    "sources/rgb.png": "604a90cf23a47fd4c247ea0dbce7814fd28faf9a294fa73c7d3a35adabaef1e8",
+    "sources/rgb_C_DJI_20220610095551_0001_W.png": "1ac8527bf16e745ca9065eae0fa3e417307668a32836a106144957eb28411b45",
+    "sources/rgb_C_DJI_20220610100017_0029_Z.png": "12f8642110e838fd54a27cb0471822b3c8dfaee621c3011523782f907b8e3007",
+    "index.html": "727ce82df0c137ca4f1688357cd061fae13a2cbdfd79af99a9f05197c31d0ac1"
+  },
+  "prediction_receipt_sha256": "7ad2542a806ef9f8040b903d4ae16f9735d5c06197526458a04d0bcb32ed4063",
+  "native_source_png_pixels_verified": true,
+  "metadata_stripped": true,
+  "external_requests": false,
+  "producer_or_evaluator_modified": false,
+  "source_public_index_sha256": "96c0d19f559ab2e7bda5d3222ada3d8334c8ddf936967127c3210043fbf69837",
+  "publication_derivative": {
+    "reason": "Add public evaluation context, rejection/no-default-promotion explanation and research backlink; source PNGs and native geometry remain exact.",
+    "derivative_index_sha256": "727ce82df0c137ca4f1688357cd061fae13a2cbdfd79af99a9f05197c31d0ac1",
+    "metrics": {
+      "author_references": 483,
+      "iou90_matches_baseline": 315,
+      "iou90_matches_candidate": 84,
+      "corner_p95_baseline_px": 2.91,
+      "corner_p95_candidate_px": 3.92,
+      "reported_crossings_repaired": 2,
+      "gaps_remain_open": true,
+      "independent_physical_truth": false,
+      "default_promoted": false
+    },
+    "public_cases_only": true,
+    "commit_push_or_deploy_performed": false,
+    "pre_git_newline_normalization_sha256": "38e5024266a31e22499d3506b14772b7611f2367080b4facaba7195e05806ab7",
+    "line_endings": "LF, matching the staged and deployed HTML bytes; no content or native geometry change."
+  }
+}
