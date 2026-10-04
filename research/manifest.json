@@ -46,9 +46,19 @@
       "sha256": "5878bfceacdbfca52cadbbf88b2e96fdc2c2710f2b3c9b8e07c5cc8e2caaa8de"
     },
     {
+      "path": "feedback-comparison.json",
+      "bytes": 660670,
+      "sha256": "7d74d16b87ac1585b52355350270fa32f8a699172949d41a1e6b01ac341e5f94"
+    },
+    {
+      "path": "feedback.html",
+      "bytes": 282910,
+      "sha256": "f69b4fcaa297bde118bf4f8b5f8a0568774730baa20311235c1a7b615a53ddc5"
+    },
+    {
       "path": "index.html",
-      "bytes": 4579689,
-      "sha256": "ac61da7ff417c73361ec6bc7f446ea6acbb90e492c484f53ac14b6a8fcd4479d"
+      "bytes": 4579745,
+      "sha256": "36609ecd7c1ddcf08958470765758c9bcf4e18f3ab65c9cd151cd5d66bc40863"
     },
     {
       "path": "rgb/comparison.json",
