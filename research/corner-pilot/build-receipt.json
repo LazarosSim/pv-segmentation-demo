@@ -1,0 +1,21 @@
+{
+  "schema": "public-corner-pilot-viewer-v1",
+  "public_only": true,
+  "private_images": false,
+  "candidate_promoted": false,
+  "comparison_sha256": "0ac3a31a7ad4442a0899c7ce461d3077bd73831ca3d70fdd88ec956d140c68b8",
+  "native_coordinates_unchanged": true,
+  "post_score_binding_sha256": "d2ba6916083229c9da7da235b52500ad5837d18e196621f334baba45dcc078e8",
+  "producer_sha256": "bc095cdd1725c3d7905b34247f4a8b8843926f12ae092be8093457ac3a735bcd",
+  "cases": [
+    "rgb",
+    "rgb_C_DJI_20220610095551_0001_W",
+    "rgb_C_DJI_20220610100017_0029_Z"
+  ],
+  "assets": {
+    "index.html": "75865764ab6513b12b271d3c05aaf5a9b1f4cdf0ec5cedfe1414fc3829ffe435",
+    "sources/rgb.png": "604a90cf23a47fd4c247ea0dbce7814fd28faf9a294fa73c7d3a35adabaef1e8",
+    "sources/rgb_C_DJI_20220610095551_0001_W.png": "1ac8527bf16e745ca9065eae0fa3e417307668a32836a106144957eb28411b45",
+    "sources/rgb_C_DJI_20220610100017_0029_Z.png": "12f8642110e838fd54a27cb0471822b3c8dfaee621c3011523782f907b8e3007"
+  }
+}
