@@ -785,7 +785,9 @@
     "sam21_comparison": "d5b931efabe8b487dcc9f1d759d11f82d7832e33d6a71ca5318ca410add48a50",
     "greek_aggregate": "0ac656e6c37feaefb1db3f7a93ef6cbfcc0b817408559c5ca539351c4fd6c4d8",
     "greek_comparison": "b61fa83d5aae82d9ee0c3ecf3fd3d2c40b2700d7f85cfad08240d76a71c88d43",
-    "assisted_band_comparison": "93a33bb7cc9bd01f74b97a5738a779710bc8c8dfe4e6ee27a0e12ad54f626e69"
+    "assisted_band_comparison": "93a33bb7cc9bd01f74b97a5738a779710bc8c8dfe4e6ee27a0e12ad54f626e69",
+    "endpoint_comparison": "f4b44a7bc1bf42430b8f1c628912a129dc7db74884322a6e1cb990161615c889",
+    "endpoint_paired_comparison": "391d4d5b787f60fa405b1dfc14ec4c999ee98109cfa08200580b37e264b2d541"
   },
   "pvhawk_confidence_comparison": {
     "primary": 0.9,
@@ -4413,5 +4415,1070 @@
     "automatic_engine_goal_achieved": false,
     "evaluation_freeze_sha256": "91916f0fad34bc87db5fcf11aa5616bbdcbfc8bf81c0a29c4bbf528ce2e3469c",
     "prediction_receipt_sha256": "3d6d99ff79307158c9f2ec75932026214e4087b0312fa43d51474354f37c081e"
+  },
+  "assisted_endpoint_support_experiment": {
+    "groups": {
+      "known_rgb3": {
+        "baseline_v6": {
+          "cases": 3,
+          "observations": 483,
+          "references": 483,
+          "iou": {
+            "50": {
+              "tp": 482,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.9979296066252588,
+              "recall": 0.9979296066252588
+            },
+            "75": {
+              "tp": 478,
+              "fp": 5,
+              "fn": 5,
+              "precision": 0.989648033126294,
+              "recall": 0.989648033126294
+            },
+            "90": {
+              "tp": 315,
+              "fp": 168,
+              "fn": 168,
+              "precision": 0.6521739130434783,
+              "recall": 0.6521739130434783
+            }
+          },
+          "conditional_full_reference_corner_p95_px": 2.914548353749861,
+          "corner_coverage": {
+            "eligible_frame_full_references": 468,
+            "measured_modules": 468,
+            "conditional_coverage": 1.0
+          },
+          "all_cases_complete": true
+        },
+        "band_v12a": {
+          "cases": 3,
+          "observations": 224,
+          "references": 483,
+          "iou": {
+            "50": {
+              "tp": 224,
+              "fp": 0,
+              "fn": 259,
+              "precision": 1.0,
+              "recall": 0.463768115942029
+            },
+            "75": {
+              "tp": 224,
+              "fp": 0,
+              "fn": 259,
+              "precision": 1.0,
+              "recall": 0.463768115942029
+            },
+            "90": {
+              "tp": 188,
+              "fp": 36,
+              "fn": 295,
+              "precision": 0.8392857142857143,
+              "recall": 0.38923395445134573
+            }
+          },
+          "conditional_full_reference_corner_p95_px": 3.0331231024949936,
+          "corner_coverage": {
+            "eligible_frame_full_references": 468,
+            "measured_modules": 224,
+            "conditional_coverage": 0.47863247863247865
+          },
+          "all_cases_complete": true
+        },
+        "band_v11": {
+          "cases": 3,
+          "observations": 27,
+          "references": 483,
+          "iou": {
+            "50": {
+              "tp": 27,
+              "fp": 0,
+              "fn": 456,
+              "precision": 1.0,
+              "recall": 0.055900621118012424
+            },
+            "75": {
+              "tp": 27,
+              "fp": 0,
+              "fn": 456,
+              "precision": 1.0,
+              "recall": 0.055900621118012424
+            },
+            "90": {
+              "tp": 18,
+              "fp": 9,
+              "fn": 465,
+              "precision": 0.6666666666666666,
+              "recall": 0.037267080745341616
+            }
+          },
+          "conditional_full_reference_corner_p95_px": 2.8429775658145346,
+          "corner_coverage": {
+            "eligible_frame_full_references": 468,
+            "measured_modules": 27,
+            "conditional_coverage": 0.057692307692307696
+          },
+          "all_cases_complete": true
+        },
+        "diagnostic_gate": {
+          "all_cases_complete": true,
+          "no_per_case_iou50_regression": false,
+          "strict90_increases": false,
+          "conditional_corner_p95_decreases": false,
+          "corner_coverage_not_lower": false
+        },
+        "paired_common_references": {
+          "v6_to_v12": {
+            "eligible_full_references": 468,
+            "common_full_quad_modules": 224,
+            "coverage": 0.47863247863247865,
+            "distributions": {
+              "before_corner": {
+                "n": 896,
+                "median": 1.5552990385953456,
+                "p95": 2.917550048717084,
+                "mean": 1.6023856218322021
+              },
+              "after_corner": {
+                "n": 896,
+                "median": 1.0746554622000755,
+                "p95": 3.0331231024949936,
+                "mean": 1.3304588693722155
+              },
+              "before_rmse": {
+                "n": 224,
+                "median": 1.670560913586037,
+                "p95": 2.475149215881952,
+                "mean": 1.7229477271029936
+              },
+              "after_rmse": {
+                "n": 224,
+                "median": 1.3624828711953354,
+                "p95": 2.4862045618312143,
+                "mean": 1.4829903679579064
+              },
+              "before_boundary": {
+                "n": 28672,
+                "median": 0.7163890074519244,
+                "p95": 2.1447513592867034,
+                "mean": 0.8866894993266385
+              },
+              "after_boundary": {
+                "n": 28672,
+                "median": 0.5015796408844053,
+                "p95": 2.4142482295781496,
+                "mean": 0.7092792220404741
+              }
+            }
+          },
+          "v11_to_v12": {
+            "eligible_full_references": 468,
+            "common_full_quad_modules": 22,
+            "coverage": 0.04700854700854701,
+            "distributions": {
+              "before_corner": {
+                "n": 88,
+                "median": 1.107879332069699,
+                "p95": 2.7524868335208925,
+                "mean": 1.3160362991381473
+              },
+              "after_corner": {
+                "n": 88,
+                "median": 1.107879332069699,
+                "p95": 2.7524868335208925,
+                "mean": 1.3160362991381473
+              },
+              "before_rmse": {
+                "n": 22,
+                "median": 1.6008934124719183,
+                "p95": 2.003606180328942,
+                "mean": 1.4988889151258016
+              },
+              "after_rmse": {
+                "n": 22,
+                "median": 1.6008934124719183,
+                "p95": 2.003606180328942,
+                "mean": 1.4988889151258016
+              },
+              "before_boundary": {
+                "n": 2816,
+                "median": 0.4956989714114127,
+                "p95": 2.320165547771947,
+                "mean": 0.7140038280227071
+              },
+              "after_boundary": {
+                "n": 2816,
+                "median": 0.4956989714114127,
+                "p95": 2.320165547771947,
+                "mean": 0.7140038280227071
+              }
+            }
+          }
+        },
+        "case_regressions": {
+          "v6_to_v12": [
+            {
+              "id": "rgb0001",
+              "complete": true,
+              "regressions": [
+                {
+                  "metric": "iou50_tp",
+                  "before": 197,
+                  "after": 44
+                },
+                {
+                  "metric": "iou50_fn",
+                  "before": 1,
+                  "after": 154
+                },
+                {
+                  "metric": "iou75_tp",
+                  "before": 193,
+                  "after": 44
+                },
+                {
+                  "metric": "iou75_fn",
+                  "before": 5,
+                  "after": 154
+                },
+                {
+                  "metric": "iou90_tp",
+                  "before": 43,
+                  "after": 8
+                },
+                {
+                  "metric": "iou90_fn",
+                  "before": 155,
+                  "after": 190
+                },
+                {
+                  "metric": "corner_p95_px",
+                  "before": 2.8109191428375824,
+                  "after": 3.0447431756350167
+                },
+                {
+                  "metric": "boundary_p95_px",
+                  "before": 2.079247300049864,
+                  "after": 2.6512683925004783
+                },
+                {
+                  "metric": "corner_coverage",
+                  "before": 1.0,
+                  "after": 0.22916666666666666
+                }
+              ]
+            },
+            {
+              "id": "rgb0029",
+              "complete": true,
+              "regressions": [
+                {
+                  "metric": "iou50_tp",
+                  "before": 171,
+                  "after": 130
+                },
+                {
+                  "metric": "iou50_fn",
+                  "before": 0,
+                  "after": 41
+                },
+                {
+                  "metric": "iou75_tp",
+                  "before": 171,
+                  "after": 130
+                },
+                {
+                  "metric": "iou75_fn",
+                  "before": 0,
+                  "after": 41
+                },
+                {
+                  "metric": "iou90_tp",
+                  "before": 164,
+                  "after": 130
+                },
+                {
+                  "metric": "iou90_fn",
+                  "before": 7,
+                  "after": 41
+                },
+                {
+                  "metric": "boundary_p95_px",
+                  "before": 2.2443758922811785,
+                  "after": 2.302821524114999
+                },
+                {
+                  "metric": "corner_coverage",
+                  "before": 1.0,
+                  "after": 0.7831325301204819
+                }
+              ]
+            },
+            {
+              "id": "rgb0031",
+              "complete": true,
+              "regressions": [
+                {
+                  "metric": "iou50_tp",
+                  "before": 114,
+                  "after": 50
+                },
+                {
+                  "metric": "iou50_fn",
+                  "before": 0,
+                  "after": 64
+                },
+                {
+                  "metric": "iou75_tp",
+                  "before": 114,
+                  "after": 50
+                },
+                {
+                  "metric": "iou75_fn",
+                  "before": 0,
+                  "after": 64
+                },
+                {
+                  "metric": "iou90_tp",
+                  "before": 108,
+                  "after": 50
+                },
+                {
+                  "metric": "iou90_fn",
+                  "before": 6,
+                  "after": 64
+                },
+                {
+                  "metric": "corner_p95_px",
+                  "before": 2.68775179597738,
+                  "after": 3.409158668112887
+                },
+                {
+                  "metric": "boundary_p95_px",
+                  "before": 2.03516115846168,
+                  "after": 2.045425623363142
+                },
+                {
+                  "metric": "corner_coverage",
+                  "before": 1.0,
+                  "after": 0.45454545454545453
+                }
+              ]
+            }
+          ],
+          "v11_to_v12": [
+            {
+              "id": "rgb0001",
+              "complete": true,
+              "regressions": [
+                {
+                  "metric": "iou90_fp",
+                  "before": 9,
+                  "after": 36
+                },
+                {
+                  "metric": "corner_p95_px",
+                  "before": 2.752486833520893,
+                  "after": 3.0447431756350167
+                },
+                {
+                  "metric": "boundary_p95_px",
+                  "before": 2.3076544183535432,
+                  "after": 2.6512683925004783
+                }
+              ]
+            },
+            {
+              "id": "rgb0029",
+              "complete": true,
+              "regressions": []
+            },
+            {
+              "id": "rgb0031",
+              "complete": true,
+              "regressions": []
+            }
+          ]
+        }
+      },
+      "external_provisional_roi": {
+        "baseline_v6": {
+          "cases": 1,
+          "observations": 6,
+          "references": 24,
+          "iou": {
+            "50": {
+              "tp": 3,
+              "fp": 3,
+              "fn": 21,
+              "precision": 0.5,
+              "recall": 0.125
+            },
+            "75": {
+              "tp": 2,
+              "fp": 4,
+              "fn": 22,
+              "precision": 0.3333333333333333,
+              "recall": 0.08333333333333333
+            },
+            "90": {
+              "tp": 0,
+              "fp": 6,
+              "fn": 24,
+              "precision": 0.0,
+              "recall": 0.0
+            }
+          },
+          "conditional_full_reference_corner_p95_px": 14.385171439569541,
+          "corner_coverage": {
+            "eligible_frame_full_references": 24,
+            "measured_modules": 3,
+            "conditional_coverage": 0.125
+          },
+          "all_cases_complete": true
+        },
+        "band_v12a": {
+          "cases": 1,
+          "observations": 0,
+          "references": 24,
+          "iou": {
+            "50": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 24,
+              "precision": 0,
+              "recall": 0.0
+            },
+            "75": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 24,
+              "precision": 0,
+              "recall": 0.0
+            },
+            "90": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 24,
+              "precision": 0,
+              "recall": 0.0
+            }
+          },
+          "conditional_full_reference_corner_p95_px": null,
+          "corner_coverage": {
+            "eligible_frame_full_references": 24,
+            "measured_modules": 0,
+            "conditional_coverage": 0.0
+          },
+          "all_cases_complete": true
+        },
+        "band_v11": {
+          "cases": 1,
+          "observations": 0,
+          "references": 24,
+          "iou": {
+            "50": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 24,
+              "precision": 0,
+              "recall": 0.0
+            },
+            "75": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 24,
+              "precision": 0,
+              "recall": 0.0
+            },
+            "90": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 24,
+              "precision": 0,
+              "recall": 0.0
+            }
+          },
+          "conditional_full_reference_corner_p95_px": null,
+          "corner_coverage": {
+            "eligible_frame_full_references": 24,
+            "measured_modules": 0,
+            "conditional_coverage": 0.0
+          },
+          "all_cases_complete": true
+        },
+        "diagnostic_gate": {
+          "all_cases_complete": true,
+          "no_per_case_iou50_regression": false,
+          "strict90_increases": false,
+          "conditional_corner_p95_decreases": false,
+          "corner_coverage_not_lower": false
+        },
+        "paired_common_references": {
+          "v6_to_v12": {
+            "eligible_full_references": 24,
+            "common_full_quad_modules": 0,
+            "coverage": 0.0,
+            "distributions": {
+              "before_corner": {
+                "n": 0,
+                "median": null,
+                "p95": null,
+                "mean": null
+              },
+              "after_corner": {
+                "n": 0,
+                "median": null,
+                "p95": null,
+                "mean": null
+              },
+              "before_rmse": {
+                "n": 0,
+                "median": null,
+                "p95": null,
+                "mean": null
+              },
+              "after_rmse": {
+                "n": 0,
+                "median": null,
+                "p95": null,
+                "mean": null
+              },
+              "before_boundary": {
+                "n": 0,
+                "median": null,
+                "p95": null,
+                "mean": null
+              },
+              "after_boundary": {
+                "n": 0,
+                "median": null,
+                "p95": null,
+                "mean": null
+              }
+            }
+          },
+          "v11_to_v12": {
+            "eligible_full_references": 24,
+            "common_full_quad_modules": 0,
+            "coverage": 0.0,
+            "distributions": {
+              "before_corner": {
+                "n": 0,
+                "median": null,
+                "p95": null,
+                "mean": null
+              },
+              "after_corner": {
+                "n": 0,
+                "median": null,
+                "p95": null,
+                "mean": null
+              },
+              "before_rmse": {
+                "n": 0,
+                "median": null,
+                "p95": null,
+                "mean": null
+              },
+              "after_rmse": {
+                "n": 0,
+                "median": null,
+                "p95": null,
+                "mean": null
+              },
+              "before_boundary": {
+                "n": 0,
+                "median": null,
+                "p95": null,
+                "mean": null
+              },
+              "after_boundary": {
+                "n": 0,
+                "median": null,
+                "p95": null,
+                "mean": null
+              }
+            }
+          }
+        },
+        "case_regressions": {
+          "v6_to_v12": [
+            {
+              "id": "external0",
+              "complete": true,
+              "regressions": [
+                {
+                  "metric": "iou50_tp",
+                  "before": 3,
+                  "after": 0
+                },
+                {
+                  "metric": "iou50_fn",
+                  "before": 21,
+                  "after": 24
+                },
+                {
+                  "metric": "iou75_tp",
+                  "before": 2,
+                  "after": 0
+                },
+                {
+                  "metric": "iou75_fn",
+                  "before": 22,
+                  "after": 24
+                },
+                {
+                  "metric": "corner_p95_px",
+                  "before": 14.385171439569541,
+                  "after": null
+                },
+                {
+                  "metric": "boundary_p95_px",
+                  "before": 13.712015779516394,
+                  "after": null
+                },
+                {
+                  "metric": "corner_coverage",
+                  "before": 0.125,
+                  "after": 0.0
+                }
+              ]
+            }
+          ],
+          "v11_to_v12": [
+            {
+              "id": "external0",
+              "complete": true,
+              "regressions": []
+            }
+          ]
+        }
+      },
+      "assisted_rgb_regions": {
+        "baseline_v6": {
+          "cases": 3,
+          "observations": 384,
+          "references": 384,
+          "iou": {
+            "50": {
+              "tp": 384,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0
+            },
+            "75": {
+              "tp": 382,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.9947916666666666,
+              "recall": 0.9947916666666666
+            },
+            "90": {
+              "tp": 268,
+              "fp": 116,
+              "fn": 116,
+              "precision": 0.6979166666666666,
+              "recall": 0.6979166666666666
+            }
+          },
+          "conditional_full_reference_corner_p95_px": 2.8337079576364728,
+          "corner_coverage": {
+            "eligible_frame_full_references": 384,
+            "measured_modules": 384,
+            "conditional_coverage": 1.0
+          },
+          "all_cases_complete": true
+        },
+        "band_v12a": {
+          "cases": 3,
+          "observations": 224,
+          "references": 384,
+          "iou": {
+            "50": {
+              "tp": 224,
+              "fp": 0,
+              "fn": 160,
+              "precision": 1.0,
+              "recall": 0.5833333333333334
+            },
+            "75": {
+              "tp": 224,
+              "fp": 0,
+              "fn": 160,
+              "precision": 1.0,
+              "recall": 0.5833333333333334
+            },
+            "90": {
+              "tp": 188,
+              "fp": 36,
+              "fn": 196,
+              "precision": 0.8392857142857143,
+              "recall": 0.4895833333333333
+            }
+          },
+          "conditional_full_reference_corner_p95_px": 3.0331231024949936,
+          "corner_coverage": {
+            "eligible_frame_full_references": 384,
+            "measured_modules": 224,
+            "conditional_coverage": 0.5833333333333334
+          },
+          "all_cases_complete": true
+        },
+        "band_v11": {
+          "cases": 3,
+          "observations": 27,
+          "references": 384,
+          "iou": {
+            "50": {
+              "tp": 27,
+              "fp": 0,
+              "fn": 357,
+              "precision": 1.0,
+              "recall": 0.0703125
+            },
+            "75": {
+              "tp": 27,
+              "fp": 0,
+              "fn": 357,
+              "precision": 1.0,
+              "recall": 0.0703125
+            },
+            "90": {
+              "tp": 18,
+              "fp": 9,
+              "fn": 366,
+              "precision": 0.6666666666666666,
+              "recall": 0.046875
+            }
+          },
+          "conditional_full_reference_corner_p95_px": 2.8429775658145346,
+          "corner_coverage": {
+            "eligible_frame_full_references": 384,
+            "measured_modules": 27,
+            "conditional_coverage": 0.0703125
+          },
+          "all_cases_complete": true
+        },
+        "diagnostic_gate": {
+          "all_cases_complete": true,
+          "no_per_case_iou50_regression": false,
+          "strict90_increases": false,
+          "conditional_corner_p95_decreases": false,
+          "corner_coverage_not_lower": false
+        },
+        "paired_common_references": {
+          "v6_to_v12": {
+            "eligible_full_references": 384,
+            "common_full_quad_modules": 224,
+            "coverage": 0.5833333333333334,
+            "distributions": {
+              "before_corner": {
+                "n": 896,
+                "median": 1.5552990385953456,
+                "p95": 2.917550048717084,
+                "mean": 1.6023856218322021
+              },
+              "after_corner": {
+                "n": 896,
+                "median": 1.0746554622000755,
+                "p95": 3.0331231024949936,
+                "mean": 1.3304588693722155
+              },
+              "before_rmse": {
+                "n": 224,
+                "median": 1.670560913586037,
+                "p95": 2.475149215881952,
+                "mean": 1.7229477271029936
+              },
+              "after_rmse": {
+                "n": 224,
+                "median": 1.3624828711953354,
+                "p95": 2.4862045618312143,
+                "mean": 1.4829903679579064
+              },
+              "before_boundary": {
+                "n": 28672,
+                "median": 0.7163890074519244,
+                "p95": 2.1447513592867034,
+                "mean": 0.8866894993266385
+              },
+              "after_boundary": {
+                "n": 28672,
+                "median": 0.5015796408844053,
+                "p95": 2.4142482295781496,
+                "mean": 0.7092792220404741
+              }
+            }
+          },
+          "v11_to_v12": {
+            "eligible_full_references": 384,
+            "common_full_quad_modules": 22,
+            "coverage": 0.057291666666666664,
+            "distributions": {
+              "before_corner": {
+                "n": 88,
+                "median": 1.107879332069699,
+                "p95": 2.7524868335208925,
+                "mean": 1.3160362991381473
+              },
+              "after_corner": {
+                "n": 88,
+                "median": 1.107879332069699,
+                "p95": 2.7524868335208925,
+                "mean": 1.3160362991381473
+              },
+              "before_rmse": {
+                "n": 22,
+                "median": 1.6008934124719183,
+                "p95": 2.003606180328942,
+                "mean": 1.4988889151258016
+              },
+              "after_rmse": {
+                "n": 22,
+                "median": 1.6008934124719183,
+                "p95": 2.003606180328942,
+                "mean": 1.4988889151258016
+              },
+              "before_boundary": {
+                "n": 2816,
+                "median": 0.4956989714114127,
+                "p95": 2.320165547771947,
+                "mean": 0.7140038280227071
+              },
+              "after_boundary": {
+                "n": 2816,
+                "median": 0.4956989714114127,
+                "p95": 2.320165547771947,
+                "mean": 0.7140038280227071
+              }
+            }
+          }
+        },
+        "case_regressions": {
+          "v6_to_v12": [
+            {
+              "id": "rgb0001",
+              "complete": true,
+              "regressions": [
+                {
+                  "metric": "iou50_tp",
+                  "before": 144,
+                  "after": 44
+                },
+                {
+                  "metric": "iou50_fn",
+                  "before": 0,
+                  "after": 100
+                },
+                {
+                  "metric": "iou75_tp",
+                  "before": 142,
+                  "after": 44
+                },
+                {
+                  "metric": "iou75_fn",
+                  "before": 2,
+                  "after": 100
+                },
+                {
+                  "metric": "iou90_tp",
+                  "before": 37,
+                  "after": 8
+                },
+                {
+                  "metric": "iou90_fn",
+                  "before": 107,
+                  "after": 136
+                },
+                {
+                  "metric": "corner_p95_px",
+                  "before": 2.650455679603355,
+                  "after": 3.0447431756350167
+                },
+                {
+                  "metric": "boundary_p95_px",
+                  "before": 2.033744189887495,
+                  "after": 2.6512683925004783
+                },
+                {
+                  "metric": "corner_coverage",
+                  "before": 1.0,
+                  "after": 0.3055555555555556
+                }
+              ]
+            },
+            {
+              "id": "rgb0029",
+              "complete": true,
+              "regressions": [
+                {
+                  "metric": "iou50_tp",
+                  "before": 144,
+                  "after": 130
+                },
+                {
+                  "metric": "iou50_fn",
+                  "before": 0,
+                  "after": 14
+                },
+                {
+                  "metric": "iou75_tp",
+                  "before": 144,
+                  "after": 130
+                },
+                {
+                  "metric": "iou75_fn",
+                  "before": 0,
+                  "after": 14
+                },
+                {
+                  "metric": "iou90_tp",
+                  "before": 140,
+                  "after": 130
+                },
+                {
+                  "metric": "iou90_fn",
+                  "before": 4,
+                  "after": 14
+                },
+                {
+                  "metric": "boundary_p95_px",
+                  "before": 2.2135432164364044,
+                  "after": 2.302821524114999
+                },
+                {
+                  "metric": "corner_coverage",
+                  "before": 1.0,
+                  "after": 0.9027777777777778
+                }
+              ]
+            },
+            {
+              "id": "rgb0031",
+              "complete": true,
+              "regressions": [
+                {
+                  "metric": "iou50_tp",
+                  "before": 96,
+                  "after": 50
+                },
+                {
+                  "metric": "iou50_fn",
+                  "before": 0,
+                  "after": 46
+                },
+                {
+                  "metric": "iou75_tp",
+                  "before": 96,
+                  "after": 50
+                },
+                {
+                  "metric": "iou75_fn",
+                  "before": 0,
+                  "after": 46
+                },
+                {
+                  "metric": "iou90_tp",
+                  "before": 91,
+                  "after": 50
+                },
+                {
+                  "metric": "iou90_fn",
+                  "before": 5,
+                  "after": 46
+                },
+                {
+                  "metric": "corner_p95_px",
+                  "before": 2.6719973188590185,
+                  "after": 3.409158668112887
+                },
+                {
+                  "metric": "boundary_p95_px",
+                  "before": 1.9985981720884602,
+                  "after": 2.045425623363142
+                },
+                {
+                  "metric": "corner_coverage",
+                  "before": 1.0,
+                  "after": 0.5208333333333334
+                }
+              ]
+            }
+          ],
+          "v11_to_v12": [
+            {
+              "id": "rgb0001",
+              "complete": true,
+              "regressions": [
+                {
+                  "metric": "iou90_fp",
+                  "before": 9,
+                  "after": 36
+                },
+                {
+                  "metric": "corner_p95_px",
+                  "before": 2.752486833520893,
+                  "after": 3.0447431756350167
+                },
+                {
+                  "metric": "boundary_p95_px",
+                  "before": 2.3076544183535432,
+                  "after": 2.6512683925004783
+                }
+              ]
+            },
+            {
+              "id": "rgb0029",
+              "complete": true,
+              "regressions": []
+            },
+            {
+              "id": "rgb0031",
+              "complete": true,
+              "regressions": []
+            }
+          ]
+        }
+      }
+    },
+    "region_shape_variation": {
+      "regions": 8,
+      "accepted_counts": {
+        "baseline_v6": 384,
+        "band_v11": 27,
+        "band_v12": 224
+      },
+      "short_side_cv_lower_regions": 7,
+      "axial_dispersion_higher_regions": 6
+    },
+    "common_iou50_association_strict_diagnostic": [
+      {
+        "id": "rgb0001",
+        "common_full_references": 44,
+        "baseline_v6": 11,
+        "band_v12a": 8
+      },
+      {
+        "id": "rgb0029",
+        "common_full_references": 130,
+        "baseline_v6": 127,
+        "band_v12a": 130
+      },
+      {
+        "id": "rgb0031",
+        "common_full_references": 50,
+        "baseline_v6": 45,
+        "band_v12a": 50
+      }
+    ],
+    "assisted": true,
+    "automatic_engine_goal_achieved": false,
+    "default_promoted": false
   }
 }
