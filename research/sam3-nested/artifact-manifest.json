@@ -1,0 +1,57 @@
+{
+  "schema": "sam3-nested-public-draft-manifest-v1",
+  "output_freeze_sha256": "b470758214c3ee57592f0a1dd4507892b86b1bf1ca7396a3dcec16d0748e489a",
+  "comparison_sha256": "f60d8cc5cf8b3e8cff9758485998ac061631b742ffa55a94290ec076e42b8e6b",
+  "public_case_bindings": {
+    "rgb": {
+      "predictions_sha256": "f02636936474108e47c0b618149fc08691dc21b9c61d89a71abb0e0dc65924ac",
+      "baseline_sha256": "6c5803a43bbdf64bea14676af6f4bd31b9e79342cc04029e7f9a2bf3f83a1dce",
+      "reference_sha256": "3e2b6d356b09f25ea5cb9ba74928e8a3c0986f6769a797d231fa45f0ef728642",
+      "unresolved_masks_round_trip_exact": 5
+    },
+    "rgb_C_DJI_20220610095551_0001_W": {
+      "predictions_sha256": "bba7711fd68678502947d86890a74f14dc3fb79ab01fc3759d039a89e208a3a3",
+      "baseline_sha256": "a6aa8dcf03903d5a73bee4d79089f89000892a04a67eca73d169168e7b048829",
+      "reference_sha256": "cd034fc80725405a8863394ba49f36f19ffd2c6691ab1b3c8018cfe75f791086",
+      "unresolved_masks_round_trip_exact": 16
+    },
+    "rgb_C_DJI_20220610100017_0029_Z": {
+      "predictions_sha256": "4aa79ac044f3922268b69c947372da19e6f6410fd0291f4523b93a303de81e73",
+      "baseline_sha256": "34c02bf16b1cdaade190dc11325394db8a18b902b0ee8f7ac88200031919ef6f",
+      "reference_sha256": "f7d1c4b83c1eb093a2e36a8b01fee1589679a81d5a29d1f60a114c54057f2ef8",
+      "unresolved_masks_round_trip_exact": 6
+    }
+  },
+  "builder_sha256": "068dace23a8ad965a5db2905c5bd46bd3d0d530e44c9bab83c4afe83733a325b",
+  "template_sha256": "9e06bf845619f44128d6ec8d9a45fbb1cd07ed45ea55017c8f9fe2878b41c553",
+  "files": {
+    "index.html": {
+      "sha256": "6889eda544a384473d6d9e4996dfbd6a196905a684f560dea8b682d74392559d",
+      "bytes": 319408
+    },
+    "metrics.json": {
+      "sha256": "e324d6338fb1a3f7950f5bb8c42f753fcfb99509909205c81ea2f991d2edd87f",
+      "bytes": 4085
+    },
+    "privacy-allowlist.json": {
+      "sha256": "235659d9a350b13e9087ff4f08b036c8603c3f0e75058ade3dd6898f263b1c85",
+      "bytes": 1098
+    },
+    "sources/rgb.png": {
+      "sha256": "604a90cf23a47fd4c247ea0dbce7814fd28faf9a294fa73c7d3a35adabaef1e8",
+      "bytes": 2654669
+    },
+    "sources/rgb_C_DJI_20220610095551_0001_W.png": {
+      "sha256": "1ac8527bf16e745ca9065eae0fa3e417307668a32836a106144957eb28411b45",
+      "bytes": 1040300
+    },
+    "sources/rgb_C_DJI_20220610100017_0029_Z.png": {
+      "sha256": "12f8642110e838fd54a27cb0471822b3c8dfaee621c3011523782f907b8e3007",
+      "bytes": 5344545
+    }
+  },
+  "manifest_excludes_its_own_hash": true,
+  "public_only": true,
+  "candidate_promoted": false,
+  "remote_update_executed": false
+}

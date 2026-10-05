@@ -1,0 +1,181 @@
+{
+  "summary": {
+    "baseline": {
+      "50": {
+        "tp": 482,
+        "fp": 1,
+        "fn": 1
+      },
+      "75": {
+        "tp": 478,
+        "fp": 5,
+        "fn": 5
+      },
+      "90": {
+        "tp": 315,
+        "fp": 168,
+        "fn": 168
+      }
+    },
+    "delivery": {
+      "50": {
+        "tp": 466,
+        "fp": 30,
+        "fn": 17
+      },
+      "75": {
+        "tp": 466,
+        "fp": 30,
+        "fn": 17
+      },
+      "90": {
+        "tp": 316,
+        "fp": 180,
+        "fn": 167
+      }
+    },
+    "mixed": {
+      "0.5": {
+        "tp": 483,
+        "fp": 13,
+        "fn": 0
+      },
+      "0.75": {
+        "tp": 474,
+        "fp": 22,
+        "fn": 9
+      },
+      "0.9": {
+        "tp": 323,
+        "fp": 173,
+        "fn": 160
+      }
+    }
+  },
+  "output_freeze_sha256": "b470758214c3ee57592f0a1dd4507892b86b1bf1ca7396a3dcec16d0748e489a",
+  "comparison_sha256": "f60d8cc5cf8b3e8cff9758485998ac061631b742ffa55a94290ec076e42b8e6b",
+  "candidate_promoted": false,
+  "mask_recipe": "FP32-postprocessed native-resolution masks",
+  "conditional_full_reference_error": {
+    "baseline": {
+      "measured_modules": 468,
+      "corner_p95_px": 2.914548353749861,
+      "boundary_p95_px": 2.1219362328861258
+    },
+    "candidate": {
+      "measured_modules": 466,
+      "corner_p95_px": 2.37247486394729,
+      "boundary_p95_px": 1.9296801737672602
+    }
+  },
+  "fixed_public_source_feedback": {
+    "target_pairs": [
+      {
+        "ids": [
+          58,
+          86
+        ],
+        "before_area_px2": 163.8376628699694,
+        "after_area_px2": 0.0,
+        "smaller_area_fraction": 0.0,
+        "actually_repaired": true
+      },
+      {
+        "ids": [
+          64,
+          91
+        ],
+        "before_area_px2": 248.59341509513823,
+        "after_area_px2": 0.0,
+        "smaller_area_fraction": 0.0,
+        "actually_repaired": true
+      }
+    ],
+    "wide_gaps": [
+      {
+        "ids": [
+          113,
+          97
+        ],
+        "source_y": 625,
+        "before_gap_px": 13.856160842431137,
+        "after_gap_px": 13.04466444117324,
+        "dark_run_pixels_covered": [],
+        "dark_gap_core_retained": true,
+        "original_gap_not_collapsed": false
+      },
+      {
+        "ids": [
+          99,
+          46
+        ],
+        "source_y": 695,
+        "before_gap_px": 15.513498932167124,
+        "after_gap_px": 12.786959386690995,
+        "dark_run_pixels_covered": [],
+        "dark_gap_core_retained": true,
+        "original_gap_not_collapsed": false
+      }
+    ],
+    "qualified": true,
+    "evaluation_only_target_correspondence": [
+      {
+        "baseline_id": 46,
+        "reference_id": 68,
+        "observation_id": "rgb/call-005/query-010"
+      },
+      {
+        "baseline_id": 58,
+        "reference_id": 91,
+        "observation_id": "rgb/call-006/query-133"
+      },
+      {
+        "baseline_id": 64,
+        "reference_id": 94,
+        "observation_id": "rgb/call-006/query-181"
+      },
+      {
+        "baseline_id": 86,
+        "reference_id": 90,
+        "observation_id": "rgb/call-006/query-190"
+      },
+      {
+        "baseline_id": 91,
+        "reference_id": 95,
+        "observation_id": "rgb/call-006/query-104"
+      },
+      {
+        "baseline_id": 97,
+        "reference_id": 67,
+        "observation_id": "rgb/call-005/query-122"
+      },
+      {
+        "baseline_id": 99,
+        "reference_id": 62,
+        "observation_id": "rgb/call-005/query-098"
+      },
+      {
+        "baseline_id": 113,
+        "reference_id": 61,
+        "observation_id": "rgb/call-005/query-041"
+      }
+    ],
+    "tops": [
+      {
+        "id": 113,
+        "source_x": 170,
+        "before_y": 590.0393812007889,
+        "after_y": 590.3212827658946
+      },
+      {
+        "id": 97,
+        "source_x": 230,
+        "before_y": 589.7738911054436,
+        "after_y": 588.652388190248
+      }
+    ],
+    "top_probe_method": "Fixed vertical source section; invariant to cyclic start and winding.",
+    "references_used_for_evaluation_identity_only": true
+  },
+  "approved_engine": false
+}
