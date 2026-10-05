@@ -1,0 +1,131 @@
+{
+  "schema": "sam-all-contacts-public-v1",
+  "summary": {
+    "mixed": {
+      "0.5": {
+        "tp": 483,
+        "fp": 0,
+        "fn": 0
+      },
+      "0.75": {
+        "tp": 482,
+        "fp": 1,
+        "fn": 1
+      },
+      "0.9": {
+        "tp": 332,
+        "fp": 151,
+        "fn": 151
+      }
+    },
+    "visible": {
+      "50": {
+        "tp": 483,
+        "fp": 0,
+        "fn": 0
+      },
+      "75": {
+        "tp": 482,
+        "fp": 1,
+        "fn": 1
+      },
+      "90": {
+        "tp": 324,
+        "fp": 159,
+        "fn": 159
+      }
+    },
+    "full": {
+      "50": {
+        "tp": 468,
+        "fp": 15,
+        "fn": 15
+      },
+      "75": {
+        "tp": 468,
+        "fp": 15,
+        "fn": 15
+      },
+      "90": {
+        "tp": 317,
+        "fp": 166,
+        "fn": 166
+      }
+    }
+  },
+  "inventory": {
+    "candidate": 483,
+    "quads": 468,
+    "partials": 15,
+    "unresolved": 0,
+    "linked": 9,
+    "components": 4,
+    "original_observations": 496,
+    "material_conflicts": 1,
+    "inferred_seams": 15
+  },
+  "prior_published_summary": {
+    "mixed": {
+      "0.5": {
+        "tp": 483,
+        "fp": 0,
+        "fn": 0
+      },
+      "0.75": {
+        "tp": 482,
+        "fp": 1,
+        "fn": 1
+      },
+      "0.9": {
+        "tp": 331,
+        "fp": 152,
+        "fn": 152
+      }
+    },
+    "visible": {
+      "50": {
+        "tp": 483,
+        "fp": 0,
+        "fn": 0
+      },
+      "75": {
+        "tp": 482,
+        "fp": 1,
+        "fn": 1
+      },
+      "90": {
+        "tp": 323,
+        "fp": 160,
+        "fn": 160
+      }
+    },
+    "full": {
+      "50": {
+        "tp": 468,
+        "fp": 15,
+        "fn": 15
+      },
+      "75": {
+        "tp": 468,
+        "fp": 15,
+        "fn": 15
+      },
+      "90": {
+        "tp": 316,
+        "fp": 167,
+        "fn": 167
+      }
+    }
+  },
+  "comparison_sha256": "f4c3cbf3c456822ea62fd07071624ac5a849153eccf38bf13df58d6b93743041",
+  "current_output_summary_sha256": "db0610a999948382b6ed5a11d3058a52a6fc9757fd0c1d7eb0abf85b11be2a33",
+  "source_cell_vs_continuous_scorer_conventions_separate": true,
+  "exposed_development": true,
+  "not_default_engine": true,
+  "contact_interval_visibility": {
+    "observed_intervals": 546,
+    "corridor_censored_intervals": 232,
+    "physical_full_band_width_certified": false,
+    "calibrated_confidence_region": false
+  }
+}

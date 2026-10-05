@@ -1,0 +1,51 @@
+{
+  "schema": "sam-all-contacts-public-v1",
+  "cases": [
+    "rgb",
+    "rgb_C_DJI_20220610095551_0001_W",
+    "rgb_C_DJI_20220610100017_0029_Z"
+  ],
+  "allowed_files": [
+    "artifact-manifest.json",
+    "index.html",
+    "metrics.json",
+    "privacy-allowlist.json",
+    "sources/rgb.png",
+    "sources/rgb_C_DJI_20220610095551_0001_W.png",
+    "sources/rgb_C_DJI_20220610100017_0029_Z.png"
+  ],
+  "image_sha256": {
+    "sources/rgb.png": "604a90cf23a47fd4c247ea0dbce7814fd28faf9a294fa73c7d3a35adabaef1e8",
+    "sources/rgb_C_DJI_20220610095551_0001_W.png": "1ac8527bf16e745ca9065eae0fa3e417307668a32836a106144957eb28411b45",
+    "sources/rgb_C_DJI_20220610100017_0029_Z.png": "12f8642110e838fd54a27cb0471822b3c8dfaee621c3011523782f907b8e3007"
+  },
+  "source_pixels_unchanged": true,
+  "png_metadata_empty": true,
+  "external_requests": false,
+  "all_observations": 496,
+  "provisional_quads": 468,
+  "unresolved_original_masks": 0,
+  "author_references": 483,
+  "candidate_promoted": false,
+  "linked_original_masks": 9,
+  "frame_support_original_masks": 4,
+  "original_component_quad_provenance": 3,
+  "historical_proofs": {
+    "original_nested_comparison_sha256": "f60d8cc5cf8b3e8cff9758485998ac061631b742ffa55a94290ec076e42b8e6b",
+    "prior_visible_footprints_comparison_sha256": "773b7ac77368c900f09757197e7d08736ec9eae82d91558d96567a699918d785",
+    "prior_visible_footprints_current_output_summary_sha256": "f91c4aba34c33d2a61f398d65f81b75924e18f8cff84c62e9de0503e4802f560"
+  },
+  "original_native_support_unchanged": true,
+  "current_geometry_unchanged_from_published": false,
+  "partial_visible_footprints": 15,
+  "original_mask_observations": 496,
+  "prior_published_quads": 468,
+  "prior_published_unresolved_masks": 0,
+  "inferred_contact_seams": 15,
+  "material_conflicts": 1,
+  "comparison_sha256": "f4c3cbf3c456822ea62fd07071624ac5a849153eccf38bf13df58d6b93743041",
+  "current_output_summary_sha256": "db0610a999948382b6ed5a11d3058a52a6fc9757fd0c1d7eb0abf85b11be2a33",
+  "source_side_summary_sha256": "db0610a999948382b6ed5a11d3058a52a6fc9757fd0c1d7eb0abf85b11be2a33",
+  "footprint_comparison_sha256": "f4c3cbf3c456822ea62fd07071624ac5a849153eccf38bf13df58d6b93743041",
+  "prior_published_partial_footprints": 15
+}
