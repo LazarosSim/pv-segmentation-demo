@@ -1,0 +1,133 @@
+{
+  "schema": "sam-footprints-public-draft-v1",
+  "summary": {
+    "mixed": {
+      "0.5": {
+        "tp": 483,
+        "fp": 0,
+        "fn": 0
+      },
+      "0.75": {
+        "tp": 482,
+        "fp": 1,
+        "fn": 1
+      },
+      "0.9": {
+        "tp": 331,
+        "fp": 152,
+        "fn": 152
+      }
+    },
+    "visible": {
+      "50": {
+        "tp": 483,
+        "fp": 0,
+        "fn": 0
+      },
+      "75": {
+        "tp": 482,
+        "fp": 1,
+        "fn": 1
+      },
+      "90": {
+        "tp": 323,
+        "fp": 160,
+        "fn": 160
+      }
+    },
+    "full": {
+      "50": {
+        "tp": 468,
+        "fp": 15,
+        "fn": 15
+      },
+      "75": {
+        "tp": 468,
+        "fp": 15,
+        "fn": 15
+      },
+      "90": {
+        "tp": 316,
+        "fp": 167,
+        "fn": 167
+      }
+    }
+  },
+  "inventory": {
+    "candidate": 483,
+    "quads": 468,
+    "partials": 15,
+    "unresolved": 0,
+    "linked": 9,
+    "components": 4,
+    "original_observations": 496,
+    "material_conflicts": 12,
+    "inferred_seams": 4
+  },
+  "comparison_sha256": "773b7ac77368c900f09757197e7d08736ec9eae82d91558d96567a699918d785",
+  "current_output_summary_sha256": "f91c4aba34c33d2a61f398d65f81b75924e18f8cff84c62e9de0503e4802f560",
+  "historical_proofs": {
+    "original_nested_output_freeze_sha256": "b470758214c3ee57592f0a1dd4507892b86b1bf1ca7396a3dcec16d0748e489a",
+    "original_nested_comparison_sha256": "f60d8cc5cf8b3e8cff9758485998ac061631b742ffa55a94290ec076e42b8e6b",
+    "published_inventory_native_comparison_sha256": "a7ea648f079635979bb6ca1439d91d28341d5e647dd574e8805a1ab612edf5ba",
+    "published_inventory_geometry_comparison_sha256": "4037660e95fc0003410f0e54306a49264c6209f568dad7d875887c3694820bb9"
+  },
+  "historical_measurements": {
+    "baseline_v6": {
+      "50": {
+        "tp": 482,
+        "fp": 1,
+        "fn": 1
+      },
+      "75": {
+        "tp": 478,
+        "fp": 5,
+        "fn": 5
+      },
+      "90": {
+        "tp": 315,
+        "fp": 168,
+        "fn": 168
+      }
+    },
+    "published_quad_delivery": {
+      "50": {
+        "tp": 466,
+        "fp": 17,
+        "fn": 17
+      },
+      "75": {
+        "tp": 466,
+        "fp": 17,
+        "fn": 17
+      },
+      "90": {
+        "tp": 316,
+        "fp": 167,
+        "fn": 167
+      }
+    },
+    "original_native_inventory": {
+      "0.5": {
+        "tp": 483,
+        "fp": 0,
+        "fn": 0
+      },
+      "0.75": {
+        "tp": 395,
+        "fp": 88,
+        "fn": 88
+      },
+      "0.9": {
+        "tp": 13,
+        "fp": 470,
+        "fn": 470
+      }
+    }
+  },
+  "footprint_comparison_sha256": "773b7ac77368c900f09757197e7d08736ec9eae82d91558d96567a699918d785",
+  "source_side_summary_sha256": "f91c4aba34c33d2a61f398d65f81b75924e18f8cff84c62e9de0503e4802f560",
+  "exposed_development": true,
+  "source_cell_vs_continuous_scorer_conventions_separate": true,
+  "not_default_engine": true
+}
