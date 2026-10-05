@@ -1,0 +1,34 @@
+{
+  "schema": "sam-inventory-public-draft-v1",
+  "cases": [
+    "rgb",
+    "rgb_C_DJI_20220610095551_0001_W",
+    "rgb_C_DJI_20220610100017_0029_Z"
+  ],
+  "allowed_files": [
+    "artifact-manifest.json",
+    "index.html",
+    "metrics.json",
+    "privacy-allowlist.json",
+    "sources/rgb.png",
+    "sources/rgb_C_DJI_20220610095551_0001_W.png",
+    "sources/rgb_C_DJI_20220610100017_0029_Z.png"
+  ],
+  "image_sha256": {
+    "sources/rgb.png": "604a90cf23a47fd4c247ea0dbce7814fd28faf9a294fa73c7d3a35adabaef1e8",
+    "sources/rgb_C_DJI_20220610095551_0001_W.png": "1ac8527bf16e745ca9065eae0fa3e417307668a32836a106144957eb28411b45",
+    "sources/rgb_C_DJI_20220610100017_0029_Z.png": "12f8642110e838fd54a27cb0471822b3c8dfaee621c3011523782f907b8e3007"
+  },
+  "source_pixels_unchanged": true,
+  "png_metadata_empty": true,
+  "external_requests": false,
+  "all_observations": 496,
+  "provisional_quads": 466,
+  "unresolved_original_masks": 17,
+  "author_references": 483,
+  "comparison_sha256": "f60d8cc5cf8b3e8cff9758485998ac061631b742ffa55a94290ec076e42b8e6b",
+  "candidate_promoted": false,
+  "linked_original_masks": 9,
+  "frame_support_original_masks": 4,
+  "original_component_quad_provenance": 3
+}
