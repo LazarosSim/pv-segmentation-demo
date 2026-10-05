@@ -347,5 +347,39 @@
     "output_freeze": "4d97ef1431d768d674813736d5823e26f6c3828a6a2299241371096c50c454c7",
     "evaluation_freeze": "fa7f9981c8303aaa47cccedc083a198db3ea946928d9a1597682d7d98b513efb",
     "inherited_native_comparison": "71bd304986a9bc4d203d6230d34d6ca80cc5ff5c6567c796d75b74a7b41d03fe"
+  },
+  "table_line_experiment": {
+    "development_only": true,
+    "engine_promoted": false,
+    "populations": {
+      "showcase": {
+        "images": 3,
+        "references": 483,
+        "changed_outlines": 212,
+        "overlap_threshold_percent": 90,
+        "visible_matches_before": 323,
+        "visible_matches_after": 339,
+        "substantial_pairs_before": 12,
+        "substantial_pairs_after": 15,
+        "newly_substantial_pairs": 11,
+        "shared_area_before": 902.9747480731556,
+        "shared_area_after": 1592.1937779397454,
+        "comparison_sha256": "64f446abcb6efba0869491b88a8f4ca56d31ffafaae5e79a0c464d3a7c32e6e1"
+      },
+      "wider": {
+        "images": 20,
+        "references": 845,
+        "changed_outlines": 131,
+        "overlap_threshold_percent": 90,
+        "visible_matches_before": 587,
+        "visible_matches_after": 587,
+        "substantial_pairs_before": 187,
+        "substantial_pairs_after": 185,
+        "newly_substantial_pairs": 7,
+        "shared_area_before": 91264.02619897484,
+        "shared_area_after": 92337.05945409766,
+        "comparison_sha256": "a2d353eb646d0edf58896f6bf0eff0779697e261d5ca061c768cb6fd0650e446"
+      }
+    }
   }
 }
