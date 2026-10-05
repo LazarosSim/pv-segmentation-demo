@@ -26,8 +26,8 @@
   "template_sha256": "f2f33e51230782db1cc65d562fbab62b74c15b28d389007919408960c35b0941",
   "files": {
     "index.html": {
-      "sha256": "8b85439c1a4d1b3527b11fe874fce0acf218b582001cd4c83bfd73103e969783",
-      "bytes": 325456
+      "sha256": "9545fcf4d8bfce7f8cc1bc8fe652ec55d7fd05a5f84ddafa4504ccb13ff136cb",
+      "bytes": 325430
     },
     "metrics.json": {
       "sha256": "810f9bcad56a58677aac5f53dfac22a7dbfc0477e380960c8555a38d96553ef5",
@@ -88,5 +88,6 @@
   "builder_executed_remote_update": false,
   "root_review_sha256": "a44b5b823dc74111a321f00dffd2c0ce83f05b9da257f962b9a8658a2614c59e",
   "source_draft_manifest_sha256": "136cd5c6f56f2baaaa2612a9d6f48d1fac88f3e0d319af29b31024fd3967a8b9",
-  "publication_presentation_change": "Removed local draft status sentence; scientific payload and all source pixels unchanged."
+  "publication_presentation_change": "Removed local draft status sentence; scientific payload and all source pixels unchanged.",
+  "text_transport": "LF UTF-8; hashes bind Git-deployed bytes"
 }
